@@ -8,10 +8,10 @@
 
 | 模型文件 | 包含内容 | 材质/贴图状态 | 文件大小 |
 | :--- | :--- | :--- | :--- |
-| **`Driftwoods_Day.glb`** | 全场景（含球场、外部森林、木屋、湖面、旧车等 711 个实例） | **完整嵌入漫反射贴图**（49张嵌入贴图） | ~39 MB |
-| **`Driftwoods_Day_WhiteModel.glb`** | 全场景（711 个实例） | **纯几何白模（Clay Model）**，无贴图 | ~36 MB |
-| **`Driftwoods_Field.glb`** | **仅包含 `Woods_Field*` 核心球场结构**（地面、球门、看台、围墙、坡道共 28 个实例） | **嵌入漫反射材质贴图** | ~1.3 MB |
-| **`Driftwoods_Field_WhiteModel.glb`** | **仅包含 `Woods_Field*` 核心球场结构**（28 个实例） | **纯几何白模（Clay Model）**，无贴图 | ~1.3 MB |
+| **`Driftwoods_Day.glb`** | 全场景（含球场、外部森林、木屋、湖面、旧车等 711 个实例） | **完整嵌入漫反射贴图**（含 2048x2048 高清地面，51张嵌入贴图） | ~39.4 MB |
+| **`Driftwoods_Day_WhiteModel.glb`** | 全场景（711 个实例） | **纯几何白模（Clay Model）**，无贴图 | ~36.3 MB |
+| **`Driftwoods_Field.glb`** | **仅包含 `Woods_Field*` 核心球场结构**（地面、球门、看台、围墙、坡道共 27 个主体实例，排除重复 LOD 地面） | **嵌入 2048x2048 高清地面纹理、半透明力场网与 PBR 金属/木纹/发光材质** | ~1.7 MB |
+| **`Driftwoods_Field_WhiteModel.glb`** | **仅包含 `Woods_Field*` 核心球场结构**（27 个实例） | **纯几何白模（Clay Model）**，无贴图 | ~1.3 MB |
 
 ---
 
@@ -20,9 +20,9 @@
 ```
 RLMaps/
 ├── models/
-│   ├── Driftwoods_Day.glb              # 全场景 1:1 GLB 模型（带完整嵌入贴图）
+│   ├── Driftwoods_Day.glb              # 全场景 1:1 GLB 模型（带高清地面与完整嵌入贴图）
 │   ├── Driftwoods_Day_WhiteModel.glb   # 全场景 1:1 GLB 白模（纯几何体）
-│   ├── Driftwoods_Field.glb            # 仅包含 Woods_Field* 前缀的球场主体核心结构（带贴图）
+│   ├── Driftwoods_Field.glb            # 仅包含 Woods_Field* 前缀的球场主体核心结构（带 2048x2048 高清地面与半透力场贴图）
 │   └── Driftwoods_Field_WhiteModel.glb # 仅包含 Woods_Field* 前缀的球场主体白模
 ├── raw/
 │   └── Woods_P/                        # 从 Woods_P.upk 提取的原版离散资源
@@ -43,9 +43,11 @@ RLMaps/
 
 ## 核心成果与技术特性
 
-1. **`Woods_Field` 核心场地纯净结构**：
+1. **`Woods_Field` 核心场地纯净结构与高清材质修正**：
    - 过滤了外部所有大型湖面、森林低模树木、远景广告牌及废旧车辆，专注于竞技场主体结构。
-   - 包含对称布置的木质看台（`Woods_Field_Bleachers_01/02`）、球门框架与球网（`Woods_Field_Goal` / `Posts` / `Net`）、四角弧形坡道（`Woods_Field_Ramps`）、六边形防护网（`Woods_Field_Walls_Hexes`）及地面草皮。
+   - **高清地面纹理修正**：直接映射并嵌入虚幻 3 中全分辨率未压缩的 2048x2048 核心场地贴图（`Woods_FieldLines_D_Unfiltered.png`），修正了上一版本错误加载 64x64 流式缩略图的配置问题。
+   - **材质与物理着色修正**：消除了旧脚本中将非木质模型（看台金属架、围墙立柱、球门网、力场网）错误回退为木纹的问题，准确配置了黑金属 PBR、透明蜂窝力场网（`ForcefieldHex.png`）与霓虹发光材质。
+   - **消除 Z-Fighting**：移除了高度仅差 0.75cm 的远景 LOD 草地重叠层（`Woods_Field_Ground_LOD`），确保地面显示平整无闪烁。
 2. **严谨的数学坐标系对齐**：
    - 严格遵循从虚幻引擎左手系厘米坐标到 glTF 右手系米级坐标的仿射变换：
      $$M_{\text{glTF}} = C \cdot M_{\text{UE}} \cdot C^{-1}$$
