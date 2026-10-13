@@ -1,0 +1,35 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'SET_Space_RL_Textures.Stone01_rgba'
+    ReferencedTextures[1] = Texture2D'Stadium_Foggy_FX.CloudNoise_T'
+    ReferencedTextures[3] = Texture2D'explosion_dynamicenergy.Textures.CausticsNoise'
+}
+Expressions[28] =
+{
+    Expressions[7] = MaterialExpressionVectorParameter'Woods_Night_Assets.Materials.Woods_Wood_Burned_Embers_MAT.MaterialExpressionVectorParameter_1'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=0.2, B=0.1, A=150 }
+        Name = EmberColor
+        Group = Ember
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

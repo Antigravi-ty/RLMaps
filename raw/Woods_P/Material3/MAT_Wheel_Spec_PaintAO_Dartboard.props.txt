@@ -1,0 +1,145 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[5] =
+{
+    ReferencedTextures[0] = Texture2D'wheel_dartboard.DartboardWheel_NormalAOdx'
+    ReferencedTextures[1] = Texture2D'SpaceStation_FieldAssets.Tex.Blank_N'
+    ReferencedTextures[2] = Texture2D'wheel_dartboard.DartboardWheel_RGB'
+    ReferencedTextures[4] = Texture2D'wheel_dartboard.DartboardWheel_DiffuseSpec'
+}
+Expressions[121] =
+{
+    Expressions[2] = MaterialExpressionTextureSampleParameter2D'wheel_dartboard.MAT_Wheel_Spec_PaintAO_Dartboard.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[3] = MaterialExpressionScalarParameter'wheel_dartboard.MAT_Wheel_Spec_PaintAO_Dartboard.MaterialExpressionScalarParameter_2'
+    Expressions[7] = MaterialExpressionScalarParameter'wheel_dartboard.MAT_Wheel_Spec_PaintAO_Dartboard.MaterialExpressionScalarParameter_1'
+    Expressions[8] = MaterialExpressionTextureSampleParameter2D'wheel_dartboard.MAT_Wheel_Spec_PaintAO_Dartboard.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[14] = MaterialExpressionScalarParameter'wheel_dartboard.MAT_Wheel_Spec_PaintAO_Dartboard.MaterialExpressionScalarParameter_0'
+    Expressions[29] = MaterialExpressionVectorParameter'wheel_dartboard.MAT_Wheel_Spec_PaintAO_Dartboard.MaterialExpressionVectorParameter_2'
+    Expressions[31] = MaterialExpressionStaticSwitchParameter'wheel_dartboard.MAT_Wheel_Spec_PaintAO_Dartboard.MaterialExpressionStaticSwitchParameter_1'
+    Expressions[33] = MaterialExpressionVectorParameter'wheel_dartboard.MAT_Wheel_Spec_PaintAO_Dartboard.MaterialExpressionVectorParameter_6'
+    Expressions[34] = MaterialExpressionTextureSampleParameter2D'wheel_dartboard.MAT_Wheel_Spec_PaintAO_Dartboard.MaterialExpressionTextureSampleParameter2D_5'
+    Expressions[39] = MaterialExpressionTextureSampleParameter2D'wheel_dartboard.MAT_Wheel_Spec_PaintAO_Dartboard.MaterialExpressionTextureSampleParameter2D_7'
+    Expressions[61] = MaterialExpressionVectorParameter'wheel_dartboard.MAT_Wheel_Spec_PaintAO_Dartboard.MaterialExpressionVectorParameter_0'
+    Expressions[64] = MaterialExpressionTextureSampleParameter2D'wheel_dartboard.MAT_Wheel_Spec_PaintAO_Dartboard.MaterialExpressionTextureSampleParameter2D_4'
+    Expressions[65] = MaterialExpressionTextureSampleParameter2D'wheel_dartboard.MAT_Wheel_Spec_PaintAO_Dartboard.MaterialExpressionTextureSampleParameter2D_6'
+    Expressions[74] = MaterialExpressionScalarParameter'wheel_dartboard.MAT_Wheel_Spec_PaintAO_Dartboard.MaterialExpressionScalarParameter_4'
+    Expressions[75] = MaterialExpressionScalarParameter'wheel_dartboard.MAT_Wheel_Spec_PaintAO_Dartboard.MaterialExpressionScalarParameter_6'
+    Expressions[76] = MaterialExpressionScalarParameter'wheel_dartboard.MAT_Wheel_Spec_PaintAO_Dartboard.MaterialExpressionScalarParameter_7'
+    Expressions[79] = MaterialExpressionScalarParameter'wheel_dartboard.MAT_Wheel_Spec_PaintAO_Dartboard.MaterialExpressionScalarParameter_3'
+    Expressions[81] = MaterialExpressionScalarParameter'wheel_dartboard.MAT_Wheel_Spec_PaintAO_Dartboard.MaterialExpressionScalarParameter_5'
+    Expressions[89] = MaterialExpressionScalarParameter'wheel_dartboard.MAT_Wheel_Spec_PaintAO_Dartboard.MaterialExpressionScalarParameter_8'
+    Expressions[91] = MaterialExpressionScalarParameter'wheel_dartboard.MAT_Wheel_Spec_PaintAO_Dartboard.MaterialExpressionScalarParameter_9'
+    Expressions[94] = MaterialExpressionScalarParameter'wheel_dartboard.MAT_Wheel_Spec_PaintAO_Dartboard.MaterialExpressionScalarParameter_10'
+    Expressions[96] = MaterialExpressionScalarParameter'wheel_dartboard.MAT_Wheel_Spec_PaintAO_Dartboard.MaterialExpressionScalarParameter_11'
+    Expressions[98] = MaterialExpressionStaticSwitchParameter'wheel_dartboard.MAT_Wheel_Spec_PaintAO_Dartboard.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[100] = MaterialExpressionScalarParameter'wheel_dartboard.MAT_Wheel_Spec_PaintAO_Dartboard.MaterialExpressionScalarParameter_12'
+    Expressions[101] = MaterialExpressionScalarParameter'wheel_dartboard.MAT_Wheel_Spec_PaintAO_Dartboard.MaterialExpressionScalarParameter_13'
+    Expressions[103] = MaterialExpressionScalarParameter'wheel_dartboard.MAT_Wheel_Spec_PaintAO_Dartboard.MaterialExpressionScalarParameter_14'
+    Expressions[119] = MaterialExpressionScalarParameter'wheel_dartboard.MAT_Wheel_Spec_PaintAO_Dartboard.MaterialExpressionScalarParameter_15'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[6] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'wheel_dartboard.DartboardWheel_NormalAOdx'
+        Name = RimNormal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'wheel_dartboard.DartboardWheel_DiffuseSpec'
+        Name = RimDiffuse
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'wheel_dartboard.DartboardWheel_DiffuseSpec'
+        Name = TireDiffuse
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'wheel_dartboard.DartboardWheel_NormalAOdx'
+        Name = TireNormal
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'wheel_dartboard.DartboardWheel_RGB'
+        Name = Rim_Paint_RGB
+        Group = Paint
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'wheel_dartboard.DartboardWheel_RGB'
+        Name = Tire_Paint_RGB
+        Group = Paint
+    }
+}
+CollectedScalarParameters[16] =
+{
+    CollectedScalarParameters[0] = { Value=240, Name=SpecPower, Group=None }
+    CollectedScalarParameters[1] = { Value=0.2, Name=SpecIntensity, Group=None }
+    CollectedScalarParameters[2] = { Value=0.5, Name=ReflectionBrightness, Group=None }
+    CollectedScalarParameters[3] = { Value=0.05, Name=ENV_Brightness, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=Rim_Emissive, Group=Emissive }
+    CollectedScalarParameters[5] = { Value=1, Name=Tire_Emissive, Group=Emissive }
+    CollectedScalarParameters[6] = { Value=1, Name=Paint Boost, Group=Paint }
+    CollectedScalarParameters[7] = { Value=1, Name=Paint Boost, Group=Paint }
+    CollectedScalarParameters[8] =
+    {
+        Value = 1
+        Name = PaintBoostWithoutAffectingEmissive_Tire
+        Group = Paint
+    }
+    CollectedScalarParameters[9] =
+    {
+        Value = 1
+        Name = PaintBoostWithoutAffectingEmissive_Rim
+        Group = Paint
+    }
+    CollectedScalarParameters[10] = { Value=1, Name=PreMultiplyAO_Tire, Group=AO }
+    CollectedScalarParameters[11] = { Value=1, Name=PreMultiplyAO_Rim, Group=AO }
+    CollectedScalarParameters[12] = { Value=0.25, Name=Post-SpecMultiply, Group=None }
+    CollectedScalarParameters[13] = { Value=4, Name=MultiplyAccessorySpec, Group=None }
+    CollectedScalarParameters[14] = { Value=0.025, Name=FresnelAddLighten, Group=None }
+    CollectedScalarParameters[15] =
+    {
+        Value = 30
+        Name = SpecPowerCustomLighting
+        Group = Spec
+    }
+}
+CollectedVectorParameters[3] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.015625, G=0.015625, B=0.015625, A=1 }
+        Name = TireColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.75, G=0.75, B=0.75, A=1 }
+        Name = RimColor
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=0, B=0, A=1 }
+        Name = PaintColor
+        Group = Paint
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

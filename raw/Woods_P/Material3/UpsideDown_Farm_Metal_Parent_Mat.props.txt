@@ -1,0 +1,99 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'Farm_Textures.Textures.Farm_MetalBase_N'
+    ReferencedTextures[2] = Texture2D'Farm_Textures.Textures.Farm_MetalBase_D'
+}
+Expressions[49] =
+{
+    Expressions[0] = MaterialExpressionStaticSwitchParameter'Farm_UpsideDown_Assets.Materials.UpsideDown_Farm_Metal_Parent_Mat.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[9] = MaterialExpressionVectorParameter'Farm_UpsideDown_Assets.Materials.UpsideDown_Farm_Metal_Parent_Mat.MaterialExpressionVectorParameter_2'
+    Expressions[12] = MaterialExpressionScalarParameter'Farm_UpsideDown_Assets.Materials.UpsideDown_Farm_Metal_Parent_Mat.MaterialExpressionScalarParameter_6'
+    Expressions[15] = MaterialExpressionVectorParameter'Farm_UpsideDown_Assets.Materials.UpsideDown_Farm_Metal_Parent_Mat.MaterialExpressionVectorParameter_0'
+    Expressions[18] = MaterialExpressionTextureSampleParameter2D'Farm_UpsideDown_Assets.Materials.UpsideDown_Farm_Metal_Parent_Mat.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[23] = MaterialExpressionVectorParameter'Farm_UpsideDown_Assets.Materials.UpsideDown_Farm_Metal_Parent_Mat.MaterialExpressionVectorParameter_3'
+    Expressions[26] = MaterialExpressionTextureSampleParameter2D'Farm_UpsideDown_Assets.Materials.UpsideDown_Farm_Metal_Parent_Mat.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[30] = MaterialExpressionScalarParameter'Farm_UpsideDown_Assets.Materials.UpsideDown_Farm_Metal_Parent_Mat.MaterialExpressionScalarParameter_3'
+    Expressions[32] = MaterialExpressionScalarParameter'Farm_UpsideDown_Assets.Materials.UpsideDown_Farm_Metal_Parent_Mat.MaterialExpressionScalarParameter_2'
+    Expressions[37] = MaterialExpressionVectorParameter'Farm_UpsideDown_Assets.Materials.UpsideDown_Farm_Metal_Parent_Mat.MaterialExpressionVectorParameter_1'
+    Expressions[38] = MaterialExpressionScalarParameter'Farm_UpsideDown_Assets.Materials.UpsideDown_Farm_Metal_Parent_Mat.MaterialExpressionScalarParameter_0'
+    Expressions[47] = MaterialExpressionVectorParameter'Farm_UpsideDown_Assets.Materials.UpsideDown_Farm_Metal_Parent_Mat.MaterialExpressionVectorParameter_5'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Farm_Textures.Textures.Farm_MetalBase_N'
+        Name = Metal normal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Farm_Textures.Textures.Farm_MetalBase_D'
+        Name = Metal diffuse
+        Group = None
+    }
+}
+CollectedScalarParameters[4] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Speed, Group=Rotate }
+    CollectedScalarParameters[1] = { Value=1, Name=Metal brightness, Group=None }
+    CollectedScalarParameters[2] =
+    {
+        Value = 3
+        Name = Metal reflection multiplier
+        Group = None
+    }
+    CollectedScalarParameters[3] =
+    {
+        Value = 0.5
+        Name = Reflection desaturation
+        Group = None
+    }
+}
+CollectedVectorParameters[5] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=0, B=0, A=1 }
+        Name = PivOffset
+        Group = Rotate
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=0, B=0, A=1 }
+        Name = RotAxis
+        Group = Rotate
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=0, A=1 }
+        Name = UV tiling
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=5000, G=7500, B=5000, A=1 }
+        Name = EnvironmentScale
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0.163363, G=0.163363, B=0.163363, A=1 }
+        Name = Ash color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

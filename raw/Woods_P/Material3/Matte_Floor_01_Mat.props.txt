@@ -1,0 +1,62 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'UND_LevelAssets_01.Textures.UND_Plain_Copper_N'
+}
+Expressions[54] =
+{
+    Expressions[19] = MaterialExpressionStaticSwitchParameter'SpaceStation_dARC.Materials.Matte_Floor_01_Mat.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[20] = MaterialExpressionVectorParameter'SpaceStation_dARC.Materials.Matte_Floor_01_Mat.MaterialExpressionVectorParameter_0'
+    Expressions[24] = MaterialExpressionTextureSampleParameter2D'SpaceStation_dARC.Materials.Matte_Floor_01_Mat.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[27] = MaterialExpressionScalarParameter'SpaceStation_dARC.Materials.Matte_Floor_01_Mat.MaterialExpressionScalarParameter_0'
+    Expressions[30] = MaterialExpressionScalarParameter'SpaceStation_dARC.Materials.Matte_Floor_01_Mat.MaterialExpressionScalarParameter_1'
+    Expressions[32] = MaterialExpressionScalarParameter'SpaceStation_dARC.Materials.Matte_Floor_01_Mat.MaterialExpressionScalarParameter_3'
+    Expressions[38] = MaterialExpressionScalarParameter'SpaceStation_dARC.Materials.Matte_Floor_01_Mat.MaterialExpressionScalarParameter_6'
+    Expressions[40] = MaterialExpressionScalarParameter'SpaceStation_dARC.Materials.Matte_Floor_01_Mat.MaterialExpressionScalarParameter_7'
+    Expressions[41] = MaterialExpressionTextureSampleParameter2D'SpaceStation_dARC.Materials.Matte_Floor_01_Mat.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[45] = MaterialExpressionScalarParameter'SpaceStation_dARC.Materials.Matte_Floor_01_Mat.MaterialExpressionScalarParameter_9'
+    Expressions[47] = MaterialExpressionScalarParameter'SpaceStation_dARC.Materials.Matte_Floor_01_Mat.MaterialExpressionScalarParameter_10'
+    Expressions[49] = MaterialExpressionStaticSwitchParameter'SpaceStation_dARC.Materials.Matte_Floor_01_Mat.MaterialExpressionStaticSwitchParameter_1'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.125
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'UND_LevelAssets_01.Textures.UND_Plain_Copper_N'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[1] = { Texture=None, Name=DetailNormal, Group=None }
+}
+CollectedScalarParameters[7] =
+{
+    CollectedScalarParameters[0] = { Value=2, Name=ENVAmount, Group=None }
+    CollectedScalarParameters[1] = { Value=0.5, Name=SpecCubeContrast, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=SpecCubeAmount, Group=None }
+    CollectedScalarParameters[3] = { Value=0.5, Name=FresnelContrast, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=FresnelAmount, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=SpecCubeInvert, Group=None }
+    CollectedScalarParameters[6] = { Value=0.333333, Name=SpecCubeDotSize, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.25, G=0.25, B=0.25, A=1 }
+        Name = Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

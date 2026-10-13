@@ -1,0 +1,112 @@
+{
+  "asset" : {
+    "generator" : "UE Viewer (umodel) build 1",
+    "version" : "2.0"
+  },
+  "scene" : 0,
+  "scenes" : [
+    {
+      "nodes" : [ 0 ]
+    }
+  ],
+  "nodes" : [
+    {
+      "name" : "Woods_Ivy_01_CMB",
+      "mesh" : 0
+    }
+  ],
+  "materials" : [
+    {
+      "name" : "dummy_material_0",
+      "pbrMetallicRoughness" : {
+        "baseColorFactor" : [ 0.3, 0.3, 0.3, 1.0 ],
+        "metallicFactor" : 0.1,
+        "roughnessFactor" : 0.5
+      }
+    }
+  ],
+  "meshes" : [
+    {
+      "primitives" : [
+        {
+          "attributes" : {
+            "POSITION" : 1,
+            "NORMAL" : 2,
+            "TANGENT" : 3,
+            "TEXCOORD_0" : 4
+          },
+          "indices" : 0,
+          "material" : 0
+        }
+      ],
+      "name" : "Woods_Ivy_01_CMB"
+    }
+  ],
+  "buffers" : [
+    {
+      "uri" : "Woods_Ivy_01_CMB.bin",
+      "byteLength" : 297756
+    }
+  ],
+  "bufferViews" : [
+    {
+      "buffer" : 0,
+      "byteOffset" : 0,
+      "byteLength" : 42060
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 42060,
+      "byteLength" : 63924
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 105984,
+      "byteLength" : 63924
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 169908,
+      "byteLength" : 85232
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 255140,
+      "byteLength" : 42616
+    }
+  ],
+  "accessors" : [
+    {
+      "bufferView" : 0,
+      "componentType" : 5123,
+      "count" : 21030,
+      "type" : "SCALAR"
+    },
+    {
+      "bufferView" : 1,
+      "min" : [ -24.2487, -24.374, -24.1352 ],
+      "max" : [ 23.1898, 23.5321, 24.4653 ],
+      "componentType" : 5126,
+      "count" : 5327,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 2,
+      "componentType" : 5126,
+      "count" : 5327,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 3,
+      "componentType" : 5126,
+      "count" : 5327,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 4,
+      "componentType" : 5126,
+      "count" : 5327,
+      "type" : "VEC2"
+    }
+  ]
+}

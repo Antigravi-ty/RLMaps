@@ -1,0 +1,42 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'Woods_Night_Assets.Textures.Woods_Wood_Basic_D'
+    ReferencedTextures[1] = Texture2D'Woods_Night_Assets.Textures.Woods_Moss_01_D'
+    ReferencedTextures[2] = Texture2D'UND_LevelAssets_02.Tex.Boat_Wood_algea_02_N'
+}
+Expressions[15] =
+{
+    Expressions[9] = MaterialExpressionTextureSampleParameter2D'Woods_Night_Assets.Materials.Woods_Wood_Moss_Vert_MAT.MaterialExpressionTextureSampleParameter2D_3'
+    Expressions[12] = MaterialExpressionTextureSampleParameter2D'Woods_Night_Assets.Materials.Woods_Wood_Moss_Vert_MAT.MaterialExpressionTextureSampleParameter2D_2'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Woods_Night_Assets.Textures.Woods_Moss_01_D'
+        Name = Hay_Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Woods_Night_Assets.Textures.Woods_Wood_Basic_D'
+        Name = Diffuse
+        Group = None
+    }
+}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

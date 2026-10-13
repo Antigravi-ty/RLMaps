@@ -1,0 +1,376 @@
+diff --git a/UmodelTool/Main.cpp b/UmodelTool/Main.cpp
+index 5294499..ba56e2b 100644
+--- a/UmodelTool/Main.cpp
++++ b/UmodelTool/Main.cpp
+@@ -736,6 +736,281 @@ static void TestStrings()
+ #define OPT_NBOOL(name,var)				{ name, (byte*)&var, false },
+ #define OPT_VALUE(name,var,value)		{ name, (byte*)&var, value },
+ 
++static void EscapeJson(const char* in, char* out, int maxLen)
++{
++	int j = 0;
++	for (int i = 0; in && in[i] && j < maxLen - 2; i++)
++	{
++		char c = in[i];
++		if (c == '"' || c == '\\') { out[j++] = '\\'; out[j++] = c; }
++		else if (c == '\n') { out[j++] = '\\'; out[j++] = 'n'; }
++		else if (c == '\r') { }
++		else { out[j++] = c; }
++	}
++	out[j] = '\0';
++}
++
++static bool SafeReadFName(UnPackage* Package, char* outStr, int maxLen)
++{
++	int stopper = Package->GetStopper();
++	if (Package->Tell() + 8 > stopper) return false;
++	int nameIdx = 0, num = 0;
++	*Package << nameIdx << num;
++	if (nameIdx < 0 || nameIdx >= Package->Summary.NameCount) return false;
++	const char* s = Package->GetName(nameIdx);
++	if (num == 0) {
++		appStrncpyz(outStr, s, maxLen);
++	} else {
++		appSprintf(outStr, maxLen, "%s_%d", s, num - 1);
++	}
++	return true;
++}
++
++static bool IsTargetClass(const char* cls)
++{
++	if (!cls) return false;
++	if (strstr(cls, "StaticMeshComponent")) return true;
++	if (strstr(cls, "Actor")) return true;
++	if (strstr(cls, "Component")) return true;
++	if (strstr(cls, "Level")) return true;
++	if (strstr(cls, "Volume")) return true;
++	if (strstr(cls, "Pickup")) return true;
++	if (strstr(cls, "Prefab")) return true;
++	if (strstr(cls, "WorldInfo")) return true;
++	if (strstr(cls, "MapInfo")) return true;
++	return false;
++}
++
++static void DumpPackageActorsJson(UnPackage* Package, const char* outPath)
++{
++	FILE* f = fopen(outPath, "w");
++	if (!f) return;
++	fprintf(f, "{\n  \"package\": \"%s\",\n  \"exports\": [\n", *Package->GetFilename());
++	bool firstExp = true;
++	char escBuf[512];
++	for (int i = 0; i < Package->Summary.ExportCount; i++)
++	{
++		const FObjectExport &Exp = Package->ExportTable[i];
++		const char* className = Package->GetClassNameFor(Exp);
++		const char* objName = *Exp.ObjectName;
++		const char* outerName = (Exp.PackageIndex != 0) ? Package->GetObjectName(Exp.PackageIndex) : "None";
++
++		if (!IsTargetClass(className)) continue;
++
++		Package->SetupReader(i);
++		int stopper = Package->GetStopper();
++		if (Package->Tell() >= stopper) continue;
++
++		if (!firstExp) fprintf(f, ",\n");
++		firstExp = false;
++		EscapeJson(objName, escBuf, sizeof(escBuf));
++		fprintf(f, "    {\n      \"index\": %d,\n      \"name\": \"%s\",\n", i, escBuf);
++		EscapeJson(className, escBuf, sizeof(escBuf));
++		fprintf(f, "      \"class\": \"%s\",\n", escBuf);
++		EscapeJson(outerName, escBuf, sizeof(escBuf));
++		fprintf(f, "      \"outer\": \"%s\",\n      \"outer_index\": %d,\n      \"properties\": {", escBuf, Exp.PackageIndex);
++
++		int startPos = Package->Tell();
++		int bestPos = startPos;
++		bool foundStart = false;
++		for (int offset = 0; offset <= 32; offset += 4)
++		{
++			Package->Seek(startPos + offset);
++			char testName[256], testType[256];
++			if (SafeReadFName(Package, testName, sizeof(testName)) &&
++			    SafeReadFName(Package, testType, sizeof(testType)))
++			{
++				if (strstr(testType, "Property") != NULL)
++				{
++					bestPos = startPos + offset;
++					foundStart = true;
++					break;
++				}
++			}
++		}
++		if (!foundStart)
++		{
++			for (int offset = 0; offset <= 16; offset += 4)
++			{
++				Package->Seek(startPos + offset);
++				char testName[256];
++				if (SafeReadFName(Package, testName, sizeof(testName)) && !stricmp(testName, "None"))
++				{
++					bestPos = startPos + offset;
++					foundStart = true;
++					break;
++				}
++			}
++		}
++		Package->Seek(bestPos);
++
++		bool firstProp = true;
++		while (Package->Tell() < stopper)
++		{
++			char propName[256];
++			if (!SafeReadFName(Package, propName, sizeof(propName))) break;
++			if (!stricmp(propName, "None")) break;
++
++			char propType[256];
++			if (!SafeReadFName(Package, propType, sizeof(propType))) break;
++
++			int DataSize = 0, ArrayIndex = 0;
++			if (Package->Tell() + 8 > stopper) break;
++			*Package << DataSize << ArrayIndex;
++			if (DataSize < 0 || Package->Tell() + DataSize > stopper) break;
++
++			char StructName[256] = "";
++			byte BoolVal = 0;
++			char EnumName[256] = "";
++
++			if (!stricmp(propType, "StructProperty"))
++			{
++				if (!SafeReadFName(Package, StructName, sizeof(StructName))) break;
++			}
++			else if (!stricmp(propType, "BoolProperty"))
++			{
++				if (Package->ArVer < 673)
++				{
++					int b = 0; *Package << b; BoolVal = (byte)b;
++				}
++				else
++				{
++					*Package << BoolVal;
++				}
++			}
++			else if (!stricmp(propType, "ByteProperty") && Package->ArVer >= 633)
++			{
++				SafeReadFName(Package, EnumName, sizeof(EnumName));
++			}
++
++			int valStart = Package->Tell();
++			int nextPos = valStart + DataSize;
++
++			if (!firstProp) fprintf(f, ",");
++			firstProp = false;
++
++			EscapeJson(propName, escBuf, sizeof(escBuf));
++			fprintf(f, "\n        \"%s\": ", escBuf);
++
++			if (!stricmp(propType, "BoolProperty"))
++			{
++				fprintf(f, "%s", BoolVal ? "true" : "false");
++			}
++			else if (!stricmp(propType, "IntProperty") && DataSize == 4)
++			{
++				int val = 0; *Package << val;
++				fprintf(f, "%d", val);
++			}
++			else if (!stricmp(propType, "FloatProperty") && DataSize == 4)
++			{
++				float val = 0; *Package << val;
++				fprintf(f, "%.6g", val);
++			}
++			else if (!stricmp(propType, "ObjectProperty") && DataSize == 4)
++			{
++				int objRef = 0; *Package << objRef;
++				const char* refName = (objRef != 0) ? Package->GetObjectName(objRef) : "None";
++				EscapeJson(refName, escBuf, sizeof(escBuf));
++				fprintf(f, "{\"index\": %d, \"name\": \"%s\"}", objRef, escBuf);
++			}
++			else if (!stricmp(propType, "NameProperty") && DataSize == 8)
++			{
++				char nameVal[256];
++				SafeReadFName(Package, nameVal, sizeof(nameVal));
++				EscapeJson(nameVal, escBuf, sizeof(escBuf));
++				fprintf(f, "\"%s\"", escBuf);
++			}
++			else if (!stricmp(propType, "ByteProperty"))
++			{
++				if (DataSize == 8)
++				{
++					char enumVal[256];
++					SafeReadFName(Package, enumVal, sizeof(enumVal));
++					EscapeJson(enumVal, escBuf, sizeof(escBuf));
++					fprintf(f, "\"%s\"", escBuf);
++				}
++				else if (DataSize == 1)
++				{
++					byte val; *Package << val;
++					fprintf(f, "%d", (int)val);
++				}
++				else
++				{
++					fprintf(f, "\"bytes_%d\"", DataSize);
++				}
++			}
++			else if (!stricmp(propType, "StructProperty"))
++			{
++				if (!stricmp(StructName, "Vector") && DataSize == 12)
++				{
++					float x, y, z; *Package << x << y << z;
++					fprintf(f, "{\"type\": \"Vector\", \"x\": %.6g, \"y\": %.6g, \"z\": %.6g}", x, y, z);
++				}
++				else if (!stricmp(StructName, "Rotator") && DataSize == 12)
++				{
++					int pitch, yaw, roll; *Package << pitch << yaw << roll;
++					fprintf(f, "{\"type\": \"Rotator\", \"pitch\": %d, \"yaw\": %d, \"roll\": %d}", pitch, yaw, roll);
++				}
++				else if (!stricmp(StructName, "LinearColor") && DataSize == 16)
++				{
++					float r, g, b, a; *Package << r << g << b << a;
++					fprintf(f, "{\"type\": \"LinearColor\", \"r\": %.6g, \"g\": %.6g, \"b\": %.6g, \"a\": %.6g}", r, g, b, a);
++				}
++				else if (!stricmp(StructName, "Color") && DataSize == 4)
++				{
++					byte b, g, r, a; *Package << b << g << r << a;
++					fprintf(f, "{\"type\": \"Color\", \"r\": %d, \"g\": %d, \"b\": %d, \"a\": %d}", r, g, b, a);
++				}
++				else
++				{
++					EscapeJson(StructName, escBuf, sizeof(escBuf));
++					fprintf(f, "{\"type\": \"%s\", \"raw_size\": %d}", escBuf, DataSize);
++				}
++			}
++			else if (!stricmp(propType, "ArrayProperty"))
++			{
++				int count = 0;
++				if (DataSize >= 4)
++				{
++					*Package << count;
++					if (count >= 0 && count * 4 + 4 == DataSize)
++					{
++						fprintf(f, "{\"type\": \"ArrayObject\", \"elements\": [");
++						for (int k = 0; k < count; k++)
++						{
++							int ref = 0; *Package << ref;
++							const char* refName = (ref != 0) ? Package->GetObjectName(ref) : "None";
++							EscapeJson(refName, escBuf, sizeof(escBuf));
++							if (k > 0) fprintf(f, ", ");
++							fprintf(f, "{\"index\": %d, \"name\": \"%s\"}", ref, escBuf);
++						}
++						fprintf(f, "]}");
++					}
++					else
++					{
++						fprintf(f, "{\"type\": \"Array\", \"count\": %d, \"raw_size\": %d}", count, DataSize);
++					}
++				}
++				else
++				{
++					fprintf(f, "{\"type\": \"Array\", \"raw_size\": %d}", DataSize);
++				}
++			}
++			else
++			{
++				EscapeJson(propType, escBuf, sizeof(escBuf));
++				fprintf(f, "{\"type\": \"%s\", \"raw_size\": %d}", escBuf, DataSize);
++			}
++
++			Package->Seek(nextPos);
++		}
++		fprintf(f, "\n      }\n    }");
++	}
++	fprintf(f, "\n  ]\n}\n");
++	fclose(f);
++	printf("Successfully dumped actor properties to %s\n", outPath);
++}
++
+ int main(int argc, const char **argv)
+ {
+ 	appInitPlatform();
+@@ -791,6 +1066,7 @@ int main(int argc, const char **argv)
+ 		CMD_List,
+ 		CMD_Export,
+ 		CMD_Save,
++		CMD_DumpActors,
+ 	};
+ 
+ 	static byte mainCmd = CMD_View;
+@@ -811,13 +1087,14 @@ int main(int argc, const char **argv)
+ 		// simple options
+ 		static const OptionInfo options[] =
+ 		{
+-			OPT_VALUE("view",    mainCmd, CMD_View)
+-			OPT_VALUE("dump",    mainCmd, CMD_Dump)
+-			OPT_VALUE("check",   mainCmd, CMD_Check)
+-			OPT_VALUE("export",  mainCmd, CMD_Export)
+-			OPT_VALUE("save",    mainCmd, CMD_Save)
+-			OPT_VALUE("pkginfo", mainCmd, CMD_PkgInfo)
+-			OPT_VALUE("list",    mainCmd, CMD_List)
++			OPT_VALUE("view",       mainCmd, CMD_View)
++			OPT_VALUE("dump",       mainCmd, CMD_Dump)
++			OPT_VALUE("check",      mainCmd, CMD_Check)
++			OPT_VALUE("export",     mainCmd, CMD_Export)
++			OPT_VALUE("save",       mainCmd, CMD_Save)
++			OPT_VALUE("pkginfo",    mainCmd, CMD_PkgInfo)
++			OPT_VALUE("list",       mainCmd, CMD_List)
++			OPT_VALUE("dumpactors", mainCmd, CMD_DumpActors)
+ #if VSTUDIO_INTEGRATION
+ 			OPT_BOOL ("debug",   GUseDebugger)
+ #endif
+@@ -1140,6 +1417,20 @@ int main(int argc, const char **argv)
+ 	}
+ #endif // HAS_UI
+ 
++	if (mainCmd == CMD_DumpActors)
++	{
++		guard(DumpActors);
++		for (int packageIndex = 0; packageIndex < Packages.Num(); packageIndex++)
++		{
++			UnPackage* Package = Packages[packageIndex];
++			char outJson[512];
++			appSprintf(ARRAY_ARG(outJson), "/tmp/%s_scene.json", *Package->GetFilename());
++			DumpPackageActorsJson(Package, outJson);
++		}
++		unguard;
++		return 0;
++	}
++
+ 	if (mainCmd == CMD_List)
+ 	{
+ 		guard(List);
+diff --git a/Unreal/UnrealPackage/UnPackageReader.cpp b/Unreal/UnrealPackage/UnPackageReader.cpp
+index db83de2..59c8b5d 100644
+--- a/Unreal/UnrealPackage/UnPackageReader.cpp
++++ b/Unreal/UnrealPackage/UnPackageReader.cpp
+@@ -537,8 +537,28 @@ void UnPackage::ReplaceLoader()
+ 		// Create a UE3 compression reader with the chunk info contained in the encrypted RL header
+ 		RocketReader->Seek(RocketReader->EncryptionStart + CompressedChunkInfoOffset);
+ 
++		int32 NumChunks;
++		*RocketReader << NumChunks;
+ 		TArray<FCompressedChunk> Chunks;
+-		*RocketReader << Chunks;
++		Chunks.Empty(NumChunks);
++		for (int i = 0; i < NumChunks; i++)
++		{
++			FCompressedChunk *Chunk = new (Chunks) FCompressedChunk;
++			if (Summary.LicenseeVersion >= 22)
++			{
++				int64 u_off, c_off;
++				int32 u_sz, c_sz, pad[3];
++				*RocketReader << u_off << u_sz << c_off << c_sz << pad[0] << pad[1] << pad[2];
++				Chunk->UncompressedOffset = (int)u_off;
++				Chunk->UncompressedSize = u_sz;
++				Chunk->CompressedOffset = (int)c_off;
++				Chunk->CompressedSize = c_sz;
++			}
++			else
++			{
++				*RocketReader << *Chunk;
++			}
++		}
+ 
+ 		Loader = new FUE3ArchiveReader(RocketReader, COMPRESS_ZLIB, Chunks);
+ 		Loader->SetupFrom(*this);
+diff --git a/umodel b/umodel
+old mode 100644
+new mode 100755
+index 0ad263e..8285588
+Binary files a/umodel and b/umodel differ

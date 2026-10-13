@@ -1,0 +1,91 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'Farm_Textures.Textures.Farm_Wood_6Boards_N'
+    ReferencedTextures[1] = Texture2D'Farm_Textures.Textures.Farm_Wood_6Boards_D'
+    ReferencedTextures[2] = Texture2D'Farm_Textures.Textures.Farm_Wood_6Boards_M'
+}
+Expressions[46] =
+{
+    Expressions[4] = MaterialExpressionTextureSampleParameter2D'Stadium_Farm_IVTK.Wood_Parent_Mat_IVTK.MaterialExpressionTextureSampleParameter2D_5'
+    Expressions[6] = MaterialExpressionScalarParameter'Stadium_Farm_IVTK.Wood_Parent_Mat_IVTK.MaterialExpressionScalarParameter_65'
+    Expressions[7] = MaterialExpressionScalarParameter'Stadium_Farm_IVTK.Wood_Parent_Mat_IVTK.MaterialExpressionScalarParameter_64'
+    Expressions[8] = MaterialExpressionScalarParameter'Stadium_Farm_IVTK.Wood_Parent_Mat_IVTK.MaterialExpressionScalarParameter_63'
+    Expressions[10] = MaterialExpressionScalarParameter'Stadium_Farm_IVTK.Wood_Parent_Mat_IVTK.MaterialExpressionScalarParameter_62'
+    Expressions[17] = MaterialExpressionScalarParameter'Stadium_Farm_IVTK.Wood_Parent_Mat_IVTK.MaterialExpressionScalarParameter_12'
+    Expressions[18] = MaterialExpressionStaticSwitchParameter'Stadium_Farm_IVTK.Wood_Parent_Mat_IVTK.MaterialExpressionStaticSwitchParameter_5'
+    Expressions[19] = MaterialExpressionStaticSwitchParameter'Stadium_Farm_IVTK.Wood_Parent_Mat_IVTK.MaterialExpressionStaticSwitchParameter_7'
+    Expressions[20] = MaterialExpressionTextureSampleParameter2D'Stadium_Farm_IVTK.Wood_Parent_Mat_IVTK.MaterialExpressionTextureSampleParameter2D_4'
+    Expressions[23] = MaterialExpressionScalarParameter'Stadium_Farm_IVTK.Wood_Parent_Mat_IVTK.MaterialExpressionScalarParameter_11'
+    Expressions[26] = MaterialExpressionScalarParameter'Stadium_Farm_IVTK.Wood_Parent_Mat_IVTK.MaterialExpressionScalarParameter_10'
+    Expressions[27] = MaterialExpressionTextureSampleParameter2D'Stadium_Farm_IVTK.Wood_Parent_Mat_IVTK.MaterialExpressionTextureSampleParameter2D_3'
+    Expressions[35] = MaterialExpressionScalarParameter'Stadium_Farm_IVTK.Wood_Parent_Mat_IVTK.MaterialExpressionScalarParameter_9'
+    Expressions[36] = MaterialExpressionStaticSwitchParameter'Stadium_Farm_IVTK.Wood_Parent_Mat_IVTK.MaterialExpressionStaticSwitchParameter_3'
+    Expressions[38] = MaterialExpressionScalarParameter'Stadium_Farm_IVTK.Wood_Parent_Mat_IVTK.MaterialExpressionScalarParameter_8'
+    Expressions[39] = MaterialExpressionVectorParameter'Stadium_Farm_IVTK.Wood_Parent_Mat_IVTK.MaterialExpressionVectorParameter_4'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Farm_Textures.Textures.Farm_Wood_6Boards_N'
+        Name = Normals
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Farm_Textures.Textures.Farm_Wood_6Boards_D'
+        Name = Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'Farm_Textures.Textures.Farm_Wood_6Boards_M'
+        Name = Paint mask
+        Group = None
+    }
+}
+CollectedScalarParameters[9] =
+{
+    CollectedScalarParameters[0] = { Value=3, Name=Fresnel Power, Group=InvisiTek }
+    CollectedScalarParameters[1] =
+    {
+        Value = 20
+        Name = Fresnel Intensity
+        Group = InvisiTek
+    }
+    CollectedScalarParameters[2] =
+    {
+        Value = 0.05
+        Name = Gradient Size Adjust
+        Group = InvisiTek
+    }
+    CollectedScalarParameters[3] = { Value=10, Name=Gradient Falloff, Group=InvisiTek }
+    CollectedScalarParameters[4] = { Value=1, Name=Fresnel Strength, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=Paint thickness, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=Paint Mask Add, Group=None }
+    CollectedScalarParameters[7] = { Value=0.25, Name=Paint desaturation, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=Team color falloff, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=0.201913, B=0.102022, A=1 }
+        Name = PaintColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

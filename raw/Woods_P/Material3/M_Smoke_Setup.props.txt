@@ -1,0 +1,30 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'explosion_phoenix.Textures.Flow_Map_01'
+}
+Expressions[36] =
+{
+    Expressions[33] = MaterialExpressionScalarParameter'Woods_Night_Assets_01.Materials.M_Smoke_Setup.MaterialExpressionScalarParameter_0'
+    Expressions[35] = MaterialExpressionScalarParameter'Woods_Night_Assets_01.Materials.M_Smoke_Setup.MaterialExpressionScalarParameter_2'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[2] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Smoke_HighLight, Group=None }
+    CollectedScalarParameters[1] = { Value=5, Name=Smoke_Breakup, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

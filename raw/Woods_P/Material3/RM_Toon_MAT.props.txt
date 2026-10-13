@@ -1,0 +1,77 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = true
+ReferencedTextures[1] = { Texture2D'hat_mrPBH.Hat_MrPBH_D_02' }
+Expressions[68] =
+{
+    Expressions[0] = MaterialExpressionStaticSwitchParameter'hat_mrPBH.RM_Toon_MAT.MaterialExpressionStaticSwitchParameter_3'
+    Expressions[3] = MaterialExpressionScalarParameter'hat_mrPBH.RM_Toon_MAT.MaterialExpressionScalarParameter_3'
+    Expressions[9] = MaterialExpressionScalarParameter'hat_mrPBH.RM_Toon_MAT.MaterialExpressionScalarParameter_4'
+    Expressions[13] = MaterialExpressionStaticSwitchParameter'hat_mrPBH.RM_Toon_MAT.MaterialExpressionStaticSwitchParameter_7'
+    Expressions[23] = MaterialExpressionStaticSwitchParameter'hat_mrPBH.RM_Toon_MAT.MaterialExpressionStaticSwitchParameter_1'
+    Expressions[29] = MaterialExpressionScalarParameter'hat_mrPBH.RM_Toon_MAT.MaterialExpressionScalarParameter_1'
+    Expressions[31] = MaterialExpressionScalarParameter'hat_mrPBH.RM_Toon_MAT.MaterialExpressionScalarParameter_0'
+    Expressions[33] = MaterialExpressionStaticSwitchParameter'hat_mrPBH.RM_Toon_MAT.MaterialExpressionStaticSwitchParameter_2'
+    Expressions[35] = MaterialExpressionTextureSampleParameter2D'hat_mrPBH.RM_Toon_MAT.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[37] = MaterialExpressionStaticSwitchParameter'hat_mrPBH.RM_Toon_MAT.MaterialExpressionStaticSwitchParameter_6'
+    Expressions[38] = MaterialExpressionTextureSampleParameter2D'hat_mrPBH.RM_Toon_MAT.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[39] = MaterialExpressionStaticSwitchParameter'hat_mrPBH.RM_Toon_MAT.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[43] = MaterialExpressionTextureSampleParameter2D'hat_mrPBH.RM_Toon_MAT.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[56] = MaterialExpressionStaticSwitchParameter'hat_mrPBH.RM_Toon_MAT.MaterialExpressionStaticSwitchParameter_4'
+    Expressions[58] = MaterialExpressionVectorParameter'hat_mrPBH.RM_Toon_MAT.MaterialExpressionVectorParameter_0'
+    Expressions[67] = MaterialExpressionVectorParameter'hat_mrPBH.RM_Toon_MAT.MaterialExpressionVectorParameter_1'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'hat_mrPBH.Hat_MrPBH_N'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'hat_mrPBH.Hat_MrPBH_D_02'
+        Name = Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'hat_mrPBH.Hat_MrPBH_D_02'
+        Name = Diffuse
+        Group = None
+    }
+}
+CollectedScalarParameters[4] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=animation, Group=None }
+    CollectedScalarParameters[1] = { Value=0.1, Name=Speed, Group=None }
+    CollectedScalarParameters[2] = { Value=0.2, Name=stepAmount, Group=None }
+    CollectedScalarParameters[3] = { Value=2, Name=stepcount, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = CustomColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.12, G=0.6, B=1, A=1 }
+        Name = EyeLidColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

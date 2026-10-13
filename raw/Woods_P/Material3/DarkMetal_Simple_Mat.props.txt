@@ -1,0 +1,37 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] = { Texture2D'Detail_BrushesMetal.BrushedMetal_N' }
+Expressions[14] =
+{
+    Expressions[9] = MaterialExpressionScalarParameter'antenna_classic.DarkMetal_Simple_Mat.MaterialExpressionScalarParameter_0'
+    Expressions[10] = MaterialExpressionStaticSwitchParameter'antenna_classic.DarkMetal_Simple_Mat.MaterialExpressionStaticSwitchParameter_2'
+    Expressions[11] = MaterialExpressionStaticSwitchParameter'antenna_classic.DarkMetal_Simple_Mat.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[12] = MaterialExpressionVectorParameter'antenna_classic.DarkMetal_Simple_Mat.MaterialExpressionVectorParameter_0'
+    Expressions[13] = MaterialExpressionStaticSwitchParameter'antenna_classic.DarkMetal_Simple_Mat.MaterialExpressionStaticSwitchParameter_1'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=2, Name=ENVBrightness, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.25, G=0.25, B=0.25, A=1 }
+        Name = PaintColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

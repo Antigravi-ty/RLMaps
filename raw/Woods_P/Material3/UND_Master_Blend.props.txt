@@ -1,0 +1,101 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'UND_LevelAssets_02.Tex.Rock_01_N'
+    ReferencedTextures[1] = Texture2D'UND_LevelAssets_02.Tex.Boat_Wood_algea_02_N'
+    ReferencedTextures[2] = Texture2D'UND_LevelAssets_02.Tex.Barnacles_00_N'
+    ReferencedTextures[3] = Texture2D'UND_LevelAssets_02.Tex.Rock_01_D'
+    ReferencedTextures[4] = Texture2D'UND_LevelAssets_02.Tex.Boat_Wood_algea_D'
+    ReferencedTextures[5] = Texture2D'UND_LevelAssets_02.Tex.Barnacles_00_D'
+}
+Expressions[47] =
+{
+    Expressions[6] = MaterialExpressionScalarParameter'UND_FX.Materials.enviro.UND_Master_Blend.MaterialExpressionScalarParameter_4'
+    Expressions[11] = MaterialExpressionTextureSampleParameter2D'UND_FX.Materials.enviro.UND_Master_Blend.MaterialExpressionTextureSampleParameter2D_8'
+    Expressions[13] = MaterialExpressionScalarParameter'UND_FX.Materials.enviro.UND_Master_Blend.MaterialExpressionScalarParameter_2'
+    Expressions[16] = MaterialExpressionTextureSampleParameter2D'UND_FX.Materials.enviro.UND_Master_Blend.MaterialExpressionTextureSampleParameter2D_7'
+    Expressions[18] = MaterialExpressionScalarParameter'UND_FX.Materials.enviro.UND_Master_Blend.MaterialExpressionScalarParameter_9'
+    Expressions[19] = MaterialExpressionTextureSampleParameter2D'UND_FX.Materials.enviro.UND_Master_Blend.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[21] = MaterialExpressionScalarParameter'UND_FX.Materials.enviro.UND_Master_Blend.MaterialExpressionScalarParameter_3'
+    Expressions[25] = MaterialExpressionScalarParameter'UND_FX.Materials.enviro.UND_Master_Blend.MaterialExpressionScalarParameter_8'
+    Expressions[39] = MaterialExpressionTextureSampleParameter2D'UND_FX.Materials.enviro.UND_Master_Blend.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[41] = MaterialExpressionTextureSampleParameter2D'UND_FX.Materials.enviro.UND_Master_Blend.MaterialExpressionTextureSampleParameter2D_5'
+    Expressions[43] = MaterialExpressionTextureSampleParameter2D'UND_FX.Materials.enviro.UND_Master_Blend.MaterialExpressionTextureSampleParameter2D_6'
+    Expressions[45] = MaterialExpressionVectorParameter'UND_FX.Materials.enviro.UND_Master_Blend.MaterialExpressionVectorParameter_0'
+    Expressions[46] = MaterialExpressionTextureSampleParameter2D'UND_FX.Materials.enviro.UND_Master_Blend.MaterialExpressionTextureSampleParameter2D_1'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[7] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'UND_LevelAssets_02.Tex.Barnacles_00_N'
+        Name = G_Normal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'UND_LevelAssets_02.Tex.Boat_Wood_algea_02_N'
+        Name = R_Normal
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'UND_LevelAssets_02.Tex.Rock_01_N'
+        Name = Base_N
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'UND_LevelAssets_02.Tex.Rock_01_D'
+        Name = Base_D
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'UND_LevelAssets_02.Tex.Barnacles_00_D'
+        Name = G_Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'UND_LevelAssets_02.Tex.Boat_Wood_algea_D'
+        Name = R_Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'UND_LevelAssets_02.Tex.Rock_01_Reduced_D'
+        Name = Diffuse(Cheap)
+        Group = None
+    }
+}
+CollectedScalarParameters[5] =
+{
+    CollectedScalarParameters[0] = { Value=10, Name=G_Hardness, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=G_Tile, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=R_Tile, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=Base_Tile, Group=None }
+    CollectedScalarParameters[4] = { Value=10, Name=R_Hardness, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.5, G=0.8, B=1, A=1 }
+        Name = rim_color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

@@ -1,0 +1,125 @@
+{
+  "asset" : {
+    "generator" : "UE Viewer (umodel) build 1",
+    "version" : "2.0"
+  },
+  "scene" : 0,
+  "scenes" : [
+    {
+      "nodes" : [ 0 ]
+    }
+  ],
+  "nodes" : [
+    {
+      "name" : "Hills_A",
+      "mesh" : 0
+    }
+  ],
+  "materials" : [
+    {
+      "name" : "dummy_material_0",
+      "pbrMetallicRoughness" : {
+        "baseColorFactor" : [ 0.3, 0.3, 0.3, 1.0 ],
+        "metallicFactor" : 0.1,
+        "roughnessFactor" : 0.5
+      }
+    }
+  ],
+  "meshes" : [
+    {
+      "primitives" : [
+        {
+          "attributes" : {
+            "POSITION" : 1,
+            "NORMAL" : 2,
+            "TANGENT" : 3,
+            "COLOR_0" : 4,
+            "TEXCOORD_0" : 5
+          },
+          "indices" : 0,
+          "material" : 0
+        }
+      ],
+      "name" : "Hills_A"
+    }
+  ],
+  "buffers" : [
+    {
+      "uri" : "Hills_A.bin",
+      "byteLength" : 426212
+    }
+  ],
+  "bufferViews" : [
+    {
+      "buffer" : 0,
+      "byteOffset" : 0,
+      "byteLength" : 75420
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 75420,
+      "byteLength" : 80952
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 156372,
+      "byteLength" : 80952
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 237324,
+      "byteLength" : 107936
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 345260,
+      "byteLength" : 26984
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 372244,
+      "byteLength" : 53968
+    }
+  ],
+  "accessors" : [
+    {
+      "bufferView" : 0,
+      "componentType" : 5123,
+      "count" : 37710,
+      "type" : "SCALAR"
+    },
+    {
+      "bufferView" : 1,
+      "min" : [ -364.84, 3.0251, -376.276 ],
+      "max" : [ 387.711, 70.0378, 359.939 ],
+      "componentType" : 5126,
+      "count" : 6746,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 2,
+      "componentType" : 5126,
+      "count" : 6746,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 3,
+      "componentType" : 5126,
+      "count" : 6746,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 4,
+      "normalized" : true,
+      "componentType" : 5121,
+      "count" : 6746,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 5,
+      "componentType" : 5126,
+      "count" : 6746,
+      "type" : "VEC2"
+    }
+  ]
+}

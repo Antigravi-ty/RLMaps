@@ -1,0 +1,70 @@
+Parent = MaterialInstanceConstant'Outlaw_Map_Assets_02.Materials.Sand_2Layer_V2_Parent_MIC'
+ScalarParameterValues[1] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = 4
+        ParameterName = SurfaceAngleNormalStrength
+    }
+}
+TextureParameterValues[5] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = None
+        ParameterName = CubeMap
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'Woods_Night_Assets.Textures.Woods_Cliff_Rock_02_D'
+        ParameterName = Layer1_Diffuse
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'Outlaw_Map_Assets.reddesertpack.Textures.Cliff01_N'
+        ParameterName = Layer1_Normal
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'UND_GRS_Assets.Textures.UND_G_TiledGrass_D'
+        ParameterName = Layer2_Diffuse
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'Terrain_Textures.GrassAndBush_N'
+        ParameterName = Layer2_Normal
+    }
+}
+VectorParameterValues[2] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=0.38891, G=0.38891, B=0.38891, A=1 }
+        ParameterName = Layer1_Color
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=0.981083, G=1, B=0.204449, A=1 }
+        ParameterName = Layer2_Color
+    }
+}
+BasePropertyOverrides = 
+StaticParameters = 
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

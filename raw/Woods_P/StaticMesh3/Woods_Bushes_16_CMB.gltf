@@ -1,0 +1,161 @@
+{
+  "asset" : {
+    "generator" : "UE Viewer (umodel) build 1",
+    "version" : "2.0"
+  },
+  "scene" : 0,
+  "scenes" : [
+    {
+      "nodes" : [ 0 ]
+    }
+  ],
+  "nodes" : [
+    {
+      "name" : "Woods_Bushes_16_CMB",
+      "mesh" : 0
+    }
+  ],
+  "materials" : [
+    {
+      "name" : "dummy_material_0",
+      "pbrMetallicRoughness" : {
+        "baseColorFactor" : [ 0.3, 0.3, 0.3, 1.0 ],
+        "metallicFactor" : 0.1,
+        "roughnessFactor" : 0.5
+      }
+    }
+  ],
+  "meshes" : [
+    {
+      "primitives" : [
+        {
+          "attributes" : {
+            "POSITION" : 1,
+            "NORMAL" : 2,
+            "TANGENT" : 3,
+            "COLOR_0" : 4,
+            "TEXCOORD_0" : 5,
+            "TEXCOORD_1" : 6,
+            "TEXCOORD_2" : 7,
+            "TEXCOORD_3" : 8
+          },
+          "indices" : 0,
+          "material" : 0
+        }
+      ],
+      "name" : "Woods_Bushes_16_CMB"
+    }
+  ],
+  "buffers" : [
+    {
+      "uri" : "Woods_Bushes_16_CMB.bin",
+      "byteLength" : 1469100
+    }
+  ],
+  "bufferViews" : [
+    {
+      "buffer" : 0,
+      "byteOffset" : 0,
+      "byteLength" : 72372
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 72372,
+      "byteLength" : 220536
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 292908,
+      "byteLength" : 220536
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 513444,
+      "byteLength" : 294048
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 807492,
+      "byteLength" : 73512
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 881004,
+      "byteLength" : 147024
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 1028028,
+      "byteLength" : 147024
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 1175052,
+      "byteLength" : 147024
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 1322076,
+      "byteLength" : 147024
+    }
+  ],
+  "accessors" : [
+    {
+      "bufferView" : 0,
+      "componentType" : 5123,
+      "count" : 36186,
+      "type" : "SCALAR"
+    },
+    {
+      "bufferView" : 1,
+      "min" : [ -192.188, -28.8126, -143.815 ],
+      "max" : [ 187.711, 28.5061, 134.935 ],
+      "componentType" : 5126,
+      "count" : 18378,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 2,
+      "componentType" : 5126,
+      "count" : 18378,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 3,
+      "componentType" : 5126,
+      "count" : 18378,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 4,
+      "normalized" : true,
+      "componentType" : 5121,
+      "count" : 18378,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 5,
+      "componentType" : 5126,
+      "count" : 18378,
+      "type" : "VEC2"
+    },
+    {
+      "bufferView" : 6,
+      "componentType" : 5126,
+      "count" : 18378,
+      "type" : "VEC2"
+    },
+    {
+      "bufferView" : 7,
+      "componentType" : 5126,
+      "count" : 18378,
+      "type" : "VEC2"
+    },
+    {
+      "bufferView" : 8,
+      "componentType" : 5126,
+      "count" : 18378,
+      "type" : "VEC2"
+    }
+  ]
+}

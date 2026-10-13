@@ -1,0 +1,55 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = true
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'Woods_Night_Assets_01.Textures.Tree_Leaves_RGB'
+}
+Expressions[51] =
+{
+    Expressions[0] = MaterialExpressionStaticSwitchParameter'Woods_Night_Assets_01.Materials.Tree_Branch_Mat.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[23] = MaterialExpressionTextureSampleParameter2D'Woods_Night_Assets_01.Materials.Tree_Branch_Mat.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[39] = MaterialExpressionScalarParameter'Woods_Night_Assets_01.Materials.Tree_Branch_Mat.MaterialExpressionScalarParameter_0'
+    Expressions[40] = MaterialExpressionScalarParameter'Woods_Night_Assets_01.Materials.Tree_Branch_Mat.MaterialExpressionScalarParameter_1'
+    Expressions[41] = MaterialExpressionScalarParameter'Woods_Night_Assets_01.Materials.Tree_Branch_Mat.MaterialExpressionScalarParameter_2'
+    Expressions[43] = MaterialExpressionTextureSampleParameter2D'Woods_Night_Assets_01.Materials.Tree_Branch_Mat.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[44] = MaterialExpressionStaticSwitchParameter'Woods_Night_Assets_01.Materials.Tree_Branch_Mat.MaterialExpressionStaticSwitchParameter_1'
+    Expressions[45] = MaterialExpressionStaticSwitchParameter'Woods_Night_Assets_01.Materials.Tree_Branch_Mat.MaterialExpressionStaticSwitchParameter_3'
+    Expressions[46] = MaterialExpressionTextureSampleParameter2D'Woods_Night_Assets_01.Materials.Tree_Branch_Mat.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[47] = MaterialExpressionStaticSwitchParameter'Woods_Night_Assets_01.Materials.Tree_Branch_Mat.MaterialExpressionStaticSwitchParameter_5'
+    Expressions[48] = MaterialExpressionStaticSwitchParameter'Woods_Night_Assets_01.Materials.Tree_Branch_Mat.MaterialExpressionStaticSwitchParameter_7'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.85
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Farm_FX.Tree.Textures.AmurCork_Desktop_Atlas_Tex'
+        Name = Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[1] = { Texture=None, Name=DiffuseMIP, Group=None }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'Woods_Night_Assets_01.Textures.Tree_Leaves_RGB'
+        Name = DiffuseRGB
+        Group = None
+    }
+}
+CollectedScalarParameters[3] =
+{
+    CollectedScalarParameters[0] = { Value=16, Name=SwayStrength, Group=None }
+    CollectedScalarParameters[1] = { Value=0.45, Name=SwaySpeed, Group=None }
+    CollectedScalarParameters[2] = { Value=1024, Name=SwaySineScale, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

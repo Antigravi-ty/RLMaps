@@ -1,0 +1,63 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = true
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'Outlaw_Grassy_Assets.Textures.OL_Grass_Sprite_Flower01_D'
+    ReferencedTextures[1] = Texture2D'Outlaw_Grassy_Assets.Textures.OL_Grass_Sprite_Flower01_RGB'
+}
+Expressions[107] =
+{
+    Expressions[6] = MaterialExpressionTextureSampleParameter2D'Outlaw_Grassy_Assets.Materials.OL_Grass_01_Mat.MaterialExpressionTextureSampleParameter2D_8'
+    Expressions[13] = MaterialExpressionTextureSampleParameter2D'Outlaw_Grassy_Assets.Materials.OL_Grass_01_Mat.MaterialExpressionTextureSampleParameter2D_10'
+    Expressions[18] = MaterialExpressionScalarParameter'Outlaw_Grassy_Assets.Materials.OL_Grass_01_Mat.MaterialExpressionScalarParameter_1'
+    Expressions[21] = MaterialExpressionScalarParameter'Outlaw_Grassy_Assets.Materials.OL_Grass_01_Mat.MaterialExpressionScalarParameter_8'
+    Expressions[22] = MaterialExpressionScalarParameter'Outlaw_Grassy_Assets.Materials.OL_Grass_01_Mat.MaterialExpressionScalarParameter_9'
+    Expressions[39] = MaterialExpressionScalarParameter'Outlaw_Grassy_Assets.Materials.OL_Grass_01_Mat.MaterialExpressionScalarParameter_25'
+    Expressions[52] = MaterialExpressionScalarParameter'Outlaw_Grassy_Assets.Materials.OL_Grass_01_Mat.MaterialExpressionScalarParameter_26'
+    Expressions[58] = MaterialExpressionStaticSwitchParameter'Outlaw_Grassy_Assets.Materials.OL_Grass_01_Mat.MaterialExpressionStaticSwitchParameter_6'
+    Expressions[65] = MaterialExpressionScalarParameter'Outlaw_Grassy_Assets.Materials.OL_Grass_01_Mat.MaterialExpressionScalarParameter_27'
+    Expressions[67] = MaterialExpressionScalarParameter'Outlaw_Grassy_Assets.Materials.OL_Grass_01_Mat.MaterialExpressionScalarParameter_28'
+    Expressions[71] = MaterialExpressionStaticSwitchParameter'Outlaw_Grassy_Assets.Materials.OL_Grass_01_Mat.MaterialExpressionStaticSwitchParameter_7'
+    Expressions[89] = MaterialExpressionScalarParameter'Outlaw_Grassy_Assets.Materials.OL_Grass_01_Mat.MaterialExpressionScalarParameter_29'
+    Expressions[106] = MaterialExpressionTextureSampleParameter2D'Outlaw_Grassy_Assets.Materials.OL_Grass_01_Mat.MaterialExpressionTextureSampleParameter2D_3'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Outlaw_Grassy_Assets.Textures.OL_Grass_Sprite_Flower01_D'
+        Name = Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[1] = { Texture=None, Name=Normal, Group=None }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'Outlaw_Grassy_Assets.Textures.OL_Grass_Sprite_Flower01_RGB'
+        Name = RGB
+        Group = None
+    }
+}
+CollectedScalarParameters[8] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Fresnel multiplier, Group=None }
+    CollectedScalarParameters[1] = { Value=0.35, Name=FillLight, Group=None }
+    CollectedScalarParameters[2] = { Value=1.5, Name=SkyLight, Group=None }
+    CollectedScalarParameters[3] = { Value=4, Name=SwayStrength, Group=None }
+    CollectedScalarParameters[4] = { Value=4096, Name=SwaySineScale, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=SwayUseWorldNormal, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=SwaySpeed, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=HeatDistortionVS, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

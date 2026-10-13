@@ -1,0 +1,116 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[5] =
+{
+    ReferencedTextures[0] = Texture2D'Wasteland_Textures.ChoppySand_N'
+    ReferencedTextures[1] = Texture2D'Wasteland_Textures.WavySand_N'
+    ReferencedTextures[2] = Texture2D'Wasteland_Textures.SparkleSand_N'
+    ReferencedTextures[3] = Texture2D'CS_FieldAssets01.Texture.CS_FieldGrassPattern_Half_D'
+}
+Expressions[190] =
+{
+    Expressions[23] = MaterialExpressionStaticSwitchParameter'Outlaw_Map_Assets_02.Materials.Sand_2Layer_V2_Mat.MaterialExpressionStaticSwitchParameter_11'
+    Expressions[27] = MaterialExpressionTextureSampleParameter2D'Outlaw_Map_Assets_02.Materials.Sand_2Layer_V2_Mat.MaterialExpressionTextureSampleParameter2D_7'
+    Expressions[32] = MaterialExpressionTextureSampleParameter2D'Outlaw_Map_Assets_02.Materials.Sand_2Layer_V2_Mat.MaterialExpressionTextureSampleParameter2D_8'
+    Expressions[33] = MaterialExpressionStaticSwitchParameter'Outlaw_Map_Assets_02.Materials.Sand_2Layer_V2_Mat.MaterialExpressionStaticSwitchParameter_12'
+    Expressions[42] = MaterialExpressionTextureSampleParameter2D'Outlaw_Map_Assets_02.Materials.Sand_2Layer_V2_Mat.MaterialExpressionTextureSampleParameter2D_9'
+    Expressions[46] = MaterialExpressionStaticSwitchParameter'Outlaw_Map_Assets_02.Materials.Sand_2Layer_V2_Mat.MaterialExpressionStaticSwitchParameter_13'
+    Expressions[49] = MaterialExpressionTextureSampleParameter2D'Outlaw_Map_Assets_02.Materials.Sand_2Layer_V2_Mat.MaterialExpressionTextureSampleParameter2D_10'
+    Expressions[64] = MaterialExpressionStaticSwitchParameter'Outlaw_Map_Assets_02.Materials.Sand_2Layer_V2_Mat.MaterialExpressionStaticSwitchParameter_14'
+    Expressions[92] = MaterialExpressionTextureSampleParameter2D'Outlaw_Map_Assets_02.Materials.Sand_2Layer_V2_Mat.MaterialExpressionTextureSampleParameter2D_11'
+    Expressions[93] = MaterialExpressionStaticSwitchParameter'Outlaw_Map_Assets_02.Materials.Sand_2Layer_V2_Mat.MaterialExpressionStaticSwitchParameter_15'
+    Expressions[98] = MaterialExpressionTextureSampleParameter2D'Outlaw_Map_Assets_02.Materials.Sand_2Layer_V2_Mat.MaterialExpressionTextureSampleParameter2D_12'
+    Expressions[99] = MaterialExpressionTextureSampleParameter2D'Outlaw_Map_Assets_02.Materials.Sand_2Layer_V2_Mat.MaterialExpressionTextureSampleParameter2D_13'
+    Expressions[104] = MaterialExpressionStaticSwitchParameter'Outlaw_Map_Assets_02.Materials.Sand_2Layer_V2_Mat.MaterialExpressionStaticSwitchParameter_16'
+    Expressions[110] = MaterialExpressionStaticSwitchParameter'Outlaw_Map_Assets_02.Materials.Sand_2Layer_V2_Mat.MaterialExpressionStaticSwitchParameter_19'
+    Expressions[111] = MaterialExpressionScalarParameter'Outlaw_Map_Assets_02.Materials.Sand_2Layer_V2_Mat.MaterialExpressionScalarParameter_3'
+    Expressions[119] = MaterialExpressionStaticSwitchParameter'Outlaw_Map_Assets_02.Materials.Sand_2Layer_V2_Mat.MaterialExpressionStaticSwitchParameter_20'
+    Expressions[123] = MaterialExpressionStaticSwitchParameter'Outlaw_Map_Assets_02.Materials.Sand_2Layer_V2_Mat.MaterialExpressionStaticSwitchParameter_21'
+    Expressions[124] = MaterialExpressionTextureSampleParameter2D'Outlaw_Map_Assets_02.Materials.Sand_2Layer_V2_Mat.MaterialExpressionTextureSampleParameter2D_16'
+    Expressions[125] = MaterialExpressionStaticSwitchParameter'Outlaw_Map_Assets_02.Materials.Sand_2Layer_V2_Mat.MaterialExpressionStaticSwitchParameter_26'
+    Expressions[126] = MaterialExpressionStaticSwitchParameter'Outlaw_Map_Assets_02.Materials.Sand_2Layer_V2_Mat.MaterialExpressionStaticSwitchParameter_28'
+    Expressions[128] = MaterialExpressionTextureSampleParameter2D'Outlaw_Map_Assets_02.Materials.Sand_2Layer_V2_Mat.MaterialExpressionTextureSampleParameter2D_19'
+    Expressions[129] = MaterialExpressionStaticSwitchParameter'Outlaw_Map_Assets_02.Materials.Sand_2Layer_V2_Mat.MaterialExpressionStaticSwitchParameter_29'
+    Expressions[130] = MaterialExpressionStaticSwitchParameter'Outlaw_Map_Assets_02.Materials.Sand_2Layer_V2_Mat.MaterialExpressionStaticSwitchParameter_31'
+    Expressions[131] = MaterialExpressionVectorParameter'Outlaw_Map_Assets_02.Materials.Sand_2Layer_V2_Mat.MaterialExpressionVectorParameter_0'
+    Expressions[132] = MaterialExpressionVectorParameter'Outlaw_Map_Assets_02.Materials.Sand_2Layer_V2_Mat.MaterialExpressionVectorParameter_1'
+    Expressions[135] = MaterialExpressionScalarParameter'Outlaw_Map_Assets_02.Materials.Sand_2Layer_V2_Mat.MaterialExpressionScalarParameter_5'
+    Expressions[185] = MaterialExpressionScalarParameter'Outlaw_Map_Assets_02.Materials.Sand_2Layer_V2_Mat.MaterialExpressionScalarParameter_0'
+    Expressions[189] = MaterialExpressionScalarParameter'Outlaw_Map_Assets_02.Materials.Sand_2Layer_V2_Mat.MaterialExpressionScalarParameter_1'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[9] =
+{
+    CollectedTextureParameters[0] = { Texture=None, Name=Layer2_Normal, Group=None }
+    CollectedTextureParameters[1] = { Texture=None, Name=Layer2_Normal, Group=None }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'Wasteland_Textures.ChoppySand_N'
+        Name = Layer1_Normal
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'Wasteland_Textures.WavySand_N'
+        Name = Layer2_Normal
+        Group = None
+    }
+    CollectedTextureParameters[4] = { Texture=None, Name=Diffuse, Group=None }
+    CollectedTextureParameters[5] = { Texture=None, Name=DiffuseQuarter, Group=None }
+    CollectedTextureParameters[6] = { Texture=None, Name=Diffuse, Group=None }
+    CollectedTextureParameters[7] =
+    {
+        Texture = Texture2D'Outlaw_Map_Assets.reddesertpack.Textures.Cliff01_D'
+        Name = Layer1_Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[8] =
+    {
+        Texture = Texture2D'Outlaw_Map_Assets.reddesertpack.Textures.Cliff01_D'
+        Name = Layer2_Diffuse
+        Group = None
+    }
+}
+CollectedScalarParameters[4] =
+{
+    CollectedScalarParameters[0] = { Value=8.1e-05, Name=FieldSkinScale, Group=None }
+    CollectedScalarParameters[1] =
+    {
+        Value = 0.25
+        Name = SurfaceAngleNormalStrength
+        Group = None
+    }
+    CollectedScalarParameters[2] =
+    {
+        Value = 0.00016
+        Name = Layer2_WorldScale
+        Group = None
+    }
+    CollectedScalarParameters[3] = { Value=1, Name=HeatDistortionVS, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=0.644507, B=0.34809, A=1 }
+        Name = Layer1_Color
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.548783, G=0.402814, B=0.254694, A=1 }
+        Name = Layer2_Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

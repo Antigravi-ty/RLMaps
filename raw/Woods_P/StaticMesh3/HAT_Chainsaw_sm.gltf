@@ -1,0 +1,112 @@
+{
+  "asset" : {
+    "generator" : "UE Viewer (umodel) build 1",
+    "version" : "2.0"
+  },
+  "scene" : 0,
+  "scenes" : [
+    {
+      "nodes" : [ 0 ]
+    }
+  ],
+  "nodes" : [
+    {
+      "name" : "HAT_Chainsaw_sm",
+      "mesh" : 0
+    }
+  ],
+  "materials" : [
+    {
+      "name" : "MIC_HAT_Chainsaw",
+      "pbrMetallicRoughness" : {
+        "baseColorFactor" : [ 0.3, 0.3, 0.3, 1.0 ],
+        "metallicFactor" : 0.1,
+        "roughnessFactor" : 0.5
+      }
+    }
+  ],
+  "meshes" : [
+    {
+      "primitives" : [
+        {
+          "attributes" : {
+            "POSITION" : 1,
+            "NORMAL" : 2,
+            "TANGENT" : 3,
+            "TEXCOORD_0" : 4
+          },
+          "indices" : 0,
+          "material" : 0
+        }
+      ],
+      "name" : "HAT_Chainsaw_sm"
+    }
+  ],
+  "buffers" : [
+    {
+      "uri" : "HAT_Chainsaw_sm.bin",
+      "byteLength" : 137388
+    }
+  ],
+  "bufferViews" : [
+    {
+      "buffer" : 0,
+      "byteOffset" : 0,
+      "byteLength" : 19020
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 19020,
+      "byteLength" : 29592
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 48612,
+      "byteLength" : 29592
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 78204,
+      "byteLength" : 39456
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 117660,
+      "byteLength" : 19728
+    }
+  ],
+  "accessors" : [
+    {
+      "bufferView" : 0,
+      "componentType" : 5123,
+      "count" : 9510,
+      "type" : "SCALAR"
+    },
+    {
+      "bufferView" : 1,
+      "min" : [ -0.108415, -0.100927, -0.106235 ],
+      "max" : [ 0.242837, 0.213207, 0.0599881 ],
+      "componentType" : 5126,
+      "count" : 2466,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 2,
+      "componentType" : 5126,
+      "count" : 2466,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 3,
+      "componentType" : 5126,
+      "count" : 2466,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 4,
+      "componentType" : 5126,
+      "count" : 2466,
+      "type" : "VEC2"
+    }
+  ]
+}

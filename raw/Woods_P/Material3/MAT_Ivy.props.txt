@@ -1,0 +1,26 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = true
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'UtopiaStadium_Assets.Textures.WIP_Tile_Ivy00_N'
+    ReferencedTextures[1] = Texture2D'UtopiaStadium_Assets.Textures.WIP_Tile_Ivy00_D'
+}
+Expressions[38] =
+{
+    Expressions[16] = MaterialExpressionStaticSwitchParameter'UtopiaStadium_Assets.Materials.MAT_Ivy.MaterialExpressionStaticSwitchParameter_0'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

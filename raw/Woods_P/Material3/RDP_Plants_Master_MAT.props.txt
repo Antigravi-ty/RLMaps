@@ -1,0 +1,72 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = true
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'Outlaw_Map_Assets.reddesertpack.Textures.Saguaro_D'
+    ReferencedTextures[1] = Texture2D'Outlaw_Map_Assets.reddesertpack.Textures.Saguaro_N'
+}
+Expressions[107] =
+{
+    Expressions[8] = MaterialExpressionScalarParameter'Outlaw_Map_Assets.reddesertpack.Materials.RDP_Plants_Master_MAT.MaterialExpressionScalarParameter_27'
+    Expressions[13] = MaterialExpressionStaticSwitchParameter'Outlaw_Map_Assets.reddesertpack.Materials.RDP_Plants_Master_MAT.MaterialExpressionStaticSwitchParameter_12'
+    Expressions[14] = MaterialExpressionVectorParameter'Outlaw_Map_Assets.reddesertpack.Materials.RDP_Plants_Master_MAT.MaterialExpressionVectorParameter_2'
+    Expressions[15] = MaterialExpressionStaticSwitchParameter'Outlaw_Map_Assets.reddesertpack.Materials.RDP_Plants_Master_MAT.MaterialExpressionStaticSwitchParameter_13'
+    Expressions[22] = MaterialExpressionTextureSampleParameter2D'Outlaw_Map_Assets.reddesertpack.Materials.RDP_Plants_Master_MAT.MaterialExpressionTextureSampleParameter2D_6'
+    Expressions[23] = MaterialExpressionTextureSampleParameter2D'Outlaw_Map_Assets.reddesertpack.Materials.RDP_Plants_Master_MAT.MaterialExpressionTextureSampleParameter2D_7'
+    Expressions[34] = MaterialExpressionScalarParameter'Outlaw_Map_Assets.reddesertpack.Materials.RDP_Plants_Master_MAT.MaterialExpressionScalarParameter_28'
+    Expressions[40] = MaterialExpressionScalarParameter'Outlaw_Map_Assets.reddesertpack.Materials.RDP_Plants_Master_MAT.MaterialExpressionScalarParameter_29'
+    Expressions[48] = MaterialExpressionScalarParameter'Outlaw_Map_Assets.reddesertpack.Materials.RDP_Plants_Master_MAT.MaterialExpressionScalarParameter_30'
+    Expressions[51] = MaterialExpressionScalarParameter'Outlaw_Map_Assets.reddesertpack.Materials.RDP_Plants_Master_MAT.MaterialExpressionScalarParameter_31'
+    Expressions[60] = MaterialExpressionStaticSwitchParameter'Outlaw_Map_Assets.reddesertpack.Materials.RDP_Plants_Master_MAT.MaterialExpressionStaticSwitchParameter_14'
+    Expressions[62] = MaterialExpressionScalarParameter'Outlaw_Map_Assets.reddesertpack.Materials.RDP_Plants_Master_MAT.MaterialExpressionScalarParameter_32'
+    Expressions[70] = MaterialExpressionScalarParameter'Outlaw_Map_Assets.reddesertpack.Materials.RDP_Plants_Master_MAT.MaterialExpressionScalarParameter_36'
+    Expressions[104] = MaterialExpressionStaticSwitchParameter'Outlaw_Map_Assets.reddesertpack.Materials.RDP_Plants_Master_MAT.MaterialExpressionStaticSwitchParameter_1'
+    Expressions[105] = MaterialExpressionScalarParameter'Outlaw_Map_Assets.reddesertpack.Materials.RDP_Plants_Master_MAT.MaterialExpressionScalarParameter_3'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Outlaw_Map_Assets.reddesertpack.Textures.Saguaro_D'
+        Name = Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Outlaw_Map_Assets.reddesertpack.Textures.Saguaro_N'
+        Name = Normal
+        Group = None
+    }
+}
+CollectedScalarParameters[8] =
+{
+    CollectedScalarParameters[0] = { Value=0.35, Name=FillLight, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Fresnel multiplier, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=SwayUseWorldNormal, Group=None }
+    CollectedScalarParameters[3] = { Value=4, Name=SwayStrength, Group=None }
+    CollectedScalarParameters[4] = { Value=4096, Name=SwaySineScale, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=SwaySpeed, Group=None }
+    CollectedScalarParameters[6] = { Value=1.5, Name=SkyLight, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=HeatDistortionVS, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=0.101322, B=0.105013, A=1 }
+        Name = CustomColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
