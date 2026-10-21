@@ -1,0 +1,38 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] = { Texture2D'Detail_BrushesMetal.BrushedMetal_N' }
+Expressions[112] =
+{
+    Expressions[3] = MaterialExpressionStaticSwitchParameter'Stadium_Winter_Assets.Materials.Frame_01_Mat.MaterialExpressionStaticSwitchParameter_4'
+    Expressions[44] = MaterialExpressionStaticSwitchParameter'Stadium_Winter_Assets.Materials.Frame_01_Mat.MaterialExpressionStaticSwitchParameter_6'
+    Expressions[48] = MaterialExpressionVectorParameter'Stadium_Winter_Assets.Materials.Frame_01_Mat.MaterialExpressionVectorParameter_5'
+    Expressions[54] = MaterialExpressionScalarParameter'Stadium_Winter_Assets.Materials.Frame_01_Mat.MaterialExpressionScalarParameter_3'
+    Expressions[65] = MaterialExpressionScalarParameter'Stadium_Winter_Assets.Materials.Frame_01_Mat.MaterialExpressionScalarParameter_2'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[2] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Brightness, Group=None }
+    CollectedScalarParameters[1] = { Value=6, Name=ENVAmount, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=0.0619075, B=0.0199178, A=1 }
+        Name = Color1
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

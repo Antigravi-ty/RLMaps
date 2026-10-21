@@ -1,0 +1,1134 @@
+{
+  "total_materials": 63,
+  "materials": {
+    "2x1_A_MIC": {
+      "parent": "Scoreboard_Mat",
+      "two_sided": false,
+      "is_masked": false,
+      "is_translucent": false,
+      "texture_parameters": {
+        "AdTexture": "RocketLeagueAd_2x1_Dark"
+      },
+      "referenced_textures": [
+        "RocketLeagueAd_2x1_Dark"
+      ],
+      "vector_parameters": {},
+      "scalar_parameters": {},
+      "umodel_mat_bindings": {
+        "Diffuse": "RocketLeagueAd_2x1_Dark"
+      }
+    },
+    "2x1_B_MIC": {
+      "parent": "Scoreboard_Mat",
+      "two_sided": false,
+      "is_masked": false,
+      "is_translucent": false,
+      "texture_parameters": {
+        "AdTexture": "RocketLeagueAd_2x1_Dark"
+      },
+      "referenced_textures": [
+        "RocketLeagueAd_2x1_Dark"
+      ],
+      "vector_parameters": {},
+      "scalar_parameters": {},
+      "umodel_mat_bindings": {
+        "Diffuse": "RocketLeagueAd_2x1_Dark"
+      }
+    },
+    "3D_Grass_MIC": {
+      "parent": null,
+      "two_sided": false,
+      "is_masked": false,
+      "is_translucent": false,
+      "texture_parameters": {
+        "FieldSkin": "FieldPattern_LongField",
+        "FieldSkinUnfiltered": "FieldPattern_LongField_Unfiltered",
+        "LightMap": "FloorLightMap"
+      },
+      "referenced_textures": [
+        "FieldPattern_LongField",
+        "FieldPattern_LongField_Unfiltered",
+        "FloorLightMap"
+      ],
+      "vector_parameters": {
+        "LightColor": [
+          0.789314,
+          0.715465,
+          0.722672,
+          1.0
+        ]
+      },
+      "scalar_parameters": {
+        "ENVAmount": 1.0,
+        "FieldSkinScale": 7.1e-05
+      },
+      "umodel_mat_bindings": {
+        "Other[0]": "FieldPattern_LongField",
+        "Other[1]": "FieldPattern_LongField_Unfiltered",
+        "Other[2]": "FloorLightMap"
+      }
+    },
+    "4x1_A_MIC": {
+      "parent": "Scoreboard_Mat",
+      "two_sided": false,
+      "is_masked": false,
+      "is_translucent": false,
+      "texture_parameters": {
+        "AdTexture": "RocketLeagueAd_Dark"
+      },
+      "referenced_textures": [
+        "RocketLeagueAd_Dark"
+      ],
+      "vector_parameters": {},
+      "scalar_parameters": {},
+      "umodel_mat_bindings": {
+        "Diffuse": "RocketLeagueAd_Dark"
+      }
+    },
+    "4x1_B_MIC": {
+      "parent": "Scoreboard_Mat",
+      "two_sided": false,
+      "is_masked": false,
+      "is_translucent": false,
+      "texture_parameters": {
+        "AdTexture": "RocketLeagueAd_Dark"
+      },
+      "referenced_textures": [
+        "RocketLeagueAd_Dark"
+      ],
+      "vector_parameters": {},
+      "scalar_parameters": {},
+      "umodel_mat_bindings": {
+        "Diffuse": "RocketLeagueAd_Dark"
+      }
+    },
+    "4x1_C_MIC": {
+      "parent": "Scoreboard_Mat",
+      "two_sided": false,
+      "is_masked": false,
+      "is_translucent": false,
+      "texture_parameters": {
+        "AdTexture": "RocketLeagueAd_Dark"
+      },
+      "referenced_textures": [
+        "RocketLeagueAd_Dark"
+      ],
+      "vector_parameters": {},
+      "scalar_parameters": {},
+      "umodel_mat_bindings": {
+        "Diffuse": "RocketLeagueAd_Dark"
+      }
+    },
+    "4x1_D_MIC": {
+      "parent": "Scoreboard_Mat",
+      "two_sided": false,
+      "is_masked": false,
+      "is_translucent": false,
+      "texture_parameters": {
+        "AdTexture": "RocketLeagueAd_Dark"
+      },
+      "referenced_textures": [
+        "RocketLeagueAd_Dark"
+      ],
+      "vector_parameters": {},
+      "scalar_parameters": {},
+      "umodel_mat_bindings": {
+        "Diffuse": "RocketLeagueAd_Dark"
+      }
+    },
+    "Advert_StripSingle_05_MIC": {
+      "parent": "Advert_Strip_Mat",
+      "two_sided": false,
+      "is_masked": false,
+      "is_translucent": false,
+      "texture_parameters": {},
+      "referenced_textures": [],
+      "vector_parameters": {},
+      "scalar_parameters": {
+        "AdNumber": 5.0
+      },
+      "umodel_mat_bindings": {
+        "Diffuse": "Advert_Strip"
+      }
+    },
+    "Advert_StripSingle_06_MIC": {
+      "parent": "Advert_Strip_Mat",
+      "two_sided": false,
+      "is_masked": false,
+      "is_translucent": false,
+      "texture_parameters": {},
+      "referenced_textures": [],
+      "vector_parameters": {},
+      "scalar_parameters": {
+        "AdNumber": 6.0
+      },
+      "umodel_mat_bindings": {
+        "Diffuse": "Advert_Strip"
+      }
+    },
+    "Advert_Strip_Mat": {
+      "parent": null,
+      "two_sided": false,
+      "is_masked": false,
+      "is_translucent": false,
+      "texture_parameters": {},
+      "referenced_textures": [
+        "Advert_Strip"
+      ],
+      "vector_parameters": {},
+      "scalar_parameters": {},
+      "umodel_mat_bindings": {
+        "Diffuse": "Advert_Strip"
+      }
+    },
+    "Basic_Orange_Mat": {
+      "parent": null,
+      "two_sided": false,
+      "is_masked": false,
+      "is_translucent": false,
+      "texture_parameters": {},
+      "referenced_textures": [
+        "Park_BannerScaffold_N",
+        "Park_BannerScaffold_D"
+      ],
+      "vector_parameters": {},
+      "scalar_parameters": {},
+      "umodel_mat_bindings": {
+        "Diffuse": "Park_BannerScaffold_D",
+        "Normal": "Park_BannerScaffold_N"
+      }
+    },
+    "BoostPad_Large_MIC": {
+      "parent": "BoostPad_Mat",
+      "two_sided": false,
+      "is_masked": false,
+      "is_translucent": false,
+      "texture_parameters": {
+        "Diffuse": "BoostPad_Large_D"
+      },
+      "referenced_textures": [
+        "BoostPad_Large_D"
+      ],
+      "vector_parameters": {},
+      "scalar_parameters": {},
+      "umodel_mat_bindings": {
+        "Diffuse": "BoostPad_Large_D"
+      }
+    },
+    "BoostPad_Mat": {
+      "parent": null,
+      "two_sided": false,
+      "is_masked": false,
+      "is_translucent": false,
+      "texture_parameters": {},
+      "referenced_textures": [
+        "BoostPad_Large_D",
+        "BoostPad_Large_D",
+        "BoostPad_Large_D"
+      ],
+      "vector_parameters": {},
+      "scalar_parameters": {},
+      "umodel_mat_bindings": {
+        "Diffuse": "BoostPad_Large_D"
+      }
+    },
+    "BoostPad_Small_MIC": {
+      "parent": "BoostPad_Mat",
+      "two_sided": false,
+      "is_masked": false,
+      "is_translucent": false,
+      "texture_parameters": {
+        "Diffuse": "BoostPad_Small_D"
+      },
+      "referenced_textures": [
+        "BoostPad_Small_D"
+      ],
+      "vector_parameters": {},
+      "scalar_parameters": {},
+      "umodel_mat_bindings": {
+        "Diffuse": "BoostPad_Small_D",
+        "Other[0]": "BoostPad_Large_D"
+      }
+    },
+    "BoostPad_Warm_PS": {
+      "parent": null,
+      "two_sided": false,
+      "is_masked": false,
+      "is_translucent": true,
+      "texture_parameters": {},
+      "referenced_textures": [
+        "GradientCircle01"
+      ],
+      "vector_parameters": {},
+      "scalar_parameters": {},
+      "umodel_mat_bindings": {
+        "Diffuse": "GradientCircle01"
+      }
+    },
+    "BuildingGlass_MIC": {
+      "parent": "Building_Unlit_Mat",
+      "two_sided": false,
+      "is_masked": false,
+      "is_translucent": false,
+      "texture_parameters": {},
+      "referenced_textures": [],
+      "vector_parameters": {
+        "Color": [
+          0.209937,
+          0.184618,
+          0.126113,
+          0.85
+        ]
+      },
+      "scalar_parameters": {
+        "ENV": 2.0
+      },
+      "umodel_mat_bindings": {
+        "Diffuse": "ENV_PartlyCloudy",
+        "Cube": "OOBCube",
+        "Other[0]": "Building_A_Pack"
+      }
+    },
+    "Building_Unlit_Mat": {
+      "parent": null,
+      "two_sided": false,
+      "is_masked": false,
+      "is_translucent": false,
+      "texture_parameters": {},
+      "referenced_textures": [
+        "ENV_PartlyCloudy",
+        "Building_A_Pack",
+        "Building_A_Pack",
+        "ENV_PartlyCloudy",
+        "Building_A_Pack",
+        "Building_A_Pack"
+      ],
+      "vector_parameters": {},
+      "scalar_parameters": {},
+      "umodel_mat_bindings": {
+        "Diffuse": "ENV_PartlyCloudy",
+        "Other[0]": "Building_A_Pack"
+      }
+    },
+    "ConcreteFloor_Mat": {
+      "parent": null,
+      "two_sided": false,
+      "is_masked": false,
+      "is_translucent": false,
+      "texture_parameters": {},
+      "referenced_textures": [
+        "Window_NORM",
+        "Window_NORM"
+      ],
+      "vector_parameters": {},
+      "scalar_parameters": {},
+      "umodel_mat_bindings": {
+        "Normal": "Window_NORM"
+      }
+    },
+    "ConcreteWall_MIC": {
+      "parent": "ConcreteFloor_Mat",
+      "two_sided": false,
+      "is_masked": false,
+      "is_translucent": false,
+      "texture_parameters": {
+        "Diffuse": "ConcreteWall_D",
+        "Normal": "ConcreteWall_N"
+      },
+      "referenced_textures": [
+        "ConcreteWall_D",
+        "ConcreteWall_N"
+      ],
+      "vector_parameters": {},
+      "scalar_parameters": {},
+      "umodel_mat_bindings": {
+        "Diffuse": "ConcreteWall_D",
+        "Normal": "ConcreteWall_N",
+        "Other[0]": "Window_NORM"
+      }
+    },
+    "DarkMetal_SeeThru_Mat": {
+      "parent": null,
+      "two_sided": false,
+      "is_masked": false,
+      "is_translucent": true,
+      "texture_parameters": {},
+      "referenced_textures": [
+        "BrushedMetal_N"
+      ],
+      "vector_parameters": {},
+      "scalar_parameters": {},
+      "umodel_mat_bindings": {
+        "Normal": "BrushedMetal_N"
+      }
+    },
+    "DarkMetal_SeeThru_Mat_IVTK": {
+      "parent": null,
+      "two_sided": false,
+      "is_masked": false,
+      "is_translucent": true,
+      "texture_parameters": {},
+      "referenced_textures": [
+        "BrushedMetal_N"
+      ],
+      "vector_parameters": {},
+      "scalar_parameters": {},
+      "umodel_mat_bindings": {
+        "Normal": "BrushedMetal_N"
+      }
+    },
+    "Dust_Mat": {
+      "parent": null,
+      "two_sided": false,
+      "is_masked": false,
+      "is_translucent": true,
+      "texture_parameters": {},
+      "referenced_textures": [
+        "DustParticles"
+      ],
+      "vector_parameters": {},
+      "scalar_parameters": {},
+      "umodel_mat_bindings": {
+        "Diffuse": "DustParticles"
+      }
+    },
+    "DustyFlare_Thick_Mat": {
+      "parent": null,
+      "two_sided": false,
+      "is_masked": false,
+      "is_translucent": true,
+      "texture_parameters": {},
+      "referenced_textures": [
+        "DirtyLens_D",
+        "DirtyLens_D"
+      ],
+      "vector_parameters": {},
+      "scalar_parameters": {},
+      "umodel_mat_bindings": {
+        "Diffuse": "DirtyLens_D"
+      }
+    },
+    "FlagPole_MIC": {
+      "parent": "MetalTexture_Mat",
+      "two_sided": false,
+      "is_masked": false,
+      "is_translucent": false,
+      "texture_parameters": {
+        "Diffuse": "TEC_Trim_02_D",
+        "NormalTexture": "TEC_Trim_02_N"
+      },
+      "referenced_textures": [
+        "TEC_Trim_02_D",
+        "TEC_Trim_02_N"
+      ],
+      "vector_parameters": {},
+      "scalar_parameters": {},
+      "umodel_mat_bindings": {
+        "Diffuse": "TEC_Trim_02_D",
+        "Normal": "TEC_Trim_02_N"
+      }
+    },
+    "ForceField_Mat": {
+      "parent": null,
+      "two_sided": true,
+      "is_masked": false,
+      "is_translucent": true,
+      "texture_parameters": {},
+      "referenced_textures": [
+        "ForcefieldHex"
+      ],
+      "vector_parameters": {},
+      "scalar_parameters": {},
+      "umodel_mat_bindings": {
+        "Diffuse": "ForcefieldHex"
+      }
+    },
+    "Frame_01_Mat": {
+      "parent": null,
+      "two_sided": false,
+      "is_masked": false,
+      "is_translucent": false,
+      "texture_parameters": {},
+      "referenced_textures": [
+        "BrushedMetal_N"
+      ],
+      "vector_parameters": {},
+      "scalar_parameters": {},
+      "umodel_mat_bindings": {
+        "Normal": "BrushedMetal_N"
+      }
+    },
+    "Frame_01_Mat_IVTK_GOAL": {
+      "parent": null,
+      "two_sided": false,
+      "is_masked": false,
+      "is_translucent": true,
+      "texture_parameters": {},
+      "referenced_textures": [
+        "BrushedMetal_N"
+      ],
+      "vector_parameters": {},
+      "scalar_parameters": {},
+      "umodel_mat_bindings": {
+        "Normal": "BrushedMetal_N"
+      }
+    },
+    "GlassWithTrim_Mat": {
+      "parent": null,
+      "two_sided": true,
+      "is_masked": false,
+      "is_translucent": true,
+      "texture_parameters": {},
+      "referenced_textures": [
+        "Window_Random_N",
+        "Window_Random_Pack",
+        "Window_Random_N",
+        "Window_Random_Pack"
+      ],
+      "vector_parameters": {},
+      "scalar_parameters": {},
+      "umodel_mat_bindings": {
+        "Normal": "Window_Random_N",
+        "Other[0]": "Window_Random_Pack"
+      }
+    },
+    "GlassWithTrim_TeamColors_MIC": {
+      "parent": "GlassWithTrim_Mat",
+      "two_sided": false,
+      "is_masked": false,
+      "is_translucent": false,
+      "texture_parameters": {},
+      "referenced_textures": [],
+      "vector_parameters": {},
+      "scalar_parameters": {},
+      "umodel_mat_bindings": {
+        "Normal": "Window_Random_N",
+        "Other[0]": "Window_Random_Pack"
+      }
+    },
+    "GrassAndBush_Mat": {
+      "parent": null,
+      "two_sided": false,
+      "is_masked": false,
+      "is_translucent": false,
+      "texture_parameters": {},
+      "referenced_textures": [
+        "RockyDirt_N",
+        "GrassAndBush_N",
+        "GrassAndBush_D",
+        "RockyDirt_D"
+      ],
+      "vector_parameters": {},
+      "scalar_parameters": {},
+      "umodel_mat_bindings": {
+        "Diffuse": "GrassAndBush_D",
+        "Normal": "RockyDirt_N",
+        "Other[0]": "GrassAndBush_N",
+        "Other[1]": "RockyDirt_D"
+      }
+    },
+    "GroomedGrass_Base_FakeLight_V6_Mat": {
+      "parent": null,
+      "two_sided": false,
+      "is_masked": false,
+      "is_translucent": false,
+      "texture_parameters": {},
+      "referenced_textures": [
+        "RockyDirt_N",
+        "CS_FieldGrassPattern_D"
+      ],
+      "vector_parameters": {},
+      "scalar_parameters": {},
+      "umodel_mat_bindings": {
+        "Normal": "RockyDirt_N"
+      }
+    },
+    "GroomedGrass_LOD_FakeLight_V6_Mat": {
+      "parent": null,
+      "two_sided": false,
+      "is_masked": false,
+      "is_translucent": false,
+      "texture_parameters": {},
+      "referenced_textures": [
+        "RockyDirt_N",
+        "CS_FieldGrassPattern_D"
+      ],
+      "vector_parameters": {},
+      "scalar_parameters": {},
+      "umodel_mat_bindings": {
+        "Normal": "RockyDirt_N"
+      }
+    },
+    "GroomedGrass_OLD_Mat": {
+      "parent": null,
+      "two_sided": true,
+      "is_masked": true,
+      "is_translucent": false,
+      "texture_parameters": {},
+      "referenced_textures": [
+        "Grass_Strip"
+      ],
+      "vector_parameters": {},
+      "scalar_parameters": {},
+      "umodel_mat_bindings": {
+        "Diffuse": "Grass_Strip"
+      }
+    },
+    "Halo_Mat": {
+      "parent": null,
+      "two_sided": false,
+      "is_masked": false,
+      "is_translucent": true,
+      "texture_parameters": {},
+      "referenced_textures": [
+        "LensFlare01_D"
+      ],
+      "vector_parameters": {},
+      "scalar_parameters": {},
+      "umodel_mat_bindings": {
+        "Diffuse": "LensFlare01_D"
+      }
+    },
+    "HandRail_MIC": {
+      "parent": "HandRail_Mat",
+      "two_sided": false,
+      "is_masked": false,
+      "is_translucent": false,
+      "texture_parameters": {},
+      "referenced_textures": [],
+      "vector_parameters": {},
+      "scalar_parameters": {},
+      "umodel_mat_bindings": {
+        "Diffuse": "HandRail_D"
+      }
+    },
+    "HandRail_Mat": {
+      "parent": null,
+      "two_sided": true,
+      "is_masked": false,
+      "is_translucent": true,
+      "texture_parameters": {},
+      "referenced_textures": [
+        "HandRail_D"
+      ],
+      "vector_parameters": {},
+      "scalar_parameters": {},
+      "umodel_mat_bindings": {
+        "Diffuse": "HandRail_D"
+      }
+    },
+    "HexStarFlare_Mat": {
+      "parent": null,
+      "two_sided": true,
+      "is_masked": false,
+      "is_translucent": true,
+      "texture_parameters": {},
+      "referenced_textures": [
+        "Corona_Sun01_D"
+      ],
+      "vector_parameters": {},
+      "scalar_parameters": {},
+      "umodel_mat_bindings": {
+        "Diffuse": "Corona_Sun01_D"
+      }
+    },
+    "Hills_A_MIC": {
+      "parent": "Mountain_Mat",
+      "two_sided": false,
+      "is_masked": false,
+      "is_translucent": false,
+      "texture_parameters": {
+        "Diffuse": "Hills_A_Color",
+        "Normal": "Hills_A_Nornal"
+      },
+      "referenced_textures": [
+        "Hills_A_Color",
+        "Hills_A_Nornal"
+      ],
+      "vector_parameters": {
+        "SnowColor": [
+          0.121542,
+          0.106106,
+          0.052151,
+          1.0
+        ]
+      },
+      "scalar_parameters": {},
+      "umodel_mat_bindings": {
+        "Diffuse": "Hills_A_Color",
+        "Normal": "Hills_A_Nornal",
+        "Other[0]": "Mountain_B_Nornal",
+        "Other[1]": "Mountain_B_Color",
+        "Other[2]": "Mountain_B_Mask_Pack"
+      }
+    },
+    "Ice_Mat": {
+      "parent": null,
+      "two_sided": false,
+      "is_masked": false,
+      "is_translucent": false,
+      "texture_parameters": {},
+      "referenced_textures": [
+        "Ice_01_D",
+        "Ice_01_N",
+        "ChoppySand_NoSwiz_N"
+      ],
+      "vector_parameters": {},
+      "scalar_parameters": {},
+      "umodel_mat_bindings": {
+        "Diffuse": "Ice_01_D",
+        "Normal": "Ice_01_N",
+        "Other[0]": "ChoppySand_NoSwiz_N"
+      }
+    },
+    "LF_10yr_Flag_MAT": {
+      "parent": null,
+      "two_sided": true,
+      "is_masked": false,
+      "is_translucent": false,
+      "texture_parameters": {},
+      "referenced_textures": [
+        "Flag_10yr",
+        "Flag_10yr"
+      ],
+      "vector_parameters": {},
+      "scalar_parameters": {},
+      "umodel_mat_bindings": {
+        "Diffuse": "Flag_10yr"
+      }
+    },
+    "LightArray_Arrow_Mat": {
+      "parent": null,
+      "two_sided": false,
+      "is_masked": false,
+      "is_translucent": false,
+      "texture_parameters": {},
+      "referenced_textures": [
+        "LightArray_Arrow_N",
+        "LightArray_Arrow_D"
+      ],
+      "vector_parameters": {},
+      "scalar_parameters": {},
+      "umodel_mat_bindings": {
+        "Diffuse": "LightArray_Arrow_D",
+        "Normal": "LightArray_Arrow_N"
+      }
+    },
+    "LightConeSprite_Mat": {
+      "parent": null,
+      "two_sided": false,
+      "is_masked": false,
+      "is_translucent": true,
+      "texture_parameters": {},
+      "referenced_textures": [
+        "LightBeam01_D",
+        "Swirls02_D"
+      ],
+      "vector_parameters": {},
+      "scalar_parameters": {},
+      "umodel_mat_bindings": {
+        "Diffuse": "LightBeam01_D",
+        "Other[0]": "Swirls02_D"
+      }
+    },
+    "LongField_Grass_Base_MIC": {
+      "parent": "GroomedGrass_Base_FakeLight_V6_Mat",
+      "two_sided": false,
+      "is_masked": false,
+      "is_translucent": false,
+      "texture_parameters": {
+        "Diffuse": "FieldPattern_LongField",
+        "LightMap": "FloorLightMap"
+      },
+      "referenced_textures": [
+        "FieldPattern_LongField",
+        "FloorLightMap"
+      ],
+      "vector_parameters": {
+        "LightColor": [
+          0.789314,
+          0.715465,
+          0.722672,
+          1.0
+        ]
+      },
+      "scalar_parameters": {
+        "ENVAmount": 1.0,
+        "FieldSkinScale": 7.1e-05
+      },
+      "umodel_mat_bindings": {
+        "Diffuse": "FieldPattern_LongField",
+        "Normal": "RockyDirt_N",
+        "Other[0]": "FloorLightMap"
+      }
+    },
+    "LongField_Grass_LOD_MIC": {
+      "parent": "GroomedGrass_LOD_FakeLight_V6_Mat",
+      "two_sided": false,
+      "is_masked": false,
+      "is_translucent": false,
+      "texture_parameters": {
+        "Diffuse": "FieldPattern_LongField",
+        "LightMap": "FloorLightMap"
+      },
+      "referenced_textures": [
+        "FieldPattern_LongField",
+        "FloorLightMap"
+      ],
+      "vector_parameters": {
+        "LightColor": [
+          0.795551,
+          0.720237,
+          0.723078,
+          1.0
+        ]
+      },
+      "scalar_parameters": {
+        "DistHeightDistance": 0.001953,
+        "ENVAmount": 1.0,
+        "FieldSkinScale": 7.1e-05
+      },
+      "umodel_mat_bindings": {
+        "Diffuse": "FieldPattern_LongField",
+        "Normal": "RockyDirt_N",
+        "Other[0]": "FloorLightMap"
+      }
+    },
+    "MAT_Park_BannerFlag00": {
+      "parent": null,
+      "two_sided": true,
+      "is_masked": false,
+      "is_translucent": false,
+      "texture_parameters": {},
+      "referenced_textures": [
+        "Swirls02_N",
+        "Park_BannerFlag00_RGB"
+      ],
+      "vector_parameters": {},
+      "scalar_parameters": {},
+      "umodel_mat_bindings": {
+        "Normal": "Swirls02_N",
+        "Other[0]": "Park_BannerFlag00_RGB"
+      }
+    },
+    "MAT_Retro_Stadium_GoalTrim": {
+      "parent": null,
+      "two_sided": false,
+      "is_masked": false,
+      "is_translucent": false,
+      "texture_parameters": {},
+      "referenced_textures": [
+        "TILE_Labs_Trim00_N",
+        "BrushedMetal_N",
+        "TILE_Labs_Trim00_RGB",
+        "TILE_Labs_Trim00_RGB",
+        "TILE_Labs_Trim00_N",
+        "TILE_Labs_Trim00_RGB"
+      ],
+      "vector_parameters": {},
+      "scalar_parameters": {},
+      "umodel_mat_bindings": {
+        "Normal": "TILE_Labs_Trim00_N",
+        "Other[0]": "BrushedMetal_N",
+        "Other[1]": "TILE_Labs_Trim00_RGB"
+      }
+    },
+    "MAT_Retro_Stadium_GoalTrim_IVTK": {
+      "parent": null,
+      "two_sided": false,
+      "is_masked": false,
+      "is_translucent": true,
+      "texture_parameters": {},
+      "referenced_textures": [
+        "TILE_Labs_Trim00_N",
+        "BrushedMetal_N",
+        "TILE_Labs_Trim00_RGB",
+        "TILE_Labs_Trim00_RGB",
+        "TILE_Labs_Trim00_N",
+        "TILE_Labs_Trim00_RGB"
+      ],
+      "vector_parameters": {},
+      "scalar_parameters": {},
+      "umodel_mat_bindings": {
+        "Normal": "TILE_Labs_Trim00_N",
+        "Other[0]": "BrushedMetal_N",
+        "Other[1]": "TILE_Labs_Trim00_RGB"
+      }
+    },
+    "MIC_Park_BannerFlag00_Psy00": {
+      "parent": "MAT_Park_BannerFlag00",
+      "two_sided": false,
+      "is_masked": false,
+      "is_translucent": false,
+      "texture_parameters": {},
+      "referenced_textures": [],
+      "vector_parameters": {},
+      "scalar_parameters": {},
+      "umodel_mat_bindings": {
+        "Normal": "Swirls02_N",
+        "Other[0]": "Park_BannerFlag00_RGB"
+      }
+    },
+    "MetalTexture_Mat": {
+      "parent": null,
+      "two_sided": false,
+      "is_masked": false,
+      "is_translucent": false,
+      "texture_parameters": {},
+      "referenced_textures": [
+        "TEC_Trim_02_N",
+        "TEC_Trim_02_D",
+        "TEC_Trim_02_N",
+        "TEC_Trim_02_D"
+      ],
+      "vector_parameters": {},
+      "scalar_parameters": {},
+      "umodel_mat_bindings": {
+        "Diffuse": "TEC_Trim_02_D",
+        "Normal": "TEC_Trim_02_N"
+      }
+    },
+    "Mountain_Mat": {
+      "parent": null,
+      "two_sided": false,
+      "is_masked": false,
+      "is_translucent": false,
+      "texture_parameters": {},
+      "referenced_textures": [
+        "Mountain_B_Nornal",
+        "Mountain_B_Color",
+        "Mountain_B_Mask_Pack",
+        "Mountain_B_Color",
+        "Mountain_B_Nornal"
+      ],
+      "vector_parameters": {},
+      "scalar_parameters": {},
+      "umodel_mat_bindings": {
+        "Normal": "Mountain_B_Nornal",
+        "Other[0]": "Mountain_B_Color",
+        "Other[1]": "Mountain_B_Mask_Pack"
+      }
+    },
+    "OOB_CountryFlags_AllFlags_MIC": {
+      "parent": "OOB_CountryFlags_Mat",
+      "two_sided": false,
+      "is_masked": false,
+      "is_translucent": false,
+      "texture_parameters": {},
+      "referenced_textures": [],
+      "vector_parameters": {},
+      "scalar_parameters": {},
+      "umodel_mat_bindings": {
+        "Normal": "Banner_DungeonOfTheEndless00_N",
+        "Other[0]": "CountryFlagsCombined"
+      }
+    },
+    "OOB_CountryFlags_Mat": {
+      "parent": null,
+      "two_sided": true,
+      "is_masked": false,
+      "is_translucent": false,
+      "texture_parameters": {},
+      "referenced_textures": [
+        "Banner_DungeonOfTheEndless00_N",
+        "CountryFlagsCombined",
+        "Banner_DungeonOfTheEndless00_N"
+      ],
+      "vector_parameters": {},
+      "scalar_parameters": {},
+      "umodel_mat_bindings": {
+        "Normal": "Banner_DungeonOfTheEndless00_N",
+        "Other[0]": "CountryFlagsCombined"
+      }
+    },
+    "RedBricks_Mat": {
+      "parent": null,
+      "two_sided": false,
+      "is_masked": false,
+      "is_translucent": false,
+      "texture_parameters": {},
+      "referenced_textures": [
+        "Station_BrickRed00_N",
+        "Station_BrickRed00_D2",
+        "Station_BrickRed00_N",
+        "Station_BrickRed00_D2"
+      ],
+      "vector_parameters": {},
+      "scalar_parameters": {},
+      "umodel_mat_bindings": {
+        "Diffuse": "Station_BrickRed00_D2",
+        "Normal": "Station_BrickRed00_N"
+      }
+    },
+    "RiverStrip_Mat": {
+      "parent": null,
+      "two_sided": false,
+      "is_masked": false,
+      "is_translucent": false,
+      "texture_parameters": {},
+      "referenced_textures": [
+        "RiverStrip_N",
+        "GrassAndBush_N",
+        "Water_01_N",
+        "RiverStrip_Masks",
+        "RiverStrip_D",
+        "ENV_PartlyCloudy"
+      ],
+      "vector_parameters": {},
+      "scalar_parameters": {},
+      "umodel_mat_bindings": {
+        "Diffuse": "RiverStrip_D",
+        "Normal": "RiverStrip_N",
+        "Other[0]": "GrassAndBush_N",
+        "Other[1]": "Water_01_N",
+        "Other[2]": "RiverStrip_Masks",
+        "Other[3]": "OOBCube"
+      }
+    },
+    "SeatBase_Mat": {
+      "parent": null,
+      "two_sided": false,
+      "is_masked": false,
+      "is_translucent": false,
+      "texture_parameters": {},
+      "referenced_textures": [
+        "Step_N",
+        "Step_D"
+      ],
+      "vector_parameters": {},
+      "scalar_parameters": {},
+      "umodel_mat_bindings": {
+        "Diffuse": "Step_D",
+        "Normal": "Step_N"
+      }
+    },
+    "SimpleTree_Mat": {
+      "parent": null,
+      "two_sided": true,
+      "is_masked": true,
+      "is_translucent": false,
+      "texture_parameters": {},
+      "referenced_textures": [
+        "OOB_PoplarTree_T"
+      ],
+      "vector_parameters": {},
+      "scalar_parameters": {},
+      "umodel_mat_bindings": {
+        "Diffuse": "OOB_PoplarTree_T"
+      }
+    },
+    "SmokeTrail_Explosion_Mat": {
+      "parent": null,
+      "two_sided": false,
+      "is_masked": false,
+      "is_translucent": true,
+      "texture_parameters": {},
+      "referenced_textures": [
+        "Smoke_Plume_01_Pack"
+      ],
+      "vector_parameters": {},
+      "scalar_parameters": {},
+      "umodel_mat_bindings": {
+        "Other[0]": "Smoke_Plume_01_Pack"
+      }
+    },
+    "StadiumFogRing_Mat": {
+      "parent": null,
+      "two_sided": false,
+      "is_masked": false,
+      "is_translucent": true,
+      "texture_parameters": {},
+      "referenced_textures": [
+        "Curve_StadiumFog"
+      ],
+      "vector_parameters": {},
+      "scalar_parameters": {},
+      "umodel_mat_bindings": {
+        "Diffuse": "Curve_StadiumFog"
+      }
+    },
+    "StadiumLights_B_Mat": {
+      "parent": null,
+      "two_sided": false,
+      "is_masked": false,
+      "is_translucent": false,
+      "texture_parameters": {},
+      "referenced_textures": [
+        "StadiumLights_B_N",
+        "StadiumLights_B_Pack"
+      ],
+      "vector_parameters": {},
+      "scalar_parameters": {},
+      "umodel_mat_bindings": {
+        "Normal": "StadiumLights_B_N",
+        "Other[0]": "StadiumLights_B_Pack"
+      }
+    },
+    "Stairs_Mat": {
+      "parent": null,
+      "two_sided": false,
+      "is_masked": false,
+      "is_translucent": false,
+      "texture_parameters": {},
+      "referenced_textures": [
+        "Stairs_N",
+        "Stairs_Pack"
+      ],
+      "vector_parameters": {},
+      "scalar_parameters": {},
+      "umodel_mat_bindings": {
+        "Normal": "Stairs_N",
+        "Other[0]": "Stairs_Pack"
+      }
+    },
+    "Tifo_All_MIC": {
+      "parent": "Tifo_Mat",
+      "two_sided": false,
+      "is_masked": false,
+      "is_translucent": false,
+      "texture_parameters": {},
+      "referenced_textures": [],
+      "vector_parameters": {},
+      "scalar_parameters": {
+        "Unfold": 1.0
+      },
+      "umodel_mat_bindings": {
+        "Diffuse": "Logo_RocketLeague"
+      }
+    },
+    "Tifo_Mat": {
+      "parent": null,
+      "two_sided": true,
+      "is_masked": false,
+      "is_translucent": false,
+      "texture_parameters": {},
+      "referenced_textures": [
+        "Logo_RocketLeague"
+      ],
+      "vector_parameters": {},
+      "scalar_parameters": {},
+      "umodel_mat_bindings": {
+        "Diffuse": "Logo_RocketLeague"
+      }
+    },
+    "Window_Barred_Mat": {
+      "parent": null,
+      "two_sided": true,
+      "is_masked": false,
+      "is_translucent": true,
+      "texture_parameters": {},
+      "referenced_textures": [
+        "Window_Barred_N",
+        "Window_Barred_Pack",
+        "Window_Barred_N",
+        "Window_Barred_Pack"
+      ],
+      "vector_parameters": {},
+      "scalar_parameters": {},
+      "umodel_mat_bindings": {
+        "Normal": "Window_Barred_N",
+        "Other[0]": "Window_Barred_Pack"
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] = { Texture2D'Stadium_Textures.Curve_StadiumFog' }
+Expressions[32] =
+{
+    Expressions[2] = MaterialExpressionScalarParameter'LongField_Assets.Materials.StadiumFogRing_Mat.MaterialExpressionScalarParameter_0'
+    Expressions[3] = MaterialExpressionScalarParameter'LongField_Assets.Materials.StadiumFogRing_Mat.MaterialExpressionScalarParameter_1'
+    Expressions[5] = MaterialExpressionScalarParameter'LongField_Assets.Materials.StadiumFogRing_Mat.MaterialExpressionScalarParameter_2'
+    Expressions[7] = MaterialExpressionStaticSwitchParameter'LongField_Assets.Materials.StadiumFogRing_Mat.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[28] = MaterialExpressionStaticSwitchParameter'LongField_Assets.Materials.StadiumFogRing_Mat.MaterialExpressionStaticSwitchParameter_1'
+    Expressions[30] = MaterialExpressionStaticSwitchParameter'LongField_Assets.Materials.StadiumFogRing_Mat.MaterialExpressionStaticSwitchParameter_3'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[3] =
+{
+    CollectedScalarParameters[0] = { Value=0.25, Name=Add, Group=None }
+    CollectedScalarParameters[1] = { Value=0.0625, Name=Multiply, Group=None }
+    CollectedScalarParameters[2] = { Value=0.75, Name=Opacity, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

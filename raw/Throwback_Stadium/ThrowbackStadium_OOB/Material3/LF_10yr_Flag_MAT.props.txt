@@ -1,0 +1,37 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'LongField_Assets.Materials.Flag_10yr'
+}
+Expressions[39] =
+{
+    Expressions[2] = MaterialExpressionScalarParameter'LongField_Assets.Materials.LF_10yr_Flag_MAT.MaterialExpressionScalarParameter_0'
+    Expressions[36] = MaterialExpressionTextureSampleParameter2D'LongField_Assets.Materials.LF_10yr_Flag_MAT.MaterialExpressionTextureSampleParameter2D_1'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'LongField_Assets.Materials.Flag_10yr'
+        Name = Diffuse
+        Group = None
+    }
+}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=8, Name=WindInt, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

@@ -1,0 +1,112 @@
+{
+  "asset" : {
+    "generator" : "UE Viewer (umodel) build 1592",
+    "version" : "2.0"
+  },
+  "scene" : 0,
+  "scenes" : [
+    {
+      "nodes" : [ 0 ]
+    }
+  ],
+  "nodes" : [
+    {
+      "name" : "Grass_Goal_BackMidB",
+      "mesh" : 0
+    }
+  ],
+  "materials" : [
+    {
+      "name" : "dummy_material_0",
+      "pbrMetallicRoughness" : {
+        "baseColorFactor" : [ 0.3, 0.3, 0.3, 1.0 ],
+        "metallicFactor" : 0.1,
+        "roughnessFactor" : 0.5
+      }
+    }
+  ],
+  "meshes" : [
+    {
+      "primitives" : [
+        {
+          "attributes" : {
+            "POSITION" : 1,
+            "NORMAL" : 2,
+            "TANGENT" : 3,
+            "TEXCOORD_0" : 4
+          },
+          "indices" : 0,
+          "material" : 0
+        }
+      ],
+      "name" : "Grass_Goal_BackMidB"
+    }
+  ],
+  "buffers" : [
+    {
+      "uri" : "Grass_Goal_BackMidB.bin",
+      "byteLength" : 44676
+    }
+  ],
+  "bufferViews" : [
+    {
+      "buffer" : 0,
+      "byteOffset" : 0,
+      "byteLength" : 2628
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 2628,
+      "byteLength" : 10512
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 13140,
+      "byteLength" : 10512
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 23652,
+      "byteLength" : 14016
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 37668,
+      "byteLength" : 7008
+    }
+  ],
+  "accessors" : [
+    {
+      "bufferView" : 0,
+      "componentType" : 5123,
+      "count" : 1314,
+      "type" : "SCALAR"
+    },
+    {
+      "bufferView" : 1,
+      "min" : [ 5.12, -2.00272e-07, 6.42742 ],
+      "max" : [ 10.24, 0.0800001, 9.88001 ],
+      "componentType" : 5126,
+      "count" : 876,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 2,
+      "componentType" : 5126,
+      "count" : 876,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 3,
+      "componentType" : 5126,
+      "count" : 876,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 4,
+      "componentType" : 5126,
+      "count" : 876,
+      "type" : "VEC2"
+    }
+  ]
+}

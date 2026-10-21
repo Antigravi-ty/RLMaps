@@ -1,0 +1,965 @@
+{
+  "arena": "Throwback Stadium (SARPBC Retro LongField)",
+  "package": "ThrowbackStadium_P.upk",
+  "arena_bounds_uu": {
+    "x_min": -4096.0,
+    "x_max": 4096.0,
+    "y_min": -6912.0,
+    "y_max": 6912.0,
+    "z_min": 0.0,
+    "z_max": 2048.0
+  },
+  "goal_volumes": [
+    {
+      "name": "GoalVolume_TA_0",
+      "team_num": 0,
+      "location": {
+        "type": "Vector",
+        "x": 743.577,
+        "y": 5336.74,
+        "z": -144
+      },
+      "world_aabb_uu": {
+        "origin": [
+          -743.575,
+          -3.42746,
+          436
+        ],
+        "extent": [
+          960.002,
+          424.001,
+          356
+        ],
+        "radius": 1108.2
+      }
+    },
+    {
+      "name": "GoalVolume_TA_1",
+      "team_num": 0,
+      "location": {
+        "type": "Vector",
+        "x": -743.574,
+        "y": -5336.73,
+        "z": -144
+      },
+      "world_aabb_uu": {
+        "origin": [
+          743.574,
+          3.42776,
+          436
+        ],
+        "extent": [
+          960,
+          424,
+          356
+        ],
+        "radius": 1108.2
+      }
+    }
+  ],
+  "boost_pads_summary": {
+    "total": 46,
+    "big_pills": 8,
+    "small_pads": 38
+  },
+  "boost_pads": [
+    {
+      "name": "VehiclePickup_BoostPad",
+      "class": "VehiclePickup_Boost_TA",
+      "archetype": "None",
+      "is_big": false,
+      "location_uu": null,
+      "rotation": null
+    },
+    {
+      "name": "VehiclePickup_BoostPill",
+      "class": "VehiclePickup_Boost_TA",
+      "archetype": "None",
+      "is_big": false,
+      "location_uu": null,
+      "rotation": null
+    },
+    {
+      "name": "VehiclePickup_Boost_TA_0",
+      "class": "VehiclePickup_Boost_TA",
+      "archetype": "VehiclePickup_BoostPad",
+      "is_big": false,
+      "location_uu": {
+        "type": "Vector",
+        "x": 2048,
+        "y": -1036,
+        "z": 70
+      },
+      "rotation": null
+    },
+    {
+      "name": "VehiclePickup_Boost_TA_1",
+      "class": "VehiclePickup_Boost_TA",
+      "archetype": "VehiclePickup_BoostPill",
+      "is_big": true,
+      "location_uu": {
+        "type": "Vector",
+        "x": 3072,
+        "y": 4096,
+        "z": 72
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -30036,
+        "roll": 0
+      }
+    },
+    {
+      "name": "VehiclePickup_Boost_TA_10",
+      "class": "VehiclePickup_Boost_TA",
+      "archetype": "VehiclePickup_BoostPad",
+      "is_big": false,
+      "location_uu": {
+        "type": "Vector",
+        "x": -3584,
+        "y": -2484,
+        "z": 70
+      },
+      "rotation": null
+    },
+    {
+      "name": "VehiclePickup_Boost_TA_12",
+      "class": "VehiclePickup_Boost_TA",
+      "archetype": "VehiclePickup_BoostPad",
+      "is_big": false,
+      "location_uu": {
+        "type": "Vector",
+        "x": -1792,
+        "y": -4184,
+        "z": 70
+      },
+      "rotation": null
+    },
+    {
+      "name": "VehiclePickup_Boost_TA_13",
+      "class": "VehiclePickup_Boost_TA",
+      "archetype": "VehiclePickup_BoostPad",
+      "is_big": false,
+      "location_uu": {
+        "type": "Vector",
+        "x": 1792,
+        "y": -4184,
+        "z": 70
+      },
+      "rotation": null
+    },
+    {
+      "name": "VehiclePickup_Boost_TA_14",
+      "class": "VehiclePickup_Boost_TA",
+      "archetype": "VehiclePickup_BoostPad",
+      "is_big": false,
+      "location_uu": {
+        "type": "Vector",
+        "x": -940,
+        "y": -3308,
+        "z": 70
+      },
+      "rotation": null
+    },
+    {
+      "name": "VehiclePickup_Boost_TA_15",
+      "class": "VehiclePickup_Boost_TA",
+      "archetype": "VehiclePickup_BoostPad",
+      "is_big": false,
+      "location_uu": {
+        "type": "Vector",
+        "x": -2048,
+        "y": -1036,
+        "z": 70
+      },
+      "rotation": null
+    },
+    {
+      "name": "VehiclePickup_Boost_TA_17",
+      "class": "VehiclePickup_Boost_TA",
+      "archetype": "VehiclePickup_BoostPad",
+      "is_big": false,
+      "location_uu": {
+        "type": "Vector",
+        "x": 940,
+        "y": -3308,
+        "z": 70
+      },
+      "rotation": null
+    },
+    {
+      "name": "VehiclePickup_Boost_TA_19",
+      "class": "VehiclePickup_Boost_TA",
+      "archetype": "VehiclePickup_BoostPad",
+      "is_big": false,
+      "location_uu": {
+        "type": "Vector",
+        "x": 0,
+        "y": 1024,
+        "z": 70
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": 65536,
+        "roll": 0
+      }
+    },
+    {
+      "name": "VehiclePickup_Boost_TA_2",
+      "class": "VehiclePickup_Boost_TA",
+      "archetype": "VehiclePickup_BoostPill",
+      "is_big": true,
+      "location_uu": {
+        "type": "Vector",
+        "x": -3072,
+        "y": 4096,
+        "z": 72
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": 30040,
+        "roll": 0
+      }
+    },
+    {
+      "name": "VehiclePickup_Boost_TA_22",
+      "class": "VehiclePickup_Boost_TA",
+      "archetype": "VehiclePickup_BoostPad",
+      "is_big": false,
+      "location_uu": {
+        "type": "Vector",
+        "x": 1788,
+        "y": -2300,
+        "z": 70
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": 8192,
+        "roll": 0
+      }
+    },
+    {
+      "name": "VehiclePickup_Boost_TA_24",
+      "class": "VehiclePickup_Boost_TA",
+      "archetype": "VehiclePickup_BoostPad",
+      "is_big": false,
+      "location_uu": {
+        "type": "Vector",
+        "x": -1788,
+        "y": -2300,
+        "z": 70
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -8192,
+        "roll": 0
+      }
+    },
+    {
+      "name": "VehiclePickup_Boost_TA_29",
+      "class": "VehiclePickup_Boost_TA",
+      "archetype": "VehiclePickup_BoostPad",
+      "is_big": false,
+      "location_uu": {
+        "type": "Vector",
+        "x": 3584,
+        "y": -2484,
+        "z": 70
+      },
+      "rotation": null
+    },
+    {
+      "name": "VehiclePickup_Boost_TA_3",
+      "class": "VehiclePickup_Boost_TA",
+      "archetype": "VehiclePickup_BoostPill",
+      "is_big": true,
+      "location_uu": {
+        "type": "Vector",
+        "x": 3584,
+        "y": 0,
+        "z": 72
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "name": "VehiclePickup_Boost_TA_37",
+      "class": "VehiclePickup_Boost_TA",
+      "archetype": "VehiclePickup_BoostPad",
+      "is_big": false,
+      "location_uu": {
+        "type": "Vector",
+        "x": -2048,
+        "y": 1036,
+        "z": 70
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": 32768,
+        "roll": 0
+      }
+    },
+    {
+      "name": "VehiclePickup_Boost_TA_4",
+      "class": "VehiclePickup_Boost_TA",
+      "archetype": "VehiclePickup_BoostPill",
+      "is_big": true,
+      "location_uu": {
+        "type": "Vector",
+        "x": 0,
+        "y": 6512,
+        "z": 72
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -32768,
+        "roll": 0
+      }
+    },
+    {
+      "name": "VehiclePickup_Boost_TA_42",
+      "class": "VehiclePickup_Boost_TA",
+      "archetype": "VehiclePickup_BoostPad",
+      "is_big": false,
+      "location_uu": {
+        "type": "Vector",
+        "x": -1024,
+        "y": 0,
+        "z": 70
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": 81920,
+        "roll": 0
+      }
+    },
+    {
+      "name": "VehiclePickup_Boost_TA_43",
+      "class": "VehiclePickup_Boost_TA",
+      "archetype": "VehiclePickup_BoostPad",
+      "is_big": false,
+      "location_uu": {
+        "type": "Vector",
+        "x": 0,
+        "y": -4240,
+        "z": 70
+      },
+      "rotation": null
+    },
+    {
+      "name": "VehiclePickup_Boost_TA_44",
+      "class": "VehiclePickup_Boost_TA",
+      "archetype": "VehiclePickup_BoostPad",
+      "is_big": false,
+      "location_uu": {
+        "type": "Vector",
+        "x": 2048,
+        "y": 1036,
+        "z": 70
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": 32768,
+        "roll": 0
+      }
+    },
+    {
+      "name": "VehiclePickup_Boost_TA_45",
+      "class": "VehiclePickup_Boost_TA",
+      "archetype": "VehiclePickup_BoostPad",
+      "is_big": false,
+      "location_uu": {
+        "type": "Vector",
+        "x": 1788,
+        "y": 2300,
+        "z": 70
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": 24576,
+        "roll": 0
+      }
+    },
+    {
+      "name": "VehiclePickup_Boost_TA_46",
+      "class": "VehiclePickup_Boost_TA",
+      "archetype": "VehiclePickup_BoostPad",
+      "is_big": false,
+      "location_uu": {
+        "type": "Vector",
+        "x": 3584,
+        "y": 2484,
+        "z": 70
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": 32768,
+        "roll": 0
+      }
+    },
+    {
+      "name": "VehiclePickup_Boost_TA_47",
+      "class": "VehiclePickup_Boost_TA",
+      "archetype": "VehiclePickup_BoostPad",
+      "is_big": false,
+      "location_uu": {
+        "type": "Vector",
+        "x": 1792,
+        "y": 4184,
+        "z": 70
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": 32768,
+        "roll": 0
+      }
+    },
+    {
+      "name": "VehiclePickup_Boost_TA_48",
+      "class": "VehiclePickup_Boost_TA",
+      "archetype": "VehiclePickup_BoostPad",
+      "is_big": false,
+      "location_uu": {
+        "type": "Vector",
+        "x": -1792,
+        "y": 4184,
+        "z": 70
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": 32768,
+        "roll": 0
+      }
+    },
+    {
+      "name": "VehiclePickup_Boost_TA_49",
+      "class": "VehiclePickup_Boost_TA",
+      "archetype": "VehiclePickup_BoostPad",
+      "is_big": false,
+      "location_uu": {
+        "type": "Vector",
+        "x": 0,
+        "y": 2816,
+        "z": 70
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": 32768,
+        "roll": 0
+      }
+    },
+    {
+      "name": "VehiclePickup_Boost_TA_5",
+      "class": "VehiclePickup_Boost_TA",
+      "archetype": "VehiclePickup_BoostPad",
+      "is_big": false,
+      "location_uu": {
+        "type": "Vector",
+        "x": 0,
+        "y": -2816,
+        "z": 70
+      },
+      "rotation": null
+    },
+    {
+      "name": "VehiclePickup_Boost_TA_50",
+      "class": "VehiclePickup_Boost_TA",
+      "archetype": "VehiclePickup_BoostPad",
+      "is_big": false,
+      "location_uu": {
+        "type": "Vector",
+        "x": -940,
+        "y": 3308,
+        "z": 70
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": 32768,
+        "roll": 0
+      }
+    },
+    {
+      "name": "VehiclePickup_Boost_TA_51",
+      "class": "VehiclePickup_Boost_TA",
+      "archetype": "VehiclePickup_BoostPad",
+      "is_big": false,
+      "location_uu": {
+        "type": "Vector",
+        "x": -3584,
+        "y": 2484,
+        "z": 70
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": 32768,
+        "roll": 0
+      }
+    },
+    {
+      "name": "VehiclePickup_Boost_TA_52",
+      "class": "VehiclePickup_Boost_TA",
+      "archetype": "VehiclePickup_BoostPad",
+      "is_big": false,
+      "location_uu": {
+        "type": "Vector",
+        "x": 940,
+        "y": 3308,
+        "z": 70
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": 32768,
+        "roll": 0
+      }
+    },
+    {
+      "name": "VehiclePickup_Boost_TA_53",
+      "class": "VehiclePickup_Boost_TA",
+      "archetype": "VehiclePickup_BoostPad",
+      "is_big": false,
+      "location_uu": {
+        "type": "Vector",
+        "x": 0,
+        "y": 4240,
+        "z": 70
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": 32768,
+        "roll": 0
+      }
+    },
+    {
+      "name": "VehiclePickup_Boost_TA_54",
+      "class": "VehiclePickup_Boost_TA",
+      "archetype": "VehiclePickup_BoostPad",
+      "is_big": false,
+      "location_uu": {
+        "type": "Vector",
+        "x": 1024,
+        "y": 0,
+        "z": 70
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": 49152,
+        "roll": 0
+      }
+    },
+    {
+      "name": "VehiclePickup_Boost_TA_55",
+      "class": "VehiclePickup_Boost_TA",
+      "archetype": "VehiclePickup_BoostPad",
+      "is_big": false,
+      "location_uu": {
+        "type": "Vector",
+        "x": 0,
+        "y": -1024,
+        "z": 70
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": 32768,
+        "roll": 0
+      }
+    },
+    {
+      "name": "VehiclePickup_Boost_TA_57",
+      "class": "VehiclePickup_Boost_TA",
+      "archetype": "VehiclePickup_BoostPad",
+      "is_big": false,
+      "location_uu": {
+        "type": "Vector",
+        "x": -1788,
+        "y": 2300,
+        "z": 70
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": 40960,
+        "roll": 0
+      }
+    },
+    {
+      "name": "VehiclePickup_Boost_TA_6",
+      "class": "VehiclePickup_Boost_TA",
+      "archetype": "VehiclePickup_BoostPad",
+      "is_big": false,
+      "location_uu": {
+        "type": "Vector",
+        "x": -3072,
+        "y": 6016,
+        "z": 70
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": 30040,
+        "roll": 0
+      }
+    },
+    {
+      "name": "VehiclePickup_Boost_TA_63",
+      "class": "VehiclePickup_Boost_TA",
+      "archetype": "VehiclePickup_BoostPill",
+      "is_big": true,
+      "location_uu": {
+        "type": "Vector",
+        "x": -3584,
+        "y": 0,
+        "z": 72
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": 16384,
+        "roll": 0
+      }
+    },
+    {
+      "name": "VehiclePickup_Boost_TA_64",
+      "class": "VehiclePickup_Boost_TA",
+      "archetype": "VehiclePickup_BoostPill",
+      "is_big": true,
+      "location_uu": {
+        "type": "Vector",
+        "x": 0,
+        "y": -6512,
+        "z": 72
+      },
+      "rotation": null
+    },
+    {
+      "name": "VehiclePickup_Boost_TA_66",
+      "class": "VehiclePickup_Boost_TA",
+      "archetype": "VehiclePickup_BoostPill",
+      "is_big": true,
+      "location_uu": {
+        "type": "Vector",
+        "x": 3072,
+        "y": -4096,
+        "z": 72
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -2730,
+        "roll": 0
+      }
+    },
+    {
+      "name": "VehiclePickup_Boost_TA_67",
+      "class": "VehiclePickup_Boost_TA",
+      "archetype": "VehiclePickup_BoostPill",
+      "is_big": true,
+      "location_uu": {
+        "type": "Vector",
+        "x": -3072,
+        "y": -4096,
+        "z": 72
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": 2728,
+        "roll": 0
+      }
+    },
+    {
+      "name": "VehiclePickup_Boost_TA_78",
+      "class": "VehiclePickup_Boost_TA",
+      "archetype": "VehiclePickup_BoostPad",
+      "is_big": false,
+      "location_uu": {
+        "type": "Vector",
+        "x": -1792,
+        "y": 6104,
+        "z": 70
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": 32768,
+        "roll": 0
+      }
+    },
+    {
+      "name": "VehiclePickup_Boost_TA_79",
+      "class": "VehiclePickup_Boost_TA",
+      "archetype": "VehiclePickup_BoostPad",
+      "is_big": false,
+      "location_uu": {
+        "type": "Vector",
+        "x": 1792,
+        "y": 6104,
+        "z": 70
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": 32768,
+        "roll": 0
+      }
+    },
+    {
+      "name": "VehiclePickup_Boost_TA_8",
+      "class": "VehiclePickup_Boost_TA",
+      "archetype": "VehiclePickup_BoostPad",
+      "is_big": false,
+      "location_uu": {
+        "type": "Vector",
+        "x": 3072,
+        "y": 6016,
+        "z": 70
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -30040,
+        "roll": 0
+      }
+    },
+    {
+      "name": "VehiclePickup_Boost_TA_84",
+      "class": "VehiclePickup_Boost_TA",
+      "archetype": "VehiclePickup_BoostPad",
+      "is_big": false,
+      "location_uu": {
+        "type": "Vector",
+        "x": 3072,
+        "y": -6016,
+        "z": 70
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -2728,
+        "roll": 0
+      }
+    },
+    {
+      "name": "VehiclePickup_Boost_TA_86",
+      "class": "VehiclePickup_Boost_TA",
+      "archetype": "VehiclePickup_BoostPad",
+      "is_big": false,
+      "location_uu": {
+        "type": "Vector",
+        "x": -3072,
+        "y": -6016,
+        "z": 70
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": 2728,
+        "roll": 0
+      }
+    },
+    {
+      "name": "VehiclePickup_Boost_TA_90",
+      "class": "VehiclePickup_Boost_TA",
+      "archetype": "VehiclePickup_BoostPad",
+      "is_big": false,
+      "location_uu": {
+        "type": "Vector",
+        "x": -1792,
+        "y": -6104,
+        "z": 70
+      },
+      "rotation": null
+    },
+    {
+      "name": "VehiclePickup_Boost_TA_93",
+      "class": "VehiclePickup_Boost_TA",
+      "archetype": "VehiclePickup_BoostPad",
+      "is_big": false,
+      "location_uu": {
+        "type": "Vector",
+        "x": 1792,
+        "y": -6104,
+        "z": 70
+      },
+      "rotation": null
+    }
+  ],
+  "player_starts": [
+    {
+      "name": "PlayerStart_TA_0",
+      "class": "PlayerStart_TA",
+      "team_index": 0,
+      "location_uu": {
+        "type": "Vector",
+        "x": 2688,
+        "y": -4608,
+        "z": 82.9956
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": 81920,
+        "roll": 0
+      }
+    },
+    {
+      "name": "PlayerStart_TA_1",
+      "class": "PlayerStart_TA",
+      "team_index": 0,
+      "location_uu": {
+        "type": "Vector",
+        "x": -2048,
+        "y": -2560,
+        "z": 82.9956
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": 73728,
+        "roll": 0
+      }
+    },
+    {
+      "name": "PlayerStart_TA_10",
+      "class": "PlayerStart_TA",
+      "team_index": 0,
+      "location_uu": {
+        "type": "Vector",
+        "x": 2048,
+        "y": -2560,
+        "z": 82.9956
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": 90112,
+        "roll": 0
+      }
+    },
+    {
+      "name": "PlayerStart_TA_2",
+      "class": "PlayerStart_TA",
+      "team_index": 0,
+      "location_uu": {
+        "type": "Vector",
+        "x": -256,
+        "y": -3840,
+        "z": 82.9956
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": 81920,
+        "roll": 0
+      }
+    },
+    {
+      "name": "PlayerStart_TA_3",
+      "class": "PlayerStart_TA",
+      "team_index": 0,
+      "location_uu": {
+        "type": "Vector",
+        "x": -2688,
+        "y": -4608,
+        "z": 82.9956
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": 81920,
+        "roll": 0
+      }
+    },
+    {
+      "name": "PlayerStart_TA_4",
+      "class": "PlayerStart_TA",
+      "team_index": 0,
+      "location_uu": {
+        "type": "Vector",
+        "x": -2304,
+        "y": -4608,
+        "z": 82.9956
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": 81920,
+        "roll": 0
+      }
+    },
+    {
+      "name": "PlayerStart_TA_5",
+      "class": "PlayerStart_TA",
+      "team_index": 0,
+      "location_uu": {
+        "type": "Vector",
+        "x": 2304,
+        "y": -4608.02,
+        "z": 82.9956
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": 81920,
+        "roll": 0
+      }
+    },
+    {
+      "name": "PlayerStart_TA_8",
+      "class": "PlayerStart_TA",
+      "team_index": 0,
+      "location_uu": {
+        "type": "Vector",
+        "x": 0,
+        "y": -4608,
+        "z": 82.9956
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": 81920,
+        "roll": 0
+      }
+    },
+    {
+      "name": "PlayerStart_TA_9",
+      "class": "PlayerStart_TA",
+      "team_index": 0,
+      "location_uu": {
+        "type": "Vector",
+        "x": 256,
+        "y": -3840,
+        "z": 82.9956
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": 81920,
+        "roll": 0
+      }
+    }
+  ]
+}

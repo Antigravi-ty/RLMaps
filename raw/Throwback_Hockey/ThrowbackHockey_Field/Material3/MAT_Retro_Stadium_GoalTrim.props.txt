@@ -1,0 +1,49 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'Labs_Assets.Textures.TILE_Labs_Trim00_N'
+    ReferencedTextures[1] = Texture2D'Detail_BrushesMetal.BrushedMetal_N'
+    ReferencedTextures[2] = Texture2D'Labs_Assets.Textures.TILE_Labs_Trim00_RGB'
+}
+Expressions[39] =
+{
+    Expressions[1] = MaterialExpressionTextureSampleParameter2D'LongField_Assets.Materials.MAT_Retro_Stadium_GoalTrim.MaterialExpressionTextureSampleParameter2D_5'
+    Expressions[3] = MaterialExpressionTextureSampleParameter2D'LongField_Assets.Materials.MAT_Retro_Stadium_GoalTrim.MaterialExpressionTextureSampleParameter2D_6'
+    Expressions[34] = MaterialExpressionTextureSampleParameter2D'LongField_Assets.Materials.MAT_Retro_Stadium_GoalTrim.MaterialExpressionTextureSampleParameter2D_3'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Labs_Assets.Textures.TILE_Labs_Trim00_RGB'
+        Name = RGB_Pack
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Labs_Assets.Textures.TILE_Labs_Trim00_N'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'Labs_Assets.Textures.TILE_Labs_Trim00_RGB'
+        Name = RGB_Pack
+        Group = None
+    }
+}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
