@@ -1,0 +1,49 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = true
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'CHN_Stadium_Textures.OOB_House_RailingLanterns_N'
+    ReferencedTextures[1] = Texture2D'CHN_Stadium_Textures.OOB_House_RailingLanterns_D'
+}
+Expressions[18] =
+{
+    Expressions[5] = MaterialExpressionScalarParameter'CHN_Stadium_Assets.Materials.OOB_House_Railings_MAT.MaterialExpressionScalarParameter_2'
+    Expressions[10] = MaterialExpressionScalarParameter'CHN_Stadium_Assets.Materials.OOB_House_Railings_MAT.MaterialExpressionScalarParameter_14'
+    Expressions[13] = MaterialExpressionScalarParameter'CHN_Stadium_Assets.Materials.OOB_House_Railings_MAT.MaterialExpressionScalarParameter_15'
+    Expressions[14] = MaterialExpressionVectorParameter'CHN_Stadium_Assets.Materials.OOB_House_Railings_MAT.MaterialExpressionVectorParameter_1'
+    Expressions[17] = MaterialExpressionScalarParameter'CHN_Stadium_Assets.Materials.OOB_House_Railings_MAT.MaterialExpressionScalarParameter_0'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[4] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Fresnel Intensity, Group=None }
+    CollectedScalarParameters[1] = { Value=0.25, Name=Specular, Group=None }
+    CollectedScalarParameters[2] = { Value=32, Name=Specular Power, Group=None }
+    CollectedScalarParameters[3] =
+    {
+        Value = 3
+        Name = Lantern emissive brightness
+        Group = None
+    }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=0.200955, B=0.0227824, A=1 }
+        Name = None
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

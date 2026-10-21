@@ -1,0 +1,121 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[5] =
+{
+    ReferencedTextures[0] = Texture2D'Farm_Textures.Textures.Mud_N'
+    ReferencedTextures[1] = Texture2D'CHN_Stadium_FieldTextures.Field_QuarterPipe_Trim_N'
+    ReferencedTextures[2] = Texture2D'CHN_Stadium_FieldTextures.Field_QuarterPipe_Trim_RGB'
+}
+Expressions[101] =
+{
+    Expressions[5] = MaterialExpressionVectorParameter'CHN_Stadium_Assets.Materials.MAT_CHN_Stadium_Blend.MaterialExpressionVectorParameter_3'
+    Expressions[6] = MaterialExpressionTextureSampleParameter2D'CHN_Stadium_Assets.Materials.MAT_CHN_Stadium_Blend.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[9] = MaterialExpressionVectorParameter'CHN_Stadium_Assets.Materials.MAT_CHN_Stadium_Blend.MaterialExpressionVectorParameter_5'
+    Expressions[10] = MaterialExpressionStaticSwitchParameter'CHN_Stadium_Assets.Materials.MAT_CHN_Stadium_Blend.MaterialExpressionStaticSwitchParameter_1'
+    Expressions[18] = MaterialExpressionTextureSampleParameter2D'CHN_Stadium_Assets.Materials.MAT_CHN_Stadium_Blend.MaterialExpressionTextureSampleParameter2D_3'
+    Expressions[22] = MaterialExpressionTextureSampleParameter2D'CHN_Stadium_Assets.Materials.MAT_CHN_Stadium_Blend.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[23] = MaterialExpressionTextureSampleParameter2D'CHN_Stadium_Assets.Materials.MAT_CHN_Stadium_Blend.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[27] = MaterialExpressionStaticSwitchParameter'CHN_Stadium_Assets.Materials.MAT_CHN_Stadium_Blend.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[28] = MaterialExpressionVectorParameter'CHN_Stadium_Assets.Materials.MAT_CHN_Stadium_Blend.MaterialExpressionVectorParameter_0'
+    Expressions[33] = MaterialExpressionScalarParameter'CHN_Stadium_Assets.Materials.MAT_CHN_Stadium_Blend.MaterialExpressionScalarParameter_2'
+    Expressions[49] = MaterialExpressionScalarParameter'CHN_Stadium_Assets.Materials.MAT_CHN_Stadium_Blend.MaterialExpressionScalarParameter_3'
+    Expressions[59] = MaterialExpressionStaticSwitchParameter'CHN_Stadium_Assets.Materials.MAT_CHN_Stadium_Blend.MaterialExpressionStaticSwitchParameter_6'
+    Expressions[64] = MaterialExpressionStaticSwitchParameter'CHN_Stadium_Assets.Materials.MAT_CHN_Stadium_Blend.MaterialExpressionStaticSwitchParameter_4'
+    Expressions[65] = MaterialExpressionVectorParameter'CHN_Stadium_Assets.Materials.MAT_CHN_Stadium_Blend.MaterialExpressionVectorParameter_2'
+    Expressions[72] = MaterialExpressionScalarParameter'CHN_Stadium_Assets.Materials.MAT_CHN_Stadium_Blend.MaterialExpressionScalarParameter_0'
+    Expressions[73] = MaterialExpressionVectorParameter'CHN_Stadium_Assets.Materials.MAT_CHN_Stadium_Blend.MaterialExpressionVectorParameter_1'
+    Expressions[80] = MaterialExpressionScalarParameter'CHN_Stadium_Assets.Materials.MAT_CHN_Stadium_Blend.MaterialExpressionScalarParameter_4'
+    Expressions[83] = MaterialExpressionScalarParameter'CHN_Stadium_Assets.Materials.MAT_CHN_Stadium_Blend.MaterialExpressionScalarParameter_5'
+    Expressions[84] = MaterialExpressionScalarParameter'CHN_Stadium_Assets.Materials.MAT_CHN_Stadium_Blend.MaterialExpressionScalarParameter_1'
+    Expressions[89] = MaterialExpressionStaticSwitchParameter'CHN_Stadium_Assets.Materials.MAT_CHN_Stadium_Blend.MaterialExpressionStaticSwitchParameter_5'
+    Expressions[93] = MaterialExpressionScalarParameter'CHN_Stadium_Assets.Materials.MAT_CHN_Stadium_Blend.MaterialExpressionScalarParameter_6'
+    Expressions[95] = MaterialExpressionScalarParameter'CHN_Stadium_Assets.Materials.MAT_CHN_Stadium_Blend.MaterialExpressionScalarParameter_7'
+    Expressions[96] = MaterialExpressionStaticSwitchParameter'CHN_Stadium_Assets.Materials.MAT_CHN_Stadium_Blend.MaterialExpressionStaticSwitchParameter_2'
+    Expressions[97] = MaterialExpressionScalarParameter'CHN_Stadium_Assets.Materials.MAT_CHN_Stadium_Blend.MaterialExpressionScalarParameter_8'
+    Expressions[98] = MaterialExpressionScalarParameter'CHN_Stadium_Assets.Materials.MAT_CHN_Stadium_Blend.MaterialExpressionScalarParameter_9'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] = { Texture=None, Name=Normal_Detail, Group=None }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'CHN_Stadium_FieldTextures.Field_QuarterPipe_Trim_RGB'
+        Name = Mask
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'CHN_Stadium_FieldTextures.Field_QuarterPipe_Trim_N'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'CHN_Stadium_FieldTextures.Field_QuarterPipe_Trim_N'
+        Name = Normal
+        Group = None
+    }
+}
+CollectedScalarParameters[10] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=ColorLerpDist, Group=None }
+    CollectedScalarParameters[1] = { Value=10, Name=R_Hardness, Group=None }
+    CollectedScalarParameters[2] =
+    {
+        Value = 0
+        Name = Diffuse_DetailIntensity
+        Group = None
+    }
+    CollectedScalarParameters[3] = { Value=1, Name=ENVBrightness, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=Cubemap desaturation, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=Cubemap ColorAmount, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=Team color saturation, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=Tiling, Group=None }
+    CollectedScalarParameters[8] = { Value=0.2, Name=Specular, Group=None }
+    CollectedScalarParameters[9] = { Value=64, Name=Specular Power, Group=None }
+}
+CollectedVectorParameters[5] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.25, G=0.25, B=0, A=1 }
+        Name = Normal_DetailIntensity
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = DetailTransform
+        Group = Detail
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = EmissiveBrightness
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0.817649, G=0.245784, B=0, A=1 }
+        Name = Goldlief
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = DiffuseColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

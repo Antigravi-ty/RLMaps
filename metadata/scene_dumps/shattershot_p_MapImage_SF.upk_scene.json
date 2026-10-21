@@ -1,0 +1,33 @@
+{
+  "package": "shattershot_p_MapImage_SF.upk",
+  "exports": [
+    {
+      "index": 0,
+      "name": "StandaloneSeekFreeReferencer",
+      "class": "ObjectReferencer",
+      "outer": "None",
+      "outer_index": 0,
+      "properties": {
+        "ReferencedObjects": {"type": "ArrayObject", "elements": [{"index": 4, "name": "MapImage"}]}
+      }
+    },
+    {
+      "index": 1,
+      "name": "shattershot_p_MapImage",
+      "class": "Package",
+      "outer": "None",
+      "outer_index": 0,
+      "properties": {
+      }
+    },
+    {
+      "index": 2,
+      "name": "shattershot_p_MapImage_SF",
+      "class": "Package",
+      "outer": "None",
+      "outer_index": 0,
+      "properties": {
+      }
+    }
+  ]
+}

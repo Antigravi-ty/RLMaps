@@ -1,0 +1,110 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = true
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'CHN_Stadium_FieldTextures.Field_QuarterPipe_Trim_N'
+    ReferencedTextures[1] = Texture2D'CHN_Stadium_FieldTextures.Field_QuarterPipe_Trim_RGB'
+}
+Expressions[82] =
+{
+    Expressions[15] = MaterialExpressionScalarParameter'CHN_Stadium_Assets.Materials.MAT_CHN_Stadium_Master_Masked.MaterialExpressionScalarParameter_4'
+    Expressions[20] = MaterialExpressionScalarParameter'CHN_Stadium_Assets.Materials.MAT_CHN_Stadium_Master_Masked.MaterialExpressionScalarParameter_5'
+    Expressions[22] = MaterialExpressionVectorParameter'CHN_Stadium_Assets.Materials.MAT_CHN_Stadium_Master_Masked.MaterialExpressionVectorParameter_6'
+    Expressions[24] = MaterialExpressionScalarParameter'CHN_Stadium_Assets.Materials.MAT_CHN_Stadium_Master_Masked.MaterialExpressionScalarParameter_6'
+    Expressions[27] = MaterialExpressionStaticSwitchParameter'CHN_Stadium_Assets.Materials.MAT_CHN_Stadium_Master_Masked.MaterialExpressionStaticSwitchParameter_7'
+    Expressions[30] = MaterialExpressionScalarParameter'CHN_Stadium_Assets.Materials.MAT_CHN_Stadium_Master_Masked.MaterialExpressionScalarParameter_7'
+    Expressions[31] = MaterialExpressionStaticSwitchParameter'CHN_Stadium_Assets.Materials.MAT_CHN_Stadium_Master_Masked.MaterialExpressionStaticSwitchParameter_8'
+    Expressions[37] = MaterialExpressionStaticSwitchParameter'CHN_Stadium_Assets.Materials.MAT_CHN_Stadium_Master_Masked.MaterialExpressionStaticSwitchParameter_9'
+    Expressions[39] = MaterialExpressionTextureSampleParameter2D'CHN_Stadium_Assets.Materials.MAT_CHN_Stadium_Master_Masked.MaterialExpressionTextureSampleParameter2D_4'
+    Expressions[46] = MaterialExpressionStaticSwitchParameter'CHN_Stadium_Assets.Materials.MAT_CHN_Stadium_Master_Masked.MaterialExpressionStaticSwitchParameter_10'
+    Expressions[49] = MaterialExpressionVectorParameter'CHN_Stadium_Assets.Materials.MAT_CHN_Stadium_Master_Masked.MaterialExpressionVectorParameter_7'
+    Expressions[51] = MaterialExpressionTextureSampleParameter2D'CHN_Stadium_Assets.Materials.MAT_CHN_Stadium_Master_Masked.MaterialExpressionTextureSampleParameter2D_5'
+    Expressions[53] = MaterialExpressionTextureSampleParameter2D'CHN_Stadium_Assets.Materials.MAT_CHN_Stadium_Master_Masked.MaterialExpressionTextureSampleParameter2D_6'
+    Expressions[54] = MaterialExpressionVectorParameter'CHN_Stadium_Assets.Materials.MAT_CHN_Stadium_Master_Masked.MaterialExpressionVectorParameter_8'
+    Expressions[58] = MaterialExpressionStaticSwitchParameter'CHN_Stadium_Assets.Materials.MAT_CHN_Stadium_Master_Masked.MaterialExpressionStaticSwitchParameter_11'
+    Expressions[62] = MaterialExpressionTextureSampleParameter2D'CHN_Stadium_Assets.Materials.MAT_CHN_Stadium_Master_Masked.MaterialExpressionTextureSampleParameter2D_7'
+    Expressions[64] = MaterialExpressionStaticSwitchParameter'CHN_Stadium_Assets.Materials.MAT_CHN_Stadium_Master_Masked.MaterialExpressionStaticSwitchParameter_12'
+    Expressions[73] = MaterialExpressionVectorParameter'CHN_Stadium_Assets.Materials.MAT_CHN_Stadium_Master_Masked.MaterialExpressionVectorParameter_9'
+    Expressions[75] = MaterialExpressionVectorParameter'CHN_Stadium_Assets.Materials.MAT_CHN_Stadium_Master_Masked.MaterialExpressionVectorParameter_10'
+    Expressions[76] = MaterialExpressionScalarParameter'CHN_Stadium_Assets.Materials.MAT_CHN_Stadium_Master_Masked.MaterialExpressionScalarParameter_0'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'CHN_Stadium_FieldTextures.Field_QuarterPipe_Trim_RGB'
+        Name = Mask
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'CHN_Stadium_FieldTextures.Field_QuarterPipe_Trim_N'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'CHN_Stadium_FieldTextures.Field_QuarterPipe_Trim_N'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[3] = { Texture=None, Name=Normal_Detail, Group=None }
+}
+CollectedScalarParameters[5] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=ColorLerpDist, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=ColorAmount, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=ENVBrightness, Group=None }
+    CollectedScalarParameters[3] =
+    {
+        Value = 0
+        Name = Diffuse_DetailIntensity
+        Group = None
+    }
+    CollectedScalarParameters[4] = { Value=0, Name=TC desaturate, Group=None }
+}
+CollectedVectorParameters[5] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.817649, G=0.245784, B=0, A=1 }
+        Name = Goldlief
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = DiffuseColor
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = EmissiveBrightness
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0.25, G=0.25, B=0, A=1 }
+        Name = Normal_DetailIntensity
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = DetailTransform
+        Group = Detail
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

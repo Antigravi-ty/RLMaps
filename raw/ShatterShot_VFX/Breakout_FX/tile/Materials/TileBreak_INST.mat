@@ -1,0 +1,5 @@
+Diffuse=BO_HexTiles_N
+Normal=BO_HexTiles_N
+Emissive=BO_HexTiles_E
+Other[0]=Detail_N
+Other[1]=BO_HexTiles_RGB

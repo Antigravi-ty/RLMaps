@@ -1,0 +1,1127 @@
+{
+  "package": "ShatterShot_OOB_Exploration.upk",
+  "exports": [
+    {
+      "index": 0,
+      "name": "PersistentLevel",
+      "class": "Level",
+      "outer": "TheWorld",
+      "outer_index": 77,
+      "properties": {
+      }
+    },
+    {
+      "index": 1,
+      "name": "BreakOut_Buildings_MAT",
+      "class": "Material",
+      "outer": "Materials",
+      "outer_index": 38,
+      "properties": {
+        "Normal": {"type": "VectorMaterialInput", "raw_size": 36},
+        "EmissiveColor": {"type": "ColorMaterialInput", "raw_size": 36},
+        "OpacityMask": {"type": "ScalarMaterialInput", "raw_size": 36},
+        "LightingModel": "MLM_Unlit",
+        "WorldPositionOffset": {"type": "VectorMaterialInput", "raw_size": 36},
+        "bUsedWithStaticLighting": true,
+        "bAllowLightmapSpecular": false,
+        "Expressions": {"type": "ArrayObject", "elements": [{"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 7, "name": "MaterialExpressionScalarParameter_0"}, {"index": 0, "name": "None"}, {"index": 18, "name": "MaterialExpressionStaticSwitchParameter_0"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 13, "name": "MaterialExpressionScalarParameter_9"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 9, "name": "MaterialExpressionScalarParameter_2"}, {"index": 0, "name": "None"}, {"index": 19, "name": "MaterialExpressionStaticSwitchParameter_2"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 12, "name": "MaterialExpressionScalarParameter_5"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 8, "name": "MaterialExpressionScalarParameter_1"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 10, "name": "MaterialExpressionScalarParameter_3"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 11, "name": "MaterialExpressionScalarParameter_4"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}]},
+        "MaterialFunctionInfos": {"type": "Array", "count": 1, "raw_size": 88},
+        "bHasQualitySwitch": true,
+        "bHasHandheldQualityConnection": true
+      }
+    },
+    {
+      "index": 2,
+      "name": "FieldPipe_MAT",
+      "class": "Material",
+      "outer": "Materials",
+      "outer_index": 38,
+      "properties": {
+        "DiffuseColor": {"type": "ColorMaterialInput", "raw_size": 36},
+        "Normal": {"type": "VectorMaterialInput", "raw_size": 148},
+        "EmissiveColor": {"type": "ColorMaterialInput", "raw_size": 36},
+        "LightingModel": "MLM_Unlit",
+        "bUsedWithStaticLighting": true,
+        "Expressions": {"type": "ArrayObject", "elements": [{"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}]},
+        "MaterialFunctionInfos": {"type": "Array", "count": 1, "raw_size": 88}
+      }
+    },
+    {
+      "index": 3,
+      "name": "MAT_Breakout_Walls_Generic",
+      "class": "Material",
+      "outer": "Materials",
+      "outer_index": 38,
+      "properties": {
+        "PhysMaterial": {"index": -26, "name": "Metal"},
+        "DiffuseColor": {"type": "ColorMaterialInput", "raw_size": 36},
+        "SpecularColor": {"type": "ColorMaterialInput", "raw_size": 36},
+        "SpecularPower": {"type": "ScalarMaterialInput", "raw_size": 36},
+        "Normal": {"type": "VectorMaterialInput", "raw_size": 36},
+        "EmissiveColor": {"type": "ColorMaterialInput", "raw_size": 36},
+        "bUsedWithStaticLighting": true,
+        "bAllowLightmapSpecular": false,
+        "Expressions": {"type": "ArrayObject", "elements": [{"index": 21, "name": "MaterialExpressionTextureSampleParameter2D_2"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 24, "name": "MaterialExpressionVectorParameter_1"}, {"index": 20, "name": "MaterialExpressionTextureSampleParameter2D_0"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 14, "name": "MaterialExpressionScalarParameter_3"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}]},
+        "MaterialFunctionInfos": {"type": "Array", "count": 1, "raw_size": 88},
+        "bHasQualitySwitch": true,
+        "bHasHandheldQualityConnection": true
+      }
+    },
+    {
+      "index": 4,
+      "name": "MAT_Breakout_Walls_test_02",
+      "class": "Material",
+      "outer": "Materials",
+      "outer_index": 38,
+      "properties": {
+        "PhysMaterial": {"index": -26, "name": "Metal"},
+        "DiffuseColor": {"type": "ColorMaterialInput", "raw_size": 36},
+        "SpecularColor": {"type": "ColorMaterialInput", "raw_size": 36},
+        "SpecularPower": {"type": "ScalarMaterialInput", "raw_size": 36},
+        "Normal": {"type": "VectorMaterialInput", "raw_size": 36},
+        "EmissiveColor": {"type": "ColorMaterialInput", "raw_size": 36},
+        "bUsedWithStaticLighting": true,
+        "bAllowLightmapSpecular": false,
+        "Expressions": {"type": "ArrayObject", "elements": [{"index": 23, "name": "MaterialExpressionTextureSampleParameter2D_2"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 17, "name": "MaterialExpressionScalarParameter_2"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 22, "name": "MaterialExpressionTextureSampleParameter2D_0"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 16, "name": "MaterialExpressionScalarParameter_1"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 15, "name": "MaterialExpressionScalarParameter_0"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 25, "name": "MaterialExpressionVectorParameter_1"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}]},
+        "MaterialFunctionInfos": {"type": "Array", "count": 2, "raw_size": 172},
+        "bHasQualitySwitch": true,
+        "bHasHandheldQualityConnection": true
+      }
+    },
+    {
+      "index": 6,
+      "name": "MaterialExpressionScalarParameter_0",
+      "class": "MaterialExpressionScalarParameter",
+      "outer": "BreakOut_Buildings_MAT",
+      "outer_index": 2,
+      "properties": {
+        "DefaultValue": 1,
+        "ParameterName": "tile",
+        "ExpressionGUID": {"type": "Guid", "raw_size": 16},
+        "Material": {"index": 2, "name": "BreakOut_Buildings_MAT"}
+      }
+    },
+    {
+      "index": 7,
+      "name": "MaterialExpressionScalarParameter_1",
+      "class": "MaterialExpressionScalarParameter",
+      "outer": "BreakOut_Buildings_MAT",
+      "outer_index": 2,
+      "properties": {
+        "DefaultValue": -0.5,
+        "ParameterName": "GradientSpeed",
+        "ExpressionGUID": {"type": "Guid", "raw_size": 16},
+        "Material": {"index": 2, "name": "BreakOut_Buildings_MAT"}
+      }
+    },
+    {
+      "index": 8,
+      "name": "MaterialExpressionScalarParameter_2",
+      "class": "MaterialExpressionScalarParameter",
+      "outer": "BreakOut_Buildings_MAT",
+      "outer_index": 2,
+      "properties": {
+        "DefaultValue": 1,
+        "ParameterName": "Digital_Tile",
+        "ExpressionGUID": {"type": "Guid", "raw_size": 16},
+        "Material": {"index": 2, "name": "BreakOut_Buildings_MAT"}
+      }
+    },
+    {
+      "index": 9,
+      "name": "MaterialExpressionScalarParameter_3",
+      "class": "MaterialExpressionScalarParameter",
+      "outer": "BreakOut_Buildings_MAT",
+      "outer_index": 2,
+      "properties": {
+        "DefaultValue": 1,
+        "ParameterName": "GradientTile",
+        "ExpressionGUID": {"type": "Guid", "raw_size": 16},
+        "Material": {"index": 2, "name": "BreakOut_Buildings_MAT"}
+      }
+    },
+    {
+      "index": 10,
+      "name": "MaterialExpressionScalarParameter_4",
+      "class": "MaterialExpressionScalarParameter",
+      "outer": "BreakOut_Buildings_MAT",
+      "outer_index": 2,
+      "properties": {
+        "DefaultValue": 1,
+        "ParameterName": "Panel_Tile",
+        "ExpressionGUID": {"type": "Guid", "raw_size": 16},
+        "Material": {"index": 2, "name": "BreakOut_Buildings_MAT"}
+      }
+    },
+    {
+      "index": 11,
+      "name": "MaterialExpressionScalarParameter_5",
+      "class": "MaterialExpressionScalarParameter",
+      "outer": "BreakOut_Buildings_MAT",
+      "outer_index": 2,
+      "properties": {
+        "DefaultValue": 8,
+        "ParameterName": "GradientPower",
+        "ExpressionGUID": {"type": "Guid", "raw_size": 16},
+        "Material": {"index": 2, "name": "BreakOut_Buildings_MAT"}
+      }
+    },
+    {
+      "index": 12,
+      "name": "MaterialExpressionScalarParameter_9",
+      "class": "MaterialExpressionScalarParameter",
+      "outer": "BreakOut_Buildings_MAT",
+      "outer_index": 2,
+      "properties": {
+        "DefaultValue": 16,
+        "ParameterName": "Brightness",
+        "ExpressionGUID": {"type": "Guid", "raw_size": 16},
+        "Material": {"index": 2, "name": "BreakOut_Buildings_MAT"}
+      }
+    },
+    {
+      "index": 13,
+      "name": "MaterialExpressionScalarParameter_3",
+      "class": "MaterialExpressionScalarParameter",
+      "outer": "MAT_Breakout_Walls_Generic",
+      "outer_index": 4,
+      "properties": {
+        "DefaultValue": 3,
+        "ParameterName": "tile",
+        "ExpressionGUID": {"type": "Guid", "raw_size": 16},
+        "Material": {"index": 4, "name": "MAT_Breakout_Walls_Generic"}
+      }
+    },
+    {
+      "index": 14,
+      "name": "MaterialExpressionScalarParameter_0",
+      "class": "MaterialExpressionScalarParameter",
+      "outer": "MAT_Breakout_Walls_test_02",
+      "outer_index": 5,
+      "properties": {
+        "DefaultValue": 0.02,
+        "ParameterName": "Refl_Brightness",
+        "ExpressionGUID": {"type": "Guid", "raw_size": 16},
+        "Material": {"index": 5, "name": "MAT_Breakout_Walls_test_02"}
+      }
+    },
+    {
+      "index": 15,
+      "name": "MaterialExpressionScalarParameter_1",
+      "class": "MaterialExpressionScalarParameter",
+      "outer": "MAT_Breakout_Walls_test_02",
+      "outer_index": 5,
+      "properties": {
+        "DefaultValue": 1,
+        "ParameterName": "Brightness",
+        "ExpressionGUID": {"type": "Guid", "raw_size": 16},
+        "Material": {"index": 5, "name": "MAT_Breakout_Walls_test_02"}
+      }
+    },
+    {
+      "index": 16,
+      "name": "MaterialExpressionScalarParameter_2",
+      "class": "MaterialExpressionScalarParameter",
+      "outer": "MAT_Breakout_Walls_test_02",
+      "outer_index": 5,
+      "properties": {
+        "DefaultValue": 16,
+        "ParameterName": "Emissive_Brightness",
+        "ExpressionGUID": {"type": "Guid", "raw_size": 16},
+        "Material": {"index": 5, "name": "MAT_Breakout_Walls_test_02"}
+      }
+    },
+    {
+      "index": 17,
+      "name": "MaterialExpressionStaticSwitchParameter_0",
+      "class": "MaterialExpressionStaticSwitchParameter",
+      "outer": "BreakOut_Buildings_MAT",
+      "outer_index": 2,
+      "properties": {
+        "A": {"type": "ExpressionInput", "raw_size": 36},
+        "B": {"type": "ExpressionInput", "raw_size": 36},
+        "DefaultValue": true,
+        "ParameterName": "GlowPanels",
+        "ExpressionGUID": {"type": "Guid", "raw_size": 16},
+        "Material": {"index": 2, "name": "BreakOut_Buildings_MAT"}
+      }
+    },
+    {
+      "index": 18,
+      "name": "MaterialExpressionStaticSwitchParameter_2",
+      "class": "MaterialExpressionStaticSwitchParameter",
+      "outer": "BreakOut_Buildings_MAT",
+      "outer_index": 2,
+      "properties": {
+        "A": {"type": "ExpressionInput", "raw_size": 36},
+        "B": {"type": "ExpressionInput", "raw_size": 36},
+        "ParameterName": "CircleGradient",
+        "ExpressionGUID": {"type": "Guid", "raw_size": 16},
+        "bRealtimePreview": true,
+        "Material": {"index": 2, "name": "BreakOut_Buildings_MAT"}
+      }
+    },
+    {
+      "index": 19,
+      "name": "MaterialExpressionTextureSampleParameter2D_0",
+      "class": "MaterialExpressionTextureSampleParameter2D",
+      "outer": "MAT_Breakout_Walls_Generic",
+      "outer_index": 4,
+      "properties": {
+        "ParameterName": "RGB_Pack",
+        "ExpressionGUID": {"type": "Guid", "raw_size": 16},
+        "Texture": {"index": 70, "name": "BO_OOB_Panel_D"},
+        "Coordinates": {"type": "ExpressionInput", "raw_size": 36},
+        "Material": {"index": 4, "name": "MAT_Breakout_Walls_Generic"}
+      }
+    },
+    {
+      "index": 20,
+      "name": "MaterialExpressionTextureSampleParameter2D_2",
+      "class": "MaterialExpressionTextureSampleParameter2D",
+      "outer": "MAT_Breakout_Walls_Generic",
+      "outer_index": 4,
+      "properties": {
+        "ParameterName": "Normal",
+        "ExpressionGUID": {"type": "Guid", "raw_size": 16},
+        "Texture": {"index": 71, "name": "BO_OOB_Panel_N"},
+        "Coordinates": {"type": "ExpressionInput", "raw_size": 36},
+        "Material": {"index": 4, "name": "MAT_Breakout_Walls_Generic"}
+      }
+    },
+    {
+      "index": 21,
+      "name": "MaterialExpressionTextureSampleParameter2D_0",
+      "class": "MaterialExpressionTextureSampleParameter2D",
+      "outer": "MAT_Breakout_Walls_test_02",
+      "outer_index": 5,
+      "properties": {
+        "ParameterName": "RGB_Pack",
+        "ExpressionGUID": {"type": "Guid", "raw_size": 16},
+        "Texture": {"index": 69, "name": "BO_Quarterpipe_RGB"},
+        "Coordinates": {"type": "ExpressionInput", "raw_size": 36},
+        "Material": {"index": 5, "name": "MAT_Breakout_Walls_test_02"}
+      }
+    },
+    {
+      "index": 22,
+      "name": "MaterialExpressionTextureSampleParameter2D_2",
+      "class": "MaterialExpressionTextureSampleParameter2D",
+      "outer": "MAT_Breakout_Walls_test_02",
+      "outer_index": 5,
+      "properties": {
+        "ParameterName": "Normal",
+        "ExpressionGUID": {"type": "Guid", "raw_size": 16},
+        "Texture": {"index": 68, "name": "BO_Quarterpipe_N"},
+        "Material": {"index": 5, "name": "MAT_Breakout_Walls_test_02"}
+      }
+    },
+    {
+      "index": 23,
+      "name": "MaterialExpressionVectorParameter_1",
+      "class": "MaterialExpressionVectorParameter",
+      "outer": "MAT_Breakout_Walls_Generic",
+      "outer_index": 4,
+      "properties": {
+        "DefaultValue": {"type": "LinearColor", "r": 5000, "g": 4300, "b": 5000, "a": 1},
+        "ParameterName": "CubeMapPosition",
+        "ExpressionGUID": {"type": "Guid", "raw_size": 16},
+        "Material": {"index": 4, "name": "MAT_Breakout_Walls_Generic"}
+      }
+    },
+    {
+      "index": 24,
+      "name": "MaterialExpressionVectorParameter_1",
+      "class": "MaterialExpressionVectorParameter",
+      "outer": "MAT_Breakout_Walls_test_02",
+      "outer_index": 5,
+      "properties": {
+        "DefaultValue": {"type": "LinearColor", "r": 5000, "g": 4300, "b": 5000, "a": 1},
+        "ParameterName": "CubeMapPosition",
+        "ExpressionGUID": {"type": "Guid", "raw_size": 16},
+        "Material": {"index": 5, "name": "MAT_Breakout_Walls_test_02"}
+      }
+    },
+    {
+      "index": 25,
+      "name": "ParallexCorrectWorldENV02",
+      "class": "MaterialFunction",
+      "outer": "Psy_MaterialFunctions",
+      "outer_index": 49,
+      "properties": {
+        "StateId": {"type": "Guid", "raw_size": 16},
+        "FunctionExpressions": {"type": "ArrayObject", "elements": [{"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}]}
+      }
+    },
+    {
+      "index": 26,
+      "name": "MIC_BreakOut_Cage",
+      "class": "MaterialInstanceConstant",
+      "outer": "Materials",
+      "outer_index": 33,
+      "properties": {
+        "ScalarParameterValues": {"type": "Array", "count": 3, "raw_size": 352},
+        "TextureParameterValues": {"type": "Array", "count": 2, "raw_size": 236},
+        "PhysMaterial": {"index": -26, "name": "Metal"},
+        "Parent": {"index": 5, "name": "MAT_Breakout_Walls_test_02"},
+        "bHasStaticPermutationResource": true,
+        "ParentLightingGuid": {"type": "Guid", "raw_size": 16},
+        "bHasQualitySwitch": true,
+        "bHasHandheldQualityConnection": true
+      }
+    },
+    {
+      "index": 27,
+      "name": "MIC_BreakOut_Trim_Walls",
+      "class": "MaterialInstanceConstant",
+      "outer": "Materials",
+      "outer_index": 33,
+      "properties": {
+        "ScalarParameterValues": {"type": "Array", "count": 3, "raw_size": 352},
+        "TextureParameterValues": {"type": "Array", "count": 2, "raw_size": 236},
+        "PhysMaterial": {"index": -26, "name": "Metal"},
+        "Parent": {"index": 5, "name": "MAT_Breakout_Walls_test_02"},
+        "bHasStaticPermutationResource": true,
+        "ParentLightingGuid": {"type": "Guid", "raw_size": 16},
+        "bHasQualitySwitch": true,
+        "bHasHandheldQualityConnection": true
+      }
+    },
+    {
+      "index": 28,
+      "name": "BreakOut_OOB_Floor",
+      "class": "MaterialInstanceConstant",
+      "outer": "Materials",
+      "outer_index": 38,
+      "properties": {
+        "ScalarParameterValues": {"type": "Array", "count": 4, "raw_size": 468},
+        "Parent": {"index": 2, "name": "BreakOut_Buildings_MAT"},
+        "bHasStaticPermutationResource": true,
+        "ParentLightingGuid": {"type": "Guid", "raw_size": 16},
+        "bHasQualitySwitch": true,
+        "bHasHandheldQualityConnection": true
+      }
+    },
+    {
+      "index": 29,
+      "name": "MAT_Breakout_Walls_Generic_INST",
+      "class": "MaterialInstanceConstant",
+      "outer": "Materials",
+      "outer_index": 38,
+      "properties": {
+        "ScalarParameterValues": {"type": "Array", "count": 1, "raw_size": 120},
+        "VectorParameterValues": {"type": "Array", "count": 1, "raw_size": 140},
+        "Parent": {"index": 4, "name": "MAT_Breakout_Walls_Generic"},
+        "ParentLightingGuid": {"type": "Guid", "raw_size": 16},
+        "bHasQualitySwitch": true,
+        "bHasHandheldQualityConnection": true
+      }
+    },
+    {
+      "index": 30,
+      "name": "Model_5",
+      "class": "Model",
+      "outer": "PersistentLevel",
+      "outer_index": 1,
+      "properties": {
+      }
+    },
+    {
+      "index": 31,
+      "name": "BreakOut_Assets",
+      "class": "Package",
+      "outer": "None",
+      "outer_index": 0,
+      "properties": {
+      }
+    },
+    {
+      "index": 32,
+      "name": "Materials",
+      "class": "Package",
+      "outer": "BreakOut_Assets",
+      "outer_index": 32,
+      "properties": {
+      }
+    },
+    {
+      "index": 33,
+      "name": "Meshes",
+      "class": "Package",
+      "outer": "BreakOut_Assets",
+      "outer_index": 32,
+      "properties": {
+      }
+    },
+    {
+      "index": 34,
+      "name": "Textures",
+      "class": "Package",
+      "outer": "BreakOut_Assets",
+      "outer_index": 32,
+      "properties": {
+      }
+    },
+    {
+      "index": 35,
+      "name": "Breakout_FX",
+      "class": "Package",
+      "outer": "None",
+      "outer_index": 0,
+      "properties": {
+      }
+    },
+    {
+      "index": 36,
+      "name": "OOB",
+      "class": "Package",
+      "outer": "Breakout_FX",
+      "outer_index": 36,
+      "properties": {
+      }
+    },
+    {
+      "index": 37,
+      "name": "Materials",
+      "class": "Package",
+      "outer": "OOB",
+      "outer_index": 37,
+      "properties": {
+      }
+    },
+    {
+      "index": 38,
+      "name": "Textures",
+      "class": "Package",
+      "outer": "OOB",
+      "outer_index": 37,
+      "properties": {
+      }
+    },
+    {
+      "index": 39,
+      "name": "tile",
+      "class": "Package",
+      "outer": "Breakout_FX",
+      "outer_index": 36,
+      "properties": {
+      }
+    },
+    {
+      "index": 40,
+      "name": "Textures",
+      "class": "Package",
+      "outer": "tile",
+      "outer_index": 40,
+      "properties": {
+      }
+    },
+    {
+      "index": 41,
+      "name": "Gradient_FX",
+      "class": "Package",
+      "outer": "None",
+      "outer_index": 0,
+      "properties": {
+      }
+    },
+    {
+      "index": 42,
+      "name": "Mat",
+      "class": "Package",
+      "outer": "Gradient_FX",
+      "outer_index": 42,
+      "properties": {
+      }
+    },
+    {
+      "index": 48,
+      "name": "Psy_MaterialFunctions",
+      "class": "Package",
+      "outer": "None",
+      "outer_index": 0,
+      "properties": {
+      }
+    },
+    {
+      "index": 49,
+      "name": "shattershot_oob_exploration",
+      "class": "Package",
+      "outer": "None",
+      "outer_index": 0,
+      "properties": {
+      }
+    },
+    {
+      "index": 51,
+      "name": "Main_Sequence",
+      "class": "Sequence",
+      "outer": "PersistentLevel",
+      "outer_index": 1,
+      "properties": {
+      }
+    },
+    {
+      "index": 52,
+      "name": "BO_Arena_Cage",
+      "class": "StaticMesh",
+      "outer": "Meshes",
+      "outer_index": 34,
+      "properties": {
+        "LightMapCoordinateIndex": 1
+      }
+    },
+    {
+      "index": 53,
+      "name": "BO_Arena_edgeglow",
+      "class": "StaticMesh",
+      "outer": "Meshes",
+      "outer_index": 34,
+      "properties": {
+        "LightMapCoordinateIndex": 1,
+        "LightMapResolution": 32
+      }
+    },
+    {
+      "index": 54,
+      "name": "BO_Arena_Quarterpipe_SM",
+      "class": "StaticMesh",
+      "outer": "Meshes",
+      "outer_index": 34,
+      "properties": {
+        "LightMapCoordinateIndex": 1,
+        "UseFullPrecisionUVs": true,
+        "UseSimpleLineCollision": false
+      }
+    },
+    {
+      "index": 55,
+      "name": "BO_Arena_SM",
+      "class": "StaticMesh",
+      "outer": "Meshes",
+      "outer_index": 34,
+      "properties": {
+        "LightMapCoordinateIndex": 1,
+        "LightMapResolution": 128,
+        "UseSimpleRigidBodyCollision": false,
+        "UseSimpleBoxCollision": false,
+        "UseSimpleLineCollision": false
+      }
+    },
+    {
+      "index": 56,
+      "name": "BO_Cage_caps",
+      "class": "StaticMesh",
+      "outer": "Meshes",
+      "outer_index": 34,
+      "properties": {
+        "LightMapCoordinateIndex": 1
+      }
+    },
+    {
+      "index": 57,
+      "name": "BO_OOB_floorplane",
+      "class": "StaticMesh",
+      "outer": "Meshes",
+      "outer_index": 34,
+      "properties": {
+        "LightMapCoordinateIndex": 1,
+        "LightMapResolution": 32
+      }
+    },
+    {
+      "index": 58,
+      "name": "MeshCollector0",
+      "class": "StaticMeshCollectionActor",
+      "outer": "PersistentLevel",
+      "outer_index": 1,
+      "properties": {
+        "StaticMeshComponents": {"type": "ArrayObject", "elements": [{"index": 60, "name": "StaticMeshActor_SMC_0"}, {"index": 61, "name": "StaticMeshActor_SMC_1"}, {"index": 64, "name": "StaticMeshActor_SMC_8"}, {"index": 62, "name": "StaticMeshActor_SMC_10"}]},
+        "bCollideActors": false,
+        "bBlockActors": false,
+        "Tag": "StaticMeshCollectionActor"
+      }
+    },
+    {
+      "index": 59,
+      "name": "StaticMeshActor_SMC_0",
+      "class": "StaticMeshComponent",
+      "outer": "MeshCollector0",
+      "outer_index": 59,
+      "properties": {
+        "StaticMesh": {"index": 57, "name": "BO_Cage_caps"},
+        "OverriddenLightMapRes": 0,
+        "VertexPositionVersionNumber": 2,
+        "Materials": {"type": "ArrayObject", "elements": [{"index": 27, "name": "MIC_BreakOut_Cage"}, {"index": 3, "name": "FieldPipe_MAT"}]},
+        "InvisiTekMaterials": {"type": "ArrayObject", "elements": [{"index": 104, "name": "MIC_BreakOut_Cage_IVTK"}, {"index": 87, "name": "FieldPipe_MAT_IVTK"}]},
+        "ReplacementPrimitive": {"index": 0, "name": "None"},
+        "PreviewEnvironmentShadowing": 147,
+        "bUseAsOccluder": true,
+        "CollideActors": false,
+        "VisibilityId": 21,
+        "LightingChannels": {"type": "LightingChannelContainer", "raw_size": 83},
+        "Translation": {"type": "Vector", "x": -4e-06, "y": 0, "z": -210},
+        "Rotation": {"type": "Rotator", "pitch": 0, "yaw": -32768, "roll": 0},
+        "Scale3D": {"type": "Vector", "x": 0.393, "y": 0.393, "z": 0.393}
+      }
+    },
+    {
+      "index": 60,
+      "name": "StaticMeshActor_SMC_1",
+      "class": "StaticMeshComponent",
+      "outer": "MeshCollector0",
+      "outer_index": 59,
+      "properties": {
+        "StaticMesh": {"index": 53, "name": "BO_Arena_Cage"},
+        "OverriddenLightMapRes": 0,
+        "VertexPositionVersionNumber": 2,
+        "Materials": {"type": "ArrayObject", "elements": [{"index": 27, "name": "MIC_BreakOut_Cage"}, {"index": 3, "name": "FieldPipe_MAT"}]},
+        "InvisiTekMaterials": {"type": "ArrayObject", "elements": [{"index": 104, "name": "MIC_BreakOut_Cage_IVTK"}, {"index": 87, "name": "FieldPipe_MAT_IVTK"}]},
+        "ReplacementPrimitive": {"index": 0, "name": "None"},
+        "PreviewEnvironmentShadowing": 140,
+        "bUseAsOccluder": true,
+        "bAcceptsDynamicDecals": true,
+        "CollideActors": false,
+        "TranslucencySortPriority": -1,
+        "VisibilityId": 24,
+        "LightingChannels": {"type": "LightingChannelContainer", "raw_size": 83},
+        "Translation": {"type": "Vector", "x": -4e-06, "y": 0, "z": -210},
+        "Rotation": {"type": "Rotator", "pitch": 0, "yaw": -32768, "roll": 0},
+        "Scale3D": {"type": "Vector", "x": 0.393, "y": 0.393, "z": 0.393}
+      }
+    },
+    {
+      "index": 61,
+      "name": "StaticMeshActor_SMC_10",
+      "class": "StaticMeshComponent",
+      "outer": "MeshCollector0",
+      "outer_index": 59,
+      "properties": {
+        "StaticMesh": {"index": 58, "name": "BO_OOB_floorplane"},
+        "OverriddenLightMapRes": 0,
+        "VertexPositionVersionNumber": 2,
+        "Materials": {"type": "ArrayObject", "elements": [{"index": 29, "name": "BreakOut_OOB_Floor"}]},
+        "ReplacementPrimitive": {"index": 0, "name": "None"},
+        "PreviewEnvironmentShadowing": 139,
+        "bUseAsOccluder": true,
+        "CastShadow": false,
+        "bCastDynamicShadow": false,
+        "bCastStaticShadow": false,
+        "bAcceptsLights": false,
+        "bAcceptsDynamicLights": false,
+        "CollideActors": false,
+        "TranslucencySortPriority": -10,
+        "LightingChannels": {"type": "LightingChannelContainer", "raw_size": 83},
+        "Translation": {"type": "Vector", "x": 0.00536709, "y": 5.53131e-05, "z": -208},
+        "Rotation": {"type": "Rotator", "pitch": 0, "yaw": -32768, "roll": 0},
+        "Scale3D": {"type": "Vector", "x": 0.393, "y": 0.393, "z": 0.393}
+      }
+    },
+    {
+      "index": 63,
+      "name": "StaticMeshActor_SMC_8",
+      "class": "StaticMeshComponent",
+      "outer": "MeshCollector0",
+      "outer_index": 59,
+      "properties": {
+        "StaticMesh": {"index": 56, "name": "BO_Arena_SM"},
+        "VertexPositionVersionNumber": 2,
+        "Materials": {"type": "ArrayObject", "elements": [{"index": 30, "name": "MAT_Breakout_Walls_Generic_INST"}, {"index": 3, "name": "FieldPipe_MAT"}]},
+        "ReplacementPrimitive": {"index": 0, "name": "None"},
+        "PreviewEnvironmentShadowing": 159,
+        "CollideActors": false,
+        "VisibilityId": 22,
+        "LightingChannels": {"type": "LightingChannelContainer", "raw_size": 83},
+        "Translation": {"type": "Vector", "x": 0, "y": 0, "z": -210},
+        "Rotation": {"type": "Rotator", "pitch": 0, "yaw": -32768, "roll": 0},
+        "Scale3D": {"type": "Vector", "x": 0.393, "y": 0.393, "z": 0.393}
+      }
+    },
+    {
+      "index": 75,
+      "name": "BreakOut_CubeCapture",
+      "class": "TextureRenderTargetCube",
+      "outer": "Textures",
+      "outer_index": 41,
+      "properties": {
+        "SizeX": 512
+      }
+    },
+    {
+      "index": 76,
+      "name": "TheWorld",
+      "class": "World",
+      "outer": "None",
+      "outer_index": 0,
+      "properties": {
+      }
+    },
+    {
+      "index": 77,
+      "name": "WorldInfo_3",
+      "class": "WorldInfo",
+      "outer": "PersistentLevel",
+      "outer_index": 1,
+      "properties": {
+        "bMapNeedsLightingFullyRebuilt": true,
+        "LevelLightingQuality": "Quality_Production",
+        "Tag": "WorldInfo"
+      }
+    },
+    {
+      "index": 79,
+      "name": "Proto_Skins",
+      "class": "Package",
+      "outer": "None",
+      "outer_index": 0,
+      "properties": {
+      }
+    },
+    {
+      "index": 80,
+      "name": "Textures",
+      "class": "Package",
+      "outer": "Proto_Skins",
+      "outer_index": 80,
+      "properties": {
+      }
+    },
+    {
+      "index": 83,
+      "name": "MeshCollector1",
+      "class": "StaticMeshCollectionActor",
+      "outer": "PersistentLevel",
+      "outer_index": 1,
+      "properties": {
+        "StaticMeshComponents": {"type": "ArrayObject", "elements": [{"index": 86, "name": "StaticMeshActor_SMC_9"}, {"index": 85, "name": "StaticMeshActor_SMC_11"}]},
+        "Tag": "StaticMeshCollectionActor"
+      }
+    },
+    {
+      "index": 84,
+      "name": "StaticMeshActor_SMC_11",
+      "class": "StaticMeshComponent",
+      "outer": "MeshCollector1",
+      "outer_index": 84,
+      "properties": {
+        "StaticMesh": {"index": 55, "name": "BO_Arena_Quarterpipe_SM"},
+        "OverriddenLightMapRes": 0,
+        "VertexPositionVersionNumber": 2,
+        "Materials": {"type": "ArrayObject", "elements": [{"index": 28, "name": "MIC_BreakOut_Trim_Walls"}, {"index": 28, "name": "MIC_BreakOut_Trim_Walls"}]},
+        "InvisiTekMaterials": {"type": "ArrayObject", "elements": [{"index": 0, "name": "None"}, {"index": 105, "name": "MIC_BreakOut_Trim_Walls_IVTK_OOB"}]},
+        "ReplacementPrimitive": {"index": 0, "name": "None"},
+        "PreviewEnvironmentShadowing": 166,
+        "bUseAsOccluder": true,
+        "bAcceptsDynamicDecals": true,
+        "VisibilityId": 23,
+        "LightingChannels": {"type": "LightingChannelContainer", "raw_size": 83},
+        "Translation": {"type": "Vector", "x": 0, "y": 0, "z": -208},
+        "Rotation": {"type": "Rotator", "pitch": 0, "yaw": -32768, "roll": 0},
+        "Scale3D": {"type": "Vector", "x": 0.393, "y": 0.393, "z": 0.393}
+      }
+    },
+    {
+      "index": 85,
+      "name": "StaticMeshActor_SMC_9",
+      "class": "StaticMeshComponent",
+      "outer": "MeshCollector1",
+      "outer_index": 84,
+      "properties": {
+        "StaticMesh": {"index": 54, "name": "BO_Arena_edgeglow"},
+        "IrrelevantLights": {"type": "Array", "count": 1, "raw_size": 20},
+        "VertexPositionVersionNumber": 2,
+        "Materials": {"type": "ArrayObject", "elements": [{"index": -32, "name": "NetGlow_MAT"}]},
+        "ReplacementPrimitive": {"index": 0, "name": "None"},
+        "DetailMode": "DM_High",
+        "PreviewEnvironmentShadowing": 0,
+        "BlockNonZeroExtent": false,
+        "VisibilityId": 20,
+        "LightingChannels": {"type": "LightingChannelContainer", "raw_size": 58},
+        "Translation": {"type": "Vector", "x": 0, "y": 0, "z": -256},
+        "Rotation": {"type": "Rotator", "pitch": 0, "yaw": -32768, "roll": 0},
+        "Scale3D": {"type": "Vector", "x": 0.393, "y": 0.393, "z": 0.393}
+      }
+    },
+    {
+      "index": 86,
+      "name": "FieldPipe_MAT_IVTK",
+      "class": "Material",
+      "outer": "Stadium_Dropshot_IVTK",
+      "outer_index": 106,
+      "properties": {
+        "DiffuseColor": {"type": "ColorMaterialInput", "raw_size": 36},
+        "Normal": {"type": "VectorMaterialInput", "raw_size": 148},
+        "EmissiveColor": {"type": "ColorMaterialInput", "raw_size": 36},
+        "Opacity": {"type": "ScalarMaterialInput", "raw_size": 64},
+        "BlendMode": "BLEND_Translucent",
+        "LightingModel": "MLM_Unlit",
+        "bUseLitTranslucencyDepthPass": true,
+        "bDrawLitTranslucencyPrepassInOpaquePrepassWhen4KCB": true,
+        "bUsedWithStaticLighting": true,
+        "Expressions": {"type": "ArrayObject", "elements": [{"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 89, "name": "MaterialExpressionScalarParameter_4"}, {"index": 90, "name": "MaterialExpressionScalarParameter_5"}, {"index": 91, "name": "MaterialExpressionScalarParameter_6"}, {"index": 92, "name": "MaterialExpressionScalarParameter_7"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}]},
+        "MaterialFunctionInfos": {"type": "Array", "count": 2, "raw_size": 172}
+      }
+    },
+    {
+      "index": 87,
+      "name": "MAT_Breakout_Walls_test_02_IVTK",
+      "class": "Material",
+      "outer": "Stadium_Dropshot_IVTK",
+      "outer_index": 106,
+      "properties": {
+        "PhysMaterial": {"index": -26, "name": "Metal"},
+        "DiffuseColor": {"type": "ColorMaterialInput", "raw_size": 36},
+        "SpecularColor": {"type": "ColorMaterialInput", "raw_size": 36},
+        "SpecularPower": {"type": "ScalarMaterialInput", "raw_size": 36},
+        "Normal": {"type": "VectorMaterialInput", "raw_size": 148},
+        "EmissiveColor": {"type": "ColorMaterialInput", "raw_size": 36},
+        "Opacity": {"type": "ScalarMaterialInput", "raw_size": 64},
+        "BlendMode": "BLEND_Translucent",
+        "bUseLitTranslucencyDepthPass": true,
+        "bDrawLitTranslucencyPrepassInOpaquePrepassWhen4KCB": true,
+        "bUsedWithStaticLighting": true,
+        "Expressions": {"type": "ArrayObject", "elements": [{"index": 101, "name": "MaterialExpressionTextureSampleParameter2D_2"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 95, "name": "MaterialExpressionScalarParameter_2"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 94, "name": "MaterialExpressionScalarParameter_1"}, {"index": 0, "name": "None"}, {"index": 100, "name": "MaterialExpressionTextureSampleParameter2D_0"}, {"index": 0, "name": "None"}, {"index": 93, "name": "MaterialExpressionScalarParameter_0"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 102, "name": "MaterialExpressionVectorParameter_1"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 96, "name": "MaterialExpressionScalarParameter_46"}, {"index": 97, "name": "MaterialExpressionScalarParameter_47"}, {"index": 98, "name": "MaterialExpressionScalarParameter_48"}, {"index": 99, "name": "MaterialExpressionScalarParameter_49"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}, {"index": 0, "name": "None"}]},
+        "MaterialFunctionInfos": {"type": "Array", "count": 4, "raw_size": 340}
+      }
+    },
+    {
+      "index": 88,
+      "name": "MaterialExpressionScalarParameter_4",
+      "class": "MaterialExpressionScalarParameter",
+      "outer": "FieldPipe_MAT_IVTK",
+      "outer_index": 87,
+      "properties": {
+        "DefaultValue": 10,
+        "ParameterName": "Gradient Falloff",
+        "ExpressionGUID": {"type": "Guid", "raw_size": 16},
+        "Group": "InvisiTek",
+        "Material": {"index": 87, "name": "FieldPipe_MAT_IVTK"}
+      }
+    },
+    {
+      "index": 89,
+      "name": "MaterialExpressionScalarParameter_5",
+      "class": "MaterialExpressionScalarParameter",
+      "outer": "FieldPipe_MAT_IVTK",
+      "outer_index": 87,
+      "properties": {
+        "DefaultValue": 0.05,
+        "ParameterName": "Gradient Size Adjust",
+        "ExpressionGUID": {"type": "Guid", "raw_size": 16},
+        "Group": "InvisiTek",
+        "Material": {"index": 87, "name": "FieldPipe_MAT_IVTK"}
+      }
+    },
+    {
+      "index": 90,
+      "name": "MaterialExpressionScalarParameter_6",
+      "class": "MaterialExpressionScalarParameter",
+      "outer": "FieldPipe_MAT_IVTK",
+      "outer_index": 87,
+      "properties": {
+        "DefaultValue": 20,
+        "ParameterName": "Fresnel Intensity",
+        "ExpressionGUID": {"type": "Guid", "raw_size": 16},
+        "Group": "InvisiTek",
+        "Material": {"index": 87, "name": "FieldPipe_MAT_IVTK"}
+      }
+    },
+    {
+      "index": 91,
+      "name": "MaterialExpressionScalarParameter_7",
+      "class": "MaterialExpressionScalarParameter",
+      "outer": "FieldPipe_MAT_IVTK",
+      "outer_index": 87,
+      "properties": {
+        "DefaultValue": 3,
+        "ParameterName": "Fresnel Power",
+        "ExpressionGUID": {"type": "Guid", "raw_size": 16},
+        "Group": "InvisiTek",
+        "Material": {"index": 87, "name": "FieldPipe_MAT_IVTK"}
+      }
+    },
+    {
+      "index": 92,
+      "name": "MaterialExpressionScalarParameter_0",
+      "class": "MaterialExpressionScalarParameter",
+      "outer": "MAT_Breakout_Walls_test_02_IVTK",
+      "outer_index": 88,
+      "properties": {
+        "DefaultValue": 0.02,
+        "ParameterName": "Refl_Brightness",
+        "ExpressionGUID": {"type": "Guid", "raw_size": 16},
+        "Material": {"index": 88, "name": "MAT_Breakout_Walls_test_02_IVTK"}
+      }
+    },
+    {
+      "index": 93,
+      "name": "MaterialExpressionScalarParameter_1",
+      "class": "MaterialExpressionScalarParameter",
+      "outer": "MAT_Breakout_Walls_test_02_IVTK",
+      "outer_index": 88,
+      "properties": {
+        "DefaultValue": 1,
+        "ParameterName": "Brightness",
+        "ExpressionGUID": {"type": "Guid", "raw_size": 16},
+        "Material": {"index": 88, "name": "MAT_Breakout_Walls_test_02_IVTK"}
+      }
+    },
+    {
+      "index": 94,
+      "name": "MaterialExpressionScalarParameter_2",
+      "class": "MaterialExpressionScalarParameter",
+      "outer": "MAT_Breakout_Walls_test_02_IVTK",
+      "outer_index": 88,
+      "properties": {
+        "DefaultValue": 16,
+        "ParameterName": "Emissive_Brightness",
+        "ExpressionGUID": {"type": "Guid", "raw_size": 16},
+        "Material": {"index": 88, "name": "MAT_Breakout_Walls_test_02_IVTK"}
+      }
+    },
+    {
+      "index": 95,
+      "name": "MaterialExpressionScalarParameter_46",
+      "class": "MaterialExpressionScalarParameter",
+      "outer": "MAT_Breakout_Walls_test_02_IVTK",
+      "outer_index": 88,
+      "properties": {
+        "DefaultValue": 10,
+        "ParameterName": "Gradient Falloff",
+        "ExpressionGUID": {"type": "Guid", "raw_size": 16},
+        "Group": "InvisiTek",
+        "Material": {"index": 88, "name": "MAT_Breakout_Walls_test_02_IVTK"}
+      }
+    },
+    {
+      "index": 96,
+      "name": "MaterialExpressionScalarParameter_47",
+      "class": "MaterialExpressionScalarParameter",
+      "outer": "MAT_Breakout_Walls_test_02_IVTK",
+      "outer_index": 88,
+      "properties": {
+        "DefaultValue": 0.05,
+        "ParameterName": "Gradient Size Adjust",
+        "ExpressionGUID": {"type": "Guid", "raw_size": 16},
+        "Group": "InvisiTek",
+        "Material": {"index": 88, "name": "MAT_Breakout_Walls_test_02_IVTK"}
+      }
+    },
+    {
+      "index": 97,
+      "name": "MaterialExpressionScalarParameter_48",
+      "class": "MaterialExpressionScalarParameter",
+      "outer": "MAT_Breakout_Walls_test_02_IVTK",
+      "outer_index": 88,
+      "properties": {
+        "DefaultValue": 20,
+        "ParameterName": "Fresnel Intensity",
+        "ExpressionGUID": {"type": "Guid", "raw_size": 16},
+        "Group": "InvisiTek",
+        "Material": {"index": 88, "name": "MAT_Breakout_Walls_test_02_IVTK"}
+      }
+    },
+    {
+      "index": 98,
+      "name": "MaterialExpressionScalarParameter_49",
+      "class": "MaterialExpressionScalarParameter",
+      "outer": "MAT_Breakout_Walls_test_02_IVTK",
+      "outer_index": 88,
+      "properties": {
+        "DefaultValue": 3,
+        "ParameterName": "Fresnel Power",
+        "ExpressionGUID": {"type": "Guid", "raw_size": 16},
+        "Group": "InvisiTek",
+        "Material": {"index": 88, "name": "MAT_Breakout_Walls_test_02_IVTK"}
+      }
+    },
+    {
+      "index": 99,
+      "name": "MaterialExpressionTextureSampleParameter2D_0",
+      "class": "MaterialExpressionTextureSampleParameter2D",
+      "outer": "MAT_Breakout_Walls_test_02_IVTK",
+      "outer_index": 88,
+      "properties": {
+        "ParameterName": "RGB_Pack",
+        "ExpressionGUID": {"type": "Guid", "raw_size": 16},
+        "Texture": {"index": 69, "name": "BO_Quarterpipe_RGB"},
+        "Coordinates": {"type": "ExpressionInput", "raw_size": 36},
+        "Material": {"index": 88, "name": "MAT_Breakout_Walls_test_02_IVTK"}
+      }
+    },
+    {
+      "index": 100,
+      "name": "MaterialExpressionTextureSampleParameter2D_2",
+      "class": "MaterialExpressionTextureSampleParameter2D",
+      "outer": "MAT_Breakout_Walls_test_02_IVTK",
+      "outer_index": 88,
+      "properties": {
+        "ParameterName": "Normal",
+        "ExpressionGUID": {"type": "Guid", "raw_size": 16},
+        "Texture": {"index": 68, "name": "BO_Quarterpipe_N"},
+        "Material": {"index": 88, "name": "MAT_Breakout_Walls_test_02_IVTK"}
+      }
+    },
+    {
+      "index": 101,
+      "name": "MaterialExpressionVectorParameter_1",
+      "class": "MaterialExpressionVectorParameter",
+      "outer": "MAT_Breakout_Walls_test_02_IVTK",
+      "outer_index": 88,
+      "properties": {
+        "DefaultValue": {"type": "LinearColor", "r": 5000, "g": 4300, "b": 5000, "a": 1},
+        "ParameterName": "CubeMapPosition",
+        "ExpressionGUID": {"type": "Guid", "raw_size": 16},
+        "Material": {"index": 88, "name": "MAT_Breakout_Walls_test_02_IVTK"}
+      }
+    },
+    {
+      "index": 103,
+      "name": "MIC_BreakOut_Cage_IVTK",
+      "class": "MaterialInstanceConstant",
+      "outer": "Stadium_Dropshot_IVTK",
+      "outer_index": 106,
+      "properties": {
+        "ScalarParameterValues": {"type": "Array", "count": 3, "raw_size": 352},
+        "TextureParameterValues": {"type": "Array", "count": 2, "raw_size": 236},
+        "PhysMaterial": {"index": -26, "name": "Metal"},
+        "Parent": {"index": 88, "name": "MAT_Breakout_Walls_test_02_IVTK"},
+        "bHasStaticPermutationResource": true,
+        "ParentLightingGuid": {"type": "Guid", "raw_size": 16}
+      }
+    },
+    {
+      "index": 104,
+      "name": "MIC_BreakOut_Trim_Walls_IVTK_OOB",
+      "class": "MaterialInstanceConstant",
+      "outer": "Stadium_Dropshot_IVTK",
+      "outer_index": 106,
+      "properties": {
+        "ScalarParameterValues": {"type": "Array", "count": 4, "raw_size": 468},
+        "TextureParameterValues": {"type": "Array", "count": 2, "raw_size": 236},
+        "PhysMaterial": {"index": -26, "name": "Metal"},
+        "Parent": {"index": 88, "name": "MAT_Breakout_Walls_test_02_IVTK"},
+        "bHasStaticPermutationResource": true,
+        "ParentLightingGuid": {"type": "Guid", "raw_size": 16}
+      }
+    },
+    {
+      "index": 105,
+      "name": "Stadium_Dropshot_IVTK",
+      "class": "Package",
+      "outer": "None",
+      "outer_index": 0,
+      "properties": {
+      }
+    },
+    {
+      "index": 106,
+      "name": "Polys_8",
+      "class": "Polys",
+      "outer": "PersistentLevel",
+      "outer_index": 1,
+      "properties": {
+      }
+    }
+  ]
+}

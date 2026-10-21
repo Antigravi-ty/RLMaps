@@ -1,0 +1,49 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'FX_Water_Tex.Water_01_N'
+    ReferencedTextures[1] = Texture2D'CHN_FX.Textures.Waterfall_T'
+    ReferencedTextures[2] = TextureCube3'boost_alienliquid.Textures.LiquidCustomCubemap'
+}
+Expressions[51] =
+{
+    Expressions[3] = MaterialExpressionScalarParameter'CHN_FX.OOB.Materials.CHN_WaterFall_MAT.MaterialExpressionScalarParameter_0'
+    Expressions[5] = MaterialExpressionScalarParameter'CHN_FX.OOB.Materials.CHN_WaterFall_MAT.MaterialExpressionScalarParameter_1'
+    Expressions[10] = MaterialExpressionScalarParameter'CHN_FX.OOB.Materials.CHN_WaterFall_MAT.MaterialExpressionScalarParameter_2'
+    Expressions[15] = MaterialExpressionScalarParameter'CHN_FX.OOB.Materials.CHN_WaterFall_MAT.MaterialExpressionScalarParameter_5'
+    Expressions[42] = MaterialExpressionScalarParameter'CHN_FX.OOB.Materials.CHN_WaterFall_MAT.MaterialExpressionScalarParameter_6'
+    Expressions[47] = MaterialExpressionVectorParameter'CHN_FX.OOB.Materials.CHN_WaterFall_MAT.MaterialExpressionVectorParameter_3'
+    Expressions[50] = MaterialExpressionScalarParameter'CHN_FX.OOB.Materials.CHN_WaterFall_MAT.MaterialExpressionScalarParameter_7'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[6] =
+{
+    CollectedScalarParameters[0] = { Value=24, Name=Hardness, Group=None }
+    CollectedScalarParameters[1] = { Value=0.7, Name=Amount, Group=None }
+    CollectedScalarParameters[2] = { Value=0.2, Name=DistortAmount, Group=None }
+    CollectedScalarParameters[3] = { Value=3, Name=tile, Group=None }
+    CollectedScalarParameters[4] = { Value=0.5, Name=ReflectionIntensity, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=Speed, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.28, G=1, B=0.43, A=0.3 }
+        Name = Diffuse
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

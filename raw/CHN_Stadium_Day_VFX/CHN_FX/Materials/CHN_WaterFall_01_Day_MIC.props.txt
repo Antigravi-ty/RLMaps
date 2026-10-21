@@ -1,0 +1,80 @@
+Parent = Material3'CHN_FX.Materials.CHN_WaterFall_01_Mat'
+ScalarParameterValues[8] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.5
+        ParameterName = BreakUp
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = -0.42
+        ParameterName = BreakUpPosition
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = 
+        ParameterValue = 2
+        ParameterName = BreakUpTile
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.61
+        ParameterName = FoamAmount
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.15
+        ParameterName = FoamBlend
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = 
+        ParameterValue = 32
+        ParameterName = FoamFalloff
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.5
+        ParameterName = ReflectionAmount
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.3
+        ParameterName = Speed
+    }
+}
+TextureParameterValues[0] = {}
+VectorParameterValues[2] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=0.450375, G=0.539565, B=1, A=0.5 }
+        ParameterName = Color
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=1, G=1, B=1, A=1.5 }
+        ParameterName = FoamColor
+    }
+}
+BasePropertyOverrides = 
+StaticParameters = 
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

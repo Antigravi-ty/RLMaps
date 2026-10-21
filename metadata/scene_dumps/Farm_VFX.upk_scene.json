@@ -1,0 +1,74 @@
+{
+  "package": "Farm_VFX.upk",
+  "exports": [
+    {
+      "index": 27,
+      "name": "PersistentLevel",
+      "class": "Level",
+      "outer": "TheWorld",
+      "outer_index": 171,
+      "properties": {
+      }
+    },
+    {
+      "index": 39,
+      "name": "Model_6",
+      "class": "Model",
+      "outer": "PersistentLevel",
+      "outer_index": 28,
+      "properties": {
+      }
+    },
+    {
+      "index": 55,
+      "name": "farm_vfx",
+      "class": "Package",
+      "outer": "None",
+      "outer_index": 0,
+      "properties": {
+      }
+    },
+    {
+      "index": 116,
+      "name": "Main_Sequence",
+      "class": "Sequence",
+      "outer": "PersistentLevel",
+      "outer_index": 28,
+      "properties": {
+        "DefaultViewX": 1398,
+        "DefaultViewY": 38,
+        "DefaultViewZoom": 0.1
+      }
+    },
+    {
+      "index": 170,
+      "name": "TheWorld",
+      "class": "World",
+      "outer": "None",
+      "outer_index": 0,
+      "properties": {
+      }
+    },
+    {
+      "index": 171,
+      "name": "WorldInfo_4",
+      "class": "WorldInfo",
+      "outer": "PersistentLevel",
+      "outer_index": 28,
+      "properties": {
+        "bMapNeedsLightingFullyRebuilt": true,
+        "LevelLightingQuality": "Quality_Production",
+        "Tag": "WorldInfo"
+      }
+    },
+    {
+      "index": 251,
+      "name": "Polys_25",
+      "class": "Polys",
+      "outer": "PersistentLevel",
+      "outer_index": 28,
+      "properties": {
+      }
+    }
+  ]
+}

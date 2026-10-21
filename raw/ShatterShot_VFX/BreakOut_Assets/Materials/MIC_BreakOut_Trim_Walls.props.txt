@@ -1,0 +1,50 @@
+Parent = Material3'Breakout_FX.OOB.Materials.MAT_Breakout_Walls_test_02'
+ScalarParameterValues[3] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.25
+        ParameterName = Brightness
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = 24
+        ParameterName = Emissive_Brightness
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.15
+        ParameterName = Refl_Brightness
+    }
+}
+TextureParameterValues[2] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'BreakOut_Assets.Textures.BO_Quarterpipe_N'
+        ParameterName = Normal
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'BreakOut_Assets.Textures.BO_Quarterpipe_RGB'
+        ParameterName = RGB_Pack
+    }
+}
+VectorParameterValues[0] = {}
+BasePropertyOverrides = 
+StaticParameters = 
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

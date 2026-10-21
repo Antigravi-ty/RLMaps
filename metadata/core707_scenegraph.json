@@ -1,0 +1,7409 @@
+{
+  "arena": "Core 707 (Dropshot)",
+  "internal_code": "ShatterShot_P",
+  "total_instances": 168,
+  "total_hex_tiles": 140,
+  "hex_tiles": [
+    {
+      "actor_name": "BreakOutActor_Platform_TA_173",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": -2304,
+        "y": -4117.43,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_220",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": -1536,
+        "y": -4117.43,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_219",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": -768,
+        "y": -4117.43,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_218",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": 0,
+        "y": -4117.43,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_221",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": 768,
+        "y": -4117.43,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_222",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": 1536,
+        "y": -4117.43,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_178",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": 2304,
+        "y": -4117.43,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_209",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": -2688,
+        "y": -3452.32,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_208",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": -1920,
+        "y": -3452.32,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_207",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": -1152,
+        "y": -3452.32,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_206",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": -384,
+        "y": -3452.32,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_217",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": 384,
+        "y": -3452.32,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_216",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": 1152,
+        "y": -3452.32,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_215",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": 1920,
+        "y": -3452.32,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_214",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": 2688,
+        "y": -3452.32,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_151",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": -3072,
+        "y": -2788.43,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_150",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": -2304,
+        "y": -2788.43,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_149",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": -1536,
+        "y": -2788.43,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_148",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": -768,
+        "y": -2788.43,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_147",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": 0,
+        "y": -2788.43,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_152",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": 768,
+        "y": -2788.43,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_153",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": 1536,
+        "y": -2788.43,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_154",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": 2304,
+        "y": -2788.43,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_155",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": 3072,
+        "y": -2788.43,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_142",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": -3456,
+        "y": -2123.32,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_141",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": -2688,
+        "y": -2123.32,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_140",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": -1920,
+        "y": -2123.32,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_139",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": -1152,
+        "y": -2123.32,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_138",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": -384,
+        "y": -2123.32,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_146",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": 384,
+        "y": -2123.32,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_145",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": 1152,
+        "y": -2123.32,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_144",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": 1920,
+        "y": -2123.32,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_143",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": 2688,
+        "y": -2123.32,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_213",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": 3456,
+        "y": -2123.32,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_29",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": -3840,
+        "y": -1458.21,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_197",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": -3072,
+        "y": -1458.21,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_196",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": -2304,
+        "y": -1458.21,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_195",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": -1536,
+        "y": -1458.21,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_193",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": -768,
+        "y": -1458.21,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_192",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": 0,
+        "y": -1458.21,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_199",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": 768,
+        "y": -1458.21,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_202",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": 1536,
+        "y": -1458.21,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_203",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": 2304,
+        "y": -1458.21,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_204",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": 3072,
+        "y": -1458.21,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_99",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": 3840,
+        "y": -1458.21,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_93",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": -4224,
+        "y": -793.108,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_25",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": -3456,
+        "y": -793.108,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_183",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": -2688,
+        "y": -793.108,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_182",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": -1920,
+        "y": -793.108,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_181",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": -1152,
+        "y": -793.108,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_180",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": -384,
+        "y": -793.108,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_191",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": 384,
+        "y": -793.108,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_189",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": 1920,
+        "y": -793.108,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_188",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": 2688,
+        "y": -793.108,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_98",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": 3456,
+        "y": -793.108,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_101",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": 4224,
+        "y": -793.108,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_92",
+      "mesh": "BO_Tile_Half_Test_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": -4608,
+        "y": -128,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_9",
+      "mesh": "BO_Tile_Half_Test_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": -3840,
+        "y": -128,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_23",
+      "mesh": "BO_Tile_Half_Test_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": -3072,
+        "y": -128,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_22",
+      "mesh": "BO_Tile_Half_Test_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": -2304,
+        "y": -128,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_21",
+      "mesh": "BO_Tile_Half_Test_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": -1536,
+        "y": -128,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_20",
+      "mesh": "BO_Tile_Half_Test_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": -768,
+        "y": -128,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_169",
+      "mesh": "BO_Tile_Half_Test_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": 0,
+        "y": -128,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_1",
+      "mesh": "BO_Tile_Half_Test_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": 768,
+        "y": -128,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_14",
+      "mesh": "BO_Tile_Half_Test_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": 1536,
+        "y": -128,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_16",
+      "mesh": "BO_Tile_Half_Test_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": 2304,
+        "y": -128,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_17",
+      "mesh": "BO_Tile_Half_Test_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": 3072,
+        "y": -128,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_97",
+      "mesh": "BO_Tile_Half_Test_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": 3840,
+        "y": -128,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_42",
+      "mesh": "BO_Tile_Half_Test_SM",
+      "team": "Blue",
+      "location": {
+        "type": "Vector",
+        "x": 4608,
+        "y": -128,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_11",
+      "mesh": "BO_Tile_Half_Test_SM",
+      "team": "Blue",
+      "location": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "pitch": 0,
+        "yaw": 0,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_190",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Blue",
+      "location": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "pitch": 0,
+        "yaw": 0,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_41",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Blue",
+      "location": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "pitch": 0,
+        "yaw": 0,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_90",
+      "mesh": "BO_Tile_Half_Test_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": -4608,
+        "y": 128,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_4",
+      "mesh": "BO_Tile_Half_Test_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": -3840,
+        "y": 128,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_13",
+      "mesh": "BO_Tile_Half_Test_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": -3072,
+        "y": 128,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_12",
+      "mesh": "BO_Tile_Half_Test_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": -2304,
+        "y": 128,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_10",
+      "mesh": "BO_Tile_Half_Test_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": -768,
+        "y": 128,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_227",
+      "mesh": "BO_Tile_Half_Test_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": 0,
+        "y": 128,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_18",
+      "mesh": "BO_Tile_Half_Test_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": 768,
+        "y": 128,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_27",
+      "mesh": "BO_Tile_Half_Test_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": 1536,
+        "y": 128,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_28",
+      "mesh": "BO_Tile_Half_Test_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": 2304,
+        "y": 128,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_31",
+      "mesh": "BO_Tile_Half_Test_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": 3072,
+        "y": 128,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_94",
+      "mesh": "BO_Tile_Half_Test_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": 3840,
+        "y": 128,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_32",
+      "mesh": "BO_Tile_Half_Test_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": 4608,
+        "y": 128,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_91",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": -4224,
+        "y": 793.108,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_5",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": -3456,
+        "y": 793.108,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_43",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": -1920,
+        "y": 793.108,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_44",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": -1152,
+        "y": 793.108,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_45",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": -384,
+        "y": 793.108,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_33",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": 384,
+        "y": 793.108,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_34",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": 1152,
+        "y": 793.108,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_35",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": 1920,
+        "y": 793.108,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_36",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": 2688,
+        "y": 793.108,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_95",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": 3456,
+        "y": 793.108,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_100",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": 4224,
+        "y": 793.108,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_6",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": -3840,
+        "y": 1458.21,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_56",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": -3072,
+        "y": 1458.21,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_55",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": -2304,
+        "y": 1458.21,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_54",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": -1536,
+        "y": 1458.21,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_53",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": -768,
+        "y": 1458.21,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_46",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": 0,
+        "y": 1458.21,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_47",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": 768,
+        "y": 1458.21,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_48",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": 1536,
+        "y": 1458.21,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_50",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": 2304,
+        "y": 1458.21,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_51",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": 3072,
+        "y": 1458.21,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_96",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": 3840,
+        "y": 1458.21,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_65",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": -3456,
+        "y": 2123.32,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_107",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": -2688,
+        "y": 2123.32,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_108",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": -1920,
+        "y": 2123.32,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_109",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": -1152,
+        "y": 2123.32,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_110",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": -384,
+        "y": 2123.32,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_102",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": 384,
+        "y": 2123.32,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_103",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": 1152,
+        "y": 2123.32,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_104",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": 1920,
+        "y": 2123.32,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_105",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": 2688,
+        "y": 2123.32,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_106",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": 3456,
+        "y": 2123.32,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_119",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": -3072,
+        "y": 2788.43,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_118",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": -2304,
+        "y": 2788.43,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_117",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": -1536,
+        "y": 2788.43,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_116",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": -768,
+        "y": 2788.43,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_111",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": 0,
+        "y": 2788.43,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_112",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": 768,
+        "y": 2788.43,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_113",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": 1536,
+        "y": 2788.43,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_114",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": 2304,
+        "y": 2788.43,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_115",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": 3072,
+        "y": 2788.43,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_66",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": -2688,
+        "y": 3452.32,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_67",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": -1920,
+        "y": 3452.32,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_68",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": -1152,
+        "y": 3452.32,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_69",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": -384,
+        "y": 3452.32,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_58",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": 384,
+        "y": 3452.32,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_59",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": 1152,
+        "y": 3452.32,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_60",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": 1920,
+        "y": 3452.32,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_61",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": 2688,
+        "y": 3452.32,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_78",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": -2304,
+        "y": 4117.43,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_77",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": -1536,
+        "y": 4117.43,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_76",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": -768,
+        "y": 4117.43,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_70",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": 0,
+        "y": 4117.43,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_71",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": 768,
+        "y": 4117.43,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_72",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": 1536,
+        "y": 4117.43,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    },
+    {
+      "actor_name": "BreakOutActor_Platform_TA_73",
+      "mesh": "BO_Tile_TEST_SM",
+      "team": "Orange",
+      "location": {
+        "type": "Vector",
+        "x": 2304,
+        "y": 4117.43,
+        "z": 0
+      },
+      "rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      }
+    }
+  ],
+  "instances": [
+    {
+      "sublevel_package": "ShatterShot_P",
+      "component_name": "StaticMeshComponent_3",
+      "mesh": "FloorCollision_Plane",
+      "hidden": false,
+      "actor_class": "BreakoutFloor_TA",
+      "actor_name": "BreakoutFloor_TA_2",
+      "actor_location": {
+        "type": "Vector",
+        "x": 0.00143835,
+        "y": -0.00123978,
+        "z": -2.27919
+      },
+      "actor_rotation": null,
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": {
+        "type": "Vector",
+        "x": 13.5601,
+        "y": 13.5601,
+        "z": 13.5601
+      },
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "BO_Pitchtek_Floor_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_P",
+      "component_name": "StaticMeshComponent_79",
+      "mesh": "breakout_wall2",
+      "hidden": false,
+      "actor_class": "DynamicMeshActor_TA",
+      "actor_name": "DynamicMeshActor_TA_0",
+      "actor_location": {
+        "type": "Vector",
+        "x": 0,
+        "y": 0,
+        "z": -256
+      },
+      "actor_rotation": null,
+      "actor_draw_scale": 0.394,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "BOStadiumWall_MAT_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_P",
+      "component_name": "StaticMeshActor_SMC_1",
+      "mesh": "FloorCollision_Plane",
+      "hidden": true,
+      "actor_class": "StaticMeshCollectionActor",
+      "actor_name": "MeshCollector0",
+      "actor_location": null,
+      "actor_rotation": null,
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": {
+        "type": "Vector",
+        "x": 0,
+        "y": 0,
+        "z": 2024
+      },
+      "comp_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -32768,
+        "roll": -32768
+      },
+      "comp_scale": 1.0,
+      "comp_scale3d": {
+        "type": "Vector",
+        "x": 10.6445,
+        "y": 10.6445,
+        "z": 10.6445
+      },
+      "materials": [
+        "DefaultMaterial"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_P",
+      "component_name": "StaticMeshActor_SMC_4",
+      "mesh": "BO_CenterPiece_02_COLL",
+      "hidden": true,
+      "actor_class": "StaticMeshCollectionActor",
+      "actor_name": "MeshCollector0",
+      "actor_location": null,
+      "actor_rotation": null,
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": {
+        "type": "Vector",
+        "x": 1.3,
+        "y": 1,
+        "z": 1
+      },
+      "materials": [
+        "None",
+        "None"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_P",
+      "component_name": "StaticMeshActor_SMC_7",
+      "mesh": "FloorCollision_Plane",
+      "hidden": true,
+      "actor_class": "StaticMeshCollectionActor",
+      "actor_name": "MeshCollector0",
+      "actor_location": null,
+      "actor_rotation": null,
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": {
+        "type": "Vector",
+        "x": 0,
+        "y": 0,
+        "z": 1.5
+      },
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": {
+        "type": "Vector",
+        "x": 10.6446,
+        "y": 10.6446,
+        "z": 10.6446
+      },
+      "materials": [
+        "DefaultMaterial"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_P",
+      "component_name": "StaticMeshActor_SMC_8",
+      "mesh": "BO_collision_03",
+      "hidden": true,
+      "actor_class": "StaticMeshCollectionActor",
+      "actor_name": "MeshCollector0",
+      "actor_location": null,
+      "actor_rotation": null,
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": {
+        "type": "Vector",
+        "x": 0,
+        "y": 0,
+        "z": -208.5
+      },
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": {
+        "type": "Vector",
+        "x": 0.393,
+        "y": 0.393,
+        "z": 0.393
+      },
+      "materials": [
+        "Collision_Mat"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_P",
+      "component_name": "StaticMeshActor_SMC_2",
+      "mesh": "BO_CenterPiece",
+      "hidden": false,
+      "actor_class": "StaticMeshCollectionActor",
+      "actor_name": "MeshCollector1",
+      "actor_location": null,
+      "actor_rotation": null,
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": {
+        "type": "Vector",
+        "x": 1.3,
+        "y": 1,
+        "z": 1
+      },
+      "materials": [
+        "MIC_BreakOut_CenterStrip",
+        "MAT_Breakout_Walls_Generic"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_OOB_Exploration",
+      "component_name": "StaticMeshActor_SMC_0",
+      "mesh": "BO_Cage_caps",
+      "hidden": false,
+      "actor_class": "StaticMeshCollectionActor",
+      "actor_name": "MeshCollector0",
+      "actor_location": null,
+      "actor_rotation": null,
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": {
+        "type": "Vector",
+        "x": -4e-06,
+        "y": 0,
+        "z": -210
+      },
+      "comp_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -32768,
+        "roll": 0
+      },
+      "comp_scale": 1.0,
+      "comp_scale3d": {
+        "type": "Vector",
+        "x": 0.393,
+        "y": 0.393,
+        "z": 0.393
+      },
+      "materials": [
+        "MIC_BreakOut_Cage",
+        "FieldPipe_MAT"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_OOB_Exploration",
+      "component_name": "StaticMeshActor_SMC_1",
+      "mesh": "BO_Arena_Cage",
+      "hidden": false,
+      "actor_class": "StaticMeshCollectionActor",
+      "actor_name": "MeshCollector0",
+      "actor_location": null,
+      "actor_rotation": null,
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": {
+        "type": "Vector",
+        "x": -4e-06,
+        "y": 0,
+        "z": -210
+      },
+      "comp_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -32768,
+        "roll": 0
+      },
+      "comp_scale": 1.0,
+      "comp_scale3d": {
+        "type": "Vector",
+        "x": 0.393,
+        "y": 0.393,
+        "z": 0.393
+      },
+      "materials": [
+        "MIC_BreakOut_Cage",
+        "FieldPipe_MAT"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_OOB_Exploration",
+      "component_name": "StaticMeshActor_SMC_10",
+      "mesh": "BO_OOB_floorplane",
+      "hidden": false,
+      "actor_class": "StaticMeshCollectionActor",
+      "actor_name": "MeshCollector0",
+      "actor_location": null,
+      "actor_rotation": null,
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": {
+        "type": "Vector",
+        "x": 0.00536709,
+        "y": 5.53131e-05,
+        "z": -208
+      },
+      "comp_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -32768,
+        "roll": 0
+      },
+      "comp_scale": 1.0,
+      "comp_scale3d": {
+        "type": "Vector",
+        "x": 0.393,
+        "y": 0.393,
+        "z": 0.393
+      },
+      "materials": [
+        "BreakOut_OOB_Floor"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_OOB_Exploration",
+      "component_name": "StaticMeshActor_SMC_8",
+      "mesh": "BO_Arena_SM",
+      "hidden": false,
+      "actor_class": "StaticMeshCollectionActor",
+      "actor_name": "MeshCollector0",
+      "actor_location": null,
+      "actor_rotation": null,
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": {
+        "type": "Vector",
+        "x": 0,
+        "y": 0,
+        "z": -210
+      },
+      "comp_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -32768,
+        "roll": 0
+      },
+      "comp_scale": 1.0,
+      "comp_scale3d": {
+        "type": "Vector",
+        "x": 0.393,
+        "y": 0.393,
+        "z": 0.393
+      },
+      "materials": [
+        "MAT_Breakout_Walls_Generic_INST",
+        "FieldPipe_MAT"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_OOB_Exploration",
+      "component_name": "StaticMeshActor_SMC_11",
+      "mesh": "BO_Arena_Quarterpipe_SM",
+      "hidden": false,
+      "actor_class": "StaticMeshCollectionActor",
+      "actor_name": "MeshCollector1",
+      "actor_location": null,
+      "actor_rotation": null,
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": {
+        "type": "Vector",
+        "x": 0,
+        "y": 0,
+        "z": -208
+      },
+      "comp_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -32768,
+        "roll": 0
+      },
+      "comp_scale": 1.0,
+      "comp_scale3d": {
+        "type": "Vector",
+        "x": 0.393,
+        "y": 0.393,
+        "z": 0.393
+      },
+      "materials": [
+        "MIC_BreakOut_Trim_Walls",
+        "MIC_BreakOut_Trim_Walls"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_OOB_Exploration",
+      "component_name": "StaticMeshActor_SMC_9",
+      "mesh": "BO_Arena_edgeglow",
+      "hidden": false,
+      "actor_class": "StaticMeshCollectionActor",
+      "actor_name": "MeshCollector1",
+      "actor_location": null,
+      "actor_rotation": null,
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": {
+        "type": "Vector",
+        "x": 0,
+        "y": 0,
+        "z": -256
+      },
+      "comp_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -32768,
+        "roll": 0
+      },
+      "comp_scale": 1.0,
+      "comp_scale3d": {
+        "type": "Vector",
+        "x": 0.393,
+        "y": 0.393,
+        "z": 0.393
+      },
+      "materials": [
+        "NetGlow_MAT"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_Half_Test_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_1",
+      "actor_location": {
+        "type": "Vector",
+        "x": 768,
+        "y": -128,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": {
+        "type": "Vector",
+        "x": -1,
+        "y": 1,
+        "z": 1
+      },
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_Half_Test_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_10",
+      "actor_location": {
+        "type": "Vector",
+        "x": -768,
+        "y": 128,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": {
+        "type": "Vector",
+        "x": -1,
+        "y": 1,
+        "z": 1
+      },
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_100",
+      "actor_location": {
+        "type": "Vector",
+        "x": 4224,
+        "y": 793.108,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_101",
+      "actor_location": {
+        "type": "Vector",
+        "x": 4224,
+        "y": -793.108,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_102",
+      "actor_location": {
+        "type": "Vector",
+        "x": 384,
+        "y": 2123.32,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_103",
+      "actor_location": {
+        "type": "Vector",
+        "x": 1152,
+        "y": 2123.32,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_104",
+      "actor_location": {
+        "type": "Vector",
+        "x": 1920,
+        "y": 2123.32,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_105",
+      "actor_location": {
+        "type": "Vector",
+        "x": 2688,
+        "y": 2123.32,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_106",
+      "actor_location": {
+        "type": "Vector",
+        "x": 3456,
+        "y": 2123.32,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_107",
+      "actor_location": {
+        "type": "Vector",
+        "x": -2688,
+        "y": 2123.32,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_108",
+      "actor_location": {
+        "type": "Vector",
+        "x": -1920,
+        "y": 2123.32,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_109",
+      "actor_location": {
+        "type": "Vector",
+        "x": -1152,
+        "y": 2123.32,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_Half_Test_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_11",
+      "actor_location": null,
+      "actor_rotation": null,
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_110",
+      "actor_location": {
+        "type": "Vector",
+        "x": -384,
+        "y": 2123.32,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_111",
+      "actor_location": {
+        "type": "Vector",
+        "x": 0,
+        "y": 2788.43,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_112",
+      "actor_location": {
+        "type": "Vector",
+        "x": 768,
+        "y": 2788.43,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_113",
+      "actor_location": {
+        "type": "Vector",
+        "x": 1536,
+        "y": 2788.43,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_114",
+      "actor_location": {
+        "type": "Vector",
+        "x": 2304,
+        "y": 2788.43,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_115",
+      "actor_location": {
+        "type": "Vector",
+        "x": 3072,
+        "y": 2788.43,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_116",
+      "actor_location": {
+        "type": "Vector",
+        "x": -768,
+        "y": 2788.43,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_117",
+      "actor_location": {
+        "type": "Vector",
+        "x": -1536,
+        "y": 2788.43,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_118",
+      "actor_location": {
+        "type": "Vector",
+        "x": -2304,
+        "y": 2788.43,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_119",
+      "actor_location": {
+        "type": "Vector",
+        "x": -3072,
+        "y": 2788.43,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_Half_Test_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_12",
+      "actor_location": {
+        "type": "Vector",
+        "x": -2304,
+        "y": 128,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": {
+        "type": "Vector",
+        "x": -1,
+        "y": 1,
+        "z": 1
+      },
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_Half_Test_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_13",
+      "actor_location": {
+        "type": "Vector",
+        "x": -3072,
+        "y": 128,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": {
+        "type": "Vector",
+        "x": -1,
+        "y": 1,
+        "z": 1
+      },
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_138",
+      "actor_location": {
+        "type": "Vector",
+        "x": -384,
+        "y": -2123.32,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_139",
+      "actor_location": {
+        "type": "Vector",
+        "x": -1152,
+        "y": -2123.32,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_Half_Test_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_14",
+      "actor_location": {
+        "type": "Vector",
+        "x": 1536,
+        "y": -128,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": {
+        "type": "Vector",
+        "x": -1,
+        "y": 1,
+        "z": 1
+      },
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_140",
+      "actor_location": {
+        "type": "Vector",
+        "x": -1920,
+        "y": -2123.32,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_141",
+      "actor_location": {
+        "type": "Vector",
+        "x": -2688,
+        "y": -2123.32,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_142",
+      "actor_location": {
+        "type": "Vector",
+        "x": -3456,
+        "y": -2123.32,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_143",
+      "actor_location": {
+        "type": "Vector",
+        "x": 2688,
+        "y": -2123.32,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_144",
+      "actor_location": {
+        "type": "Vector",
+        "x": 1920,
+        "y": -2123.32,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_145",
+      "actor_location": {
+        "type": "Vector",
+        "x": 1152,
+        "y": -2123.32,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_146",
+      "actor_location": {
+        "type": "Vector",
+        "x": 384,
+        "y": -2123.32,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_147",
+      "actor_location": {
+        "type": "Vector",
+        "x": 0,
+        "y": -2788.43,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_148",
+      "actor_location": {
+        "type": "Vector",
+        "x": -768,
+        "y": -2788.43,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_149",
+      "actor_location": {
+        "type": "Vector",
+        "x": -1536,
+        "y": -2788.43,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_150",
+      "actor_location": {
+        "type": "Vector",
+        "x": -2304,
+        "y": -2788.43,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_151",
+      "actor_location": {
+        "type": "Vector",
+        "x": -3072,
+        "y": -2788.43,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_152",
+      "actor_location": {
+        "type": "Vector",
+        "x": 768,
+        "y": -2788.43,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_153",
+      "actor_location": {
+        "type": "Vector",
+        "x": 1536,
+        "y": -2788.43,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_154",
+      "actor_location": {
+        "type": "Vector",
+        "x": 2304,
+        "y": -2788.43,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_155",
+      "actor_location": {
+        "type": "Vector",
+        "x": 3072,
+        "y": -2788.43,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_Half_Test_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_16",
+      "actor_location": {
+        "type": "Vector",
+        "x": 2304,
+        "y": -128,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": {
+        "type": "Vector",
+        "x": -1,
+        "y": 1,
+        "z": 1
+      },
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_Half_Test_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_169",
+      "actor_location": {
+        "type": "Vector",
+        "x": 0,
+        "y": -128,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": {
+        "type": "Vector",
+        "x": -1,
+        "y": 1,
+        "z": 1
+      },
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_Half_Test_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_17",
+      "actor_location": {
+        "type": "Vector",
+        "x": 3072,
+        "y": -128,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": {
+        "type": "Vector",
+        "x": -1,
+        "y": 1,
+        "z": 1
+      },
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_173",
+      "actor_location": {
+        "type": "Vector",
+        "x": -2304,
+        "y": -4117.43,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_178",
+      "actor_location": {
+        "type": "Vector",
+        "x": 2304,
+        "y": -4117.43,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_Half_Test_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_18",
+      "actor_location": {
+        "type": "Vector",
+        "x": 768,
+        "y": 128,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": {
+        "type": "Vector",
+        "x": -1,
+        "y": 1,
+        "z": 1
+      },
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_180",
+      "actor_location": {
+        "type": "Vector",
+        "x": -384,
+        "y": -793.108,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_181",
+      "actor_location": {
+        "type": "Vector",
+        "x": -1152,
+        "y": -793.108,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_182",
+      "actor_location": {
+        "type": "Vector",
+        "x": -1920,
+        "y": -793.108,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_183",
+      "actor_location": {
+        "type": "Vector",
+        "x": -2688,
+        "y": -793.108,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_188",
+      "actor_location": {
+        "type": "Vector",
+        "x": 2688,
+        "y": -793.108,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_189",
+      "actor_location": {
+        "type": "Vector",
+        "x": 1920,
+        "y": -793.108,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_190",
+      "actor_location": null,
+      "actor_rotation": null,
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_191",
+      "actor_location": {
+        "type": "Vector",
+        "x": 384,
+        "y": -793.108,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_192",
+      "actor_location": {
+        "type": "Vector",
+        "x": 0,
+        "y": -1458.21,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_193",
+      "actor_location": {
+        "type": "Vector",
+        "x": -768,
+        "y": -1458.21,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_195",
+      "actor_location": {
+        "type": "Vector",
+        "x": -1536,
+        "y": -1458.21,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_196",
+      "actor_location": {
+        "type": "Vector",
+        "x": -2304,
+        "y": -1458.21,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_197",
+      "actor_location": {
+        "type": "Vector",
+        "x": -3072,
+        "y": -1458.21,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_199",
+      "actor_location": {
+        "type": "Vector",
+        "x": 768,
+        "y": -1458.21,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_Half_Test_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_20",
+      "actor_location": {
+        "type": "Vector",
+        "x": -768,
+        "y": -128,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": {
+        "type": "Vector",
+        "x": -1,
+        "y": 1,
+        "z": 1
+      },
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_202",
+      "actor_location": {
+        "type": "Vector",
+        "x": 1536,
+        "y": -1458.21,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_203",
+      "actor_location": {
+        "type": "Vector",
+        "x": 2304,
+        "y": -1458.21,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_204",
+      "actor_location": {
+        "type": "Vector",
+        "x": 3072,
+        "y": -1458.21,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_206",
+      "actor_location": {
+        "type": "Vector",
+        "x": -384,
+        "y": -3452.32,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_207",
+      "actor_location": {
+        "type": "Vector",
+        "x": -1152,
+        "y": -3452.32,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_208",
+      "actor_location": {
+        "type": "Vector",
+        "x": -1920,
+        "y": -3452.32,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_209",
+      "actor_location": {
+        "type": "Vector",
+        "x": -2688,
+        "y": -3452.32,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_Half_Test_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_21",
+      "actor_location": {
+        "type": "Vector",
+        "x": -1536,
+        "y": -128,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": {
+        "type": "Vector",
+        "x": -1,
+        "y": 1,
+        "z": 1
+      },
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_213",
+      "actor_location": {
+        "type": "Vector",
+        "x": 3456,
+        "y": -2123.32,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_214",
+      "actor_location": {
+        "type": "Vector",
+        "x": 2688,
+        "y": -3452.32,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_215",
+      "actor_location": {
+        "type": "Vector",
+        "x": 1920,
+        "y": -3452.32,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_216",
+      "actor_location": {
+        "type": "Vector",
+        "x": 1152,
+        "y": -3452.32,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_217",
+      "actor_location": {
+        "type": "Vector",
+        "x": 384,
+        "y": -3452.32,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_218",
+      "actor_location": {
+        "type": "Vector",
+        "x": 0,
+        "y": -4117.43,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_219",
+      "actor_location": {
+        "type": "Vector",
+        "x": -768,
+        "y": -4117.43,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_Half_Test_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_22",
+      "actor_location": {
+        "type": "Vector",
+        "x": -2304,
+        "y": -128,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": {
+        "type": "Vector",
+        "x": -1,
+        "y": 1,
+        "z": 1
+      },
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_220",
+      "actor_location": {
+        "type": "Vector",
+        "x": -1536,
+        "y": -4117.43,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_221",
+      "actor_location": {
+        "type": "Vector",
+        "x": 768,
+        "y": -4117.43,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_222",
+      "actor_location": {
+        "type": "Vector",
+        "x": 1536,
+        "y": -4117.43,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_Half_Test_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_227",
+      "actor_location": {
+        "type": "Vector",
+        "x": 0,
+        "y": 128,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": {
+        "type": "Vector",
+        "x": -1,
+        "y": 1,
+        "z": 1
+      },
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_Half_Test_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_23",
+      "actor_location": {
+        "type": "Vector",
+        "x": -3072,
+        "y": -128,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": {
+        "type": "Vector",
+        "x": -1,
+        "y": 1,
+        "z": 1
+      },
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_25",
+      "actor_location": {
+        "type": "Vector",
+        "x": -3456,
+        "y": -793.108,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_Half_Test_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_27",
+      "actor_location": {
+        "type": "Vector",
+        "x": 1536,
+        "y": 128,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": {
+        "type": "Vector",
+        "x": -1,
+        "y": 1,
+        "z": 1
+      },
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_Half_Test_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_28",
+      "actor_location": {
+        "type": "Vector",
+        "x": 2304,
+        "y": 128,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": {
+        "type": "Vector",
+        "x": -1,
+        "y": 1,
+        "z": 1
+      },
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_29",
+      "actor_location": {
+        "type": "Vector",
+        "x": -3840,
+        "y": -1458.21,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_Half_Test_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_31",
+      "actor_location": {
+        "type": "Vector",
+        "x": 3072,
+        "y": 128,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": {
+        "type": "Vector",
+        "x": -1,
+        "y": 1,
+        "z": 1
+      },
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_Half_Test_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_32",
+      "actor_location": {
+        "type": "Vector",
+        "x": 4608,
+        "y": 128,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": {
+        "type": "Vector",
+        "x": -1,
+        "y": 1,
+        "z": 1
+      },
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_33",
+      "actor_location": {
+        "type": "Vector",
+        "x": 384,
+        "y": 793.108,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_34",
+      "actor_location": {
+        "type": "Vector",
+        "x": 1152,
+        "y": 793.108,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_35",
+      "actor_location": {
+        "type": "Vector",
+        "x": 1920,
+        "y": 793.108,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_36",
+      "actor_location": {
+        "type": "Vector",
+        "x": 2688,
+        "y": 793.108,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_Half_Test_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_4",
+      "actor_location": {
+        "type": "Vector",
+        "x": -3840,
+        "y": 128,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": {
+        "type": "Vector",
+        "x": -1,
+        "y": 1,
+        "z": 1
+      },
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_41",
+      "actor_location": null,
+      "actor_rotation": null,
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_Half_Test_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_42",
+      "actor_location": {
+        "type": "Vector",
+        "x": 4608,
+        "y": -128,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": {
+        "type": "Vector",
+        "x": -1,
+        "y": 1,
+        "z": 1
+      },
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_43",
+      "actor_location": {
+        "type": "Vector",
+        "x": -1920,
+        "y": 793.108,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_44",
+      "actor_location": {
+        "type": "Vector",
+        "x": -1152,
+        "y": 793.108,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_45",
+      "actor_location": {
+        "type": "Vector",
+        "x": -384,
+        "y": 793.108,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_46",
+      "actor_location": {
+        "type": "Vector",
+        "x": 0,
+        "y": 1458.21,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_47",
+      "actor_location": {
+        "type": "Vector",
+        "x": 768,
+        "y": 1458.21,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_48",
+      "actor_location": {
+        "type": "Vector",
+        "x": 1536,
+        "y": 1458.21,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_5",
+      "actor_location": {
+        "type": "Vector",
+        "x": -3456,
+        "y": 793.108,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_50",
+      "actor_location": {
+        "type": "Vector",
+        "x": 2304,
+        "y": 1458.21,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_51",
+      "actor_location": {
+        "type": "Vector",
+        "x": 3072,
+        "y": 1458.21,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_53",
+      "actor_location": {
+        "type": "Vector",
+        "x": -768,
+        "y": 1458.21,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_54",
+      "actor_location": {
+        "type": "Vector",
+        "x": -1536,
+        "y": 1458.21,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_55",
+      "actor_location": {
+        "type": "Vector",
+        "x": -2304,
+        "y": 1458.21,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_56",
+      "actor_location": {
+        "type": "Vector",
+        "x": -3072,
+        "y": 1458.21,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_58",
+      "actor_location": {
+        "type": "Vector",
+        "x": 384,
+        "y": 3452.32,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_59",
+      "actor_location": {
+        "type": "Vector",
+        "x": 1152,
+        "y": 3452.32,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_6",
+      "actor_location": {
+        "type": "Vector",
+        "x": -3840,
+        "y": 1458.21,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_60",
+      "actor_location": {
+        "type": "Vector",
+        "x": 1920,
+        "y": 3452.32,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_61",
+      "actor_location": {
+        "type": "Vector",
+        "x": 2688,
+        "y": 3452.32,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_65",
+      "actor_location": {
+        "type": "Vector",
+        "x": -3456,
+        "y": 2123.32,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_66",
+      "actor_location": {
+        "type": "Vector",
+        "x": -2688,
+        "y": 3452.32,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_67",
+      "actor_location": {
+        "type": "Vector",
+        "x": -1920,
+        "y": 3452.32,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_68",
+      "actor_location": {
+        "type": "Vector",
+        "x": -1152,
+        "y": 3452.32,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_69",
+      "actor_location": {
+        "type": "Vector",
+        "x": -384,
+        "y": 3452.32,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_70",
+      "actor_location": {
+        "type": "Vector",
+        "x": 0,
+        "y": 4117.43,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_71",
+      "actor_location": {
+        "type": "Vector",
+        "x": 768,
+        "y": 4117.43,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_72",
+      "actor_location": {
+        "type": "Vector",
+        "x": 1536,
+        "y": 4117.43,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_73",
+      "actor_location": {
+        "type": "Vector",
+        "x": 2304,
+        "y": 4117.43,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_76",
+      "actor_location": {
+        "type": "Vector",
+        "x": -768,
+        "y": 4117.43,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_77",
+      "actor_location": {
+        "type": "Vector",
+        "x": -1536,
+        "y": 4117.43,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_78",
+      "actor_location": {
+        "type": "Vector",
+        "x": -2304,
+        "y": 4117.43,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_Half_Test_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_9",
+      "actor_location": {
+        "type": "Vector",
+        "x": -3840,
+        "y": -128,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": {
+        "type": "Vector",
+        "x": -1,
+        "y": 1,
+        "z": 1
+      },
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_Half_Test_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_90",
+      "actor_location": {
+        "type": "Vector",
+        "x": -4608,
+        "y": 128,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": {
+        "type": "Vector",
+        "x": -1,
+        "y": 1,
+        "z": 1
+      },
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_91",
+      "actor_location": {
+        "type": "Vector",
+        "x": -4224,
+        "y": 793.108,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_Half_Test_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_92",
+      "actor_location": {
+        "type": "Vector",
+        "x": -4608,
+        "y": -128,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": {
+        "type": "Vector",
+        "x": -1,
+        "y": 1,
+        "z": 1
+      },
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_93",
+      "actor_location": {
+        "type": "Vector",
+        "x": -4224,
+        "y": -793.108,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_Half_Test_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_94",
+      "actor_location": {
+        "type": "Vector",
+        "x": 3840,
+        "y": 128,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": {
+        "type": "Vector",
+        "x": -1,
+        "y": 1,
+        "z": 1
+      },
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_95",
+      "actor_location": {
+        "type": "Vector",
+        "x": 3456,
+        "y": 793.108,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_96",
+      "actor_location": {
+        "type": "Vector",
+        "x": 3840,
+        "y": 1458.21,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_Half_Test_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_97",
+      "actor_location": {
+        "type": "Vector",
+        "x": 3840,
+        "y": -128,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": {
+        "type": "Vector",
+        "x": -1,
+        "y": 1,
+        "z": 1
+      },
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_98",
+      "actor_location": {
+        "type": "Vector",
+        "x": 3456,
+        "y": -793.108,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_273",
+      "mesh": "BO_Tile_TEST_SM",
+      "hidden": false,
+      "actor_class": "BreakOutActor_Platform_TA",
+      "actor_name": "BreakOutActor_Platform_TA_99",
+      "actor_location": {
+        "type": "Vector",
+        "x": 3840,
+        "y": -1458.21,
+        "z": 0
+      },
+      "actor_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -49152,
+        "roll": 0
+      },
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "TileBreak_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_338",
+      "mesh": "BO_Arena_Quarterpipe_SM",
+      "hidden": true,
+      "actor_class": "DecalBlockingActor_TA",
+      "actor_name": "DecalBlockingActor_TA_1",
+      "actor_location": {
+        "type": "Vector",
+        "x": 0,
+        "y": 0,
+        "z": -208
+      },
+      "actor_rotation": null,
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 0.392,
+      "comp_scale3d": null,
+      "materials": [
+        "Collision_Mat",
+        "MIC_BreakOut_Trim_Walls"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshComponent_338",
+      "mesh": "FloorCollision_Plane",
+      "hidden": false,
+      "actor_class": "DecalBlockingActor_TA",
+      "actor_name": "DecalBlockingActor_TA_2",
+      "actor_location": {
+        "type": "Vector",
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "actor_rotation": null,
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": {
+        "type": "Vector",
+        "x": 9.71461,
+        "y": 9.71461,
+        "z": 9.71461
+      },
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": null,
+      "materials": [
+        "DecalMask_MAT"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshActor_SMC_0",
+      "mesh": "BO_OOB_Building",
+      "hidden": false,
+      "actor_class": "StaticMeshCollectionActor",
+      "actor_name": "MeshCollector0",
+      "actor_location": null,
+      "actor_rotation": null,
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": {
+        "type": "Vector",
+        "x": 13728,
+        "y": -14368,
+        "z": -12
+      },
+      "comp_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "comp_scale": 1.0,
+      "comp_scale3d": {
+        "type": "Vector",
+        "x": 65.5454,
+        "y": 65.5454,
+        "z": 65.5454
+      },
+      "materials": [
+        "BreakOut_Buildings_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshActor_SMC_10",
+      "mesh": "BO_OOB_Building",
+      "hidden": false,
+      "actor_class": "StaticMeshCollectionActor",
+      "actor_name": "MeshCollector0",
+      "actor_location": null,
+      "actor_rotation": null,
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": {
+        "type": "Vector",
+        "x": -14176,
+        "y": -32.0015,
+        "z": -12
+      },
+      "comp_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": 16384,
+        "roll": 0
+      },
+      "comp_scale": 1.0,
+      "comp_scale3d": {
+        "type": "Vector",
+        "x": 65.5454,
+        "y": 65.5454,
+        "z": 65.5454
+      },
+      "materials": [
+        "BreakOut_Buildings_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshActor_SMC_18",
+      "mesh": "SM_SkySphere",
+      "hidden": false,
+      "actor_class": "StaticMeshCollectionActor",
+      "actor_name": "MeshCollector0",
+      "actor_location": null,
+      "actor_rotation": null,
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": null,
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": {
+        "type": "Vector",
+        "x": 200,
+        "y": 200,
+        "z": 200
+      },
+      "materials": [
+        "BreakOut_Sky_MAT_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshActor_SMC_2",
+      "mesh": "BO_OOB_Building",
+      "hidden": false,
+      "actor_class": "StaticMeshCollectionActor",
+      "actor_name": "MeshCollector0",
+      "actor_location": null,
+      "actor_rotation": null,
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": {
+        "type": "Vector",
+        "x": 13408,
+        "y": -496,
+        "z": -12
+      },
+      "comp_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "comp_scale": 1.0,
+      "comp_scale3d": {
+        "type": "Vector",
+        "x": 65.5454,
+        "y": 65.5454,
+        "z": 65.5454
+      },
+      "materials": [
+        "BreakOut_Buildings_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshActor_SMC_24",
+      "mesh": "BottomFogLines_SM",
+      "hidden": false,
+      "actor_class": "StaticMeshCollectionActor",
+      "actor_name": "MeshCollector0",
+      "actor_location": null,
+      "actor_rotation": null,
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": {
+        "type": "Vector",
+        "x": 0.0370487,
+        "y": 0.00621666,
+        "z": -40.7007
+      },
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": {
+        "type": "Vector",
+        "x": 63.9515,
+        "y": 63.9515,
+        "z": 8.61156
+      },
+      "materials": [
+        "BottomFog_MAT",
+        "BottomLines_MAT_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshActor_SMC_26",
+      "mesh": "CloudPlane",
+      "hidden": false,
+      "actor_class": "StaticMeshCollectionActor",
+      "actor_name": "MeshCollector0",
+      "actor_location": null,
+      "actor_rotation": null,
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": {
+        "type": "Vector",
+        "x": 0.1521,
+        "y": 0.09596,
+        "z": -1014.99
+      },
+      "comp_rotation": null,
+      "comp_scale": 1.0,
+      "comp_scale3d": {
+        "type": "Vector",
+        "x": 13.3927,
+        "y": 13.3927,
+        "z": 13.3927
+      },
+      "materials": [
+        "DOF_Mask_MAT"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshActor_SMC_3",
+      "mesh": "BO_OOB_Building",
+      "hidden": false,
+      "actor_class": "StaticMeshCollectionActor",
+      "actor_name": "MeshCollector0",
+      "actor_location": null,
+      "actor_rotation": null,
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": {
+        "type": "Vector",
+        "x": 13408,
+        "y": 13888,
+        "z": -12
+      },
+      "comp_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "comp_scale": 1.0,
+      "comp_scale3d": {
+        "type": "Vector",
+        "x": 65.5454,
+        "y": 65.5454,
+        "z": 65.5454
+      },
+      "materials": [
+        "BreakOut_Buildings_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshActor_SMC_4",
+      "mesh": "BO_OOB_Building",
+      "hidden": false,
+      "actor_class": "StaticMeshCollectionActor",
+      "actor_name": "MeshCollector0",
+      "actor_location": null,
+      "actor_rotation": null,
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": {
+        "type": "Vector",
+        "x": 735.998,
+        "y": 13888,
+        "z": -12
+      },
+      "comp_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "comp_scale": 1.0,
+      "comp_scale3d": {
+        "type": "Vector",
+        "x": 65.5454,
+        "y": 65.5454,
+        "z": 65.5454
+      },
+      "materials": [
+        "BreakOut_Buildings_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshActor_SMC_5",
+      "mesh": "BO_OOB_Building",
+      "hidden": false,
+      "actor_class": "StaticMeshCollectionActor",
+      "actor_name": "MeshCollector0",
+      "actor_location": null,
+      "actor_rotation": null,
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": {
+        "type": "Vector",
+        "x": -11360,
+        "y": 13888,
+        "z": -12
+      },
+      "comp_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "comp_scale": 1.0,
+      "comp_scale3d": {
+        "type": "Vector",
+        "x": 65.5454,
+        "y": 65.5454,
+        "z": 65.5454
+      },
+      "materials": [
+        "BreakOut_Buildings_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshActor_SMC_6",
+      "mesh": "BO_OOB_Building",
+      "hidden": false,
+      "actor_class": "StaticMeshCollectionActor",
+      "actor_name": "MeshCollector0",
+      "actor_location": null,
+      "actor_rotation": null,
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": {
+        "type": "Vector",
+        "x": -36848,
+        "y": -224.001,
+        "z": -12
+      },
+      "comp_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": 16384,
+        "roll": 0
+      },
+      "comp_scale": 1.0,
+      "comp_scale3d": {
+        "type": "Vector",
+        "x": 121.173,
+        "y": 121.173,
+        "z": 121.173
+      },
+      "materials": [
+        "BreakOut_Buildings_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshActor_SMC_8",
+      "mesh": "BO_OOB_Building",
+      "hidden": false,
+      "actor_class": "StaticMeshCollectionActor",
+      "actor_name": "MeshCollector0",
+      "actor_location": null,
+      "actor_rotation": null,
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": {
+        "type": "Vector",
+        "x": -11648,
+        "y": -14368,
+        "z": -12
+      },
+      "comp_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "comp_scale": 1.0,
+      "comp_scale3d": {
+        "type": "Vector",
+        "x": 65.5454,
+        "y": 65.5454,
+        "z": 65.5454
+      },
+      "materials": [
+        "BreakOut_Buildings_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshActor_SMC_9",
+      "mesh": "BO_OOB_Building",
+      "hidden": false,
+      "actor_class": "StaticMeshCollectionActor",
+      "actor_name": "MeshCollector0",
+      "actor_location": null,
+      "actor_rotation": null,
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": {
+        "type": "Vector",
+        "x": 1984,
+        "y": -14971.9,
+        "z": -12.0004
+      },
+      "comp_rotation": {
+        "type": "Rotator",
+        "pitch": 0,
+        "yaw": -16384,
+        "roll": 0
+      },
+      "comp_scale": 1.0,
+      "comp_scale3d": {
+        "type": "Vector",
+        "x": 65.5454,
+        "y": 65.5454,
+        "z": 65.5454
+      },
+      "materials": [
+        "BreakOut_Buildings_INST"
+      ]
+    },
+    {
+      "sublevel_package": "ShatterShot_VFX",
+      "component_name": "StaticMeshActor_SMC_1",
+      "mesh": "breakout_wall",
+      "hidden": false,
+      "actor_class": "StaticMeshCollectionActor",
+      "actor_name": "MeshCollector1",
+      "actor_location": null,
+      "actor_rotation": null,
+      "actor_draw_scale": 1.0,
+      "actor_draw_scale3d": null,
+      "comp_translation": {
+        "type": "Vector",
+        "x": 0.00976562,
+        "y": 0.00127944,
+        "z": 104.183
+      },
+      "comp_rotation": null,
+      "comp_scale": 0.5,
+      "comp_scale3d": null,
+      "materials": [
+        "ChromaFog_MAT_INST"
+      ]
+    }
+  ]
+}

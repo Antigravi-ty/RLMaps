@@ -1,0 +1,51 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'CHN_Stadium_Textures.OOB_House_Wall_N'
+    ReferencedTextures[1] = Texture2D'CHN_Stadium_Textures.OOB_House_Wall_D'
+}
+Expressions[16] =
+{
+    Expressions[0] = MaterialExpressionTextureSampleParameter2D'CHN_Stadium_Assets.Materials.OOB_Buildings_Wall_MAT_NoMask.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[1] = MaterialExpressionTextureSampleParameter2D'CHN_Stadium_Assets.Materials.OOB_Buildings_Wall_MAT_NoMask.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[6] = MaterialExpressionScalarParameter'CHN_Stadium_Assets.Materials.OOB_Buildings_Wall_MAT_NoMask.MaterialExpressionScalarParameter_0'
+    Expressions[8] = MaterialExpressionScalarParameter'CHN_Stadium_Assets.Materials.OOB_Buildings_Wall_MAT_NoMask.MaterialExpressionScalarParameter_16'
+    Expressions[9] = MaterialExpressionStaticSwitchParameter'CHN_Stadium_Assets.Materials.OOB_Buildings_Wall_MAT_NoMask.MaterialExpressionStaticSwitchParameter_18'
+    Expressions[12] = MaterialExpressionStaticSwitchParameter'CHN_Stadium_Assets.Materials.OOB_Buildings_Wall_MAT_NoMask.MaterialExpressionStaticSwitchParameter_19'
+    Expressions[13] = MaterialExpressionScalarParameter'CHN_Stadium_Assets.Materials.OOB_Buildings_Wall_MAT_NoMask.MaterialExpressionScalarParameter_17'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'CHN_Stadium_Textures.OOB_House_Wall_D'
+        Name = Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'CHN_Stadium_Textures.OOB_House_Wall_N'
+        Name = Normal
+        Group = None
+    }
+}
+CollectedScalarParameters[3] =
+{
+    CollectedScalarParameters[0] = { Value=2, Name=Fresnel Intensity, Group=None }
+    CollectedScalarParameters[1] = { Value=0.2, Name=Specular, Group=None }
+    CollectedScalarParameters[2] = { Value=64, Name=Specular Power, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

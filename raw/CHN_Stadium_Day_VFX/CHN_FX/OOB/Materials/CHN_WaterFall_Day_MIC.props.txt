@@ -1,0 +1,70 @@
+Parent = Material3'CHN_FX.OOB.Materials.CHN_WaterFall_MAT'
+ScalarParameterValues[6] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.44
+        ParameterName = Amount
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.1
+        ParameterName = DistortAmount
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = 
+        ParameterValue = 64
+        ParameterName = Hardness
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = 
+        ParameterValue = 1
+        ParameterName = ReflectionIntensity
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.7
+        ParameterName = Speed
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = 
+        ParameterValue = 2
+        ParameterName = tile
+    }
+}
+TextureParameterValues[1] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = None
+        ParameterName = reflection
+    }
+}
+VectorParameterValues[1] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=0.427481, G=0.650494, B=1, A=0.25 }
+        ParameterName = Diffuse
+    }
+}
+BasePropertyOverrides = 
+StaticParameters = 
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

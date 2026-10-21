@@ -1,0 +1,76 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'BreakOut_Assets.Textures.BO_Quarterpipe_N'
+    ReferencedTextures[1] = Texture2D'BreakOut_Assets.Textures.BO_Quarterpipe_RGB'
+}
+Expressions[35] =
+{
+    Expressions[0] = MaterialExpressionTextureSampleParameter2D'Stadium_Dropshot_IVTK.MAT_Breakout_Walls_test_02_IVTK.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[3] = MaterialExpressionScalarParameter'Stadium_Dropshot_IVTK.MAT_Breakout_Walls_test_02_IVTK.MaterialExpressionScalarParameter_2'
+    Expressions[11] = MaterialExpressionScalarParameter'Stadium_Dropshot_IVTK.MAT_Breakout_Walls_test_02_IVTK.MaterialExpressionScalarParameter_1'
+    Expressions[13] = MaterialExpressionTextureSampleParameter2D'Stadium_Dropshot_IVTK.MAT_Breakout_Walls_test_02_IVTK.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[15] = MaterialExpressionScalarParameter'Stadium_Dropshot_IVTK.MAT_Breakout_Walls_test_02_IVTK.MaterialExpressionScalarParameter_0'
+    Expressions[24] = MaterialExpressionVectorParameter'Stadium_Dropshot_IVTK.MAT_Breakout_Walls_test_02_IVTK.MaterialExpressionVectorParameter_1'
+    Expressions[28] = MaterialExpressionScalarParameter'Stadium_Dropshot_IVTK.MAT_Breakout_Walls_test_02_IVTK.MaterialExpressionScalarParameter_46'
+    Expressions[29] = MaterialExpressionScalarParameter'Stadium_Dropshot_IVTK.MAT_Breakout_Walls_test_02_IVTK.MaterialExpressionScalarParameter_47'
+    Expressions[30] = MaterialExpressionScalarParameter'Stadium_Dropshot_IVTK.MAT_Breakout_Walls_test_02_IVTK.MaterialExpressionScalarParameter_48'
+    Expressions[31] = MaterialExpressionScalarParameter'Stadium_Dropshot_IVTK.MAT_Breakout_Walls_test_02_IVTK.MaterialExpressionScalarParameter_49'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'BreakOut_Assets.Textures.BO_Quarterpipe_N'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'BreakOut_Assets.Textures.BO_Quarterpipe_RGB'
+        Name = RGB_Pack
+        Group = None
+    }
+}
+CollectedScalarParameters[7] =
+{
+    CollectedScalarParameters[0] = { Value=16, Name=Emissive_Brightness, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Brightness, Group=None }
+    CollectedScalarParameters[2] = { Value=0.02, Name=Refl_Brightness, Group=None }
+    CollectedScalarParameters[3] = { Value=10, Name=Gradient Falloff, Group=InvisiTek }
+    CollectedScalarParameters[4] =
+    {
+        Value = 0.05
+        Name = Gradient Size Adjust
+        Group = InvisiTek
+    }
+    CollectedScalarParameters[5] =
+    {
+        Value = 20
+        Name = Fresnel Intensity
+        Group = InvisiTek
+    }
+    CollectedScalarParameters[6] = { Value=3, Name=Fresnel Power, Group=InvisiTek }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=5000, G=4300, B=5000, A=1 }
+        Name = CubeMapPosition
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

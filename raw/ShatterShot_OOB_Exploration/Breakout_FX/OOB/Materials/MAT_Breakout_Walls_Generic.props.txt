@@ -1,0 +1,54 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'Breakout_FX.OOB.Textures.BO_OOB_Panel_N'
+    ReferencedTextures[1] = Texture2D'Breakout_FX.OOB.Textures.BO_OOB_Panel_D'
+}
+Expressions[17] =
+{
+    Expressions[0] = MaterialExpressionTextureSampleParameter2D'Breakout_FX.OOB.Materials.MAT_Breakout_Walls_Generic.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[7] = MaterialExpressionVectorParameter'Breakout_FX.OOB.Materials.MAT_Breakout_Walls_Generic.MaterialExpressionVectorParameter_1'
+    Expressions[8] = MaterialExpressionTextureSampleParameter2D'Breakout_FX.OOB.Materials.MAT_Breakout_Walls_Generic.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[11] = MaterialExpressionScalarParameter'Breakout_FX.OOB.Materials.MAT_Breakout_Walls_Generic.MaterialExpressionScalarParameter_3'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Breakout_FX.OOB.Textures.BO_OOB_Panel_N'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Breakout_FX.OOB.Textures.BO_OOB_Panel_D'
+        Name = RGB_Pack
+        Group = None
+    }
+}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=3, Name=tile, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=5000, G=4300, B=5000, A=1 }
+        Name = CubeMapPosition
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
