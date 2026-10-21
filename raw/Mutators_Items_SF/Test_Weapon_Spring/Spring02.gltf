@@ -1,0 +1,112 @@
+{
+  "asset" : {
+    "generator" : "UE Viewer (umodel) build 1592",
+    "version" : "2.0"
+  },
+  "scene" : 0,
+  "scenes" : [
+    {
+      "nodes" : [ 0 ]
+    }
+  ],
+  "nodes" : [
+    {
+      "name" : "Spring02",
+      "mesh" : 0
+    }
+  ],
+  "materials" : [
+    {
+      "name" : "Items_Spring_MIC",
+      "pbrMetallicRoughness" : {
+        "baseColorFactor" : [ 0.3, 0.3, 0.3, 1.0 ],
+        "metallicFactor" : 0.1,
+        "roughnessFactor" : 0.5
+      }
+    }
+  ],
+  "meshes" : [
+    {
+      "primitives" : [
+        {
+          "attributes" : {
+            "POSITION" : 1,
+            "NORMAL" : 2,
+            "TANGENT" : 3,
+            "TEXCOORD_0" : 4
+          },
+          "indices" : 0,
+          "material" : 0
+        }
+      ],
+      "name" : "Spring02"
+    }
+  ],
+  "buffers" : [
+    {
+      "uri" : "Spring02.bin",
+      "byteLength" : 105624
+    }
+  ],
+  "bufferViews" : [
+    {
+      "buffer" : 0,
+      "byteOffset" : 0,
+      "byteLength" : 18504
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 18504,
+      "byteLength" : 21780
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 40284,
+      "byteLength" : 21780
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 62064,
+      "byteLength" : 29040
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 91104,
+      "byteLength" : 14520
+    }
+  ],
+  "accessors" : [
+    {
+      "bufferView" : 0,
+      "componentType" : 5123,
+      "count" : 9252,
+      "type" : "SCALAR"
+    },
+    {
+      "bufferView" : 1,
+      "min" : [ -0.087, -0.010383, -0.087 ],
+      "max" : [ 0.087, 0.330383, 0.087 ],
+      "componentType" : 5126,
+      "count" : 1815,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 2,
+      "componentType" : 5126,
+      "count" : 1815,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 3,
+      "componentType" : 5126,
+      "count" : 1815,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 4,
+      "componentType" : 5126,
+      "count" : 1815,
+      "type" : "VEC2"
+    }
+  ]
+}

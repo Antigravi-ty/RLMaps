@@ -1,0 +1,118 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'boost_retrotech.Textures.Lightning_FB_RGB_01_T'
+    ReferencedTextures[1] = Texture2D'boost_energyburst.Textures.NoiseCloud_RGB_T'
+    ReferencedTextures[2] = Texture2D'wheel_psyonix.Textures.Distort_RGB_T'
+    ReferencedTextures[3] = Texture2D'boost_gpp.Textures.GPP_Lightning_RGB_FB_04_T'
+}
+Expressions[184] =
+{
+    Expressions[3] = MaterialExpressionScalarParameter'ItemsMode.Car.BallMagnet.Materials.LightningBolts_MAT.MaterialExpressionScalarParameter_4'
+    Expressions[5] = MaterialExpressionScalarParameter'ItemsMode.Car.BallMagnet.Materials.LightningBolts_MAT.MaterialExpressionScalarParameter_5'
+    Expressions[13] = MaterialExpressionScalarParameter'ItemsMode.Car.BallMagnet.Materials.LightningBolts_MAT.MaterialExpressionScalarParameter_14'
+    Expressions[17] = MaterialExpressionScalarParameter'ItemsMode.Car.BallMagnet.Materials.LightningBolts_MAT.MaterialExpressionScalarParameter_6'
+    Expressions[52] = MaterialExpressionTextureSampleParameter2D'ItemsMode.Car.BallMagnet.Materials.LightningBolts_MAT.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[59] = MaterialExpressionScalarParameter'ItemsMode.Car.BallMagnet.Materials.LightningBolts_MAT.MaterialExpressionScalarParameter_15'
+    Expressions[62] = MaterialExpressionScalarParameter'ItemsMode.Car.BallMagnet.Materials.LightningBolts_MAT.MaterialExpressionScalarParameter_16'
+    Expressions[64] = MaterialExpressionScalarParameter'ItemsMode.Car.BallMagnet.Materials.LightningBolts_MAT.MaterialExpressionScalarParameter_17'
+    Expressions[77] = MaterialExpressionScalarParameter'ItemsMode.Car.BallMagnet.Materials.LightningBolts_MAT.MaterialExpressionScalarParameter_18'
+    Expressions[79] = MaterialExpressionScalarParameter'ItemsMode.Car.BallMagnet.Materials.LightningBolts_MAT.MaterialExpressionScalarParameter_19'
+    Expressions[84] = MaterialExpressionScalarParameter'ItemsMode.Car.BallMagnet.Materials.LightningBolts_MAT.MaterialExpressionScalarParameter_20'
+    Expressions[86] = MaterialExpressionScalarParameter'ItemsMode.Car.BallMagnet.Materials.LightningBolts_MAT.MaterialExpressionScalarParameter_21'
+    Expressions[93] = MaterialExpressionScalarParameter'ItemsMode.Car.BallMagnet.Materials.LightningBolts_MAT.MaterialExpressionScalarParameter_0'
+    Expressions[117] = MaterialExpressionTextureSampleParameter2D'ItemsMode.Car.BallMagnet.Materials.LightningBolts_MAT.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[122] = MaterialExpressionScalarParameter'ItemsMode.Car.BallMagnet.Materials.LightningBolts_MAT.MaterialExpressionScalarParameter_7'
+    Expressions[125] = MaterialExpressionScalarParameter'ItemsMode.Car.BallMagnet.Materials.LightningBolts_MAT.MaterialExpressionScalarParameter_8'
+    Expressions[127] = MaterialExpressionScalarParameter'ItemsMode.Car.BallMagnet.Materials.LightningBolts_MAT.MaterialExpressionScalarParameter_9'
+    Expressions[140] = MaterialExpressionScalarParameter'ItemsMode.Car.BallMagnet.Materials.LightningBolts_MAT.MaterialExpressionScalarParameter_10'
+    Expressions[142] = MaterialExpressionScalarParameter'ItemsMode.Car.BallMagnet.Materials.LightningBolts_MAT.MaterialExpressionScalarParameter_11'
+    Expressions[147] = MaterialExpressionScalarParameter'ItemsMode.Car.BallMagnet.Materials.LightningBolts_MAT.MaterialExpressionScalarParameter_12'
+    Expressions[149] = MaterialExpressionScalarParameter'ItemsMode.Car.BallMagnet.Materials.LightningBolts_MAT.MaterialExpressionScalarParameter_13'
+    Expressions[164] = MaterialExpressionStaticSwitchParameter'ItemsMode.Car.BallMagnet.Materials.LightningBolts_MAT.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[165] = MaterialExpressionScalarParameter'ItemsMode.Car.BallMagnet.Materials.LightningBolts_MAT.MaterialExpressionScalarParameter_1'
+    Expressions[175] = MaterialExpressionScalarParameter'ItemsMode.Car.BallMagnet.Materials.LightningBolts_MAT.MaterialExpressionScalarParameter_2'
+    Expressions[179] = MaterialExpressionScalarParameter'ItemsMode.Car.BallMagnet.Materials.LightningBolts_MAT.MaterialExpressionScalarParameter_22'
+    Expressions[180] = MaterialExpressionScalarParameter'ItemsMode.Car.BallMagnet.Materials.LightningBolts_MAT.MaterialExpressionScalarParameter_24'
+    Expressions[181] = MaterialExpressionScalarParameter'ItemsMode.Car.BallMagnet.Materials.LightningBolts_MAT.MaterialExpressionScalarParameter_25'
+    Expressions[182] = MaterialExpressionScalarParameter'ItemsMode.Car.BallMagnet.Materials.LightningBolts_MAT.MaterialExpressionScalarParameter_26'
+    Expressions[183] = MaterialExpressionScalarParameter'ItemsMode.Car.BallMagnet.Materials.LightningBolts_MAT.MaterialExpressionScalarParameter_27'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'boost_gpp.Textures.GPP_Lightning_RGB_FB_04_T'
+        Name = A_Texture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'boost_retrotech.Textures.Lightning_FB_RGB_01_T'
+        Name = Texture01
+        Group = None
+    }
+}
+CollectedScalarParameters[26] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Amount, Group=WPO }
+    CollectedScalarParameters[1] = { Value=5, Name=Intensity, Group=WPO }
+    CollectedScalarParameters[2] = { Value=1, Name=tile, Group=WPO }
+    CollectedScalarParameters[3] = { Value=1, Name=Speed, Group=WPO }
+    CollectedScalarParameters[4] = { Value=2, Name=A_Columns, Group=FlipBook }
+    CollectedScalarParameters[5] = { Value=4, Name=A_Rows, Group=FlipBook }
+    CollectedScalarParameters[6] = { Value=16, Name=A_FB_Speed, Group=FlipBook }
+    CollectedScalarParameters[7] =
+    {
+        Value = 0
+        Name = A_Pattern_PanV
+        Group = PatternOverlay
+    }
+    CollectedScalarParameters[8] =
+    {
+        Value = 1
+        Name = A_PatternTileV
+        Group = PatternOverlay
+    }
+    CollectedScalarParameters[9] =
+    {
+        Value = 0
+        Name = A_Pattern_PanU
+        Group = PatternOverlay
+    }
+    CollectedScalarParameters[10] =
+    {
+        Value = 1
+        Name = A_PatternTileU
+        Group = PatternOverlay
+    }
+    CollectedScalarParameters[11] = { Value=1, Name=MaskSpeed, Group=None }
+    CollectedScalarParameters[12] = { Value=2, Name=Columns, Group=FlipBook }
+    CollectedScalarParameters[13] = { Value=4, Name=Rows, Group=FlipBook }
+    CollectedScalarParameters[14] = { Value=16, Name=FB_Speed, Group=FlipBook }
+    CollectedScalarParameters[15] = { Value=0, Name=Pattern_PanV, Group=PatternOverlay }
+    CollectedScalarParameters[16] = { Value=1, Name=PatternTileV, Group=PatternOverlay }
+    CollectedScalarParameters[17] = { Value=0, Name=Pattern_PanU, Group=PatternOverlay }
+    CollectedScalarParameters[18] = { Value=1, Name=PatternTileU, Group=PatternOverlay }
+    CollectedScalarParameters[19] = { Value=2, Name=MaskSpeed, Group=None }
+    CollectedScalarParameters[20] = { Value=1, Name=BlendTile, Group=None }
+    CollectedScalarParameters[21] = { Value=3.5, Name=Brightness, Group=None }
+    CollectedScalarParameters[22] = { Value=0.2, Name=FlickerSpeed, Group=None }
+    CollectedScalarParameters[23] = { Value=2, Name=PanSpeed, Group=None }
+    CollectedScalarParameters[24] = { Value=5, Name=Hardness, Group=None }
+    CollectedScalarParameters[25] = { Value=1, Name=MaskTile, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

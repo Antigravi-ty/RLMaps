@@ -1,0 +1,170 @@
+Parent = Material3'ItemsMode.Car.Storm.Materials.StormMesh_Core_Cyl_MAT'
+ScalarParameterValues[18] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.8
+        ParameterName = CloudPanSpeed
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = 1.2
+        ParameterName = CloudPanSpeed_2
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = 
+        ParameterValue = 1.5
+        ParameterName = EdgeFade
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = 
+        ParameterValue = 1
+        ParameterName = Opacity
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.35
+        ParameterName = TileU
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.35
+        ParameterName = TileV
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.3
+        ParameterName = TimeGlowPanSpeed
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.05
+        ParameterName = UVDistortAmount
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.1
+        ParameterName = UVDistortAmount_2
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.05
+        ParameterName = UVDistortSpeed
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = 
+        ParameterValue = 4
+        ParameterName = MeshBumps_Speed
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.01
+        ParameterName = MeshBumps_Tile
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = 
+        ParameterValue = 1
+        ParameterName = MeshBumps_Transition
+    }
+    ScalarParameterValues[13] =
+    {
+        ParameterInfo = 
+        ParameterValue = 1
+        ParameterName = MeshBumpsIntensity
+    }
+    ScalarParameterValues[14] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.8
+        ParameterName = WorldPositionMask
+    }
+    ScalarParameterValues[15] =
+    {
+        ParameterInfo = 
+        ParameterValue = -0.1
+        ParameterName = DetailSharpness
+    }
+    ScalarParameterValues[16] =
+    {
+        ParameterInfo = 
+        ParameterValue = -0.1
+        ParameterName = DetailSharpness_2
+    }
+    ScalarParameterValues[17] =
+    {
+        ParameterInfo = 
+        ParameterValue = 1000
+        ParameterName = MaxOffset
+    }
+}
+TextureParameterValues[0] = {}
+VectorParameterValues[7] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=100, G=100, B=0, A=1 }
+        ParameterName = MeshBumpsDirection
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=0.198888, G=0.198888, B=0.198888, A=0.3 }
+        ParameterName = DarkPrimary
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=0.381201, G=0.349786, B=0.320127, A=3 }
+        ParameterName = DustColor
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=0.386726, G=0.381385, B=0.354678, A=5 }
+        ParameterName = HotSpots
+    }
+    VectorParameterValues[4] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=0.529733, G=0.686269, B=0.850797, A=8 }
+        ParameterName = LightningColor
+    }
+    VectorParameterValues[5] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=0.591138, G=0.591138, B=0.591138, A=0.2 }
+        ParameterName = SecondaryMotion
+    }
+    VectorParameterValues[6] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=0, G=0, B=0, A=1 }
+        ParameterName = Velocity
+    }
+}
+BasePropertyOverrides = 
+StaticParameters = 
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

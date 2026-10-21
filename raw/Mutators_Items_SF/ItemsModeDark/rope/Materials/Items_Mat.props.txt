@@ -1,0 +1,119 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = true
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'Hat_Viking_Helmet_Textures.Hat_Viking_Helmet_Normal'
+    ReferencedTextures[1] = Texture2D'Hat_Viking_Helmet_Textures.Hat_Viking_Helmet_Diffuse'
+}
+Expressions[179] =
+{
+    Expressions[0] = MaterialExpressionStaticSwitchParameter'ItemsModeDark.rope.Materials.Items_Mat.MaterialExpressionStaticSwitchParameter_21'
+    Expressions[2] = MaterialExpressionStaticSwitchParameter'ItemsModeDark.rope.Materials.Items_Mat.MaterialExpressionStaticSwitchParameter_19'
+    Expressions[3] = MaterialExpressionStaticSwitchParameter'ItemsModeDark.rope.Materials.Items_Mat.MaterialExpressionStaticSwitchParameter_10'
+    Expressions[11] = MaterialExpressionScalarParameter'ItemsModeDark.rope.Materials.Items_Mat.MaterialExpressionScalarParameter_5'
+    Expressions[22] = MaterialExpressionScalarParameter'ItemsModeDark.rope.Materials.Items_Mat.MaterialExpressionScalarParameter_7'
+    Expressions[25] = MaterialExpressionScalarParameter'ItemsModeDark.rope.Materials.Items_Mat.MaterialExpressionScalarParameter_12'
+    Expressions[60] = MaterialExpressionScalarParameter'ItemsModeDark.rope.Materials.Items_Mat.MaterialExpressionScalarParameter_9'
+    Expressions[62] = MaterialExpressionScalarParameter'ItemsModeDark.rope.Materials.Items_Mat.MaterialExpressionScalarParameter_8'
+    Expressions[63] = MaterialExpressionStaticSwitchParameter'ItemsModeDark.rope.Materials.Items_Mat.MaterialExpressionStaticSwitchParameter_15'
+    Expressions[64] = MaterialExpressionStaticSwitchParameter'ItemsModeDark.rope.Materials.Items_Mat.MaterialExpressionStaticSwitchParameter_22'
+    Expressions[65] = MaterialExpressionTextureSampleParameter2D'ItemsModeDark.rope.Materials.Items_Mat.MaterialExpressionTextureSampleParameter2D_3'
+    Expressions[73] = MaterialExpressionScalarParameter'ItemsModeDark.rope.Materials.Items_Mat.MaterialExpressionScalarParameter_13'
+    Expressions[80] = MaterialExpressionScalarParameter'ItemsModeDark.rope.Materials.Items_Mat.MaterialExpressionScalarParameter_11'
+    Expressions[83] = MaterialExpressionStaticSwitchParameter'ItemsModeDark.rope.Materials.Items_Mat.MaterialExpressionStaticSwitchParameter_12'
+    Expressions[93] = MaterialExpressionTextureSampleParameter2D'ItemsModeDark.rope.Materials.Items_Mat.MaterialExpressionTextureSampleParameter2D_8'
+    Expressions[96] = MaterialExpressionScalarParameter'ItemsModeDark.rope.Materials.Items_Mat.MaterialExpressionScalarParameter_10'
+    Expressions[100] = MaterialExpressionTextureSampleParameter2D'ItemsModeDark.rope.Materials.Items_Mat.MaterialExpressionTextureSampleParameter2D_7'
+    Expressions[102] = MaterialExpressionTextureSampleParameter2D'ItemsModeDark.rope.Materials.Items_Mat.MaterialExpressionTextureSampleParameter2D_6'
+    Expressions[104] = MaterialExpressionStaticSwitchParameter'ItemsModeDark.rope.Materials.Items_Mat.MaterialExpressionStaticSwitchParameter_13'
+    Expressions[105] = MaterialExpressionStaticSwitchParameter'ItemsModeDark.rope.Materials.Items_Mat.MaterialExpressionStaticSwitchParameter_20'
+    Expressions[106] = MaterialExpressionScalarParameter'ItemsModeDark.rope.Materials.Items_Mat.MaterialExpressionScalarParameter_1'
+    Expressions[108] = MaterialExpressionStaticSwitchParameter'ItemsModeDark.rope.Materials.Items_Mat.MaterialExpressionStaticSwitchParameter_11'
+    Expressions[109] = MaterialExpressionStaticSwitchParameter'ItemsModeDark.rope.Materials.Items_Mat.MaterialExpressionStaticSwitchParameter_18'
+    Expressions[110] = MaterialExpressionStaticSwitchParameter'ItemsModeDark.rope.Materials.Items_Mat.MaterialExpressionStaticSwitchParameter_1'
+    Expressions[112] = MaterialExpressionScalarParameter'ItemsModeDark.rope.Materials.Items_Mat.MaterialExpressionScalarParameter_2'
+    Expressions[114] = MaterialExpressionScalarParameter'ItemsModeDark.rope.Materials.Items_Mat.MaterialExpressionScalarParameter_6'
+    Expressions[117] = MaterialExpressionTextureSampleParameter2D'ItemsModeDark.rope.Materials.Items_Mat.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[120] = MaterialExpressionStaticSwitchParameter'ItemsModeDark.rope.Materials.Items_Mat.MaterialExpressionStaticSwitchParameter_3'
+    Expressions[121] = MaterialExpressionTextureSampleParameter2D'ItemsModeDark.rope.Materials.Items_Mat.MaterialExpressionTextureSampleParameter2D_5'
+    Expressions[122] = MaterialExpressionStaticSwitchParameter'ItemsModeDark.rope.Materials.Items_Mat.MaterialExpressionStaticSwitchParameter_8'
+    Expressions[123] = MaterialExpressionStaticSwitchParameter'ItemsModeDark.rope.Materials.Items_Mat.MaterialExpressionStaticSwitchParameter_16'
+    Expressions[130] = MaterialExpressionVectorParameter'ItemsModeDark.rope.Materials.Items_Mat.MaterialExpressionVectorParameter_5'
+    Expressions[133] = MaterialExpressionVectorParameter'ItemsModeDark.rope.Materials.Items_Mat.MaterialExpressionVectorParameter_1'
+    Expressions[136] = MaterialExpressionScalarParameter'ItemsModeDark.rope.Materials.Items_Mat.MaterialExpressionScalarParameter_3'
+    Expressions[141] = MaterialExpressionScalarParameter'ItemsModeDark.rope.Materials.Items_Mat.MaterialExpressionScalarParameter_0'
+    Expressions[145] = MaterialExpressionScalarParameter'ItemsModeDark.rope.Materials.Items_Mat.MaterialExpressionScalarParameter_4'
+    Expressions[149] = MaterialExpressionStaticSwitchParameter'ItemsModeDark.rope.Materials.Items_Mat.MaterialExpressionStaticSwitchParameter_4'
+    Expressions[155] = MaterialExpressionStaticSwitchParameter'ItemsModeDark.rope.Materials.Items_Mat.MaterialExpressionStaticSwitchParameter_2'
+    Expressions[162] = MaterialExpressionStaticSwitchParameter'ItemsModeDark.rope.Materials.Items_Mat.MaterialExpressionStaticSwitchParameter_5'
+    Expressions[163] = MaterialExpressionStaticSwitchParameter'ItemsModeDark.rope.Materials.Items_Mat.MaterialExpressionStaticSwitchParameter_14'
+    Expressions[164] = MaterialExpressionStaticSwitchParameter'ItemsModeDark.rope.Materials.Items_Mat.MaterialExpressionStaticSwitchParameter_7'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.9
+CollectedTextureParameters[6] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Hat_Viking_Helmet_Textures.Hat_Viking_Helmet_Normal'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[1] = { Texture=None, Name=Noise, Group=None }
+    CollectedTextureParameters[2] = { Texture=None, Name=Noise, Group=None }
+    CollectedTextureParameters[3] = { Texture=None, Name=Noise, Group=None }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'Hat_Viking_Helmet_Textures.Hat_Viking_Helmet_Diffuse'
+        Name = Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'Hat_Viking_Helmet_Textures.Hat_Viking_Helmet_Diffuse'
+        Name = Specular
+        Group = None
+    }
+}
+CollectedScalarParameters[14] =
+{
+    CollectedScalarParameters[0] = { Value=64, Name=Wobble, Group=None }
+    CollectedScalarParameters[1] = { Value=64, Name=StretchDistance, Group=None }
+    CollectedScalarParameters[2] = { Value=1.5, Name=Thickness, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=Gravity, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=slack, Group=None }
+    CollectedScalarParameters[5] = { Value=8, Name=Rope_Tile, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=Transition, Group=None }
+    CollectedScalarParameters[7] = { Value=0.01, Name=tile, Group=None }
+    CollectedScalarParameters[8] = { Value=24, Name=SpecPower, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=SpecBrightness, Group=None }
+    CollectedScalarParameters[10] = { Value=0.5, Name=DiffuseSpec, Group=None }
+    CollectedScalarParameters[11] = { Value=2, Name=RimValue, Group=None }
+    CollectedScalarParameters[12] = { Value=2, Name=RimSharpness, Group=None }
+    CollectedScalarParameters[13] = { Value=0.5, Name=DiffuseRim, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=0.5, B=0.2, A=200 }
+        Name = TransitionColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=1, A=0.5 }
+        Name = FresnelColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

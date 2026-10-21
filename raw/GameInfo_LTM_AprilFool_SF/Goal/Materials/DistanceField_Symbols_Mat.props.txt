@@ -1,0 +1,48 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] = { Texture2D'UI_Icons_Tex.Target_DFM' }
+Expressions[37] =
+{
+    Expressions[11] = MaterialExpressionTextureSampleParameter2D'Goal.Materials.DistanceField_Symbols_Mat.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[23] = MaterialExpressionScalarParameter'Goal.Materials.DistanceField_Symbols_Mat.MaterialExpressionScalarParameter_1'
+    Expressions[26] = MaterialExpressionVectorParameter'Goal.Materials.DistanceField_Symbols_Mat.MaterialExpressionVectorParameter_1'
+    Expressions[29] = MaterialExpressionStaticSwitchParameter'Goal.Materials.DistanceField_Symbols_Mat.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[31] = MaterialExpressionScalarParameter'Goal.Materials.DistanceField_Symbols_Mat.MaterialExpressionScalarParameter_2'
+    Expressions[32] = MaterialExpressionStaticSwitchParameter'Goal.Materials.DistanceField_Symbols_Mat.MaterialExpressionStaticSwitchParameter_2'
+    Expressions[34] = MaterialExpressionStaticSwitchParameter'Goal.Materials.DistanceField_Symbols_Mat.MaterialExpressionStaticSwitchParameter_4'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Additive (3)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'UI_Icons_Tex.Target_DFM'
+        Name = Symbol
+        Group = None
+    }
+}
+CollectedScalarParameters[2] =
+{
+    CollectedScalarParameters[0] = { Value=4, Name=PulseRepeat, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Brightness, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=0, B=0.0208086, A=1 }
+        Name = Color1
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

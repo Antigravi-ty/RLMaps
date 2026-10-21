@@ -1,0 +1,77 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'Ball_Default_Textures.Textures.Ball_Default00_N'
+    ReferencedTextures[2] = Texture2D'Ball_Default_Textures.Textures.Ball_Default00_D'
+    ReferencedTextures[3] = Texture2D'ItemsMode.Car.Textures.Clouds_RGB_T'
+}
+Expressions[88] =
+{
+    Expressions[9] = MaterialExpressionVectorParameter'ball_adidas.Materials.MAT_Ball_V3_Dissolve.MaterialExpressionVectorParameter_7'
+    Expressions[12] = MaterialExpressionVectorParameter'ball_adidas.Materials.MAT_Ball_V3_Dissolve.MaterialExpressionVectorParameter_6'
+    Expressions[19] = MaterialExpressionScalarParameter'ball_adidas.Materials.MAT_Ball_V3_Dissolve.MaterialExpressionScalarParameter_1'
+    Expressions[25] = MaterialExpressionTextureSampleParameter2D'ball_adidas.Materials.MAT_Ball_V3_Dissolve.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[33] = MaterialExpressionTextureSampleParameter2D'ball_adidas.Materials.MAT_Ball_V3_Dissolve.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[59] = MaterialExpressionScalarParameter'ball_adidas.Materials.MAT_Ball_V3_Dissolve.MaterialExpressionScalarParameter_0'
+    Expressions[60] = MaterialExpressionScalarParameter'ball_adidas.Materials.MAT_Ball_V3_Dissolve.MaterialExpressionScalarParameter_2'
+    Expressions[61] = MaterialExpressionScalarParameter'ball_adidas.Materials.MAT_Ball_V3_Dissolve.MaterialExpressionScalarParameter_3'
+    Expressions[62] = MaterialExpressionVectorParameter'ball_adidas.Materials.MAT_Ball_V3_Dissolve.MaterialExpressionVectorParameter_4'
+    Expressions[76] = MaterialExpressionScalarParameter'ball_adidas.Materials.MAT_Ball_V3_Dissolve.MaterialExpressionScalarParameter_9'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Ball_Default_Textures.Textures.Ball_Default00_N'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Ball_Default_Textures.Textures.Ball_Default00_D'
+        Name = Diffuse
+        Group = None
+    }
+}
+CollectedScalarParameters[5] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=GoalProximity, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=EmissiveIntensity, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=Specular, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=SpecularPower, Group=None }
+    CollectedScalarParameters[4] = { Value=0.3, Name=Dissolve, Group=None }
+}
+CollectedVectorParameters[3] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=1, A=1 }
+        Name = GoalPlaneNormal
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=-1024, A=1 }
+        Name = GoalPlaneLocation
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0.109298, G=0.106678, B=0.949438, A=20 }
+        Name = DissolveColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

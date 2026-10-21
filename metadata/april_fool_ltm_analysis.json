@@ -1,0 +1,2900 @@
+{
+  "package": "GameInfo_LTM_AprilFool_SF.upk",
+  "official_game_info_class": "GameInfo_LTM_AprilFool_TA",
+  "game_event_archetype": {
+    "index": 845,
+    "name": "Archetype",
+    "class": "GameEvent_Soccar_TA",
+    "outer": "GameInfo_LTM_AprilFool",
+    "outer_index": 847,
+    "properties": {
+      "TestCarArchetype": {
+        "index": 713,
+        "name": "Car_Test"
+      },
+      "BallArchetype": {
+        "index": 140,
+        "name": "Ball_Default"
+      },
+      "GoalIndicatorArchetype": {
+        "index": 875,
+        "name": "GoalIndicator"
+      },
+      "bPlayReplays": true,
+      "StatFactoryArchetype": {
+        "index": 1603,
+        "name": "StatFactory"
+      },
+      "InitialEventState": "WaitingForPlayers",
+      "GameTime": 300,
+      "WarmupTime": 3,
+      "ScoreSlomoCurve": {
+        "_struct": "InterpCurveFloat",
+        "fields": {
+          "Points": {
+            "type": "ArrayStruct",
+            "count": 3,
+            "elements": [
+              {
+                "InVal": 0.125,
+                "OutVal": 1,
+                "ArriveTangent": 0,
+                "LeaveTangent": 0,
+                "ArriveWeight": 0,
+                "LeaveWeight": 0,
+                "InterpMode": "CIM_Linear"
+              },
+              {
+                "InVal": 0.225,
+                "OutVal": 0.1875,
+                "ArriveTangent": 0,
+                "LeaveTangent": 0,
+                "ArriveWeight": 0,
+                "LeaveWeight": 0,
+                "InterpMode": "CIM_Linear"
+              },
+              {
+                "InVal": 0.625,
+                "OutVal": 1,
+                "ArriveTangent": 0,
+                "LeaveTangent": 0,
+                "ArriveWeight": 0,
+                "LeaveWeight": 0,
+                "InterpMode": "CIM_Linear"
+              }
+            ]
+          }
+        }
+      },
+      "GoalScoredMessage": {
+        "index": 1033,
+        "name": "GoalScoredMessage"
+      },
+      "OvertimeMessage": {
+        "index": 1037,
+        "name": "OvertimeMessage"
+      },
+      "TwoMinRemainingMessage": {
+        "index": 1041,
+        "name": "TwoMinRemainingMessage"
+      },
+      "OneMinRemainingMessage": {
+        "index": 1035,
+        "name": "OneMinRemainingMessage"
+      },
+      "ThirtySecondsRemainingMessage": {
+        "index": 1040,
+        "name": "ThirtySecondsRemainingMessage"
+      },
+      "GamePausedMessage": {
+        "index": 1031,
+        "name": "GamePausedMessage"
+      },
+      "GameUnPausedMessage": {
+        "index": 1032,
+        "name": "GameUnPausedMessage"
+      },
+      "OutOfBoundsMessage": {
+        "index": 1036,
+        "name": "OutOfBoundsMessage"
+      },
+      "ReplayDirectorArchetype": {
+        "index": 1560,
+        "name": "ReplayDirectorArchetype"
+      },
+      "PostGoalTime": 3,
+      "SecondsRemainingCountdown": 10,
+      "SecondsRemainingMessage": {
+        "index": 1039,
+        "name": "SecondsRemainingMessage"
+      },
+      "AssistMaxTime": 5,
+      "SpawnPointsPodiumAnim": {
+        "index": 1574,
+        "name": "SpawnPointsPodiumAnim"
+      },
+      "SpawnPointsPodium": {
+        "index": 1573,
+        "name": "SpawnPointsPodium"
+      },
+      "SpawnPointsPodiumExplosion": {
+        "index": 1890,
+        "name": "SpawnPointsPodiumExplosion"
+      },
+      "WinnersExplosionGoalDistance": 3000,
+      "WinnersExplosionDelaySeconds": 0.6,
+      "PodiumDelay": 3,
+      "PodiumTime": 5.3,
+      "SpawnPointLobbyTeams": {
+        "type": "ArrayObject",
+        "elements": [
+          {
+            "index": 1569,
+            "name": "1v1"
+          },
+          {
+            "index": 1570,
+            "name": "2v2"
+          },
+          {
+            "index": 1571,
+            "name": "3v3"
+          },
+          {
+            "index": 1572,
+            "name": "4v4"
+          }
+        ]
+      },
+      "StatCategories": {
+        "type": "ArrayObject",
+        "elements": [
+          {
+            "index": 1588,
+            "name": "StatSingleInstance"
+          },
+          {
+            "index": 1587,
+            "name": "StatCompound"
+          },
+          {
+            "index": 1589,
+            "name": "StatStandard"
+          },
+          {
+            "index": 1590,
+            "name": "StatTracking"
+          }
+        ]
+      },
+      "BallTrajectoryArchetype": {
+        "index": 141,
+        "name": "Ball_Trajectory"
+      },
+      "EndRoundComponentArchetype": {
+        "index": 781,
+        "name": "EndRoundComponentArchetype"
+      },
+      "MatchBroadcast": {
+        "index": 897,
+        "name": "MatchBroadcast"
+      },
+      "ImportantStatEvents": {
+        "type": "ArrayObject",
+        "elements": [
+          {
+            "index": -451,
+            "name": "Win"
+          },
+          {
+            "index": -440,
+            "name": "Loss"
+          },
+          {
+            "index": -435,
+            "name": "Goal"
+          },
+          {
+            "index": -446,
+            "name": "Save"
+          },
+          {
+            "index": -433,
+            "name": "EpicSave"
+          }
+        ]
+      },
+      "GameObserver": {
+        "index": 850,
+        "name": "GameObserver_Default"
+      },
+      "ActiveFpsRecorder": {
+        "index": 838,
+        "name": "DefaultActiveFpsRecorder"
+      },
+      "InactiveFpsRecorder": {
+        "index": 839,
+        "name": "DefaultInactiveFpsRecorder"
+      },
+      "CrowdSound": {
+        "index": 726,
+        "name": "CrowdSound"
+      },
+      "TeamArchetypes": {
+        "type": "ArrayObject",
+        "elements": [
+          {
+            "index": -456,
+            "name": "Team0"
+          },
+          {
+            "index": -457,
+            "name": "Team1"
+          }
+        ]
+      },
+      "RematchVoteArchetype": {
+        "index": 1726,
+        "name": "RematchVoteArchetype"
+      },
+      "RegistryGroup": {
+        "index": 885,
+        "name": "DefaultRegistryGroup"
+      },
+      "EventType": "Soccar",
+      "CarArchetype": {
+        "index": 712,
+        "name": "Car_Default"
+      },
+      "FinishTime": 60,
+      "AIManagerArchetype": {
+        "index": 2,
+        "name": "AIManager"
+      },
+      "BotArchetype": {
+        "index": 1,
+        "name": "AIController_Soccar"
+      },
+      "DefaultMutators": {
+        "type": "ArrayObject",
+        "elements": [
+          {
+            "index": 1826,
+            "name": "Tritip"
+          },
+          {
+            "index": 1839,
+            "name": "SlowRecharge"
+          }
+        ]
+      },
+      "HUDArchetype": {
+        "index": 864,
+        "name": "GFxHUD_Soccar"
+      },
+      "CountdownMessages": {
+        "type": "ArrayObject",
+        "elements": [
+          {
+            "index": 0,
+            "name": "None"
+          },
+          {
+            "index": 1021,
+            "name": "Countdown1"
+          },
+          {
+            "index": 1023,
+            "name": "Countdown2"
+          },
+          {
+            "index": 1025,
+            "name": "Countdown3"
+          },
+          {
+            "index": 1027,
+            "name": "Countdown4"
+          },
+          {
+            "index": 1029,
+            "name": "Countdown5"
+          }
+        ]
+      },
+      "GoMessage": {
+        "index": 1034,
+        "name": "GoMessage"
+      },
+      "ReplacingBotCountdownMessages": {
+        "type": "ArrayObject",
+        "elements": [
+          {
+            "index": 0,
+            "name": "None"
+          },
+          {
+            "index": 1885,
+            "name": "Countdown1_170"
+          },
+          {
+            "index": 1886,
+            "name": "Countdown2_171"
+          },
+          {
+            "index": 1887,
+            "name": "Countdown3_172"
+          },
+          {
+            "index": 1888,
+            "name": "Countdown4_173"
+          },
+          {
+            "index": 1889,
+            "name": "Countdown5_174"
+          }
+        ]
+      },
+      "ReplacingBotGoMessage": {
+        "index": 1038,
+        "name": "ReplacingBotGoMessage"
+      },
+      "GameStates": {
+        "type": "ArrayObject",
+        "elements": [
+          {
+            "index": 862,
+            "name": "WaitingForPlayers"
+          },
+          {
+            "index": 857,
+            "name": "Countdown"
+          },
+          {
+            "index": 856,
+            "name": "Active"
+          },
+          {
+            "index": 858,
+            "name": "Finished"
+          },
+          {
+            "index": 860,
+            "name": "PostGoalScored"
+          },
+          {
+            "index": 861,
+            "name": "PrePodiumSpotlight"
+          },
+          {
+            "index": 859,
+            "name": "PodiumSpotlight"
+          }
+        ]
+      },
+      "Components": {
+        "type": "ArrayObject",
+        "elements": [
+          {
+            "index": 885,
+            "name": "DefaultRegistryGroup"
+          }
+        ]
+      }
+    }
+  },
+  "default_mutators": [
+    {
+      "index": 1825,
+      "name": "Tritip",
+      "class": "Mutator_Loadout_TA",
+      "outer": "Mutators",
+      "outer_index": 1829,
+      "properties": {
+        "Products": {
+          "type": "ArrayObject",
+          "elements": [
+            {
+              "index": -493,
+              "name": "body_tritip"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "index": 1838,
+      "name": "SlowRecharge",
+      "class": "Mutator_Booster_TA",
+      "outer": "Mutators",
+      "outer_index": 1829,
+      "properties": {
+        "BoostRechargeRate": 0.0666,
+        "BoostRechargeDelay": 2
+      }
+    }
+  ],
+  "car_archetypes": {
+    "Car_Default": {
+      "index": 711,
+      "name": "Car_Default",
+      "class": "Car_TA",
+      "outer": "Car",
+      "outer_index": 1065,
+      "properties": {
+        "DefaultCarComponents": {
+          "type": "ArrayObject",
+          "elements": [
+            {
+              "index": -503,
+              "name": "CarComponent_AirControl"
+            },
+            {
+              "index": -504,
+              "name": "CarComponent_Boost"
+            },
+            {
+              "index": -508,
+              "name": "CarComponent_Jump"
+            },
+            {
+              "index": -506,
+              "name": "CarComponent_DoubleJump"
+            },
+            {
+              "index": -505,
+              "name": "CarComponent_Dodge"
+            },
+            {
+              "index": -507,
+              "name": "CarComponent_FlipCar"
+            }
+          ]
+        },
+        "EngineAudio": {
+          "index": 788,
+          "name": "DefaultEngineAudio"
+        },
+        "EngineAudioRev": {
+          "index": 797,
+          "name": "EngineAudioRev"
+        },
+        "ThrottleShake": {
+          "index": 1714,
+          "name": "ThrottleShake"
+        },
+        "Loadout": {
+          "index": 1550,
+          "name": "DefaultCarLoadout"
+        },
+        "ExitFXArchetype": {
+          "index": -513,
+          "name": "Leave_FXActor"
+        },
+        "DemolishExplosionArchetype": {
+          "index": 827,
+          "name": "DemolishExplosionArchetype"
+        },
+        "TargetClass": {
+          "index": -127,
+          "name": "BallCamTarget_TA"
+        },
+        "TargetIndicatorArchetype": {
+          "index": 1650,
+          "name": "BallIndicator"
+        },
+        "MaxTimeForDodge": 1.25,
+        "GroundedJumpFailedSFX": {
+          "index": -501,
+          "name": "UI_JumpFail"
+        },
+        "CarTrajectoryComponent": {
+          "index": 723,
+          "name": "CarTrajectoryComponent0"
+        },
+        "NameplateComponentCar": {
+          "index": 1042,
+          "name": "NameplateComponentCar0"
+        },
+        "FlipResetFXActorArchetype": {
+          "index": 1858,
+          "name": "FlipResetFXActorArchetype"
+        },
+        "ViralItemFXComponent": {
+          "index": 1844,
+          "name": "ViralItemFXComponent"
+        },
+        "CarMesh": {
+          "index": 720,
+          "name": "DefaultMesh"
+        },
+        "VehicleSim": {
+          "index": 1723,
+          "name": "DefaultVehicleSim"
+        },
+        "StickyForce": {
+          "_struct": "StickyForceData",
+          "fields": {
+            "Ground": 0.5,
+            "Wall": 1.5
+          }
+        },
+        "AutoFlip": {
+          "_struct": "AutoFlipData",
+          "fields": {
+            "Torque": 80,
+            "Force": 100
+          }
+        },
+        "PitchTekComponent": {
+          "index": 1544,
+          "name": "DefaultPTDComponent"
+        },
+        "MaxLinearSpeed": 2300,
+        "MaxAngularSpeed": 5.5,
+        "bDisableSleeping": true,
+        "FXActorArchetype": {
+          "index": -512,
+          "name": "Car_FXActor"
+        },
+        "ImpactEffectsComponent": {
+          "index": 890,
+          "name": "ImpactEffectsComponent"
+        },
+        "Replay": {
+          "index": 1557,
+          "name": "ReplayComponent0"
+        },
+        "RegistryGroup": {
+          "index": 880,
+          "name": "DefaultRegistryGroup"
+        },
+        "Mass": 180,
+        "Mesh": {
+          "index": 720,
+          "name": "DefaultMesh"
+        },
+        "CylinderComponent": {
+          "index": 730,
+          "name": "CollisionCylinder"
+        },
+        "Components": {
+          "type": "ArrayObject",
+          "elements": [
+            {
+              "index": 730,
+              "name": "CollisionCylinder"
+            },
+            {
+              "index": 880,
+              "name": "DefaultRegistryGroup"
+            },
+            {
+              "index": 1557,
+              "name": "ReplayComponent0"
+            },
+            {
+              "index": 1544,
+              "name": "DefaultPTDComponent"
+            },
+            {
+              "index": 723,
+              "name": "CarTrajectoryComponent0"
+            }
+          ]
+        },
+        "CollisionComponent": {
+          "index": 730,
+          "name": "CollisionCylinder"
+        }
+      }
+    },
+    "Car_Test": {
+      "index": 712,
+      "name": "Car_Test",
+      "class": "Car_TA",
+      "outer": "Car",
+      "outer_index": 1065,
+      "properties": {
+        "DefaultCarComponents": {
+          "type": "ArrayObject",
+          "elements": [
+            {
+              "index": -503,
+              "name": "CarComponent_AirControl"
+            },
+            {
+              "index": -504,
+              "name": "CarComponent_Boost"
+            },
+            {
+              "index": -508,
+              "name": "CarComponent_Jump"
+            },
+            {
+              "index": -506,
+              "name": "CarComponent_DoubleJump"
+            },
+            {
+              "index": -505,
+              "name": "CarComponent_Dodge"
+            },
+            {
+              "index": -507,
+              "name": "CarComponent_FlipCar"
+            }
+          ]
+        },
+        "EngineAudio": {
+          "index": 790,
+          "name": "DefaultEngineAudio"
+        },
+        "EngineAudioRev": {
+          "index": 799,
+          "name": "EngineAudioRev"
+        },
+        "ThrottleShake": {
+          "index": 1716,
+          "name": "ThrottleShake"
+        },
+        "Loadout": {
+          "index": 1552,
+          "name": "DefaultCarLoadout"
+        },
+        "ExitFXArchetype": {
+          "index": -513,
+          "name": "Leave_FXActor"
+        },
+        "DemolishExplosionArchetype": {
+          "index": 829,
+          "name": "DemolishExplosionArchetype"
+        },
+        "TargetClass": {
+          "index": -127,
+          "name": "BallCamTarget_TA"
+        },
+        "TargetIndicatorArchetype": {
+          "index": 1652,
+          "name": "BallIndicator"
+        },
+        "MaxTimeForDodge": 1.25,
+        "GroundedJumpFailedSFX": {
+          "index": -501,
+          "name": "UI_JumpFail"
+        },
+        "CarTrajectoryComponent": {
+          "index": 725,
+          "name": "CarTrajectoryComponent0"
+        },
+        "NameplateComponentCar": {
+          "index": 1044,
+          "name": "NameplateComponentCar0"
+        },
+        "FlipResetFXActorArchetype": {
+          "index": 1860,
+          "name": "FlipResetFXActorArchetype"
+        },
+        "ViralItemFXComponent": {
+          "index": 1846,
+          "name": "ViralItemFXComponent"
+        },
+        "CarMesh": {
+          "index": 722,
+          "name": "DefaultMesh"
+        },
+        "VehicleSim": {
+          "index": 1725,
+          "name": "DefaultVehicleSim"
+        },
+        "StickyForce": {
+          "_struct": "StickyForceData",
+          "fields": {
+            "Ground": 0.5,
+            "Wall": 1.5
+          }
+        },
+        "AutoFlip": {
+          "_struct": "AutoFlipData",
+          "fields": {
+            "Torque": 80,
+            "Force": 100
+          }
+        },
+        "PitchTekComponent": {
+          "index": 1546,
+          "name": "DefaultPTDComponent"
+        },
+        "MaxLinearSpeed": 2300,
+        "MaxAngularSpeed": 5.5,
+        "bDisableSleeping": true,
+        "FXActorArchetype": {
+          "index": -512,
+          "name": "Car_FXActor"
+        },
+        "ImpactEffectsComponent": {
+          "index": 892,
+          "name": "ImpactEffectsComponent"
+        },
+        "Replay": {
+          "index": 1559,
+          "name": "ReplayComponent0"
+        },
+        "RegistryGroup": {
+          "index": 882,
+          "name": "DefaultRegistryGroup"
+        },
+        "Mass": 180,
+        "Mesh": {
+          "index": 722,
+          "name": "DefaultMesh"
+        },
+        "CylinderComponent": {
+          "index": 732,
+          "name": "CollisionCylinder"
+        },
+        "Components": {
+          "type": "ArrayObject",
+          "elements": [
+            {
+              "index": 732,
+              "name": "CollisionCylinder"
+            },
+            {
+              "index": 882,
+              "name": "DefaultRegistryGroup"
+            },
+            {
+              "index": 1559,
+              "name": "ReplayComponent0"
+            },
+            {
+              "index": 1546,
+              "name": "DefaultPTDComponent"
+            },
+            {
+              "index": 725,
+              "name": "CarTrajectoryComponent0"
+            }
+          ]
+        },
+        "CollisionComponent": {
+          "index": 732,
+          "name": "CollisionCylinder"
+        }
+      }
+    }
+  },
+  "vehicle_sims": {
+    "Car_Default.DefaultVehicleSim": {
+      "index": 1722,
+      "name": "DefaultVehicleSim",
+      "class": "VehicleSim_TA",
+      "outer": "Car_Default",
+      "outer_index": 712,
+      "properties": {
+        "Wheels": {
+          "type": "ArrayObject",
+          "elements": [
+            {
+              "index": 1729,
+              "name": "FrontLeft"
+            },
+            {
+              "index": 1730,
+              "name": "FrontRight"
+            },
+            {
+              "index": 1727,
+              "name": "BackLeft"
+            },
+            {
+              "index": 1728,
+              "name": "BackRight"
+            }
+          ]
+        },
+        "SteerAngleCurve": {
+          "_struct": "InterpCurveFloat",
+          "fields": {
+            "Points": {
+              "type": "ArrayStruct",
+              "count": 6,
+              "elements": [
+                {
+                  "InVal": 0,
+                  "OutVal": 35,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 500,
+                  "OutVal": 20,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 1000,
+                  "OutVal": 11,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 1500,
+                  "OutVal": 6.25,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 1750,
+                  "OutVal": 5,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 3000,
+                  "OutVal": 2,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                }
+              ]
+            }
+          }
+        },
+        "DriveTorque": 288000,
+        "DriveTorqueCurve": {
+          "_struct": "InterpCurveFloat",
+          "fields": {
+            "Points": {
+              "type": "ArrayStruct",
+              "count": 3,
+              "elements": [
+                {
+                  "InVal": -1400,
+                  "OutVal": 0.1,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 0,
+                  "OutVal": 1,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 1400,
+                  "OutVal": 0.1,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                }
+              ]
+            }
+          }
+        },
+        "BrakeTorque": 10500,
+        "HandbrakeSteerAngleCurve": {
+          "_struct": "InterpCurveFloat",
+          "fields": {
+            "Points": {
+              "type": "ArrayStruct",
+              "count": 2,
+              "elements": [
+                {
+                  "InVal": 0,
+                  "OutVal": 25,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 2500,
+                  "OutVal": 7.5,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                }
+              ]
+            }
+          }
+        },
+        "HandbrakeRate": {
+          "_struct": "InputRate",
+          "fields": {
+            "FallRate": 2
+          }
+        },
+        "IdleBrakeFactor": 0.15,
+        "bUseAckermannSteering": true
+      }
+    },
+    "Car_PostGameLobby.DefaultVehicleSim": {
+      "index": 1723,
+      "name": "DefaultVehicleSim",
+      "class": "VehicleSim_TA",
+      "outer": "Car_PostGameLobby",
+      "outer_index": 711,
+      "properties": {
+        "Wheels": {
+          "type": "ArrayObject",
+          "elements": [
+            {
+              "index": 1733,
+              "name": "FrontLeft"
+            },
+            {
+              "index": 1734,
+              "name": "FrontRight"
+            },
+            {
+              "index": 1731,
+              "name": "BackLeft"
+            },
+            {
+              "index": 1732,
+              "name": "BackRight"
+            }
+          ]
+        },
+        "SteerAngleCurve": {
+          "_struct": "InterpCurveFloat",
+          "fields": {
+            "Points": {
+              "type": "ArrayStruct",
+              "count": 6,
+              "elements": [
+                {
+                  "InVal": 0,
+                  "OutVal": 35,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 500,
+                  "OutVal": 20,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 1000,
+                  "OutVal": 11,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 1500,
+                  "OutVal": 6.25,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 1750,
+                  "OutVal": 5,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 3000,
+                  "OutVal": 2,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                }
+              ]
+            }
+          }
+        },
+        "DriveTorque": 288000,
+        "DriveTorqueCurve": {
+          "_struct": "InterpCurveFloat",
+          "fields": {
+            "Points": {
+              "type": "ArrayStruct",
+              "count": 3,
+              "elements": [
+                {
+                  "InVal": -1400,
+                  "OutVal": 0.1,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 0,
+                  "OutVal": 1,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 1400,
+                  "OutVal": 0.1,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                }
+              ]
+            }
+          }
+        },
+        "BrakeTorque": 10500,
+        "HandbrakeSteerAngleCurve": {
+          "_struct": "InterpCurveFloat",
+          "fields": {
+            "Points": {
+              "type": "ArrayStruct",
+              "count": 2,
+              "elements": [
+                {
+                  "InVal": 0,
+                  "OutVal": 25,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 2500,
+                  "OutVal": 7.5,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                }
+              ]
+            }
+          }
+        },
+        "HandbrakeRate": {
+          "_struct": "InputRate",
+          "fields": {
+            "FallRate": 2
+          }
+        },
+        "IdleBrakeFactor": 0.15,
+        "bUseAckermannSteering": true
+      }
+    },
+    "Car_Test.DefaultVehicleSim": {
+      "index": 1724,
+      "name": "DefaultVehicleSim",
+      "class": "VehicleSim_TA",
+      "outer": "Car_Test",
+      "outer_index": 713,
+      "properties": {
+        "Wheels": {
+          "type": "ArrayObject",
+          "elements": [
+            {
+              "index": 1737,
+              "name": "FrontLeft"
+            },
+            {
+              "index": 1738,
+              "name": "FrontRight"
+            },
+            {
+              "index": 1735,
+              "name": "BackLeft"
+            },
+            {
+              "index": 1736,
+              "name": "BackRight"
+            }
+          ]
+        },
+        "SteerAngleCurve": {
+          "_struct": "InterpCurveFloat",
+          "fields": {
+            "Points": {
+              "type": "ArrayStruct",
+              "count": 6,
+              "elements": [
+                {
+                  "InVal": 0,
+                  "OutVal": 35,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 500,
+                  "OutVal": 20,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 1000,
+                  "OutVal": 11,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 1500,
+                  "OutVal": 6.25,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 1750,
+                  "OutVal": 5,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 3000,
+                  "OutVal": 2,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                }
+              ]
+            }
+          }
+        },
+        "DriveTorque": 288000,
+        "DriveTorqueCurve": {
+          "_struct": "InterpCurveFloat",
+          "fields": {
+            "Points": {
+              "type": "ArrayStruct",
+              "count": 3,
+              "elements": [
+                {
+                  "InVal": -1400,
+                  "OutVal": 0.1,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 0,
+                  "OutVal": 1,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 1400,
+                  "OutVal": 0.1,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                }
+              ]
+            }
+          }
+        },
+        "BrakeTorque": 10500,
+        "HandbrakeSteerAngleCurve": {
+          "_struct": "InterpCurveFloat",
+          "fields": {
+            "Points": {
+              "type": "ArrayStruct",
+              "count": 2,
+              "elements": [
+                {
+                  "InVal": 0,
+                  "OutVal": 25,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 2500,
+                  "OutVal": 7.5,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                }
+              ]
+            }
+          }
+        },
+        "HandbrakeRate": {
+          "_struct": "InputRate",
+          "fields": {
+            "FallRate": 2
+          }
+        },
+        "IdleBrakeFactor": 0.15,
+        "bUseAckermannSteering": true
+      }
+    }
+  },
+  "wheel_archetypes": [
+    {
+      "index": 1726,
+      "name": "BackLeft",
+      "class": "Wheel_TA",
+      "outer": "DefaultVehicleSim",
+      "outer_index": 1723,
+      "properties": {
+        "SuspensionStiffness": 500,
+        "SuspensionDampingCompression": 25,
+        "SuspensionDampingRelaxation": 40,
+        "SuspensionTravel": 12,
+        "SuspensionMaxRaise": 2.5,
+        "PushForceConstant": 1,
+        "SpinSpeedDecayRate": 0.7,
+        "LatFrictionCurve": {
+          "_struct": "InterpCurveFloat",
+          "fields": {
+            "Points": {
+              "type": "ArrayStruct",
+              "count": 2,
+              "elements": [
+                {
+                  "InVal": 0,
+                  "OutVal": 1,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 1,
+                  "OutVal": 0.2,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                }
+              ]
+            }
+          }
+        },
+        "HandbrakeLatFrictionCurve": {
+          "_struct": "InterpCurveFloat",
+          "fields": {
+            "Points": {
+              "type": "ArrayStruct",
+              "count": 1,
+              "elements": [
+                {
+                  "InVal": 0,
+                  "OutVal": 0.1,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                }
+              ]
+            }
+          }
+        },
+        "HandbrakeLongFrictionCurve": {
+          "_struct": "InterpCurveFloat",
+          "fields": {
+            "Points": {
+              "type": "ArrayStruct",
+              "count": 2,
+              "elements": [
+                {
+                  "InVal": 0,
+                  "OutVal": 0.5,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 1,
+                  "OutVal": 0.9,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                }
+              ]
+            }
+          }
+        },
+        "WallFrictionCurve": {
+          "_struct": "InterpCurveFloat",
+          "fields": {
+            "Points": {
+              "type": "ArrayStruct",
+              "count": 3,
+              "elements": [
+                {
+                  "InVal": 0,
+                  "OutVal": 0.1,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 0.707,
+                  "OutVal": 0.5,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 1,
+                  "OutVal": 1,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                }
+              ]
+            }
+          }
+        },
+        "AerialThrottleToVelocityFactor": 1000,
+        "AerialAccelerationFactor": 1.3
+      }
+    },
+    {
+      "index": 1727,
+      "name": "BackRight",
+      "class": "Wheel_TA",
+      "outer": "DefaultVehicleSim",
+      "outer_index": 1723,
+      "properties": {
+        "SuspensionStiffness": 500,
+        "SuspensionDampingCompression": 25,
+        "SuspensionDampingRelaxation": 40,
+        "SuspensionTravel": 12,
+        "SuspensionMaxRaise": 2.5,
+        "PushForceConstant": 1,
+        "SpinSpeedDecayRate": 0.7,
+        "LatFrictionCurve": {
+          "_struct": "InterpCurveFloat",
+          "fields": {
+            "Points": {
+              "type": "ArrayStruct",
+              "count": 2,
+              "elements": [
+                {
+                  "InVal": 0,
+                  "OutVal": 1,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 1,
+                  "OutVal": 0.2,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                }
+              ]
+            }
+          }
+        },
+        "HandbrakeLatFrictionCurve": {
+          "_struct": "InterpCurveFloat",
+          "fields": {
+            "Points": {
+              "type": "ArrayStruct",
+              "count": 1,
+              "elements": [
+                {
+                  "InVal": 0,
+                  "OutVal": 0.1,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                }
+              ]
+            }
+          }
+        },
+        "HandbrakeLongFrictionCurve": {
+          "_struct": "InterpCurveFloat",
+          "fields": {
+            "Points": {
+              "type": "ArrayStruct",
+              "count": 2,
+              "elements": [
+                {
+                  "InVal": 0,
+                  "OutVal": 0.5,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 1,
+                  "OutVal": 0.9,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                }
+              ]
+            }
+          }
+        },
+        "WallFrictionCurve": {
+          "_struct": "InterpCurveFloat",
+          "fields": {
+            "Points": {
+              "type": "ArrayStruct",
+              "count": 3,
+              "elements": [
+                {
+                  "InVal": 0,
+                  "OutVal": 0.1,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 0.707,
+                  "OutVal": 0.5,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 1,
+                  "OutVal": 1,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                }
+              ]
+            }
+          }
+        },
+        "AerialThrottleToVelocityFactor": 1000,
+        "AerialAccelerationFactor": 1.3
+      }
+    },
+    {
+      "index": 1728,
+      "name": "FrontLeft",
+      "class": "Wheel_TA",
+      "outer": "DefaultVehicleSim",
+      "outer_index": 1723,
+      "properties": {
+        "SteerFactor": 1,
+        "SuspensionStiffness": 500,
+        "SuspensionDampingCompression": 25,
+        "SuspensionDampingRelaxation": 40,
+        "SuspensionTravel": 12,
+        "SuspensionMaxRaise": 2.5,
+        "PushForceConstant": 1,
+        "SpinSpeedDecayRate": 0.7,
+        "LatFrictionCurve": {
+          "_struct": "InterpCurveFloat",
+          "fields": {
+            "Points": {
+              "type": "ArrayStruct",
+              "count": 2,
+              "elements": [
+                {
+                  "InVal": 0,
+                  "OutVal": 1,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 1,
+                  "OutVal": 0.2,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                }
+              ]
+            }
+          }
+        },
+        "HandbrakeLatFrictionCurve": {
+          "_struct": "InterpCurveFloat",
+          "fields": {
+            "Points": {
+              "type": "ArrayStruct",
+              "count": 1,
+              "elements": [
+                {
+                  "InVal": 0,
+                  "OutVal": 0.1,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                }
+              ]
+            }
+          }
+        },
+        "HandbrakeLongFrictionCurve": {
+          "_struct": "InterpCurveFloat",
+          "fields": {
+            "Points": {
+              "type": "ArrayStruct",
+              "count": 2,
+              "elements": [
+                {
+                  "InVal": 0,
+                  "OutVal": 0.5,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 1,
+                  "OutVal": 0.9,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                }
+              ]
+            }
+          }
+        },
+        "WallFrictionCurve": {
+          "_struct": "InterpCurveFloat",
+          "fields": {
+            "Points": {
+              "type": "ArrayStruct",
+              "count": 3,
+              "elements": [
+                {
+                  "InVal": 0,
+                  "OutVal": 0.1,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 0.707,
+                  "OutVal": 0.5,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 1,
+                  "OutVal": 1,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                }
+              ]
+            }
+          }
+        },
+        "AerialThrottleToVelocityFactor": 1000,
+        "AerialAccelerationFactor": 1.3
+      }
+    },
+    {
+      "index": 1729,
+      "name": "FrontRight",
+      "class": "Wheel_TA",
+      "outer": "DefaultVehicleSim",
+      "outer_index": 1723,
+      "properties": {
+        "SteerFactor": 1,
+        "SuspensionStiffness": 500,
+        "SuspensionDampingCompression": 25,
+        "SuspensionDampingRelaxation": 40,
+        "SuspensionTravel": 12,
+        "SuspensionMaxRaise": 2.5,
+        "PushForceConstant": 1,
+        "SpinSpeedDecayRate": 0.7,
+        "LatFrictionCurve": {
+          "_struct": "InterpCurveFloat",
+          "fields": {
+            "Points": {
+              "type": "ArrayStruct",
+              "count": 2,
+              "elements": [
+                {
+                  "InVal": 0,
+                  "OutVal": 1,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 1,
+                  "OutVal": 0.2,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                }
+              ]
+            }
+          }
+        },
+        "HandbrakeLatFrictionCurve": {
+          "_struct": "InterpCurveFloat",
+          "fields": {
+            "Points": {
+              "type": "ArrayStruct",
+              "count": 1,
+              "elements": [
+                {
+                  "InVal": 0,
+                  "OutVal": 0.1,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                }
+              ]
+            }
+          }
+        },
+        "HandbrakeLongFrictionCurve": {
+          "_struct": "InterpCurveFloat",
+          "fields": {
+            "Points": {
+              "type": "ArrayStruct",
+              "count": 2,
+              "elements": [
+                {
+                  "InVal": 0,
+                  "OutVal": 0.5,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 1,
+                  "OutVal": 0.9,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                }
+              ]
+            }
+          }
+        },
+        "WallFrictionCurve": {
+          "_struct": "InterpCurveFloat",
+          "fields": {
+            "Points": {
+              "type": "ArrayStruct",
+              "count": 3,
+              "elements": [
+                {
+                  "InVal": 0,
+                  "OutVal": 0.1,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 0.707,
+                  "OutVal": 0.5,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 1,
+                  "OutVal": 1,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                }
+              ]
+            }
+          }
+        },
+        "AerialThrottleToVelocityFactor": 1000,
+        "AerialAccelerationFactor": 1.3
+      }
+    },
+    {
+      "index": 1730,
+      "name": "BackLeft",
+      "class": "Wheel_TA",
+      "outer": "DefaultVehicleSim",
+      "outer_index": 1724,
+      "properties": {
+        "SuspensionStiffness": 500,
+        "SuspensionDampingCompression": 25,
+        "SuspensionDampingRelaxation": 40,
+        "SuspensionTravel": 12,
+        "SuspensionMaxRaise": 2.5,
+        "PushForceConstant": 1,
+        "SpinSpeedDecayRate": 0.7,
+        "LatFrictionCurve": {
+          "_struct": "InterpCurveFloat",
+          "fields": {
+            "Points": {
+              "type": "ArrayStruct",
+              "count": 2,
+              "elements": [
+                {
+                  "InVal": 0,
+                  "OutVal": 1,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 1,
+                  "OutVal": 0.2,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                }
+              ]
+            }
+          }
+        },
+        "HandbrakeLatFrictionCurve": {
+          "_struct": "InterpCurveFloat",
+          "fields": {
+            "Points": {
+              "type": "ArrayStruct",
+              "count": 1,
+              "elements": [
+                {
+                  "InVal": 0,
+                  "OutVal": 0.1,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                }
+              ]
+            }
+          }
+        },
+        "HandbrakeLongFrictionCurve": {
+          "_struct": "InterpCurveFloat",
+          "fields": {
+            "Points": {
+              "type": "ArrayStruct",
+              "count": 2,
+              "elements": [
+                {
+                  "InVal": 0,
+                  "OutVal": 0.5,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 1,
+                  "OutVal": 0.9,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                }
+              ]
+            }
+          }
+        },
+        "WallFrictionCurve": {
+          "_struct": "InterpCurveFloat",
+          "fields": {
+            "Points": {
+              "type": "ArrayStruct",
+              "count": 3,
+              "elements": [
+                {
+                  "InVal": 0,
+                  "OutVal": 0.1,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 0.707,
+                  "OutVal": 0.5,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 1,
+                  "OutVal": 1,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                }
+              ]
+            }
+          }
+        },
+        "AerialThrottleToVelocityFactor": 1000,
+        "AerialAccelerationFactor": 1.3
+      }
+    },
+    {
+      "index": 1731,
+      "name": "BackRight",
+      "class": "Wheel_TA",
+      "outer": "DefaultVehicleSim",
+      "outer_index": 1724,
+      "properties": {
+        "SuspensionStiffness": 500,
+        "SuspensionDampingCompression": 25,
+        "SuspensionDampingRelaxation": 40,
+        "SuspensionTravel": 12,
+        "SuspensionMaxRaise": 2.5,
+        "PushForceConstant": 1,
+        "SpinSpeedDecayRate": 0.7,
+        "LatFrictionCurve": {
+          "_struct": "InterpCurveFloat",
+          "fields": {
+            "Points": {
+              "type": "ArrayStruct",
+              "count": 2,
+              "elements": [
+                {
+                  "InVal": 0,
+                  "OutVal": 1,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 1,
+                  "OutVal": 0.2,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                }
+              ]
+            }
+          }
+        },
+        "HandbrakeLatFrictionCurve": {
+          "_struct": "InterpCurveFloat",
+          "fields": {
+            "Points": {
+              "type": "ArrayStruct",
+              "count": 1,
+              "elements": [
+                {
+                  "InVal": 0,
+                  "OutVal": 0.1,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                }
+              ]
+            }
+          }
+        },
+        "HandbrakeLongFrictionCurve": {
+          "_struct": "InterpCurveFloat",
+          "fields": {
+            "Points": {
+              "type": "ArrayStruct",
+              "count": 2,
+              "elements": [
+                {
+                  "InVal": 0,
+                  "OutVal": 0.5,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 1,
+                  "OutVal": 0.9,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                }
+              ]
+            }
+          }
+        },
+        "WallFrictionCurve": {
+          "_struct": "InterpCurveFloat",
+          "fields": {
+            "Points": {
+              "type": "ArrayStruct",
+              "count": 3,
+              "elements": [
+                {
+                  "InVal": 0,
+                  "OutVal": 0.1,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 0.707,
+                  "OutVal": 0.5,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 1,
+                  "OutVal": 1,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                }
+              ]
+            }
+          }
+        },
+        "AerialThrottleToVelocityFactor": 1000,
+        "AerialAccelerationFactor": 1.3
+      }
+    },
+    {
+      "index": 1732,
+      "name": "FrontLeft",
+      "class": "Wheel_TA",
+      "outer": "DefaultVehicleSim",
+      "outer_index": 1724,
+      "properties": {
+        "SteerFactor": 1,
+        "SuspensionStiffness": 500,
+        "SuspensionDampingCompression": 25,
+        "SuspensionDampingRelaxation": 40,
+        "SuspensionTravel": 12,
+        "SuspensionMaxRaise": 2.5,
+        "PushForceConstant": 1,
+        "SpinSpeedDecayRate": 0.7,
+        "LatFrictionCurve": {
+          "_struct": "InterpCurveFloat",
+          "fields": {
+            "Points": {
+              "type": "ArrayStruct",
+              "count": 2,
+              "elements": [
+                {
+                  "InVal": 0,
+                  "OutVal": 1,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 1,
+                  "OutVal": 0.2,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                }
+              ]
+            }
+          }
+        },
+        "HandbrakeLatFrictionCurve": {
+          "_struct": "InterpCurveFloat",
+          "fields": {
+            "Points": {
+              "type": "ArrayStruct",
+              "count": 1,
+              "elements": [
+                {
+                  "InVal": 0,
+                  "OutVal": 0.1,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                }
+              ]
+            }
+          }
+        },
+        "HandbrakeLongFrictionCurve": {
+          "_struct": "InterpCurveFloat",
+          "fields": {
+            "Points": {
+              "type": "ArrayStruct",
+              "count": 2,
+              "elements": [
+                {
+                  "InVal": 0,
+                  "OutVal": 0.5,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 1,
+                  "OutVal": 0.9,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                }
+              ]
+            }
+          }
+        },
+        "WallFrictionCurve": {
+          "_struct": "InterpCurveFloat",
+          "fields": {
+            "Points": {
+              "type": "ArrayStruct",
+              "count": 3,
+              "elements": [
+                {
+                  "InVal": 0,
+                  "OutVal": 0.1,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 0.707,
+                  "OutVal": 0.5,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 1,
+                  "OutVal": 1,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                }
+              ]
+            }
+          }
+        },
+        "AerialThrottleToVelocityFactor": 1000,
+        "AerialAccelerationFactor": 1.3
+      }
+    },
+    {
+      "index": 1733,
+      "name": "FrontRight",
+      "class": "Wheel_TA",
+      "outer": "DefaultVehicleSim",
+      "outer_index": 1724,
+      "properties": {
+        "SteerFactor": 1,
+        "SuspensionStiffness": 500,
+        "SuspensionDampingCompression": 25,
+        "SuspensionDampingRelaxation": 40,
+        "SuspensionTravel": 12,
+        "SuspensionMaxRaise": 2.5,
+        "PushForceConstant": 1,
+        "SpinSpeedDecayRate": 0.7,
+        "LatFrictionCurve": {
+          "_struct": "InterpCurveFloat",
+          "fields": {
+            "Points": {
+              "type": "ArrayStruct",
+              "count": 2,
+              "elements": [
+                {
+                  "InVal": 0,
+                  "OutVal": 1,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 1,
+                  "OutVal": 0.2,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                }
+              ]
+            }
+          }
+        },
+        "HandbrakeLatFrictionCurve": {
+          "_struct": "InterpCurveFloat",
+          "fields": {
+            "Points": {
+              "type": "ArrayStruct",
+              "count": 1,
+              "elements": [
+                {
+                  "InVal": 0,
+                  "OutVal": 0.1,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                }
+              ]
+            }
+          }
+        },
+        "HandbrakeLongFrictionCurve": {
+          "_struct": "InterpCurveFloat",
+          "fields": {
+            "Points": {
+              "type": "ArrayStruct",
+              "count": 2,
+              "elements": [
+                {
+                  "InVal": 0,
+                  "OutVal": 0.5,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 1,
+                  "OutVal": 0.9,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                }
+              ]
+            }
+          }
+        },
+        "WallFrictionCurve": {
+          "_struct": "InterpCurveFloat",
+          "fields": {
+            "Points": {
+              "type": "ArrayStruct",
+              "count": 3,
+              "elements": [
+                {
+                  "InVal": 0,
+                  "OutVal": 0.1,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 0.707,
+                  "OutVal": 0.5,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 1,
+                  "OutVal": 1,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                }
+              ]
+            }
+          }
+        },
+        "AerialThrottleToVelocityFactor": 1000,
+        "AerialAccelerationFactor": 1.3
+      }
+    },
+    {
+      "index": 1734,
+      "name": "BackLeft",
+      "class": "Wheel_TA",
+      "outer": "DefaultVehicleSim",
+      "outer_index": 1725,
+      "properties": {
+        "SuspensionStiffness": 500,
+        "SuspensionDampingCompression": 25,
+        "SuspensionDampingRelaxation": 40,
+        "SuspensionTravel": 12,
+        "SuspensionMaxRaise": 2.5,
+        "PushForceConstant": 1,
+        "SpinSpeedDecayRate": 0.7,
+        "LatFrictionCurve": {
+          "_struct": "InterpCurveFloat",
+          "fields": {
+            "Points": {
+              "type": "ArrayStruct",
+              "count": 2,
+              "elements": [
+                {
+                  "InVal": 0,
+                  "OutVal": 2,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 1,
+                  "OutVal": 0.4,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                }
+              ]
+            }
+          }
+        },
+        "HandbrakeLatFrictionCurve": {
+          "_struct": "InterpCurveFloat",
+          "fields": {
+            "Points": {
+              "type": "ArrayStruct",
+              "count": 1,
+              "elements": [
+                {
+                  "InVal": 0,
+                  "OutVal": 0.05,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                }
+              ]
+            }
+          }
+        },
+        "HandbrakeLongFrictionCurve": {
+          "_struct": "InterpCurveFloat",
+          "fields": {
+            "Points": {
+              "type": "ArrayStruct",
+              "count": 2,
+              "elements": [
+                {
+                  "InVal": 0,
+                  "OutVal": 0.5,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 1,
+                  "OutVal": 0.9,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                }
+              ]
+            }
+          }
+        },
+        "WallFrictionCurve": {
+          "_struct": "InterpCurveFloat",
+          "fields": {
+            "Points": {
+              "type": "ArrayStruct",
+              "count": 3,
+              "elements": [
+                {
+                  "InVal": 0,
+                  "OutVal": 0.1,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 0.707,
+                  "OutVal": 0.5,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 1,
+                  "OutVal": 1,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                }
+              ]
+            }
+          }
+        },
+        "AerialThrottleToVelocityFactor": 1000,
+        "AerialAccelerationFactor": 1.3
+      }
+    },
+    {
+      "index": 1735,
+      "name": "BackRight",
+      "class": "Wheel_TA",
+      "outer": "DefaultVehicleSim",
+      "outer_index": 1725,
+      "properties": {
+        "SuspensionStiffness": 500,
+        "SuspensionDampingCompression": 25,
+        "SuspensionDampingRelaxation": 40,
+        "SuspensionTravel": 12,
+        "SuspensionMaxRaise": 2.5,
+        "PushForceConstant": 1,
+        "SpinSpeedDecayRate": 0.7,
+        "LatFrictionCurve": {
+          "_struct": "InterpCurveFloat",
+          "fields": {
+            "Points": {
+              "type": "ArrayStruct",
+              "count": 2,
+              "elements": [
+                {
+                  "InVal": 0,
+                  "OutVal": 2,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 1,
+                  "OutVal": 0.4,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                }
+              ]
+            }
+          }
+        },
+        "HandbrakeLatFrictionCurve": {
+          "_struct": "InterpCurveFloat",
+          "fields": {
+            "Points": {
+              "type": "ArrayStruct",
+              "count": 1,
+              "elements": [
+                {
+                  "InVal": 0,
+                  "OutVal": 0.05,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                }
+              ]
+            }
+          }
+        },
+        "HandbrakeLongFrictionCurve": {
+          "_struct": "InterpCurveFloat",
+          "fields": {
+            "Points": {
+              "type": "ArrayStruct",
+              "count": 2,
+              "elements": [
+                {
+                  "InVal": 0,
+                  "OutVal": 0.5,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 1,
+                  "OutVal": 0.9,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                }
+              ]
+            }
+          }
+        },
+        "WallFrictionCurve": {
+          "_struct": "InterpCurveFloat",
+          "fields": {
+            "Points": {
+              "type": "ArrayStruct",
+              "count": 3,
+              "elements": [
+                {
+                  "InVal": 0,
+                  "OutVal": 0.1,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 0.707,
+                  "OutVal": 0.5,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 1,
+                  "OutVal": 1,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                }
+              ]
+            }
+          }
+        },
+        "AerialThrottleToVelocityFactor": 1000,
+        "AerialAccelerationFactor": 1.3
+      }
+    },
+    {
+      "index": 1736,
+      "name": "FrontLeft",
+      "class": "Wheel_TA",
+      "outer": "DefaultVehicleSim",
+      "outer_index": 1725,
+      "properties": {
+        "SteerFactor": 1,
+        "SuspensionStiffness": 500,
+        "SuspensionDampingCompression": 25,
+        "SuspensionDampingRelaxation": 40,
+        "SuspensionTravel": 12,
+        "SuspensionMaxRaise": 2.5,
+        "PushForceConstant": 1,
+        "SpinSpeedDecayRate": 0.7,
+        "LatFrictionCurve": {
+          "_struct": "InterpCurveFloat",
+          "fields": {
+            "Points": {
+              "type": "ArrayStruct",
+              "count": 2,
+              "elements": [
+                {
+                  "InVal": 0,
+                  "OutVal": 2,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 1,
+                  "OutVal": 0.4,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                }
+              ]
+            }
+          }
+        },
+        "HandbrakeLatFrictionCurve": {
+          "_struct": "InterpCurveFloat",
+          "fields": {
+            "Points": {
+              "type": "ArrayStruct",
+              "count": 1,
+              "elements": [
+                {
+                  "InVal": 0,
+                  "OutVal": 0.05,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                }
+              ]
+            }
+          }
+        },
+        "HandbrakeLongFrictionCurve": {
+          "_struct": "InterpCurveFloat",
+          "fields": {
+            "Points": {
+              "type": "ArrayStruct",
+              "count": 2,
+              "elements": [
+                {
+                  "InVal": 0,
+                  "OutVal": 0.5,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 1,
+                  "OutVal": 0.9,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                }
+              ]
+            }
+          }
+        },
+        "WallFrictionCurve": {
+          "_struct": "InterpCurveFloat",
+          "fields": {
+            "Points": {
+              "type": "ArrayStruct",
+              "count": 3,
+              "elements": [
+                {
+                  "InVal": 0,
+                  "OutVal": 0.1,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 0.707,
+                  "OutVal": 0.5,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 1,
+                  "OutVal": 1,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                }
+              ]
+            }
+          }
+        },
+        "AerialThrottleToVelocityFactor": 1000,
+        "AerialAccelerationFactor": 1.3
+      }
+    },
+    {
+      "index": 1737,
+      "name": "FrontRight",
+      "class": "Wheel_TA",
+      "outer": "DefaultVehicleSim",
+      "outer_index": 1725,
+      "properties": {
+        "SteerFactor": 1,
+        "SuspensionStiffness": 500,
+        "SuspensionDampingCompression": 25,
+        "SuspensionDampingRelaxation": 40,
+        "SuspensionTravel": 12,
+        "SuspensionMaxRaise": 2.5,
+        "PushForceConstant": 1,
+        "SpinSpeedDecayRate": 0.7,
+        "LatFrictionCurve": {
+          "_struct": "InterpCurveFloat",
+          "fields": {
+            "Points": {
+              "type": "ArrayStruct",
+              "count": 2,
+              "elements": [
+                {
+                  "InVal": 0,
+                  "OutVal": 2,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 1,
+                  "OutVal": 0.4,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                }
+              ]
+            }
+          }
+        },
+        "HandbrakeLatFrictionCurve": {
+          "_struct": "InterpCurveFloat",
+          "fields": {
+            "Points": {
+              "type": "ArrayStruct",
+              "count": 1,
+              "elements": [
+                {
+                  "InVal": 0,
+                  "OutVal": 0.05,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                }
+              ]
+            }
+          }
+        },
+        "HandbrakeLongFrictionCurve": {
+          "_struct": "InterpCurveFloat",
+          "fields": {
+            "Points": {
+              "type": "ArrayStruct",
+              "count": 2,
+              "elements": [
+                {
+                  "InVal": 0,
+                  "OutVal": 0.5,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 1,
+                  "OutVal": 0.9,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                }
+              ]
+            }
+          }
+        },
+        "WallFrictionCurve": {
+          "_struct": "InterpCurveFloat",
+          "fields": {
+            "Points": {
+              "type": "ArrayStruct",
+              "count": 3,
+              "elements": [
+                {
+                  "InVal": 0,
+                  "OutVal": 0.1,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 0.707,
+                  "OutVal": 0.5,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                },
+                {
+                  "InVal": 1,
+                  "OutVal": 1,
+                  "ArriveTangent": 0,
+                  "LeaveTangent": 0,
+                  "ArriveWeight": 0,
+                  "LeaveWeight": 0,
+                  "InterpMode": "CIM_Linear"
+                }
+              ]
+            }
+          }
+        },
+        "AerialThrottleToVelocityFactor": 1000,
+        "AerialAccelerationFactor": 1.3
+      }
+    }
+  ]
+}

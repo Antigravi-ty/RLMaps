@@ -1,0 +1,30 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = true
+ReferencedTextures[2] = { Texture2D'ItemsMode.Car.Textures.Wheel_FB_T' }
+Expressions[17] =
+{
+    Expressions[6] = MaterialExpressionTextureSampleParameter2D'ItemsMode.Car.Storm.Materials.Tire_MAT.MaterialExpressionTextureSampleParameter2D_1'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'ItemsMode.Car.Textures.Wheel_FB_T'
+        Name = Diffuse_01
+        Group = None
+    }
+}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

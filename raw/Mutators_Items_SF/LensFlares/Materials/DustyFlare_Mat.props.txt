@@ -1,0 +1,31 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] = { Texture2D'LensFlares_Textures.DirtyLens_Pack' }
+Expressions[25] =
+{
+    Expressions[16] = MaterialExpressionStaticSwitchParameter'LensFlares.Materials.DustyFlare_Mat.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[24] = MaterialExpressionTextureSampleParameter2D'LensFlares.Materials.DustyFlare_Mat.MaterialExpressionTextureSampleParameter2D_0'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Additive (3)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'LensFlares_Textures.DirtyLens_Pack'
+        Name = LensTexture
+        Group = None
+    }
+}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

@@ -1,0 +1,47 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'boost_ghosthand.Textures.Dissolve_Fire_M_T'
+    ReferencedTextures[1] = Texture2D'explosion_fs_ghost.Ghost_TXT'
+    ReferencedTextures[2] = Texture2D'Outlaw_Oasis_FX.Textures.Aurora_Sky_Mask_D_T'
+}
+Expressions[52] =
+{
+    Expressions[2] = MaterialExpressionScalarParameter'BanjoBall.Materials.BanjoBall_Aura_Mat.MaterialExpressionScalarParameter_1'
+    Expressions[23] = MaterialExpressionTextureSampleParameter2D'BanjoBall.Materials.BanjoBall_Aura_Mat.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[25] = MaterialExpressionScalarParameter'BanjoBall.Materials.BanjoBall_Aura_Mat.MaterialExpressionScalarParameter_5'
+    Expressions[27] = MaterialExpressionScalarParameter'BanjoBall.Materials.BanjoBall_Aura_Mat.MaterialExpressionScalarParameter_4'
+    Expressions[30] = MaterialExpressionScalarParameter'BanjoBall.Materials.BanjoBall_Aura_Mat.MaterialExpressionScalarParameter_3'
+    Expressions[46] = MaterialExpressionScalarParameter'BanjoBall.Materials.BanjoBall_Aura_Mat.MaterialExpressionScalarParameter_0'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'boost_ghosthand.Textures.Dissolve_Fire_M_T'
+        Name = Noise_1
+        Group = None
+    }
+}
+CollectedScalarParameters[5] =
+{
+    CollectedScalarParameters[0] = { Value=2, Name=WindInt, Group=None }
+    CollectedScalarParameters[1] = { Value=8, Name=Emissive, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=PossessionNeutral, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=PosessionTeamColor, Group=None }
+    CollectedScalarParameters[4] = { Value=50, Name=DepthBiasAlpha, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
