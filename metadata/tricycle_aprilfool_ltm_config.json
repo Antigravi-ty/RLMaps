@@ -1,0 +1,156 @@
+{
+  "mode_name": "Three-Wheeler Mode (三蹦子模式 / Confidential_ThirdWheel_Test / April Fools LTM)",
+  "packages": {
+    "car_body_package": "body_topple_SF.upk",
+    "car_thumbnail_package": "Body_Topple_T_SF.upk",
+    "ltm_gameinfo_package": "GameInfo_LTM_AprilFool_SF.upk",
+    "mutators_package": "Mutators_SF.upk",
+    "mutator_balls_package": "Mutators_Balls_SF.upk",
+    "mutator_items_package": "Mutators_Items_SF.upk"
+  },
+  "mutator_loadout_tritip": {
+    "export_name": "Tritip",
+    "class": "Mutator_Loadout_TA",
+    "forced_products": [
+      "body_tritip (ProductAsset_Body_TA'body_topple_SF.Body_Topple', ProductID=12314)"
+    ]
+  },
+  "body_topple_parameters": {
+    "product_id": 12314,
+    "skeletal_mesh": "Body_Topple_SK",
+    "handling_preset": 100,
+    "hitbox_rb_bodysetup_uu": {
+      "length_x": 118.495,
+      "width_y": 83.2725,
+      "height_z": 36.3,
+      "offset": {
+        "x": 13.97567,
+        "y": 0.0,
+        "z": 20.75499
+      }
+    },
+    "front_axle": {
+      "wheel_radius": 14.5,
+      "wheel_width": 14.0,
+      "wheel_mesh_offset_side": 2.0
+    },
+    "back_axle": {
+      "wheel_radius": 16.5,
+      "wheel_width": 15.5,
+      "wheel_mesh_offset_side": 3.0,
+      "wheel_PivotOffset": 1.0
+    },
+    "chassis_spring": {
+      "max_displacement": {
+        "x": 2.5,
+        "y": 2.5,
+        "z": 5.0
+      },
+      "spring_constant": {
+        "x": 300.0,
+        "y": 300.0,
+        "z": 250.0
+      },
+      "max_rotation_deg": {
+        "pitch": 6.0,
+        "yaw": 1.5,
+        "roll": 8.0
+      }
+    }
+  },
+  "rocketsim_psyclops_physics_config": {
+    "preset_name": "CAR_CONFIG_PSYCLOPS",
+    "hitbox_index_in_wasm": 6,
+    "three_wheels": true,
+    "hitbox_size_uu": [
+      118.01,
+      84.2,
+      36.16
+    ],
+    "hitbox_pos_offset_uu": [
+      13.88,
+      0.0,
+      20.75
+    ],
+    "front_wheels": {
+      "wheel_radius": 12.5,
+      "suspension_rest_length": 33.0,
+      "connection_point_offset_uu": [
+        51.25,
+        5.0,
+        -0.65
+      ],
+      "note": "横向偏移 Y 从标准 Octane 的 25.90f 大幅收窄至 5.00f（车头正中央单轮/并拢双轮支撑），极易侧倾翻车"
+    },
+    "back_wheels": {
+      "wheel_radius": 13.5,
+      "suspension_rest_length": 31.3,
+      "connection_point_offset_uu": [
+        -33.75,
+        29.5,
+        -1.7
+      ]
+    },
+    "curves_and_forces": {
+      "sticky_force_scale": 0.0,
+      "steer_angle_from_speed_curve_threewheel": [
+        [
+          0.0,
+          0.40906
+        ],
+        [
+          500.0,
+          0.25461
+        ],
+        [
+          1000.0,
+          0.141965
+        ],
+        [
+          1500.0,
+          0.07519
+        ],
+        [
+          1750.0,
+          0.06097
+        ],
+        [
+          3000.0,
+          0.02685
+        ]
+      ],
+      "lat_friction_curve_threewheel": [
+        [
+          0.0,
+          1.0
+        ],
+        [
+          0.05,
+          0.3
+        ],
+        [
+          1.0,
+          0.1
+        ]
+      ],
+      "mutators_sf_wheel_test_override": {
+        "lat_friction_curve": [
+          [
+            0.0,
+            2.0
+          ],
+          [
+            1.0,
+            0.4
+          ]
+        ],
+        "handbrake_lat_friction_curve": [
+          [
+            0.0,
+            0.05
+          ]
+        ]
+      }
+    }
+  }
+}

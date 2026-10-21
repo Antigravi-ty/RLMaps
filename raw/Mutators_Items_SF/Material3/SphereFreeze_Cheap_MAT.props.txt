@@ -1,0 +1,100 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'Terrain_Noise_Tex.Noise_Stone_01_N'
+    ReferencedTextures[1] = Texture2D'Winter_Textures.Ice_01_N'
+    ReferencedTextures[2] = Texture2D'FX_Water_02.Tex.Water_01_D'
+    ReferencedTextures[4] = Texture2D'ItemsMode.Ball.Freeze.Texture.Ice_D'
+    ReferencedTextures[5] = Texture2D'Tyler_Test.Textures.CubeMap.Sky_CUBE_TexNegZ'
+}
+Expressions[112] =
+{
+    Expressions[1] = MaterialExpressionScalarParameter'ItemsMode.Ball.Freeze.Material.SphereFreeze_Cheap_MAT.MaterialExpressionScalarParameter_9'
+    Expressions[8] = MaterialExpressionScalarParameter'ItemsMode.Ball.Freeze.Material.SphereFreeze_Cheap_MAT.MaterialExpressionScalarParameter_11'
+    Expressions[14] = MaterialExpressionScalarParameter'ItemsMode.Ball.Freeze.Material.SphereFreeze_Cheap_MAT.MaterialExpressionScalarParameter_3'
+    Expressions[21] = MaterialExpressionVectorParameter'ItemsMode.Ball.Freeze.Material.SphereFreeze_Cheap_MAT.MaterialExpressionVectorParameter_2'
+    Expressions[22] = MaterialExpressionTextureSampleParameter2D'ItemsMode.Ball.Freeze.Material.SphereFreeze_Cheap_MAT.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[24] = MaterialExpressionScalarParameter'ItemsMode.Ball.Freeze.Material.SphereFreeze_Cheap_MAT.MaterialExpressionScalarParameter_4'
+    Expressions[27] = MaterialExpressionTextureSampleParameter2D'ItemsMode.Ball.Freeze.Material.SphereFreeze_Cheap_MAT.MaterialExpressionTextureSampleParameter2D_10'
+    Expressions[30] = MaterialExpressionScalarParameter'ItemsMode.Ball.Freeze.Material.SphereFreeze_Cheap_MAT.MaterialExpressionScalarParameter_5'
+    Expressions[34] = MaterialExpressionVectorParameter'ItemsMode.Ball.Freeze.Material.SphereFreeze_Cheap_MAT.MaterialExpressionVectorParameter_0'
+    Expressions[35] = MaterialExpressionVectorParameter'ItemsMode.Ball.Freeze.Material.SphereFreeze_Cheap_MAT.MaterialExpressionVectorParameter_1'
+    Expressions[37] = MaterialExpressionScalarParameter'ItemsMode.Ball.Freeze.Material.SphereFreeze_Cheap_MAT.MaterialExpressionScalarParameter_0'
+    Expressions[42] = MaterialExpressionScalarParameter'ItemsMode.Ball.Freeze.Material.SphereFreeze_Cheap_MAT.MaterialExpressionScalarParameter_1'
+    Expressions[45] = MaterialExpressionScalarParameter'ItemsMode.Ball.Freeze.Material.SphereFreeze_Cheap_MAT.MaterialExpressionScalarParameter_2'
+    Expressions[47] = MaterialExpressionTextureSampleParameter2D'ItemsMode.Ball.Freeze.Material.SphereFreeze_Cheap_MAT.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[59] = MaterialExpressionVectorParameter'ItemsMode.Ball.Freeze.Material.SphereFreeze_Cheap_MAT.MaterialExpressionVectorParameter_3'
+    Expressions[67] = MaterialExpressionScalarParameter'ItemsMode.Ball.Freeze.Material.SphereFreeze_Cheap_MAT.MaterialExpressionScalarParameter_8'
+    Expressions[81] = MaterialExpressionScalarParameter'ItemsMode.Ball.Freeze.Material.SphereFreeze_Cheap_MAT.MaterialExpressionScalarParameter_10'
+    Expressions[82] = MaterialExpressionScalarParameter'ItemsMode.Ball.Freeze.Material.SphereFreeze_Cheap_MAT.MaterialExpressionScalarParameter_12'
+    Expressions[83] = MaterialExpressionScalarParameter'ItemsMode.Ball.Freeze.Material.SphereFreeze_Cheap_MAT.MaterialExpressionScalarParameter_14'
+    Expressions[103] = MaterialExpressionStaticSwitchParameter'ItemsMode.Ball.Freeze.Material.SphereFreeze_Cheap_MAT.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[105] = MaterialExpressionScalarParameter'ItemsMode.Ball.Freeze.Material.SphereFreeze_Cheap_MAT.MaterialExpressionScalarParameter_6'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Winter_Textures.Ice_01_N'
+        Name = IceDetail_Normal
+        Group = Ice
+    }
+    CollectedTextureParameters[1] = { Texture=None, Name=BallRGB, Group=None }
+    CollectedTextureParameters[2] = { Texture=None, Name=reflection, Group=Ice }
+}
+CollectedScalarParameters[13] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=IcicleDrip, Group=Icicle }
+    CollectedScalarParameters[1] = { Value=2, Name=WorldPositionMask, Group=Icicle }
+    CollectedScalarParameters[2] = { Value=1, Name=IceTransition, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=BumpHeight, Group=Ice }
+    CollectedScalarParameters[4] = { Value=1, Name=IceTile, Group=Ice }
+    CollectedScalarParameters[5] = { Value=1, Name=Ice_Overall_Int, Group=Ice }
+    CollectedScalarParameters[6] = { Value=0.1, Name=Normal_Fresnel_Int, Group=Ice }
+    CollectedScalarParameters[7] = { Value=1, Name=Reflection_Int, Group=Ice }
+    CollectedScalarParameters[8] = { Value=1, Name=IceTile, Group=Ice }
+    CollectedScalarParameters[9] = { Value=0.06, Name=IcicleTile_01, Group=Icicle }
+    CollectedScalarParameters[10] = { Value=3, Name=IcicleIntensity, Group=Icicle }
+    CollectedScalarParameters[11] = { Value=0.03, Name=IcicleTile_02, Group=Icicle }
+    CollectedScalarParameters[12] = { Value=5, Name=IceCracksIntensity, Group=Ice }
+}
+CollectedVectorParameters[4] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Ice_Normal_Int
+        Group = Ice
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.310135, G=0.625044, B=0.994439, A=1 }
+        Name = OuterFresnelColor
+        Group = Ice
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0.202823, G=0.30013, B=0.701632, A=1 }
+        Name = InnerFresnelColor
+        Group = Ice
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=0, B=-50, A=1 }
+        Name = IcicleDirectionXYZ-RGB
+        Group = Icicle
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

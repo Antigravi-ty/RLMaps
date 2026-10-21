@@ -1,0 +1,32 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'Boost_Bypass.Textures.TextureBypass_Trail_RGB_T'
+}
+Expressions[13] =
+{
+    Expressions[9] = MaterialExpressionScalarParameter'Ball_GoldenlyChee.Materials.Spin_Goldenlychee_Mat.MaterialExpressionScalarParameter_0'
+    Expressions[10] = MaterialExpressionStaticSwitchParameter'Ball_GoldenlyChee.Materials.Spin_Goldenlychee_Mat.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[11] = MaterialExpressionStaticSwitchParameter'Ball_GoldenlyChee.Materials.Spin_Goldenlychee_Mat.MaterialExpressionStaticSwitchParameter_3'
+    Expressions[12] = MaterialExpressionScalarParameter'Ball_GoldenlyChee.Materials.Spin_Goldenlychee_Mat.MaterialExpressionScalarParameter_1'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[2] =
+{
+    CollectedScalarParameters[0] = { Value=-1, Name=Speed, Group=None }
+    CollectedScalarParameters[1] = { Value=0.5, Name=MaterialAlpha, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

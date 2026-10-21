@@ -1,0 +1,50 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'ItemsModeDark.Ball.Magnet.Texture.Ball_Default00_RGB_M'
+}
+Expressions[26] =
+{
+    Expressions[15] = MaterialExpressionScalarParameter'ItemsModeDark.Ball.Magnet.Material.BallMagnet_Glow_MAT.MaterialExpressionScalarParameter_16'
+    Expressions[17] = MaterialExpressionScalarParameter'ItemsModeDark.Ball.Magnet.Material.BallMagnet_Glow_MAT.MaterialExpressionScalarParameter_15'
+    Expressions[19] = MaterialExpressionScalarParameter'ItemsModeDark.Ball.Magnet.Material.BallMagnet_Glow_MAT.MaterialExpressionScalarParameter_20'
+    Expressions[20] = MaterialExpressionVectorParameter'ItemsModeDark.Ball.Magnet.Material.BallMagnet_Glow_MAT.MaterialExpressionVectorParameter_6'
+    Expressions[22] = MaterialExpressionScalarParameter'ItemsModeDark.Ball.Magnet.Material.BallMagnet_Glow_MAT.MaterialExpressionScalarParameter_30'
+    Expressions[24] = MaterialExpressionVectorParameter'ItemsModeDark.Ball.Magnet.Material.BallMagnet_Glow_MAT.MaterialExpressionVectorParameter_4'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Additive (3)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[4] =
+{
+    CollectedScalarParameters[0] = { Value=3, Name=FresnelAmount, Group=OverallFX }
+    CollectedScalarParameters[1] = { Value=1, Name=FresnelPower, Group=OverallFX }
+    CollectedScalarParameters[2] = { Value=3, Name=Brightness, Group=OverallFX }
+    CollectedScalarParameters[3] = { Value=1, Name=MagnetTransition, Group=OverallFX }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.757925, G=0.217352, B=0.983389, A=1 }
+        Name = GlowColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.244956, G=0.983389, B=0.159625, A=1 }
+        Name = GlowColorAccent
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

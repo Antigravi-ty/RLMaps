@@ -1,0 +1,5 @@
+Diffuse=Sky_CUBE_TexNegZ
+Normal=Ice_01_N
+Other[0]=Noise_Stone_01_N
+Other[1]=Water_01_D
+Other[2]=Ice_D

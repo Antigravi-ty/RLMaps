@@ -1,0 +1,38 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] = { Texture2D'LensFlares_Textures.Corona_Sun01_D' }
+Expressions[18] =
+{
+    Expressions[4] = MaterialExpressionStaticSwitchParameter'explosion_rpgoldenlychee.SimpleParticleMaster_Mat.MaterialExpressionStaticSwitchParameter_8'
+    Expressions[6] = MaterialExpressionTextureSampleParameter2D'explosion_rpgoldenlychee.SimpleParticleMaster_Mat.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[7] = MaterialExpressionStaticSwitchParameter'explosion_rpgoldenlychee.SimpleParticleMaster_Mat.MaterialExpressionStaticSwitchParameter_6'
+    Expressions[9] = MaterialExpressionStaticSwitchParameter'explosion_rpgoldenlychee.SimpleParticleMaster_Mat.MaterialExpressionStaticSwitchParameter_4'
+    Expressions[10] = MaterialExpressionStaticSwitchParameter'explosion_rpgoldenlychee.SimpleParticleMaster_Mat.MaterialExpressionStaticSwitchParameter_2'
+    Expressions[11] = MaterialExpressionStaticSwitchParameter'explosion_rpgoldenlychee.SimpleParticleMaster_Mat.MaterialExpressionStaticSwitchParameter_11'
+    Expressions[14] = MaterialExpressionStaticSwitchParameter'explosion_rpgoldenlychee.SimpleParticleMaster_Mat.MaterialExpressionStaticSwitchParameter_9'
+    Expressions[15] = MaterialExpressionStaticSwitchParameter'explosion_rpgoldenlychee.SimpleParticleMaster_Mat.MaterialExpressionStaticSwitchParameter_12'
+    Expressions[17] = MaterialExpressionStaticSwitchParameter'explosion_rpgoldenlychee.SimpleParticleMaster_Mat.MaterialExpressionStaticSwitchParameter_0'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'LensFlares_Textures.Corona_Sun01_D'
+        Name = TextureRGB
+        Group = None
+    }
+}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

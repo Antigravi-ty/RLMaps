@@ -1,0 +1,148 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'ItemsMode.Car.Textures.Clouds_RGB_N_T'
+    ReferencedTextures[1] = Texture2D'ItemsMode.Car.Textures.Clouds_RGB_T'
+}
+Expressions[191] =
+{
+    Expressions[5] = MaterialExpressionVectorParameter'ItemsModeDark.Car.Storm.Materials.StormMesh_Core_Cyl_MAT.MaterialExpressionVectorParameter_6'
+    Expressions[15] = MaterialExpressionScalarParameter'ItemsModeDark.Car.Storm.Materials.StormMesh_Core_Cyl_MAT.MaterialExpressionScalarParameter_3'
+    Expressions[21] = MaterialExpressionScalarParameter'ItemsModeDark.Car.Storm.Materials.StormMesh_Core_Cyl_MAT.MaterialExpressionScalarParameter_14'
+    Expressions[34] = MaterialExpressionScalarParameter'ItemsModeDark.Car.Storm.Materials.StormMesh_Core_Cyl_MAT.MaterialExpressionScalarParameter_0'
+    Expressions[39] = MaterialExpressionScalarParameter'ItemsModeDark.Car.Storm.Materials.StormMesh_Core_Cyl_MAT.MaterialExpressionScalarParameter_9'
+    Expressions[44] = MaterialExpressionVectorParameter'ItemsModeDark.Car.Storm.Materials.StormMesh_Core_Cyl_MAT.MaterialExpressionVectorParameter_3'
+    Expressions[48] = MaterialExpressionScalarParameter'ItemsModeDark.Car.Storm.Materials.StormMesh_Core_Cyl_MAT.MaterialExpressionScalarParameter_15'
+    Expressions[54] = MaterialExpressionScalarParameter'ItemsModeDark.Car.Storm.Materials.StormMesh_Core_Cyl_MAT.MaterialExpressionScalarParameter_16'
+    Expressions[58] = MaterialExpressionScalarParameter'ItemsModeDark.Car.Storm.Materials.StormMesh_Core_Cyl_MAT.MaterialExpressionScalarParameter_11'
+    Expressions[63] = MaterialExpressionScalarParameter'ItemsModeDark.Car.Storm.Materials.StormMesh_Core_Cyl_MAT.MaterialExpressionScalarParameter_2'
+    Expressions[67] = MaterialExpressionScalarParameter'ItemsModeDark.Car.Storm.Materials.StormMesh_Core_Cyl_MAT.MaterialExpressionScalarParameter_6'
+    Expressions[71] = MaterialExpressionScalarParameter'ItemsModeDark.Car.Storm.Materials.StormMesh_Core_Cyl_MAT.MaterialExpressionScalarParameter_7'
+    Expressions[81] = MaterialExpressionVectorParameter'ItemsModeDark.Car.Storm.Materials.StormMesh_Core_Cyl_MAT.MaterialExpressionVectorParameter_1'
+    Expressions[90] = MaterialExpressionScalarParameter'ItemsModeDark.Car.Storm.Materials.StormMesh_Core_Cyl_MAT.MaterialExpressionScalarParameter_10'
+    Expressions[94] = MaterialExpressionVectorParameter'ItemsModeDark.Car.Storm.Materials.StormMesh_Core_Cyl_MAT.MaterialExpressionVectorParameter_2'
+    Expressions[97] = MaterialExpressionScalarParameter'ItemsModeDark.Car.Storm.Materials.StormMesh_Core_Cyl_MAT.MaterialExpressionScalarParameter_5'
+    Expressions[102] = MaterialExpressionVectorParameter'ItemsModeDark.Car.Storm.Materials.StormMesh_Core_Cyl_MAT.MaterialExpressionVectorParameter_5'
+    Expressions[107] = MaterialExpressionScalarParameter'ItemsModeDark.Car.Storm.Materials.StormMesh_Core_Cyl_MAT.MaterialExpressionScalarParameter_1'
+    Expressions[119] = MaterialExpressionScalarParameter'ItemsModeDark.Car.Storm.Materials.StormMesh_Core_Cyl_MAT.MaterialExpressionScalarParameter_8'
+    Expressions[130] = MaterialExpressionVectorParameter'ItemsModeDark.Car.Storm.Materials.StormMesh_Core_Cyl_MAT.MaterialExpressionVectorParameter_4'
+    Expressions[142] = MaterialExpressionScalarParameter'ItemsModeDark.Car.Storm.Materials.StormMesh_Core_Cyl_MAT.MaterialExpressionScalarParameter_4'
+    Expressions[143] = MaterialExpressionVectorParameter'ItemsModeDark.Car.Storm.Materials.StormMesh_Core_Cyl_MAT.MaterialExpressionVectorParameter_7'
+    Expressions[148] = MaterialExpressionScalarParameter'ItemsModeDark.Car.Storm.Materials.StormMesh_Core_Cyl_MAT.MaterialExpressionScalarParameter_12'
+    Expressions[155] = MaterialExpressionScalarParameter'ItemsModeDark.Car.Storm.Materials.StormMesh_Core_Cyl_MAT.MaterialExpressionScalarParameter_13'
+    Expressions[166] = MaterialExpressionScalarParameter'ItemsModeDark.Car.Storm.Materials.StormMesh_Core_Cyl_MAT.MaterialExpressionScalarParameter_17'
+    Expressions[178] = MaterialExpressionScalarParameter'ItemsModeDark.Car.Storm.Materials.StormMesh_Core_Cyl_MAT.MaterialExpressionScalarParameter_18'
+    Expressions[189] = MaterialExpressionScalarParameter'ItemsModeDark.Car.Storm.Materials.StormMesh_Core_Cyl_MAT.MaterialExpressionScalarParameter_19'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[20] =
+{
+    CollectedScalarParameters[0] = { Value=1000, Name=MaxOffset, Group=WPO }
+    CollectedScalarParameters[1] = { Value=0.5, Name=CloudPanSpeed, Group=Details }
+    CollectedScalarParameters[2] = { Value=1, Name=EdgeFade, Group=Details }
+    CollectedScalarParameters[3] = { Value=1, Name=Opacity, Group=Details }
+    CollectedScalarParameters[4] =
+    {
+        Value = -0.1
+        Name = DetailSharpness_2
+        Group = Tornado
+    }
+    CollectedScalarParameters[5] = { Value=0.5, Name=CloudPanSpeed_2, Group=Details }
+    CollectedScalarParameters[6] =
+    {
+        Value = 0.05
+        Name = UVDistortAmount_2
+        Group = Details
+    }
+    CollectedScalarParameters[7] = { Value=0.5, Name=UVDistortSpeed, Group=Details }
+    CollectedScalarParameters[8] = { Value=2, Name=TileV, Group=Details }
+    CollectedScalarParameters[9] = { Value=2, Name=TileU, Group=Details }
+    CollectedScalarParameters[10] = { Value=0.1, Name=UVDistortAmount, Group=Details }
+    CollectedScalarParameters[11] = { Value=-0.1, Name=DetailSharpness, Group=Tornado }
+    CollectedScalarParameters[12] = { Value=0.5, Name=TimeGlowPanSpeed, Group=Details }
+    CollectedScalarParameters[13] = { Value=3, Name=DistanceFade, Group=Details }
+    CollectedScalarParameters[14] =
+    {
+        Value = 1
+        Name = MeshBumps_Transition
+        Group = MeshBumps
+    }
+    CollectedScalarParameters[15] = { Value=2, Name=WorldPositionMask, Group=MeshBumps }
+    CollectedScalarParameters[16] =
+    {
+        Value = 3
+        Name = MeshBumpsIntensity
+        Group = MeshBumps
+    }
+    CollectedScalarParameters[17] =
+    {
+        Value = 0.006
+        Name = MeshBumps_Tile
+        Group = MeshBumps
+    }
+    CollectedScalarParameters[18] = { Value=1, Name=MeshBumps_Speed, Group=MeshBumps }
+    CollectedScalarParameters[19] =
+    {
+        Value = 1
+        Name = DetailCloudTileAmount
+        Group = Details
+    }
+}
+CollectedVectorParameters[7] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1000, G=0, B=0, A=1 }
+        Name = Velocity
+        Group = WPO
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.850797, G=0.775581, B=0.770891, A=1.5 }
+        Name = SecondaryMotion
+        Group = Tornado
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0.05, G=0.05, B=0.05, A=1 }
+        Name = DarkPrimary
+        Group = Tornado
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0.850797, G=0.850797, B=0.850797, A=1.5 }
+        Name = HotSpots
+        Group = Tornado
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0.850797, G=0.850797, B=0.850797, A=1.5 }
+        Name = LightningColor
+        Group = Tornado
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=0.850797, G=0.775581, B=0.770891, A=1.5 }
+        Name = DustColor
+        Group = Tornado
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=20, G=20, B=0, A=1 }
+        Name = MeshBumpsDirection
+        Group = MeshBumps
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

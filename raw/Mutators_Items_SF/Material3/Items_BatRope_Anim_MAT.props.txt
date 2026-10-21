@@ -1,0 +1,33 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'ItemsMode_01.batarang.Rope_N'
+    ReferencedTextures[1] = Texture2D'ItemsMode_01.batarang.Rope_D'
+}
+Expressions[43] =
+{
+    Expressions[1] = MaterialExpressionScalarParameter'ItemsMode_01.batarang.Items_BatRope_Anim_MAT.MaterialExpressionScalarParameter_0'
+    Expressions[8] = MaterialExpressionScalarParameter'ItemsMode_01.batarang.Items_BatRope_Anim_MAT.MaterialExpressionScalarParameter_2'
+    Expressions[40] = MaterialExpressionScalarParameter'ItemsMode_01.batarang.Items_BatRope_Anim_MAT.MaterialExpressionScalarParameter_3'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[3] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=slack, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Gravity, Group=None }
+    CollectedScalarParameters[2] = { Value=1.5, Name=Thickness, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

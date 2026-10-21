@@ -1,0 +1,47 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'EditorMaterials.WidgetGridVertexColorMaterial'
+    ReferencedTextures[2] = Texture2D'Boost_Lightning.Textures.LightningFlip_T'
+}
+Expressions[38] =
+{
+    Expressions[34] = MaterialExpressionTextureSampleParameter2D'ItemsMode.Car.Materials.Lightning_FB_02_MAT.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[35] = MaterialExpressionTextureSampleParameter2D'ItemsMode.Car.Materials.Lightning_FB_02_MAT.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[36] = MaterialExpressionScalarParameter'ItemsMode.Car.Materials.Lightning_FB_02_MAT.MaterialExpressionScalarParameter_0'
+    Expressions[37] = MaterialExpressionScalarParameter'ItemsMode.Car.Materials.Lightning_FB_02_MAT.MaterialExpressionScalarParameter_1'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Additive (3)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Boost_Lightning.Textures.LightningFlip_T'
+        Name = FB_01
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Boost_Lightning.Textures.LightningFlip_T'
+        Name = FB_02
+        Group = None
+    }
+}
+CollectedScalarParameters[2] =
+{
+    CollectedScalarParameters[0] = { Value=0.5, Name=FB_01_Brightness, Group=None }
+    CollectedScalarParameters[1] = { Value=10, Name=FB_02_Brightness, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
