@@ -1,0 +1,7 @@
+Diffuse=RiverStrip_D
+Normal=RiverStrip_N
+Cube=OOBCube
+Other[0]=GrassAndBush_N
+Other[1]=Water_01_N
+Other[2]=RiverStrip_Masks
+Other[3]=OOBCube

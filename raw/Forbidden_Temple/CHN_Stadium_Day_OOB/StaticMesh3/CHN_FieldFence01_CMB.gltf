@@ -1,0 +1,301 @@
+{
+  "asset" : {
+    "generator" : "UE Viewer (umodel) build 1592",
+    "version" : "2.0"
+  },
+  "scene" : 0,
+  "scenes" : [
+    {
+      "nodes" : [ 0 ]
+    }
+  ],
+  "nodes" : [
+    {
+      "name" : "CHN_FieldFence01_CMB",
+      "mesh" : 0
+    }
+  ],
+  "materials" : [
+    {
+      "name" : "dummy_material_0",
+      "pbrMetallicRoughness" : {
+        "baseColorFactor" : [ 0.3, 0.3, 0.3, 1.0 ],
+        "metallicFactor" : 0.1,
+        "roughnessFactor" : 0.5
+      }
+    },
+    {
+      "name" : "dummy_material_1",
+      "pbrMetallicRoughness" : {
+        "baseColorFactor" : [ 0.9, 0.3, 0.3, 1.0 ],
+        "metallicFactor" : 0.1,
+        "roughnessFactor" : 0.5
+      }
+    },
+    {
+      "name" : "dummy_material_2",
+      "pbrMetallicRoughness" : {
+        "baseColorFactor" : [ 0.3, 0.9, 0.3, 1.0 ],
+        "metallicFactor" : 0.1,
+        "roughnessFactor" : 0.5
+      }
+    }
+  ],
+  "meshes" : [
+    {
+      "primitives" : [
+        {
+          "attributes" : {
+            "POSITION" : 1,
+            "NORMAL" : 2,
+            "TANGENT" : 3,
+            "COLOR_0" : 4,
+            "TEXCOORD_0" : 5
+          },
+          "indices" : 0,
+          "material" : 0
+        },
+        {
+          "attributes" : {
+            "POSITION" : 7,
+            "NORMAL" : 8,
+            "TANGENT" : 9,
+            "COLOR_0" : 10,
+            "TEXCOORD_0" : 11
+          },
+          "indices" : 6,
+          "material" : 1
+        },
+        {
+          "attributes" : {
+            "POSITION" : 13,
+            "NORMAL" : 14,
+            "TANGENT" : 15,
+            "COLOR_0" : 16,
+            "TEXCOORD_0" : 17
+          },
+          "indices" : 12,
+          "material" : 2
+        }
+      ],
+      "name" : "CHN_FieldFence01_CMB"
+    }
+  ],
+  "buffers" : [
+    {
+      "uri" : "CHN_FieldFence01_CMB.bin",
+      "byteLength" : 248092
+    }
+  ],
+  "bufferViews" : [
+    {
+      "buffer" : 0,
+      "byteOffset" : 0,
+      "byteLength" : 2112
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 2112,
+      "byteLength" : 3300
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 5412,
+      "byteLength" : 3300
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 8712,
+      "byteLength" : 4400
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 13112,
+      "byteLength" : 1100
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 14212,
+      "byteLength" : 2200
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 16412,
+      "byteLength" : 26880
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 43292,
+      "byteLength" : 29760
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 73052,
+      "byteLength" : 29760
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 102812,
+      "byteLength" : 39680
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 142492,
+      "byteLength" : 9920
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 152412,
+      "byteLength" : 19840
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 172252,
+      "byteLength" : 7200
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 179452,
+      "byteLength" : 15840
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 195292,
+      "byteLength" : 15840
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 211132,
+      "byteLength" : 21120
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 232252,
+      "byteLength" : 5280
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 237532,
+      "byteLength" : 10560
+    }
+  ],
+  "accessors" : [
+    {
+      "bufferView" : 0,
+      "componentType" : 5123,
+      "count" : 1056,
+      "type" : "SCALAR"
+    },
+    {
+      "bufferView" : 1,
+      "min" : [ -49.9249, 0.741163, -27.4545 ],
+      "max" : [ 49.5117, 2.78092, 27.7495 ],
+      "componentType" : 5126,
+      "count" : 275,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 2,
+      "componentType" : 5126,
+      "count" : 275,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 3,
+      "componentType" : 5126,
+      "count" : 275,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 4,
+      "normalized" : true,
+      "componentType" : 5121,
+      "count" : 275,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 5,
+      "componentType" : 5126,
+      "count" : 275,
+      "type" : "VEC2"
+    },
+    {
+      "bufferView" : 6,
+      "componentType" : 5123,
+      "count" : 13440,
+      "type" : "SCALAR"
+    },
+    {
+      "bufferView" : 7,
+      "min" : [ -50.2213, 1.55601, -27.917 ],
+      "max" : [ 50.0924, 2.15211, 28.046 ],
+      "componentType" : 5126,
+      "count" : 2480,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 8,
+      "componentType" : 5126,
+      "count" : 2480,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 9,
+      "componentType" : 5126,
+      "count" : 2480,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 10,
+      "normalized" : true,
+      "componentType" : 5121,
+      "count" : 2480,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 11,
+      "componentType" : 5126,
+      "count" : 2480,
+      "type" : "VEC2"
+    },
+    {
+      "bufferView" : 12,
+      "componentType" : 5123,
+      "count" : 3600,
+      "type" : "SCALAR"
+    },
+    {
+      "bufferView" : 13,
+      "min" : [ -50.2653, -2.78092, -27.9559 ],
+      "max" : [ 50.1351, 1.62143, 28.0899 ],
+      "componentType" : 5126,
+      "count" : 1320,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 14,
+      "componentType" : 5126,
+      "count" : 1320,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 15,
+      "componentType" : 5126,
+      "count" : 1320,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 16,
+      "normalized" : true,
+      "componentType" : 5121,
+      "count" : 1320,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 17,
+      "componentType" : 5126,
+      "count" : 1320,
+      "type" : "VEC2"
+    }
+  ]
+}

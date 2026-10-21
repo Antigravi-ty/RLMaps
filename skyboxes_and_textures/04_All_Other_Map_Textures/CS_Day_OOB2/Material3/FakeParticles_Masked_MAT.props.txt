@@ -1,0 +1,77 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = true
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'Boost_Slime.Textures.GradientCircle01'
+}
+Expressions[134] =
+{
+    Expressions[1] = MaterialExpressionStaticSwitchParameter'Explosion_Assets.Materials.FakeParticles.FakeParticles_Masked_MAT.MaterialExpressionStaticSwitchParameter_7'
+    Expressions[19] = MaterialExpressionScalarParameter'Explosion_Assets.Materials.FakeParticles.FakeParticles_Masked_MAT.MaterialExpressionScalarParameter_3'
+    Expressions[54] = MaterialExpressionStaticSwitchParameter'Explosion_Assets.Materials.FakeParticles.FakeParticles_Masked_MAT.MaterialExpressionStaticSwitchParameter_2'
+    Expressions[60] = MaterialExpressionScalarParameter'Explosion_Assets.Materials.FakeParticles.FakeParticles_Masked_MAT.MaterialExpressionScalarParameter_2'
+    Expressions[66] = MaterialExpressionStaticSwitchParameter'Explosion_Assets.Materials.FakeParticles.FakeParticles_Masked_MAT.MaterialExpressionStaticSwitchParameter_6'
+    Expressions[74] = MaterialExpressionStaticSwitchParameter'Explosion_Assets.Materials.FakeParticles.FakeParticles_Masked_MAT.MaterialExpressionStaticSwitchParameter_4'
+    Expressions[75] = MaterialExpressionScalarParameter'Explosion_Assets.Materials.FakeParticles.FakeParticles_Masked_MAT.MaterialExpressionScalarParameter_0'
+    Expressions[92] = MaterialExpressionStaticSwitchParameter'Explosion_Assets.Materials.FakeParticles.FakeParticles_Masked_MAT.MaterialExpressionStaticSwitchParameter_1'
+    Expressions[93] = MaterialExpressionTextureSampleParameter2D'Explosion_Assets.Materials.FakeParticles.FakeParticles_Masked_MAT.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[95] = MaterialExpressionStaticBoolParameter'Explosion_Assets.Materials.FakeParticles.FakeParticles_Masked_MAT.MaterialExpressionStaticBoolParameter_0'
+    Expressions[107] = MaterialExpressionScalarParameter'Explosion_Assets.Materials.FakeParticles.FakeParticles_Masked_MAT.MaterialExpressionScalarParameter_1'
+    Expressions[109] = MaterialExpressionStaticSwitchParameter'Explosion_Assets.Materials.FakeParticles.FakeParticles_Masked_MAT.MaterialExpressionStaticSwitchParameter_3'
+    Expressions[111] = MaterialExpressionStaticSwitchParameter'Explosion_Assets.Materials.FakeParticles.FakeParticles_Masked_MAT.MaterialExpressionStaticSwitchParameter_17'
+    Expressions[112] = MaterialExpressionStaticSwitchParameter'Explosion_Assets.Materials.FakeParticles.FakeParticles_Masked_MAT.MaterialExpressionStaticSwitchParameter_5'
+    Expressions[114] = MaterialExpressionScalarParameter'Explosion_Assets.Materials.FakeParticles.FakeParticles_Masked_MAT.MaterialExpressionScalarParameter_4'
+    Expressions[118] = MaterialExpressionStaticSwitchParameter'Explosion_Assets.Materials.FakeParticles.FakeParticles_Masked_MAT.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[126] = MaterialExpressionVectorParameter'Explosion_Assets.Materials.FakeParticles.FakeParticles_Masked_MAT.MaterialExpressionVectorParameter_0'
+    Expressions[127] = MaterialExpressionStaticSwitchParameter'Explosion_Assets.Materials.FakeParticles.FakeParticles_Masked_MAT.MaterialExpressionStaticSwitchParameter_8'
+    Expressions[128] = MaterialExpressionStaticSwitchParameter'Explosion_Assets.Materials.FakeParticles.FakeParticles_Masked_MAT.MaterialExpressionStaticSwitchParameter_10'
+    Expressions[130] = MaterialExpressionScalarParameter'Explosion_Assets.Materials.FakeParticles.FakeParticles_Masked_MAT.MaterialExpressionScalarParameter_5'
+    Expressions[131] = MaterialExpressionScalarParameter'Explosion_Assets.Materials.FakeParticles.FakeParticles_Masked_MAT.MaterialExpressionScalarParameter_7'
+    Expressions[133] = MaterialExpressionTextureSampleParameter2D'Explosion_Assets.Materials.FakeParticles.FakeParticles_Masked_MAT.MaterialExpressionTextureSampleParameter2D_1'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Boost_Slime.Textures.GradientCircle01'
+        Name = Texture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Explosion_Butterflies.Textures.FlowerPedal'
+        Name = Texture_RGBA
+        Group = None
+    }
+}
+CollectedScalarParameters[7] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=OrbitSpeed, Group=None }
+    CollectedScalarParameters[1] = { Value=-1, Name=SpinSpeed, Group=None }
+    CollectedScalarParameters[2] = { Value=3, Name=Scale, Group=None }
+    CollectedScalarParameters[3] = { Value=16, Name=SubUV_Speed, Group=None }
+    CollectedScalarParameters[4] = { Value=1.5, Name=Brightness, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=ScaleX, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=ScaleY, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=1, B=0, A=1 }
+        Name = LightDirection
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

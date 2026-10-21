@@ -1,0 +1,29 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = true
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'CHN_Stadium_Textures.CHN_CherryBlossom_FlowersBranch_D'
+    ReferencedTextures[1] = Texture2D'CHN_Stadium_Textures.CHN_CherryBlossom_FlowersBranch_N'
+}
+Expressions[25] =
+{
+    Expressions[23] = MaterialExpressionScalarParameter'CHN_Stadium_Assets.Materials.CHN_CherryBlossomBranch_Mat.MaterialExpressionScalarParameter_1'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=0.1, Name=AmbientLighting, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

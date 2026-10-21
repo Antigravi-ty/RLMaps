@@ -1,0 +1,509 @@
+{
+  "total_packages": 36,
+  "packages": [
+    {
+      "file": "CHN_Stadium_Day_Field.upk",
+      "package": "CHN_Stadium_Day_Field",
+      "size_bytes": 4684692,
+      "aes_key_index": 0,
+      "exported_counts": {
+        "StaticMesh3": 63,
+        "SkeletalMesh3": 0,
+        "Texture2D": 59,
+        "Material3": 14,
+        "MaterialInstanceConstant": 41,
+        "LightMapTexture2D": 10
+      }
+    },
+    {
+      "file": "CHN_Stadium_Day_Mountains.upk",
+      "package": "CHN_Stadium_Day_Mountains",
+      "size_bytes": 3144104,
+      "aes_key_index": 0,
+      "exported_counts": {
+        "StaticMesh3": 10,
+        "SkeletalMesh3": 0,
+        "Texture2D": 26,
+        "Material3": 8,
+        "MaterialInstanceConstant": 9,
+        "LightMapTexture2D": 4
+      }
+    },
+    {
+      "file": "CHN_Stadium_Day_OOB.upk",
+      "package": "CHN_Stadium_Day_OOB",
+      "size_bytes": 19187709,
+      "aes_key_index": 0,
+      "exported_counts": {
+        "StaticMesh3": 56,
+        "SkeletalMesh3": 0,
+        "Texture2D": 65,
+        "Material3": 21,
+        "MaterialInstanceConstant": 25,
+        "LightMapTexture2D": 6
+      }
+    },
+    {
+      "file": "CHN_Stadium_Day_P.upk",
+      "package": "CHN_Stadium_Day_P",
+      "size_bytes": 7060898,
+      "aes_key_index": 1,
+      "exported_counts": {
+        "StaticMesh3": 38,
+        "SkeletalMesh3": 0,
+        "Texture2D": 47,
+        "Material3": 18,
+        "MaterialInstanceConstant": 16,
+        "LightMapTexture2D": 12
+      }
+    },
+    {
+      "file": "CS_Day_Field.upk",
+      "package": "CS_Day_Field",
+      "size_bytes": 1487178,
+      "aes_key_index": 0,
+      "exported_counts": {
+        "StaticMesh3": 13,
+        "SkeletalMesh3": 0,
+        "Texture2D": 10,
+        "Material3": 4,
+        "MaterialInstanceConstant": 11,
+        "LightMapTexture2D": 2
+      }
+    },
+    {
+      "file": "CS_Day_Grounds.upk",
+      "package": "CS_Day_Grounds",
+      "size_bytes": 900172,
+      "aes_key_index": 0,
+      "exported_counts": {
+        "StaticMesh3": 9,
+        "SkeletalMesh3": 0,
+        "Texture2D": 10,
+        "Material3": 2,
+        "MaterialInstanceConstant": 5,
+        "LightMapTexture2D": 2
+      }
+    },
+    {
+      "file": "CS_Day_Lights.upk",
+      "package": "CS_Day_Lights",
+      "size_bytes": 1521480,
+      "aes_key_index": 0,
+      "exported_counts": {
+        "StaticMesh3": 3,
+        "SkeletalMesh3": 0,
+        "Texture2D": 17,
+        "Material3": 4,
+        "MaterialInstanceConstant": 6,
+        "LightMapTexture2D": 2
+      }
+    },
+    {
+      "file": "CS_Day_OOB.upk",
+      "package": "CS_Day_OOB",
+      "size_bytes": 3877572,
+      "aes_key_index": 0,
+      "exported_counts": {
+        "StaticMesh3": 13,
+        "SkeletalMesh3": 1,
+        "Texture2D": 42,
+        "Material3": 11,
+        "MaterialInstanceConstant": 10,
+        "LightMapTexture2D": 4
+      }
+    },
+    {
+      "file": "CS_Day_OOB2.upk",
+      "package": "CS_Day_OOB2",
+      "size_bytes": 7850259,
+      "aes_key_index": 0,
+      "exported_counts": {
+        "StaticMesh3": 17,
+        "SkeletalMesh3": 1,
+        "Texture2D": 51,
+        "Material3": 23,
+        "MaterialInstanceConstant": 28,
+        "LightMapTexture2D": 4
+      }
+    },
+    {
+      "file": "CS_Day_P.upk",
+      "package": "CS_Day_P",
+      "size_bytes": 8384891,
+      "aes_key_index": 0,
+      "exported_counts": {
+        "StaticMesh3": 44,
+        "SkeletalMesh3": 0,
+        "Texture2D": 37,
+        "Material3": 25,
+        "MaterialInstanceConstant": 27,
+        "LightMapTexture2D": 2
+      }
+    },
+    {
+      "file": "CS_Lights.upk",
+      "package": "CS_Lights",
+      "size_bytes": 1709676,
+      "aes_key_index": 0,
+      "exported_counts": {
+        "StaticMesh3": 4,
+        "SkeletalMesh3": 0,
+        "Texture2D": 19,
+        "Material3": 7,
+        "MaterialInstanceConstant": 6,
+        "LightMapTexture2D": 2
+      }
+    },
+    {
+      "file": "CS_OOB.upk",
+      "package": "CS_OOB",
+      "size_bytes": 4689042,
+      "aes_key_index": 0,
+      "exported_counts": {
+        "StaticMesh3": 13,
+        "SkeletalMesh3": 1,
+        "Texture2D": 41,
+        "Material3": 11,
+        "MaterialInstanceConstant": 9,
+        "LightMapTexture2D": 4
+      }
+    },
+    {
+      "file": "CS_OOB2.upk",
+      "package": "CS_OOB2",
+      "size_bytes": 6187520,
+      "aes_key_index": 0,
+      "exported_counts": {
+        "StaticMesh3": 18,
+        "SkeletalMesh3": 0,
+        "Texture2D": 41,
+        "Material3": 16,
+        "MaterialInstanceConstant": 27,
+        "LightMapTexture2D": 4
+      }
+    },
+    {
+      "file": "CS_P.upk",
+      "package": "CS_P",
+      "size_bytes": 4478764,
+      "aes_key_index": 0,
+      "exported_counts": {
+        "StaticMesh3": 37,
+        "SkeletalMesh3": 0,
+        "Texture2D": 33,
+        "Material3": 18,
+        "MaterialInstanceConstant": 17,
+        "LightMapTexture2D": 2
+      }
+    },
+    {
+      "file": "EuroStadium_Dusk_P.upk",
+      "package": "EuroStadium_Dusk_P",
+      "size_bytes": 27144809,
+      "aes_key_index": 0,
+      "exported_counts": {
+        "StaticMesh3": 127,
+        "SkeletalMesh3": 0,
+        "Texture2D": 73,
+        "Material3": 40,
+        "MaterialInstanceConstant": 25,
+        "LightMapTexture2D": 6
+      }
+    },
+    {
+      "file": "EuroStadium_Night_P.upk",
+      "package": "EuroStadium_Night_P",
+      "size_bytes": 16731438,
+      "aes_key_index": 0,
+      "exported_counts": {
+        "StaticMesh3": 129,
+        "SkeletalMesh3": 0,
+        "Texture2D": 72,
+        "Material3": 36,
+        "MaterialInstanceConstant": 24,
+        "LightMapTexture2D": 6
+      }
+    },
+    {
+      "file": "EuroStadium_P.upk",
+      "package": "EuroStadium_P",
+      "size_bytes": 20959063,
+      "aes_key_index": 0,
+      "exported_counts": {
+        "StaticMesh3": 129,
+        "SkeletalMesh3": 0,
+        "Texture2D": 72,
+        "Material3": 37,
+        "MaterialInstanceConstant": 24,
+        "LightMapTexture2D": 6
+      }
+    },
+    {
+      "file": "EuroStadium_Rainy_P.upk",
+      "package": "EuroStadium_Rainy_P",
+      "size_bytes": 24196105,
+      "aes_key_index": 0,
+      "exported_counts": {
+        "StaticMesh3": 129,
+        "SkeletalMesh3": 0,
+        "Texture2D": 71,
+        "Material3": 35,
+        "MaterialInstanceConstant": 25,
+        "LightMapTexture2D": 4
+      }
+    },
+    {
+      "file": "Farm_Night_OOBTerrain.upk",
+      "package": "Farm_Night_OOBTerrain",
+      "size_bytes": 2472100,
+      "aes_key_index": 0,
+      "exported_counts": {
+        "StaticMesh3": 2,
+        "SkeletalMesh3": 0,
+        "Texture2D": 5,
+        "Material3": 1,
+        "MaterialInstanceConstant": 0,
+        "LightMapTexture2D": 0
+      }
+    },
+    {
+      "file": "Farm_Night_P.upk",
+      "package": "Farm_Night_P",
+      "size_bytes": 21512315,
+      "aes_key_index": 2,
+      "exported_counts": {
+        "StaticMesh3": 95,
+        "SkeletalMesh3": 1,
+        "Texture2D": 106,
+        "Material3": 48,
+        "MaterialInstanceConstant": 57,
+        "LightMapTexture2D": 94
+      }
+    },
+    {
+      "file": "Farm_P.upk",
+      "package": "Farm_P",
+      "size_bytes": 23685886,
+      "aes_key_index": 0,
+      "exported_counts": {
+        "StaticMesh3": 101,
+        "SkeletalMesh3": 2,
+        "Texture2D": 116,
+        "Material3": 51,
+        "MaterialInstanceConstant": 66,
+        "LightMapTexture2D": 86
+      }
+    },
+    {
+      "file": "Farm_p_MapImage_SF.upk",
+      "package": "Farm_p_MapImage_SF",
+      "size_bytes": 792025,
+      "aes_key_index": 0,
+      "exported_counts": {
+        "StaticMesh3": 0,
+        "SkeletalMesh3": 0,
+        "Texture2D": 1,
+        "Material3": 0,
+        "MaterialInstanceConstant": 0,
+        "LightMapTexture2D": 0
+      }
+    },
+    {
+      "file": "Park_Night_P.upk",
+      "package": "Park_Night_P",
+      "size_bytes": 17139643,
+      "aes_key_index": 0,
+      "exported_counts": {
+        "StaticMesh3": 89,
+        "SkeletalMesh3": 0,
+        "Texture2D": 61,
+        "Material3": 33,
+        "MaterialInstanceConstant": 25,
+        "LightMapTexture2D": 6
+      }
+    },
+    {
+      "file": "Park_P.upk",
+      "package": "Park_P",
+      "size_bytes": 17273402,
+      "aes_key_index": 0,
+      "exported_counts": {
+        "StaticMesh3": 86,
+        "SkeletalMesh3": 0,
+        "Texture2D": 68,
+        "Material3": 36,
+        "MaterialInstanceConstant": 26,
+        "LightMapTexture2D": 4
+      }
+    },
+    {
+      "file": "Park_Rainy_P.upk",
+      "package": "Park_Rainy_P",
+      "size_bytes": 15688826,
+      "aes_key_index": 0,
+      "exported_counts": {
+        "StaticMesh3": 89,
+        "SkeletalMesh3": 0,
+        "Texture2D": 68,
+        "Material3": 39,
+        "MaterialInstanceConstant": 24,
+        "LightMapTexture2D": 4
+      }
+    },
+    {
+      "file": "chn_stadium_day_p_MapImage_SF.upk",
+      "package": "chn_stadium_day_p_MapImage_SF",
+      "size_bytes": 1668557,
+      "aes_key_index": 0,
+      "exported_counts": {
+        "StaticMesh3": 0,
+        "SkeletalMesh3": 0,
+        "Texture2D": 1,
+        "Material3": 0,
+        "MaterialInstanceConstant": 0,
+        "LightMapTexture2D": 0
+      }
+    },
+    {
+      "file": "cs_day_p_MapImage_SF.upk",
+      "package": "cs_day_p_MapImage_SF",
+      "size_bytes": 822528,
+      "aes_key_index": 0,
+      "exported_counts": {
+        "StaticMesh3": 0,
+        "SkeletalMesh3": 0,
+        "Texture2D": 1,
+        "Material3": 0,
+        "MaterialInstanceConstant": 0,
+        "LightMapTexture2D": 0
+      }
+    },
+    {
+      "file": "cs_p_MapImage_SF.upk",
+      "package": "cs_p_MapImage_SF",
+      "size_bytes": 967182,
+      "aes_key_index": 0,
+      "exported_counts": {
+        "StaticMesh3": 0,
+        "SkeletalMesh3": 0,
+        "Texture2D": 1,
+        "Material3": 0,
+        "MaterialInstanceConstant": 0,
+        "LightMapTexture2D": 0
+      }
+    },
+    {
+      "file": "eurostadium_dusk_p_MapImage_SF.upk",
+      "package": "eurostadium_dusk_p_MapImage_SF",
+      "size_bytes": 888711,
+      "aes_key_index": 0,
+      "exported_counts": {
+        "StaticMesh3": 0,
+        "SkeletalMesh3": 0,
+        "Texture2D": 1,
+        "Material3": 0,
+        "MaterialInstanceConstant": 0,
+        "LightMapTexture2D": 0
+      }
+    },
+    {
+      "file": "eurostadium_night_p_MapImage_SF.upk",
+      "package": "eurostadium_night_p_MapImage_SF",
+      "size_bytes": 815502,
+      "aes_key_index": 0,
+      "exported_counts": {
+        "StaticMesh3": 0,
+        "SkeletalMesh3": 0,
+        "Texture2D": 1,
+        "Material3": 0,
+        "MaterialInstanceConstant": 0,
+        "LightMapTexture2D": 0
+      }
+    },
+    {
+      "file": "eurostadium_p_MapImage_SF.upk",
+      "package": "eurostadium_p_MapImage_SF",
+      "size_bytes": 857359,
+      "aes_key_index": 0,
+      "exported_counts": {
+        "StaticMesh3": 0,
+        "SkeletalMesh3": 0,
+        "Texture2D": 1,
+        "Material3": 0,
+        "MaterialInstanceConstant": 0,
+        "LightMapTexture2D": 0
+      }
+    },
+    {
+      "file": "eurostadium_rainy_p_MapImage_SF.upk",
+      "package": "eurostadium_rainy_p_MapImage_SF",
+      "size_bytes": 818373,
+      "aes_key_index": 0,
+      "exported_counts": {
+        "StaticMesh3": 0,
+        "SkeletalMesh3": 0,
+        "Texture2D": 1,
+        "Material3": 0,
+        "MaterialInstanceConstant": 0,
+        "LightMapTexture2D": 0
+      }
+    },
+    {
+      "file": "farm_night_p_MapImage_SF.upk",
+      "package": "farm_night_p_MapImage_SF",
+      "size_bytes": 733743,
+      "aes_key_index": 0,
+      "exported_counts": {
+        "StaticMesh3": 0,
+        "SkeletalMesh3": 0,
+        "Texture2D": 1,
+        "Material3": 0,
+        "MaterialInstanceConstant": 0,
+        "LightMapTexture2D": 0
+      }
+    },
+    {
+      "file": "park_night_p_MapImage_SF.upk",
+      "package": "park_night_p_MapImage_SF",
+      "size_bytes": 844668,
+      "aes_key_index": 0,
+      "exported_counts": {
+        "StaticMesh3": 0,
+        "SkeletalMesh3": 0,
+        "Texture2D": 1,
+        "Material3": 0,
+        "MaterialInstanceConstant": 0,
+        "LightMapTexture2D": 0
+      }
+    },
+    {
+      "file": "park_p_MapImage_SF.upk",
+      "package": "park_p_MapImage_SF",
+      "size_bytes": 900373,
+      "aes_key_index": 0,
+      "exported_counts": {
+        "StaticMesh3": 0,
+        "SkeletalMesh3": 0,
+        "Texture2D": 1,
+        "Material3": 0,
+        "MaterialInstanceConstant": 0,
+        "LightMapTexture2D": 0
+      }
+    },
+    {
+      "file": "park_rainy_p_MapImage_SF.upk",
+      "package": "park_rainy_p_MapImage_SF",
+      "size_bytes": 853135,
+      "aes_key_index": 0,
+      "exported_counts": {
+        "StaticMesh3": 0,
+        "SkeletalMesh3": 0,
+        "Texture2D": 1,
+        "Material3": 0,
+        "MaterialInstanceConstant": 0,
+        "LightMapTexture2D": 0
+      }
+    }
+  ]
+}

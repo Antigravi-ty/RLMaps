@@ -1,0 +1,35 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[1] = Texture2D'Boost_Slime.Textures.GradientCircle01'
+}
+Expressions[68] =
+{
+    Expressions[2] = MaterialExpressionScalarParameter'CS_FX.Mat.Fireworks_FakePS_MAT.MaterialExpressionScalarParameter_2'
+    Expressions[38] = MaterialExpressionScalarParameter'CS_FX.Mat.Fireworks_FakePS_MAT.MaterialExpressionScalarParameter_0'
+    Expressions[63] = MaterialExpressionStaticSwitchParameter'CS_FX.Mat.Fireworks_FakePS_MAT.MaterialExpressionStaticSwitchParameter_3'
+    Expressions[66] = MaterialExpressionScalarParameter'CS_FX.Mat.Fireworks_FakePS_MAT.MaterialExpressionScalarParameter_1'
+    Expressions[67] = MaterialExpressionScalarParameter'CS_FX.Mat.Fireworks_FakePS_MAT.MaterialExpressionScalarParameter_8'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Additive (3)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[4] =
+{
+    CollectedScalarParameters[0] = { Value=5, Name=Spread, Group=None }
+    CollectedScalarParameters[1] = { Value=3, Name=Scale, Group=None }
+    CollectedScalarParameters[2] = { Value=5, Name=Brightness, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=RotateAmt, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

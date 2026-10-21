@@ -1,0 +1,352 @@
+Parent = Material3'CS_FX.Mat.AnimAdRibbon_Master_MAT'
+ScalarParameterValues[48] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = 2
+        ParameterName = AdBrightness
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0
+        ParameterName = PanU
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0
+        ParameterName = PanV
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.125
+        ParameterName = TileU
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = 
+        ParameterValue = 1
+        ParameterName = TileV
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = 
+        ParameterValue = 10
+        ParameterName = BAd_Columns
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = 
+        ParameterValue = 10
+        ParameterName = BAd_Rows
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.25
+        ParameterName = BAd_Speed
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0
+        ParameterName = BPanU
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0
+        ParameterName = BPanV
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.125
+        ParameterName = BTileU
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = 
+        ParameterValue = 1
+        ParameterName = BTileV
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = 
+        ParameterValue = 1
+        ParameterName = EdgeGradient
+    }
+    ScalarParameterValues[13] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0
+        ParameterName = EG_PanU
+    }
+    ScalarParameterValues[14] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.35
+        ParameterName = EG_PanV
+    }
+    ScalarParameterValues[15] =
+    {
+        ParameterInfo = 
+        ParameterValue = 1
+        ParameterName = EG_TileU
+    }
+    ScalarParameterValues[16] =
+    {
+        ParameterInfo = 
+        ParameterValue = 1.7
+        ParameterName = EG_TileV
+    }
+    ScalarParameterValues[17] =
+    {
+        ParameterInfo = 
+        ParameterValue = 16
+        ParameterName = 01_E_Columns
+    }
+    ScalarParameterValues[18] =
+    {
+        ParameterInfo = 
+        ParameterValue = 1
+        ParameterName = 01_E_Rows
+    }
+    ScalarParameterValues[19] =
+    {
+        ParameterInfo = 
+        ParameterValue = -1
+        ParameterName = 01_E_Speed
+    }
+    ScalarParameterValues[20] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0
+        ParameterName = 01_EventPanU
+    }
+    ScalarParameterValues[21] =
+    {
+        ParameterInfo = 
+        ParameterValue = 2.5
+        ParameterName = 01_EventPanV
+    }
+    ScalarParameterValues[22] =
+    {
+        ParameterInfo = 
+        ParameterValue = 2.5
+        ParameterName = 01_EventTileU
+    }
+    ScalarParameterValues[23] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.5
+        ParameterName = 01_EventTileV
+    }
+    ScalarParameterValues[24] =
+    {
+        ParameterInfo = 
+        ParameterValue = 19
+        ParameterName = 02_E_Columns
+    }
+    ScalarParameterValues[25] =
+    {
+        ParameterInfo = 
+        ParameterValue = 1
+        ParameterName = 02_E_Rows
+    }
+    ScalarParameterValues[26] =
+    {
+        ParameterInfo = 
+        ParameterValue = -1
+        ParameterName = 02_E_Speed
+    }
+    ScalarParameterValues[27] =
+    {
+        ParameterInfo = 
+        ParameterValue = 5
+        ParameterName = 02_EventPanU
+    }
+    ScalarParameterValues[28] =
+    {
+        ParameterInfo = 
+        ParameterValue = 2.5
+        ParameterName = 02_EventPanV
+    }
+    ScalarParameterValues[29] =
+    {
+        ParameterInfo = 
+        ParameterValue = 3
+        ParameterName = 02_EventTileU
+    }
+    ScalarParameterValues[30] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.5
+        ParameterName = 02_EventTileV
+    }
+    ScalarParameterValues[31] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.5
+        ParameterName = ChangeEvent
+    }
+    ScalarParameterValues[32] =
+    {
+        ParameterInfo = 
+        ParameterValue = 10
+        ParameterName = EventBrightness
+    }
+    ScalarParameterValues[33] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0
+        ParameterName = EventTeamColor
+    }
+    ScalarParameterValues[34] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0
+        ParameterName = EventToggle
+    }
+    ScalarParameterValues[35] =
+    {
+        ParameterInfo = 
+        ParameterValue = 2
+        ParameterName = ScreenFXBrightness
+    }
+    ScalarParameterValues[36] =
+    {
+        ParameterInfo = 
+        ParameterValue = 1
+        ParameterName = Pattern_PanU
+    }
+    ScalarParameterValues[37] =
+    {
+        ParameterInfo = 
+        ParameterValue = 1
+        ParameterName = Pattern_PanV
+    }
+    ScalarParameterValues[38] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.15
+        ParameterName = PatternBrightness
+    }
+    ScalarParameterValues[39] =
+    {
+        ParameterInfo = 
+        ParameterValue = 3
+        ParameterName = PatternTileU
+    }
+    ScalarParameterValues[40] =
+    {
+        ParameterInfo = 
+        ParameterValue = 6
+        ParameterName = PatternTileV
+    }
+    ScalarParameterValues[41] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0
+        ParameterName = PA_PanU
+    }
+    ScalarParameterValues[42] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0
+        ParameterName = PA_PanV
+    }
+    ScalarParameterValues[43] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.03125
+        ParameterName = PA_TileU
+    }
+    ScalarParameterValues[44] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.5
+        ParameterName = PA_TileV
+    }
+    ScalarParameterValues[45] =
+    {
+        ParameterInfo = 
+        ParameterValue = 1
+        ParameterName = tile
+    }
+    ScalarParameterValues[46] =
+    {
+        ParameterInfo = 
+        ParameterValue = 4
+        ParameterName = Wave_Speed
+    }
+    ScalarParameterValues[47] =
+    {
+        ParameterInfo = 
+        ParameterValue = 1
+        ParameterName = Wave_tile
+    }
+}
+TextureParameterValues[5] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'CS_FX.Textures.Logo_RocketLeague'
+        ParameterName = CustomAds
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'CS_FX.Textures.PsyonixLogo_FB_T'
+        ParameterName = AdTexture
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'CS_FX.Textures.GoalScreen_RGB_T'
+        ParameterName = 01_EventFB
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'CS_FX.Textures.GoalScreen_RGB_T'
+        ParameterName = 02_EventFB
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'CS_FX.Textures.Hexagons_Pack_02_T'
+        ParameterName = PatternRGB
+    }
+}
+VectorParameterValues[2] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=0.381555, G=0.52996, B=0.613237, A=1 }
+        ParameterName = ScreenFX_Color
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=2, G=1, B=0, A=1 }
+        ParameterName = TransitionTileMask
+    }
+}
+BasePropertyOverrides = 
+StaticParameters = 
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

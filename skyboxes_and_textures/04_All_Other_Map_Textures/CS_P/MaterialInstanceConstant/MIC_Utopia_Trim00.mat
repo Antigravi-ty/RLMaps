@@ -1,0 +1,4 @@
+Diffuse=TileTrim_basecolor
+Normal=TileTrim_normal
+Emissive=TileTrim_basecolor_E
+Other[0]=UTO_Tile_Trim00_RGB

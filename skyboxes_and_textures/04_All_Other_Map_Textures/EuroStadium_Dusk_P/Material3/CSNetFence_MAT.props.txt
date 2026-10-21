@@ -1,0 +1,64 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] = { Texture2D'FutureTech_Textures.ForcefieldHex' }
+Expressions[54] =
+{
+    Expressions[4] = MaterialExpressionScalarParameter'CS_FX.Mat.CSNetFence_MAT.MaterialExpressionScalarParameter_12'
+    Expressions[6] = MaterialExpressionScalarParameter'CS_FX.Mat.CSNetFence_MAT.MaterialExpressionScalarParameter_10'
+    Expressions[8] = MaterialExpressionVectorParameter'CS_FX.Mat.CSNetFence_MAT.MaterialExpressionVectorParameter_1'
+    Expressions[16] = MaterialExpressionScalarParameter'CS_FX.Mat.CSNetFence_MAT.MaterialExpressionScalarParameter_26'
+    Expressions[19] = MaterialExpressionTextureSampleParameter2D'CS_FX.Mat.CSNetFence_MAT.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[21] = MaterialExpressionScalarParameter'CS_FX.Mat.CSNetFence_MAT.MaterialExpressionScalarParameter_14'
+    Expressions[40] = MaterialExpressionScalarParameter'CS_FX.Mat.CSNetFence_MAT.MaterialExpressionScalarParameter_20'
+    Expressions[46] = MaterialExpressionScalarParameter'CS_FX.Mat.CSNetFence_MAT.MaterialExpressionScalarParameter_0'
+    Expressions[47] = MaterialExpressionScalarParameter'CS_FX.Mat.CSNetFence_MAT.MaterialExpressionScalarParameter_1'
+    Expressions[50] = MaterialExpressionScalarParameter'CS_FX.Mat.CSNetFence_MAT.MaterialExpressionScalarParameter_3'
+    Expressions[51] = MaterialExpressionScalarParameter'CS_FX.Mat.CSNetFence_MAT.MaterialExpressionScalarParameter_4'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] = { Texture=None, Name=BallTracker, Group=None }
+}
+CollectedScalarParameters[9] =
+{
+    CollectedScalarParameters[0] = { Value=0.04, Name=Hardness, Group=None }
+    CollectedScalarParameters[1] = { Value=64, Name=Radius, Group=None }
+    CollectedScalarParameters[2] = { Value=64, Name=HighlightRadius, Group=None }
+    CollectedScalarParameters[3] = { Value=3, Name=Ball effect tiling, Group=None }
+    CollectedScalarParameters[4] = { Value=3, Name=Cage tiling, Group=None }
+    CollectedScalarParameters[5] = { Value=0.25, Name=Emissive, Group=None }
+    CollectedScalarParameters[6] =
+    {
+        Value = 0.4
+        Name = BallTech outer ring brightness
+        Group = None
+    }
+    CollectedScalarParameters[7] =
+    {
+        Value = 0.4
+        Name = BallTech hexagon brightness
+        Group = None
+    }
+    CollectedScalarParameters[8] = { Value=0.5, Name=Outer ring width, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=100, A=1 }
+        Name = BallPosition
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

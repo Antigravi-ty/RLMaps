@@ -1,0 +1,54 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[1] = Texture2D'Wasteland_Assets.Textures.TILE_ClothTarp00_N'
+    ReferencedTextures[2] = Texture2D'Wasteland_Assets.Textures.TILE_ClothTarp00_D'
+    ReferencedTextures[3] = Texture2D'Wasteland_Assets.Textures.TILE_ClothTorn00_M'
+}
+Expressions[33] =
+{
+    Expressions[5] = MaterialExpressionScalarParameter'Stadium_Farm_IVTK.Farm_Cloth_MAT_IVTK.MaterialExpressionScalarParameter_5'
+    Expressions[10] = MaterialExpressionScalarParameter'Stadium_Farm_IVTK.Farm_Cloth_MAT_IVTK.MaterialExpressionScalarParameter_3'
+    Expressions[13] = MaterialExpressionScalarParameter'Stadium_Farm_IVTK.Farm_Cloth_MAT_IVTK.MaterialExpressionScalarParameter_1'
+    Expressions[18] = MaterialExpressionScalarParameter'Stadium_Farm_IVTK.Farm_Cloth_MAT_IVTK.MaterialExpressionScalarParameter_0'
+    Expressions[28] = MaterialExpressionScalarParameter'Stadium_Farm_IVTK.Farm_Cloth_MAT_IVTK.MaterialExpressionScalarParameter_4'
+    Expressions[29] = MaterialExpressionScalarParameter'Stadium_Farm_IVTK.Farm_Cloth_MAT_IVTK.MaterialExpressionScalarParameter_6'
+    Expressions[30] = MaterialExpressionScalarParameter'Stadium_Farm_IVTK.Farm_Cloth_MAT_IVTK.MaterialExpressionScalarParameter_7'
+    Expressions[31] = MaterialExpressionScalarParameter'Stadium_Farm_IVTK.Farm_Cloth_MAT_IVTK.MaterialExpressionScalarParameter_8'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[8] =
+{
+    CollectedScalarParameters[0] = { Value=0.005, Name=WindIntensity, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=WindSpeed, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=WindTile, Group=None }
+    CollectedScalarParameters[3] = { Value=0.1, Name=Hardness, Group=None }
+    CollectedScalarParameters[4] = { Value=10, Name=Gradient Falloff, Group=InvisiTek }
+    CollectedScalarParameters[5] =
+    {
+        Value = 0.05
+        Name = Gradient Size Adjust
+        Group = InvisiTek
+    }
+    CollectedScalarParameters[6] =
+    {
+        Value = 20
+        Name = Fresnel Intensity
+        Group = InvisiTek
+    }
+    CollectedScalarParameters[7] = { Value=3, Name=Fresnel Power, Group=InvisiTek }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

@@ -1,0 +1,55 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'Mountains_Textures.Mountain_B_Nornal'
+    ReferencedTextures[1] = Texture2D'Mountains_Textures.Mountain_B_Color'
+    ReferencedTextures[2] = Texture2D'Mountains_Textures.Mountain_B_Mask_Pack'
+}
+Expressions[10] =
+{
+    Expressions[1] = MaterialExpressionTextureSampleParameter2D'Mountains.Mountain_Mat.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[2] = MaterialExpressionTextureSampleParameter2D'Mountains.Mountain_Mat.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[6] = MaterialExpressionVectorParameter'Mountains.Mountain_Mat.MaterialExpressionVectorParameter_0'
+    Expressions[8] = MaterialExpressionScalarParameter'Mountains.Mountain_Mat.MaterialExpressionScalarParameter_1'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Mountains_Textures.Mountain_B_Color'
+        Name = Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Mountains_Textures.Mountain_B_Nornal'
+        Name = Normal
+        Group = None
+    }
+}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=2, Name=None, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1.25, G=1.25, B=1.25, A=1 }
+        Name = SnowColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

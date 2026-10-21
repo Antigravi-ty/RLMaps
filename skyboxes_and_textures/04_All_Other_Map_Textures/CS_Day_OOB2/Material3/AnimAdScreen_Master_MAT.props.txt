@@ -1,0 +1,286 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'CS_FX.Textures.Hexagons_Pack_02_T'
+    ReferencedTextures[1] = Texture2D'Adverts_Textures.Advert_Strip'
+    ReferencedTextures[2] = Texture2D'Adverts_Textures.Advert_Strip_PC'
+    ReferencedTextures[3] = Texture2D'CS_FX.Textures.GoalScreen_RGB_T'
+}
+Expressions[396] =
+{
+    Expressions[2] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_15'
+    Expressions[5] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_19'
+    Expressions[7] = MaterialExpressionStaticSwitchParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionStaticSwitchParameter_2'
+    Expressions[8] = MaterialExpressionTextureSampleParameter2D'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[12] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_28'
+    Expressions[13] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_27'
+    Expressions[19] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_29'
+    Expressions[26] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_16'
+    Expressions[30] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_18'
+    Expressions[35] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_3'
+    Expressions[36] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_20'
+    Expressions[37] = MaterialExpressionStaticSwitchParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionStaticSwitchParameter_4'
+    Expressions[64] = MaterialExpressionVectorParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionVectorParameter_0'
+    Expressions[65] = MaterialExpressionStaticSwitchParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionStaticSwitchParameter_8'
+    Expressions[66] = MaterialExpressionStaticSwitchParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionStaticSwitchParameter_9'
+    Expressions[69] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_21'
+    Expressions[73] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_22'
+    Expressions[83] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_17'
+    Expressions[108] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_12'
+    Expressions[109] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_8'
+    Expressions[113] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_14'
+    Expressions[129] = MaterialExpressionTextureSampleParameter2D'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[130] = MaterialExpressionTextureSampleParameter2D'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[133] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_6'
+    Expressions[135] = MaterialExpressionStaticSwitchParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[136] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_4'
+    Expressions[137] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_7'
+    Expressions[138] = MaterialExpressionStaticSwitchParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionStaticSwitchParameter_3'
+    Expressions[139] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_2'
+    Expressions[140] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_13'
+    Expressions[141] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_5'
+    Expressions[142] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_10'
+    Expressions[143] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_0'
+    Expressions[144] = MaterialExpressionStaticSwitchParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionStaticSwitchParameter_1'
+    Expressions[145] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_1'
+    Expressions[146] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_11'
+    Expressions[147] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_9'
+    Expressions[148] = MaterialExpressionStaticSwitchParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionStaticSwitchParameter_5'
+    Expressions[151] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_23'
+    Expressions[156] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_25'
+    Expressions[164] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_26'
+    Expressions[165] = MaterialExpressionStaticSwitchParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionStaticSwitchParameter_6'
+    Expressions[166] = MaterialExpressionStaticSwitchParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionStaticSwitchParameter_10'
+    Expressions[168] = MaterialExpressionStaticSwitchParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionStaticSwitchParameter_13'
+    Expressions[169] = MaterialExpressionStaticSwitchParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionStaticSwitchParameter_7'
+    Expressions[170] = MaterialExpressionStaticSwitchParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionStaticSwitchParameter_11'
+    Expressions[175] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_30'
+    Expressions[181] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_31'
+    Expressions[183] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_32'
+    Expressions[184] = MaterialExpressionTextureSampleParameter2D'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionTextureSampleParameter2D_3'
+    Expressions[188] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_33'
+    Expressions[196] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_34'
+    Expressions[198] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_36'
+    Expressions[201] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_35'
+    Expressions[212] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_37'
+    Expressions[214] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_41'
+    Expressions[218] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_44'
+    Expressions[223] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_47'
+    Expressions[224] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_48'
+    Expressions[229] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_51'
+    Expressions[230] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_52'
+    Expressions[231] = MaterialExpressionStaticSwitchParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionStaticSwitchParameter_12'
+    Expressions[232] = MaterialExpressionStaticSwitchParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionStaticSwitchParameter_14'
+    Expressions[233] = MaterialExpressionTextureSampleParameter2D'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionTextureSampleParameter2D_4'
+    Expressions[234] = MaterialExpressionStaticSwitchParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionStaticSwitchParameter_15'
+    Expressions[241] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_38'
+    Expressions[243] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_40'
+    Expressions[247] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_42'
+    Expressions[249] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_43'
+    Expressions[255] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_45'
+    Expressions[256] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_46'
+    Expressions[263] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_49'
+    Expressions[266] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_50'
+    Expressions[267] = MaterialExpressionStaticSwitchParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionStaticSwitchParameter_16'
+    Expressions[280] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_54'
+    Expressions[283] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_55'
+    Expressions[285] = MaterialExpressionStaticSwitchParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionStaticSwitchParameter_23'
+    Expressions[290] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_62'
+    Expressions[292] = MaterialExpressionStaticSwitchParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionStaticSwitchParameter_17'
+    Expressions[293] = MaterialExpressionStaticSwitchParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionStaticSwitchParameter_19'
+    Expressions[295] = MaterialExpressionStaticSwitchParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionStaticSwitchParameter_21'
+    Expressions[296] = MaterialExpressionStaticSwitchParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionStaticSwitchParameter_24'
+    Expressions[297] = MaterialExpressionStaticSwitchParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionStaticSwitchParameter_26'
+    Expressions[303] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_24'
+    Expressions[306] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_39'
+    Expressions[307] = MaterialExpressionStaticSwitchParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionStaticSwitchParameter_20'
+    Expressions[308] = MaterialExpressionVectorParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionVectorParameter_3'
+    Expressions[313] = MaterialExpressionVectorParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionVectorParameter_9'
+    Expressions[315] = MaterialExpressionVectorParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionVectorParameter_10'
+    Expressions[322] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_53'
+    Expressions[324] = MaterialExpressionStaticSwitchParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionStaticSwitchParameter_18'
+    Expressions[331] = MaterialExpressionStaticSwitchParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionStaticSwitchParameter_22'
+    Expressions[343] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_56'
+    Expressions[345] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_57'
+    Expressions[349] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_58'
+    Expressions[351] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_59'
+    Expressions[353] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_60'
+    Expressions[361] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_61'
+    Expressions[363] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_63'
+    Expressions[367] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_64'
+    Expressions[369] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_65'
+    Expressions[374] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_71'
+    Expressions[376] = MaterialExpressionTextureSampleParameter2D'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionTextureSampleParameter2D_5'
+    Expressions[385] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_66'
+    Expressions[386] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_67'
+    Expressions[393] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_68'
+    Expressions[394] = MaterialExpressionScalarParameter'CS_FX.Mat.AnimAdScreen_Master_MAT.MaterialExpressionScalarParameter_69'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[6] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'CS_FX.Textures.GoalScreen_RGB_T'
+        Name = 01_EventFB
+        Group = Event
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Adverts_Textures.Advert_Strip_PC'
+        Name = CustomAds
+        Group = Ad
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'Adverts_Textures.Advert_Strip'
+        Name = DefaultAds
+        Group = Ad
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'CS_FX.Textures.GoalScreen_RGB_T'
+        Name = 02_EventFB
+        Group = Event
+    }
+    CollectedTextureParameters[4] = { Texture=None, Name=AdTexture, Group=BackendAd }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'CS_FX.Textures.Hexagons_Pack_02_T'
+        Name = PatternRGB
+        Group = PatternOverlay
+    }
+}
+CollectedScalarParameters[71] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=AdBrightness, Group=Ad }
+    CollectedScalarParameters[1] = { Value=0, Name=EventToggle, Group=KismetTriggered }
+    CollectedScalarParameters[2] = { Value=4, Name=01_E_Rows, Group=Event }
+    CollectedScalarParameters[3] = { Value=4, Name=01_E_Columns, Group=Event }
+    CollectedScalarParameters[4] = { Value=0.8, Name=01_E_Speed, Group=Event }
+    CollectedScalarParameters[5] = { Value=1, Name=01_EventTileV, Group=Event }
+    CollectedScalarParameters[6] = { Value=1, Name=01_EventTileU, Group=Event }
+    CollectedScalarParameters[7] = { Value=0.03, Name=TransitionFade, Group=TeamColor }
+    CollectedScalarParameters[8] = { Value=3, Name=EventBrightness, Group=Event }
+    CollectedScalarParameters[9] = { Value=1, Name=TileV, Group=Ad }
+    CollectedScalarParameters[10] = { Value=1, Name=TileU, Group=Ad }
+    CollectedScalarParameters[11] = { Value=0, Name=AdNumber, Group=Ad }
+    CollectedScalarParameters[12] = { Value=1, Name=Wave_tile, Group=PixelAnim }
+    CollectedScalarParameters[13] = { Value=3, Name=tile, Group=PixelAnim }
+    CollectedScalarParameters[14] = { Value=3, Name=Wave_Speed, Group=PixelAnim }
+    CollectedScalarParameters[15] = { Value=1, Name=ScreenFXBrightness, Group=Pattern }
+    CollectedScalarParameters[16] = { Value=1, Name=P2B_Brightness, Group=Pattern }
+    CollectedScalarParameters[17] = { Value=10, Name=P2_AdjustPattern, Group=Pattern }
+    CollectedScalarParameters[18] = { Value=3, Name=P2_TileAmount, Group=Pattern }
+    CollectedScalarParameters[19] = { Value=1, Name=P2_PanSpeed, Group=Pattern }
+    CollectedScalarParameters[20] = { Value=3, Name=P2A_Brightness, Group=Pattern }
+    CollectedScalarParameters[21] = { Value=1, Name=P1B_Brightness, Group=Pattern }
+    CollectedScalarParameters[22] = { Value=2.5, Name=P1_AdjustPattern, Group=Pattern }
+    CollectedScalarParameters[23] = { Value=1, Name=P1_TileAmount, Group=Pattern }
+    CollectedScalarParameters[24] = { Value=1, Name=P1_PanSpeed, Group=Pattern }
+    CollectedScalarParameters[25] = { Value=1, Name=P1A_Brightness, Group=Pattern }
+    CollectedScalarParameters[26] = { Value=4, Name=Ad_Columns, Group=Ad }
+    CollectedScalarParameters[27] = { Value=4, Name=Ad_Rows, Group=Ad }
+    CollectedScalarParameters[28] = { Value=0.8, Name=Ad_Speed, Group=Ad }
+    CollectedScalarParameters[29] = { Value=1, Name=02_EventTileU, Group=Event }
+    CollectedScalarParameters[30] = { Value=4, Name=02_E_Columns, Group=Event }
+    CollectedScalarParameters[31] = { Value=1, Name=02_EventTileV, Group=Event }
+    CollectedScalarParameters[32] = { Value=4, Name=02_E_Rows, Group=Event }
+    CollectedScalarParameters[33] = { Value=0.8, Name=02_E_Speed, Group=Event }
+    CollectedScalarParameters[34] = { Value=0, Name=ChangeEvent, Group=Event }
+    CollectedScalarParameters[35] = { Value=0.015, Name=PanAdDelay, Group=Ad }
+    CollectedScalarParameters[36] =
+    {
+        Value = 0.033333
+        Name = EventTransitionDelay
+        Group = Event
+    }
+    CollectedScalarParameters[37] = { Value=1, Name=PanU, Group=Ad }
+    CollectedScalarParameters[38] = { Value=1, Name=PanV, Group=Ad }
+    CollectedScalarParameters[39] = { Value=1, Name=01_EventPanU, Group=Event }
+    CollectedScalarParameters[40] = { Value=0, Name=01_EventPanV, Group=Event }
+    CollectedScalarParameters[41] = { Value=0, Name=02_EventPanV, Group=Event }
+    CollectedScalarParameters[42] = { Value=1, Name=02_EventPanU, Group=Event }
+    CollectedScalarParameters[43] = { Value=1, Name=BPanV, Group=BackendAd }
+    CollectedScalarParameters[44] = { Value=1, Name=BTileV, Group=BackendAd }
+    CollectedScalarParameters[45] = { Value=1, Name=BPanU, Group=BackendAd }
+    CollectedScalarParameters[46] = { Value=1, Name=BTileU, Group=BackendAd }
+    CollectedScalarParameters[47] = { Value=4, Name=BAd_Columns, Group=BackendAd }
+    CollectedScalarParameters[48] = { Value=4, Name=BAd_Rows, Group=BackendAd }
+    CollectedScalarParameters[49] = { Value=0.8, Name=BAd_Speed, Group=BackendAd }
+    CollectedScalarParameters[50] = { Value=1, Name=BPanAd_Amount, Group=BackendAd }
+    CollectedScalarParameters[51] = { Value=0.03, Name=ScanTile, Group=ScreenFX }
+    CollectedScalarParameters[52] = { Value=0.25, Name=TC_Saturation, Group=Pattern }
+    CollectedScalarParameters[53] = { Value=0.5, Name=PanAd_Amount, Group=Ad }
+    CollectedScalarParameters[54] =
+    {
+        Value = 0
+        Name = EventTeamColor
+        Group = KismetTriggered
+    }
+    CollectedScalarParameters[55] = { Value=3, Name=EventTCBrightness, Group=Event }
+    CollectedScalarParameters[56] = { Value=0.5, Name=RotationSpeed, Group=WPO }
+    CollectedScalarParameters[57] = { Value=1, Name=EG_PanV, Group=EdgeGradient }
+    CollectedScalarParameters[58] = { Value=1, Name=EG_TileV, Group=EdgeGradient }
+    CollectedScalarParameters[59] = { Value=1, Name=EG_PanU, Group=EdgeGradient }
+    CollectedScalarParameters[60] = { Value=1, Name=EG_TileU, Group=EdgeGradient }
+    CollectedScalarParameters[61] =
+    {
+        Value = 1.25
+        Name = EdgeGradient
+        Group = EdgeGradient
+    }
+    CollectedScalarParameters[62] = { Value=1, Name=Pattern_PanV, Group=PatternOverlay }
+    CollectedScalarParameters[63] = { Value=1, Name=PatternTileV, Group=PatternOverlay }
+    CollectedScalarParameters[64] = { Value=1, Name=Pattern_PanU, Group=PatternOverlay }
+    CollectedScalarParameters[65] = { Value=1, Name=PatternTileU, Group=PatternOverlay }
+    CollectedScalarParameters[66] =
+    {
+        Value = 0.25
+        Name = PatternBrightness
+        Group = PatternOverlay
+    }
+    CollectedScalarParameters[67] = { Value=1, Name=PA_TileU, Group=PixelAnim }
+    CollectedScalarParameters[68] = { Value=1, Name=PA_PanU, Group=PixelAnim }
+    CollectedScalarParameters[69] = { Value=1, Name=PA_TileV, Group=PixelAnim }
+    CollectedScalarParameters[70] = { Value=1, Name=PA_PanV, Group=PixelAnim }
+}
+CollectedVectorParameters[4] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=2, G=1, B=0, A=1 }
+        Name = TransitionTileMask
+        Group = PixelAnim
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.381555, G=0.52996, B=0.613237, A=1 }
+        Name = ScreenFX_Color
+        Group = Pattern
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1.5, G=1.5, B=0.5, A=1 }
+        Name = Rotation
+        Group = WPO
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=600, G=12, B=3, A=1 }
+        Name = Offset
+        Group = WPO
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

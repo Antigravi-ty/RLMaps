@@ -1,0 +1,116 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'Hat_Viking_Helmet_Textures.Hat_Viking_Helmet_Normal'
+    ReferencedTextures[1] = Texture2D'Hat_Viking_Helmet_Textures.Hat_Viking_Helmet_Diffuse'
+}
+Expressions[90] =
+{
+    Expressions[5] = MaterialExpressionVectorParameter'CS_StadiumAssets_01.Materials.Basic_WPO_Mat.MaterialExpressionVectorParameter_5'
+    Expressions[6] = MaterialExpressionVectorParameter'CS_StadiumAssets_01.Materials.Basic_WPO_Mat.MaterialExpressionVectorParameter_6'
+    Expressions[11] = MaterialExpressionScalarParameter'CS_StadiumAssets_01.Materials.Basic_WPO_Mat.MaterialExpressionScalarParameter_8'
+    Expressions[15] = MaterialExpressionTextureSampleParameter2D'CS_StadiumAssets_01.Materials.Basic_WPO_Mat.MaterialExpressionTextureSampleParameter2D_3'
+    Expressions[16] = MaterialExpressionScalarParameter'CS_StadiumAssets_01.Materials.Basic_WPO_Mat.MaterialExpressionScalarParameter_1'
+    Expressions[17] = MaterialExpressionStaticSwitchParameter'CS_StadiumAssets_01.Materials.Basic_WPO_Mat.MaterialExpressionStaticSwitchParameter_1'
+    Expressions[19] = MaterialExpressionScalarParameter'CS_StadiumAssets_01.Materials.Basic_WPO_Mat.MaterialExpressionScalarParameter_2'
+    Expressions[21] = MaterialExpressionScalarParameter'CS_StadiumAssets_01.Materials.Basic_WPO_Mat.MaterialExpressionScalarParameter_6'
+    Expressions[24] = MaterialExpressionTextureSampleParameter2D'CS_StadiumAssets_01.Materials.Basic_WPO_Mat.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[27] = MaterialExpressionStaticSwitchParameter'CS_StadiumAssets_01.Materials.Basic_WPO_Mat.MaterialExpressionStaticSwitchParameter_3'
+    Expressions[28] = MaterialExpressionTextureSampleParameter2D'CS_StadiumAssets_01.Materials.Basic_WPO_Mat.MaterialExpressionTextureSampleParameter2D_5'
+    Expressions[29] = MaterialExpressionStaticSwitchParameter'CS_StadiumAssets_01.Materials.Basic_WPO_Mat.MaterialExpressionStaticSwitchParameter_8'
+    Expressions[31] = MaterialExpressionStaticSwitchParameter'CS_StadiumAssets_01.Materials.Basic_WPO_Mat.MaterialExpressionStaticSwitchParameter_9'
+    Expressions[34] = MaterialExpressionTextureSampleParameter2D'CS_StadiumAssets_01.Materials.Basic_WPO_Mat.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[36] = MaterialExpressionVectorParameter'CS_StadiumAssets_01.Materials.Basic_WPO_Mat.MaterialExpressionVectorParameter_4'
+    Expressions[39] = MaterialExpressionVectorParameter'CS_StadiumAssets_01.Materials.Basic_WPO_Mat.MaterialExpressionVectorParameter_1'
+    Expressions[42] = MaterialExpressionScalarParameter'CS_StadiumAssets_01.Materials.Basic_WPO_Mat.MaterialExpressionScalarParameter_3'
+    Expressions[47] = MaterialExpressionScalarParameter'CS_StadiumAssets_01.Materials.Basic_WPO_Mat.MaterialExpressionScalarParameter_0'
+    Expressions[51] = MaterialExpressionScalarParameter'CS_StadiumAssets_01.Materials.Basic_WPO_Mat.MaterialExpressionScalarParameter_4'
+    Expressions[55] = MaterialExpressionStaticSwitchParameter'CS_StadiumAssets_01.Materials.Basic_WPO_Mat.MaterialExpressionStaticSwitchParameter_6'
+    Expressions[56] = MaterialExpressionStaticSwitchParameter'CS_StadiumAssets_01.Materials.Basic_WPO_Mat.MaterialExpressionStaticSwitchParameter_4'
+    Expressions[62] = MaterialExpressionStaticSwitchParameter'CS_StadiumAssets_01.Materials.Basic_WPO_Mat.MaterialExpressionStaticSwitchParameter_2'
+    Expressions[86] = MaterialExpressionVectorParameter'CS_StadiumAssets_01.Materials.Basic_WPO_Mat.MaterialExpressionVectorParameter_3'
+    Expressions[87] = MaterialExpressionStaticSwitchParameter'CS_StadiumAssets_01.Materials.Basic_WPO_Mat.MaterialExpressionStaticSwitchParameter_7'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Hat_Viking_Helmet_Textures.Hat_Viking_Helmet_Normal'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Hat_Viking_Helmet_Textures.Hat_Viking_Helmet_Diffuse'
+        Name = Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'Hat_Viking_Helmet_Textures.Hat_Viking_Helmet_Diffuse'
+        Name = Specular
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'Antenna_WakeupShip.AT_WakeupShip_E'
+        Name = Emissive_Mask
+        Group = None
+    }
+}
+CollectedScalarParameters[7] =
+{
+    CollectedScalarParameters[0] = { Value=0.5, Name=RotationSpeed, Group=None }
+    CollectedScalarParameters[1] = { Value=24, Name=SpecPower, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=SpecBrightness, Group=None }
+    CollectedScalarParameters[3] = { Value=0.5, Name=DiffuseSpec, Group=None }
+    CollectedScalarParameters[4] = { Value=2, Name=RimValue, Group=None }
+    CollectedScalarParameters[5] = { Value=2, Name=RimSharpness, Group=None }
+    CollectedScalarParameters[6] = { Value=0.5, Name=DiffuseRim, Group=None }
+}
+CollectedVectorParameters[5] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=600, G=12, B=3, A=1 }
+        Name = Offset
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1.5, G=1.5, B=0.5, A=1 }
+        Name = Rotation
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=0.5, B=0.2, A=6 }
+        Name = Emissive_mask_color
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1, G=1, B=1, A=0.5 }
+        Name = FresnelColor
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0.1, G=0.5, B=1, A=6 }
+        Name = VertexGlow_Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

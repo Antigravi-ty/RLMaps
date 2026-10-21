@@ -1,0 +1,42 @@
+Parent = Material3'ARC_Assets.Materials.PlayerShip_Master'
+ScalarParameterValues[0] = {}
+TextureParameterValues[4] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'ARC_Assets.Tex.Cyclone_Blue'
+        ParameterName = Diffuse
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'ARC_Assets.Tex.CYCLONE_N'
+        ParameterName = Normals
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = 
+        ParameterValue = None
+        ParameterName = MobileBaseTexture
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = 
+        ParameterValue = None
+        ParameterName = MobileNormalTexture
+    }
+}
+VectorParameterValues[0] = {}
+BasePropertyOverrides = 
+StaticParameters = 
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = true
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_DiffuseGreen (3)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

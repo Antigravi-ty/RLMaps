@@ -1,0 +1,132 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'CHN_Stadium_FieldTextures.Field_QuarterPipe_Trim_N'
+    ReferencedTextures[1] = Texture2D'CHN_Stadium_FieldTextures.Field_QuarterPipe_Trim_RGB'
+}
+Expressions[90] =
+{
+    Expressions[0] = MaterialExpressionTextureSampleParameter2D'Stadium_China_IVTK.MAT_CHN_Stadium_Master_IVTK.MaterialExpressionTextureSampleParameter2D_3'
+    Expressions[4] = MaterialExpressionTextureSampleParameter2D'Stadium_China_IVTK.MAT_CHN_Stadium_Master_IVTK.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[8] = MaterialExpressionVectorParameter'Stadium_China_IVTK.MAT_CHN_Stadium_Master_IVTK.MaterialExpressionVectorParameter_3'
+    Expressions[9] = MaterialExpressionTextureSampleParameter2D'Stadium_China_IVTK.MAT_CHN_Stadium_Master_IVTK.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[12] = MaterialExpressionVectorParameter'Stadium_China_IVTK.MAT_CHN_Stadium_Master_IVTK.MaterialExpressionVectorParameter_5'
+    Expressions[13] = MaterialExpressionStaticSwitchParameter'Stadium_China_IVTK.MAT_CHN_Stadium_Master_IVTK.MaterialExpressionStaticSwitchParameter_1'
+    Expressions[21] = MaterialExpressionTextureSampleParameter2D'Stadium_China_IVTK.MAT_CHN_Stadium_Master_IVTK.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[23] = MaterialExpressionStaticSwitchParameter'Stadium_China_IVTK.MAT_CHN_Stadium_Master_IVTK.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[26] = MaterialExpressionVectorParameter'Stadium_China_IVTK.MAT_CHN_Stadium_Master_IVTK.MaterialExpressionVectorParameter_0'
+    Expressions[31] = MaterialExpressionStaticSwitchParameter'Stadium_China_IVTK.MAT_CHN_Stadium_Master_IVTK.MaterialExpressionStaticSwitchParameter_6'
+    Expressions[37] = MaterialExpressionStaticSwitchParameter'Stadium_China_IVTK.MAT_CHN_Stadium_Master_IVTK.MaterialExpressionStaticSwitchParameter_4'
+    Expressions[38] = MaterialExpressionVectorParameter'Stadium_China_IVTK.MAT_CHN_Stadium_Master_IVTK.MaterialExpressionVectorParameter_2'
+    Expressions[44] = MaterialExpressionScalarParameter'Stadium_China_IVTK.MAT_CHN_Stadium_Master_IVTK.MaterialExpressionScalarParameter_2'
+    Expressions[62] = MaterialExpressionScalarParameter'Stadium_China_IVTK.MAT_CHN_Stadium_Master_IVTK.MaterialExpressionScalarParameter_0'
+    Expressions[63] = MaterialExpressionVectorParameter'Stadium_China_IVTK.MAT_CHN_Stadium_Master_IVTK.MaterialExpressionVectorParameter_1'
+    Expressions[66] = MaterialExpressionScalarParameter'Stadium_China_IVTK.MAT_CHN_Stadium_Master_IVTK.MaterialExpressionScalarParameter_4'
+    Expressions[69] = MaterialExpressionScalarParameter'Stadium_China_IVTK.MAT_CHN_Stadium_Master_IVTK.MaterialExpressionScalarParameter_1'
+    Expressions[74] = MaterialExpressionStaticSwitchParameter'Stadium_China_IVTK.MAT_CHN_Stadium_Master_IVTK.MaterialExpressionStaticSwitchParameter_3'
+    Expressions[76] = MaterialExpressionStaticSwitchParameter'Stadium_China_IVTK.MAT_CHN_Stadium_Master_IVTK.MaterialExpressionStaticSwitchParameter_2'
+    Expressions[78] = MaterialExpressionScalarParameter'Stadium_China_IVTK.MAT_CHN_Stadium_Master_IVTK.MaterialExpressionScalarParameter_8'
+    Expressions[79] = MaterialExpressionStaticSwitchParameter'Stadium_China_IVTK.MAT_CHN_Stadium_Master_IVTK.MaterialExpressionStaticSwitchParameter_10'
+    Expressions[82] = MaterialExpressionStaticSwitchParameter'Stadium_China_IVTK.MAT_CHN_Stadium_Master_IVTK.MaterialExpressionStaticSwitchParameter_11'
+    Expressions[83] = MaterialExpressionScalarParameter'Stadium_China_IVTK.MAT_CHN_Stadium_Master_IVTK.MaterialExpressionScalarParameter_9'
+    Expressions[85] = MaterialExpressionScalarParameter'Stadium_China_IVTK.MAT_CHN_Stadium_Master_IVTK.MaterialExpressionScalarParameter_5'
+    Expressions[86] = MaterialExpressionScalarParameter'Stadium_China_IVTK.MAT_CHN_Stadium_Master_IVTK.MaterialExpressionScalarParameter_6'
+    Expressions[87] = MaterialExpressionScalarParameter'Stadium_China_IVTK.MAT_CHN_Stadium_Master_IVTK.MaterialExpressionScalarParameter_7'
+    Expressions[88] = MaterialExpressionScalarParameter'Stadium_China_IVTK.MAT_CHN_Stadium_Master_IVTK.MaterialExpressionScalarParameter_10'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'CHN_Stadium_FieldTextures.Field_QuarterPipe_Trim_RGB'
+        Name = Mask
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'CHN_Stadium_FieldTextures.Field_QuarterPipe_Trim_N'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[2] = { Texture=None, Name=Normal_Detail, Group=None }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'CHN_Stadium_FieldTextures.Field_QuarterPipe_Trim_N'
+        Name = Normal
+        Group = None
+    }
+}
+CollectedScalarParameters[10] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=ColorLerpDist, Group=None }
+    CollectedScalarParameters[1] =
+    {
+        Value = 0
+        Name = Diffuse_DetailIntensity
+        Group = None
+    }
+    CollectedScalarParameters[2] = { Value=1, Name=ENVBrightness, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=ColorAmount, Group=None }
+    CollectedScalarParameters[4] = { Value=0.2, Name=Specular, Group=None }
+    CollectedScalarParameters[5] = { Value=64, Name=Specular Power, Group=None }
+    CollectedScalarParameters[6] = { Value=10, Name=Gradient Falloff, Group=InvisiTek }
+    CollectedScalarParameters[7] =
+    {
+        Value = 0.05
+        Name = Gradient Size Adjust
+        Group = InvisiTek
+    }
+    CollectedScalarParameters[8] =
+    {
+        Value = 20
+        Name = Fresnel Intensity
+        Group = InvisiTek
+    }
+    CollectedScalarParameters[9] = { Value=3, Name=Fresnel Power, Group=InvisiTek }
+}
+CollectedVectorParameters[5] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.25, G=0.25, B=0, A=1 }
+        Name = Normal_DetailIntensity
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = DetailTransform
+        Group = Detail
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = EmissiveBrightness
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0.817649, G=0.245784, B=0, A=1 }
+        Name = Goldlief
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = DiffuseColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

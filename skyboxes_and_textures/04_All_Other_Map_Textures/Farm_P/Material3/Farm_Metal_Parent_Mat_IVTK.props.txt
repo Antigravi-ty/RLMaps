@@ -1,0 +1,93 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'Farm_Textures.Textures.Farm_MetalBase_N'
+    ReferencedTextures[2] = Texture2D'Farm_Textures.Textures.Farm_MetalBase_D'
+}
+Expressions[30] =
+{
+    Expressions[2] = MaterialExpressionTextureSampleParameter2D'Stadium_Farm_IVTK.Farm_Metal_Parent_Mat_IVTK.MaterialExpressionTextureSampleParameter2D_3'
+    Expressions[7] = MaterialExpressionVectorParameter'Stadium_Farm_IVTK.Farm_Metal_Parent_Mat_IVTK.MaterialExpressionVectorParameter_5'
+    Expressions[11] = MaterialExpressionScalarParameter'Stadium_Farm_IVTK.Farm_Metal_Parent_Mat_IVTK.MaterialExpressionScalarParameter_61'
+    Expressions[12] = MaterialExpressionScalarParameter'Stadium_Farm_IVTK.Farm_Metal_Parent_Mat_IVTK.MaterialExpressionScalarParameter_60'
+    Expressions[13] = MaterialExpressionScalarParameter'Stadium_Farm_IVTK.Farm_Metal_Parent_Mat_IVTK.MaterialExpressionScalarParameter_59'
+    Expressions[15] = MaterialExpressionScalarParameter'Stadium_Farm_IVTK.Farm_Metal_Parent_Mat_IVTK.MaterialExpressionScalarParameter_58'
+    Expressions[19] = MaterialExpressionScalarParameter'Stadium_Farm_IVTK.Farm_Metal_Parent_Mat_IVTK.MaterialExpressionScalarParameter_8'
+    Expressions[20] = MaterialExpressionTextureSampleParameter2D'Stadium_Farm_IVTK.Farm_Metal_Parent_Mat_IVTK.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[22] = MaterialExpressionScalarParameter'Stadium_Farm_IVTK.Farm_Metal_Parent_Mat_IVTK.MaterialExpressionScalarParameter_7'
+    Expressions[27] = MaterialExpressionVectorParameter'Stadium_Farm_IVTK.Farm_Metal_Parent_Mat_IVTK.MaterialExpressionVectorParameter_4'
+    Expressions[28] = MaterialExpressionScalarParameter'Stadium_Farm_IVTK.Farm_Metal_Parent_Mat_IVTK.MaterialExpressionScalarParameter_5'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Farm_Textures.Textures.Farm_MetalBase_N'
+        Name = Metal normal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Farm_Textures.Textures.Farm_MetalBase_D'
+        Name = Metal diffuse
+        Group = None
+    }
+}
+CollectedScalarParameters[7] =
+{
+    CollectedScalarParameters[0] = { Value=3, Name=Fresnel Power, Group=InvisiTek }
+    CollectedScalarParameters[1] =
+    {
+        Value = 20
+        Name = Fresnel Intensity
+        Group = InvisiTek
+    }
+    CollectedScalarParameters[2] =
+    {
+        Value = 0.05
+        Name = Gradient Size Adjust
+        Group = InvisiTek
+    }
+    CollectedScalarParameters[3] = { Value=10, Name=Gradient Falloff, Group=InvisiTek }
+    CollectedScalarParameters[4] = { Value=1, Name=Metal brightness, Group=None }
+    CollectedScalarParameters[5] =
+    {
+        Value = 3
+        Name = Metal reflection multiplier
+        Group = None
+    }
+    CollectedScalarParameters[6] =
+    {
+        Value = 0.5
+        Name = Reflection desaturation
+        Group = None
+    }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=0, A=1 }
+        Name = UV tiling
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=5000, G=7500, B=5000, A=1 }
+        Name = EnvironmentScale
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

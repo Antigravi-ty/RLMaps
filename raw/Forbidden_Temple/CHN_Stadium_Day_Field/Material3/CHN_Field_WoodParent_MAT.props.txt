@@ -1,0 +1,35 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'CHN_Stadium_FieldTextures.Field_Redwood_N'
+    ReferencedTextures[1] = Texture2D'CHN_Stadium_FieldTextures.Field_Redwood_D'
+}
+Expressions[37] =
+{
+    Expressions[4] = MaterialExpressionScalarParameter'CHN_Stadium_Assets.Materials.CHN_Field_WoodParent_MAT.MaterialExpressionScalarParameter_12'
+    Expressions[7] = MaterialExpressionScalarParameter'CHN_Stadium_Assets.Materials.CHN_Field_WoodParent_MAT.MaterialExpressionScalarParameter_13'
+    Expressions[9] = MaterialExpressionScalarParameter'CHN_Stadium_Assets.Materials.CHN_Field_WoodParent_MAT.MaterialExpressionScalarParameter_19'
+    Expressions[28] = MaterialExpressionScalarParameter'CHN_Stadium_Assets.Materials.CHN_Field_WoodParent_MAT.MaterialExpressionScalarParameter_1'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[4] =
+{
+    CollectedScalarParameters[0] = { Value=0.25, Name=Specular, Group=None }
+    CollectedScalarParameters[1] = { Value=32, Name=Specular Power, Group=None }
+    CollectedScalarParameters[2] = { Value=3, Name=Fresnel Intensity, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=ColorLerpDist, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

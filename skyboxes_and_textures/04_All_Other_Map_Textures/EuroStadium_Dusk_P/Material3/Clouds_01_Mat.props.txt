@@ -1,0 +1,36 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] = { Texture2D'FX_Clouds_Tex.Clouds_01' }
+Expressions[17] =
+{
+    Expressions[0] = MaterialExpressionStaticSwitchParameter'FX_Clouds.Mat.Clouds_01_Mat.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[14] = MaterialExpressionScalarParameter'FX_Clouds.Mat.Clouds_01_Mat.MaterialExpressionScalarParameter_2'
+    Expressions[15] = MaterialExpressionStaticSwitchParameter'FX_Clouds.Mat.Clouds_01_Mat.MaterialExpressionStaticSwitchParameter_1'
+    Expressions[16] = MaterialExpressionTextureSampleParameter2D'FX_Clouds.Mat.Clouds_01_Mat.MaterialExpressionTextureSampleParameter2D_0'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'FX_Clouds_Tex.Clouds_01'
+        Name = Texture
+        Group = None
+    }
+}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=1536, Name=DepthBiasScale, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

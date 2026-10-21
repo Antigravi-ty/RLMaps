@@ -1,0 +1,41 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'ARC_Assets.Tex.ARC_X18_N'
+    ReferencedTextures[1] = Texture2D'ARC_Assets.Tex.ARC_BLUE'
+}
+Expressions[3] =
+{
+    Expressions[0] = MaterialExpressionTextureSampleParameter2D'ARC_Assets.Materials.PlayerShip_Master.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[1] = MaterialExpressionTextureSampleParameter2D'ARC_Assets.Materials.PlayerShip_Master.MaterialExpressionTextureSampleParameter2D_1'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'ARC_Assets.Tex.ARC_BLUE'
+        Name = Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'ARC_Assets.Tex.ARC_X18_N'
+        Name = Normals
+        Group = None
+    }
+}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = true
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_DiffuseGreen (3)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

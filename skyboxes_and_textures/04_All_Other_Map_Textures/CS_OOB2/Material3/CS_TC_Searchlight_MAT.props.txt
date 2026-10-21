@@ -1,0 +1,86 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[1] = Texture2D'Proto_Neo_FX.Environment.Textures.SkyClouds02_T'
+    ReferencedTextures[2] = Texture2D'FX_PremiumGarage.Textures.LightRay_T'
+}
+Expressions[106] =
+{
+    Expressions[2] = MaterialExpressionVectorParameter'CS_FX.Mat.CS_TC_Searchlight_MAT.MaterialExpressionVectorParameter_0'
+    Expressions[7] = MaterialExpressionScalarParameter'CS_FX.Mat.CS_TC_Searchlight_MAT.MaterialExpressionScalarParameter_3'
+    Expressions[18] = MaterialExpressionStaticSwitchParameter'CS_FX.Mat.CS_TC_Searchlight_MAT.MaterialExpressionStaticSwitchParameter_1'
+    Expressions[20] = MaterialExpressionVectorParameter'CS_FX.Mat.CS_TC_Searchlight_MAT.MaterialExpressionVectorParameter_1'
+    Expressions[21] = MaterialExpressionScalarParameter'CS_FX.Mat.CS_TC_Searchlight_MAT.MaterialExpressionScalarParameter_4'
+    Expressions[34] = MaterialExpressionScalarParameter'CS_FX.Mat.CS_TC_Searchlight_MAT.MaterialExpressionScalarParameter_7'
+    Expressions[35] = MaterialExpressionScalarParameter'CS_FX.Mat.CS_TC_Searchlight_MAT.MaterialExpressionScalarParameter_8'
+    Expressions[40] = MaterialExpressionStaticSwitchParameter'CS_FX.Mat.CS_TC_Searchlight_MAT.MaterialExpressionStaticSwitchParameter_3'
+    Expressions[41] = MaterialExpressionVectorParameter'CS_FX.Mat.CS_TC_Searchlight_MAT.MaterialExpressionVectorParameter_2'
+    Expressions[42] = MaterialExpressionVectorParameter'CS_FX.Mat.CS_TC_Searchlight_MAT.MaterialExpressionVectorParameter_3'
+    Expressions[43] = MaterialExpressionScalarParameter'CS_FX.Mat.CS_TC_Searchlight_MAT.MaterialExpressionScalarParameter_9'
+    Expressions[49] = MaterialExpressionStaticSwitchParameter'CS_FX.Mat.CS_TC_Searchlight_MAT.MaterialExpressionStaticSwitchParameter_2'
+    Expressions[52] = MaterialExpressionScalarParameter'CS_FX.Mat.CS_TC_Searchlight_MAT.MaterialExpressionScalarParameter_0'
+    Expressions[64] = MaterialExpressionScalarParameter'CS_FX.Mat.CS_TC_Searchlight_MAT.MaterialExpressionScalarParameter_2'
+    Expressions[66] = MaterialExpressionScalarParameter'CS_FX.Mat.CS_TC_Searchlight_MAT.MaterialExpressionScalarParameter_5'
+    Expressions[67] = MaterialExpressionStaticSwitchParameter'CS_FX.Mat.CS_TC_Searchlight_MAT.MaterialExpressionStaticSwitchParameter_6'
+    Expressions[68] = MaterialExpressionStaticSwitchParameter'CS_FX.Mat.CS_TC_Searchlight_MAT.MaterialExpressionStaticSwitchParameter_8'
+    Expressions[69] = MaterialExpressionStaticSwitchParameter'CS_FX.Mat.CS_TC_Searchlight_MAT.MaterialExpressionStaticSwitchParameter_7'
+    Expressions[71] = MaterialExpressionScalarParameter'CS_FX.Mat.CS_TC_Searchlight_MAT.MaterialExpressionScalarParameter_1'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[9] =
+{
+    CollectedScalarParameters[0] = { Value=4, Name=EdgeFade, Group=Opacity }
+    CollectedScalarParameters[1] = { Value=0.03, Name=TransitionFade, Group=None }
+    CollectedScalarParameters[2] = { Value=0.2, Name=Speed, Group=WPO }
+    CollectedScalarParameters[3] = { Value=24, Name=Amount, Group=WPO }
+    CollectedScalarParameters[4] = { Value=0.2, Name=Opacity, Group=KismetTriggered }
+    CollectedScalarParameters[5] = { Value=0.5, Name=WhiteValue, Group=None }
+    CollectedScalarParameters[6] =
+    {
+        Value = 0
+        Name = EventTeamColor
+        Group = KismetTriggered
+    }
+    CollectedScalarParameters[7] = { Value=0, Name=EventToggle, Group=KismetTriggered }
+    CollectedScalarParameters[8] = { Value=3, Name=Brightness, Group=None }
+}
+CollectedVectorParameters[4] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=24, G=1, B=24, A=1 }
+        Name = Scale_Amount
+        Group = WPO
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Color
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0.5, B=0, A=1 }
+        Name = Left
+        Group = WPO
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=-1, B=0, A=1 }
+        Name = Right
+        Group = WPO
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

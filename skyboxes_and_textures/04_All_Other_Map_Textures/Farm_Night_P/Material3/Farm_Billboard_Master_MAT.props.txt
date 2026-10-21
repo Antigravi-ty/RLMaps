@@ -1,0 +1,46 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'Farm_Textures.Textures.GregMark_billboard'
+    ReferencedTextures[1] = Texture2D'Farm_Textures.Textures.Mitchell_billboard'
+    ReferencedTextures[2] = Texture2D'Farm_FX.Textures.Billboard_D'
+}
+Expressions[32] =
+{
+    Expressions[6] = MaterialExpressionScalarParameter'Farm_FX.Materials.Farm_Billboard_Master_MAT.MaterialExpressionScalarParameter_1'
+    Expressions[29] = MaterialExpressionTextureSampleParameter2D'Farm_FX.Materials.Farm_Billboard_Master_MAT.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[30] = MaterialExpressionTextureSampleParameter2D'Farm_FX.Materials.Farm_Billboard_Master_MAT.MaterialExpressionTextureSampleParameter2D_0'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Farm_Textures.Textures.Mitchell_billboard'
+        Name = Diffuse_02
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Farm_Textures.Textures.GregMark_billboard'
+        Name = Diffuse_01
+        Group = None
+    }
+}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=2, Name=tile, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

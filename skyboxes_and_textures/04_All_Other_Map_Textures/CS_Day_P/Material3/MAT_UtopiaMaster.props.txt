@@ -1,0 +1,83 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'UtopiaStadium_Assets.Textures.TileTrim_normal'
+    ReferencedTextures[1] = Texture2D'UtopiaStadium_Assets.Textures.UTO_Tile_Trim00_RGB'
+    ReferencedTextures[3] = Texture2D'Utopia_Lux.Textures.TileTrim_basecolor_E'
+    ReferencedTextures[5] = Texture2D'UtopiaStadium_Assets.Textures.TileTrim_basecolor'
+}
+Expressions[77] =
+{
+    Expressions[1] = MaterialExpressionTextureSampleParameter2D'UtopiaStadium_Assets.Materials.MAT_UtopiaMaster.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[5] = MaterialExpressionTextureSampleParameter2D'UtopiaStadium_Assets.Materials.MAT_UtopiaMaster.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[16] = MaterialExpressionTextureSampleParameter2D'UtopiaStadium_Assets.Materials.MAT_UtopiaMaster.MaterialExpressionTextureSampleParameter2D_3'
+    Expressions[24] = MaterialExpressionVectorParameter'UtopiaStadium_Assets.Materials.MAT_UtopiaMaster.MaterialExpressionVectorParameter_2'
+    Expressions[35] = MaterialExpressionScalarParameter'UtopiaStadium_Assets.Materials.MAT_UtopiaMaster.MaterialExpressionScalarParameter_2'
+    Expressions[51] = MaterialExpressionScalarParameter'UtopiaStadium_Assets.Materials.MAT_UtopiaMaster.MaterialExpressionScalarParameter_1'
+    Expressions[52] = MaterialExpressionScalarParameter'UtopiaStadium_Assets.Materials.MAT_UtopiaMaster.MaterialExpressionScalarParameter_6'
+    Expressions[56] = MaterialExpressionTextureSampleParameter2D'UtopiaStadium_Assets.Materials.MAT_UtopiaMaster.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[66] = MaterialExpressionScalarParameter'UtopiaStadium_Assets.Materials.MAT_UtopiaMaster.MaterialExpressionScalarParameter_0'
+    Expressions[74] = MaterialExpressionScalarParameter'UtopiaStadium_Assets.Materials.MAT_UtopiaMaster.MaterialExpressionScalarParameter_3'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'UtopiaStadium_Assets.Textures.TileTrim_normal'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'UtopiaStadium_Assets.Textures.TileTrim_normal'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'UtopiaStadium_Assets.Textures.UTO_Tile_Trim00_RGB'
+        Name = Mask
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'UtopiaStadium_Assets.Textures.TileTrim_basecolor'
+        Name = Diffuse
+        Group = None
+    }
+}
+CollectedScalarParameters[5] =
+{
+    CollectedScalarParameters[0] = { Value=0.001953, Name=ColorLerpDist, Group=None }
+    CollectedScalarParameters[1] = { Value=0.75, Name=ColorAmount, Group=None }
+    CollectedScalarParameters[2] = { Value=4, Name=ColorIntensity, Group=None }
+    CollectedScalarParameters[3] =
+    {
+        Value = 0.33
+        Name = DiffuseBaseBrightness
+        Group = None
+    }
+    CollectedScalarParameters[4] = { Value=0, Name=Emissive, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.817649, G=0.245784, B=0, A=1 }
+        Name = Goldlief
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

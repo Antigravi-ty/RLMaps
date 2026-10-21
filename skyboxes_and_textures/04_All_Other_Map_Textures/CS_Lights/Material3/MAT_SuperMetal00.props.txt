@@ -1,0 +1,57 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = true
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'SpaceStation_Assets.Textures.ARC_Tiles_SupportBrace00_N'
+    ReferencedTextures[2] = Texture2D'SpaceStation_Assets.Textures.ARC_Tiles_SupportBrace00_D'
+}
+Expressions[36] =
+{
+    Expressions[0] = MaterialExpressionTextureSampleParameter2D'CS_StadiumAssets_01.Materials.MAT_SuperMetal00.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[2] = MaterialExpressionTextureSampleParameter2D'CS_StadiumAssets_01.Materials.MAT_SuperMetal00.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[4] = MaterialExpressionStaticSwitchParameter'CS_StadiumAssets_01.Materials.MAT_SuperMetal00.MaterialExpressionStaticSwitchParameter_1'
+    Expressions[6] = MaterialExpressionTextureSampleParameter2D'CS_StadiumAssets_01.Materials.MAT_SuperMetal00.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[18] = MaterialExpressionScalarParameter'CS_StadiumAssets_01.Materials.MAT_SuperMetal00.MaterialExpressionScalarParameter_1'
+    Expressions[26] = MaterialExpressionScalarParameter'CS_StadiumAssets_01.Materials.MAT_SuperMetal00.MaterialExpressionScalarParameter_0'
+    Expressions[28] = MaterialExpressionStaticSwitchParameter'CS_StadiumAssets_01.Materials.MAT_SuperMetal00.MaterialExpressionStaticSwitchParameter_2'
+    Expressions[31] = MaterialExpressionStaticSwitchParameter'CS_StadiumAssets_01.Materials.MAT_SuperMetal00.MaterialExpressionStaticSwitchParameter_0'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'SpaceStation_Assets.Textures.ARC_Tiles_SupportBrace00_N'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'SpaceStation_Assets.Textures.ARC_Tiles_SupportBrace00_N'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'SpaceStation_Assets.Textures.ARC_Tiles_SupportBrace00_D'
+        Name = RGB
+        Group = None
+    }
+}
+CollectedScalarParameters[2] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Diffuse_Brightness, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=ENVBrightness, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

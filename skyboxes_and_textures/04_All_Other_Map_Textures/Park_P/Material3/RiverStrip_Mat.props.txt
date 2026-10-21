@@ -1,0 +1,44 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'Terrain_Textures.RiverStrip_N'
+    ReferencedTextures[1] = Texture2D'Terrain_Textures.GrassAndBush_N'
+    ReferencedTextures[2] = Texture2D'FX_Water_02.Tex.Water_01_N'
+    ReferencedTextures[3] = Texture2D'Terrain_Textures.RiverStrip_Masks'
+    ReferencedTextures[4] = TextureCube3'Stadium_Assets.Textures.OOBCube'
+    ReferencedTextures[5] = Texture2D'Terrain_Textures.RiverStrip_D'
+}
+Expressions[40] =
+{
+    Expressions[28] = MaterialExpressionScalarParameter'OOBTerrain.Materials.RiverStrip_Mat.MaterialExpressionScalarParameter_0'
+    Expressions[29] = MaterialExpressionStaticSwitchParameter'OOBTerrain.Materials.RiverStrip_Mat.MaterialExpressionStaticSwitchParameter_11'
+    Expressions[30] = MaterialExpressionTextureSampleParameter2D'OOBTerrain.Materials.RiverStrip_Mat.MaterialExpressionTextureSampleParameter2D_5'
+    Expressions[35] = MaterialExpressionStaticSwitchParameter'OOBTerrain.Materials.RiverStrip_Mat.MaterialExpressionStaticSwitchParameter_10'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Sky_PartlyCloudy_Assets.Textures.ENV_PartlyCloudy'
+        Name = ENV
+        Group = None
+    }
+}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=ENVAmount, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

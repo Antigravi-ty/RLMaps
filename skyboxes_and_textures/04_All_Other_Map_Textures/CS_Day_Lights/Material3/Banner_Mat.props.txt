@@ -1,0 +1,31 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] = { Texture2D'Classy_Textures.Banner_Pack' }
+Expressions[81] =
+{
+    Expressions[52] = MaterialExpressionStaticSwitchParameter'Classy.Materials.Banner_Mat.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[53] = MaterialExpressionTextureSampleParameter2D'Classy.Materials.Banner_Mat.MaterialExpressionTextureSampleParameter2D_1'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'CustomColors.DefaultColor_Team1'
+        Name = ColorLookup
+        Group = None
+    }
+}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

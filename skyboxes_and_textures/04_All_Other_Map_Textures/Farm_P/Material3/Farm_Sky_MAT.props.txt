@@ -1,0 +1,31 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] = { Texture2D'Farm_FX.Textures.Sky_T7' }
+Expressions[15] =
+{
+    Expressions[7] = MaterialExpressionScalarParameter'Farm_FX.Materials.Farm_Sky_MAT.MaterialExpressionScalarParameter_2'
+    Expressions[8] = MaterialExpressionScalarParameter'Farm_FX.Materials.Farm_Sky_MAT.MaterialExpressionScalarParameter_0'
+    Expressions[11] = MaterialExpressionScalarParameter'Farm_FX.Materials.Farm_Sky_MAT.MaterialExpressionScalarParameter_7'
+    Expressions[12] = MaterialExpressionScalarParameter'Farm_FX.Materials.Farm_Sky_MAT.MaterialExpressionScalarParameter_6'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[4] =
+{
+    CollectedScalarParameters[0] = { Value=-0.64, Name=Y, Group=None }
+    CollectedScalarParameters[1] = { Value=-0.9791, Name=X, Group=None }
+    CollectedScalarParameters[2] = { Value=12, Name=Scale_Y, Group=None }
+    CollectedScalarParameters[3] = { Value=12, Name=Scale_X, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

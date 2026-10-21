@@ -1,0 +1,42 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'FX_Lighting.Textures.LightCone_Think_Pack'
+}
+Expressions[42] =
+{
+    Expressions[1] = MaterialExpressionStaticSwitchParameter'FX_Lighting.Materials.LightCone_V3_Mat.MaterialExpressionStaticSwitchParameter_1'
+    Expressions[11] = MaterialExpressionStaticSwitchParameter'FX_Lighting.Materials.LightCone_V3_Mat.MaterialExpressionStaticSwitchParameter_2'
+    Expressions[16] = MaterialExpressionStaticSwitchParameter'FX_Lighting.Materials.LightCone_V3_Mat.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[26] = MaterialExpressionStaticSwitchParameter'FX_Lighting.Materials.LightCone_V3_Mat.MaterialExpressionStaticSwitchParameter_3'
+    Expressions[28] = MaterialExpressionStaticSwitchParameter'FX_Lighting.Materials.LightCone_V3_Mat.MaterialExpressionStaticSwitchParameter_6'
+    Expressions[30] = MaterialExpressionTextureSampleParameter2D'FX_Lighting.Materials.LightCone_V3_Mat.MaterialExpressionTextureSampleParameter2D_5'
+    Expressions[32] = MaterialExpressionStaticSwitchParameter'FX_Lighting.Materials.LightCone_V3_Mat.MaterialExpressionStaticSwitchParameter_4'
+    Expressions[40] = MaterialExpressionStaticSwitchParameter'FX_Lighting.Materials.LightCone_V3_Mat.MaterialExpressionStaticSwitchParameter_7'
+    Expressions[41] = MaterialExpressionTextureSampleParameter2D'FX_Lighting.Materials.LightCone_V3_Mat.MaterialExpressionTextureSampleParameter2D_0'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Additive (3)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] = { Texture=None, Name=ColorLookup, Group=None }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'FX_Lighting.Textures.LightCone_Think_Pack'
+        Name = ConeTexture
+        Group = None
+    }
+}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

@@ -1,0 +1,88 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'Beach_Textures.BCH_BrickWall_N'
+    ReferencedTextures[1] = Texture2D'Beach_Textures.BCH_BrickWall_D'
+}
+Expressions[51] =
+{
+    Expressions[0] = MaterialExpressionStaticSwitchParameter'Beach_Materials.Mat.BeachMaster_MAT.MaterialExpressionStaticSwitchParameter_15'
+    Expressions[1] = MaterialExpressionStaticSwitchParameter'Beach_Materials.Mat.BeachMaster_MAT.MaterialExpressionStaticSwitchParameter_17'
+    Expressions[2] = MaterialExpressionTextureSampleParameter2D'Beach_Materials.Mat.BeachMaster_MAT.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[8] = MaterialExpressionStaticSwitchParameter'Beach_Materials.Mat.BeachMaster_MAT.MaterialExpressionStaticSwitchParameter_9'
+    Expressions[9] = MaterialExpressionStaticSwitchParameter'Beach_Materials.Mat.BeachMaster_MAT.MaterialExpressionStaticSwitchParameter_13'
+    Expressions[10] = MaterialExpressionStaticSwitchParameter'Beach_Materials.Mat.BeachMaster_MAT.MaterialExpressionStaticSwitchParameter_11'
+    Expressions[11] = MaterialExpressionStaticSwitchParameter'Beach_Materials.Mat.BeachMaster_MAT.MaterialExpressionStaticSwitchParameter_7'
+    Expressions[12] = MaterialExpressionTextureSampleParameter2D'Beach_Materials.Mat.BeachMaster_MAT.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[14] = MaterialExpressionStaticSwitchParameter'Beach_Materials.Mat.BeachMaster_MAT.MaterialExpressionStaticSwitchParameter_19'
+    Expressions[18] = MaterialExpressionScalarParameter'Beach_Materials.Mat.BeachMaster_MAT.MaterialExpressionScalarParameter_1'
+    Expressions[20] = MaterialExpressionVectorParameter'Beach_Materials.Mat.BeachMaster_MAT.MaterialExpressionVectorParameter_3'
+    Expressions[27] = MaterialExpressionScalarParameter'Beach_Materials.Mat.BeachMaster_MAT.MaterialExpressionScalarParameter_0'
+    Expressions[29] = MaterialExpressionScalarParameter'Beach_Materials.Mat.BeachMaster_MAT.MaterialExpressionScalarParameter_2'
+    Expressions[31] = MaterialExpressionScalarParameter'Beach_Materials.Mat.BeachMaster_MAT.MaterialExpressionScalarParameter_4'
+    Expressions[37] = MaterialExpressionScalarParameter'Beach_Materials.Mat.BeachMaster_MAT.MaterialExpressionScalarParameter_10'
+    Expressions[38] = MaterialExpressionStaticSwitchParameter'Beach_Materials.Mat.BeachMaster_MAT.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[40] = MaterialExpressionStaticSwitchParameter'Beach_Materials.Mat.BeachMaster_MAT.MaterialExpressionStaticSwitchParameter_2'
+    Expressions[41] = MaterialExpressionTextureSampleParameter2D'Beach_Materials.Mat.BeachMaster_MAT.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[42] = MaterialExpressionStaticSwitchParameter'Beach_Materials.Mat.BeachMaster_MAT.MaterialExpressionStaticSwitchParameter_4'
+    Expressions[44] = MaterialExpressionVectorParameter'Beach_Materials.Mat.BeachMaster_MAT.MaterialExpressionVectorParameter_0'
+    Expressions[45] = MaterialExpressionStaticSwitchParameter'Beach_Materials.Mat.BeachMaster_MAT.MaterialExpressionStaticSwitchParameter_8'
+    Expressions[46] = MaterialExpressionStaticSwitchParameter'Beach_Materials.Mat.BeachMaster_MAT.MaterialExpressionStaticSwitchParameter_5'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Beach_Textures.BCH_BrickWall_N'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Beach_Textures.BCH_BrickWall_D'
+        Name = Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'Beach_Textures.BCH_ShopWall_02_E'
+        Name = Emissive
+        Group = Glow
+    }
+}
+CollectedScalarParameters[5] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=TeamColor Distance, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=Saturation, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=DiffuseBrightness, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=AmbientBrightness, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=Glow, Group=Glow }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=0.930334, B=0.773489, A=1 }
+        Name = Paint Color
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.900519, G=0.839407, B=0.566486, A=1 }
+        Name = Glow color
+        Group = Glow
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

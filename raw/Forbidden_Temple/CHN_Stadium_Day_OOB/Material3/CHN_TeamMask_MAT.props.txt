@@ -1,0 +1,39 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'CHN_OOB_Assets.Textures.CHN_Drum01_D'
+}
+Expressions[15] =
+{
+    Expressions[7] = MaterialExpressionScalarParameter'CHN_OOB_Assets.Materials.CHN_TeamMask_MAT.MaterialExpressionScalarParameter_1'
+    Expressions[9] = MaterialExpressionTextureSampleParameter2D'CHN_OOB_Assets.Materials.CHN_TeamMask_MAT.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[10] = MaterialExpressionScalarParameter'CHN_OOB_Assets.Materials.CHN_TeamMask_MAT.MaterialExpressionScalarParameter_0'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'CHN_OOB_Assets.Textures.CHN_Drum01_D'
+        Name = D
+        Group = None
+    }
+}
+CollectedScalarParameters[2] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=TeamClr, Group=None }
+    CollectedScalarParameters[1] = { Value=0.2, Name=Fresnel, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

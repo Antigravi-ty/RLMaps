@@ -1,0 +1,39 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = true
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'CHN_Stadium_Assets.dbo.CHN_Banner_Baked_D'
+}
+Expressions[46] =
+{
+    Expressions[3] = MaterialExpressionVectorParameter'CHN_Stadium_Assets.dbo.MAT_CHN_Banner.MaterialExpressionVectorParameter_1'
+    Expressions[19] = MaterialExpressionScalarParameter'CHN_Stadium_Assets.dbo.MAT_CHN_Banner.MaterialExpressionScalarParameter_2'
+    Expressions[27] = MaterialExpressionScalarParameter'CHN_Stadium_Assets.dbo.MAT_CHN_Banner.MaterialExpressionScalarParameter_3'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[2] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=WindSpeed, Group=None }
+    CollectedScalarParameters[1] = { Value=2, Name=WindInt, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.25, G=0.25, B=0, A=1 }
+        Name = WindDirectionXYZ-RGB
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

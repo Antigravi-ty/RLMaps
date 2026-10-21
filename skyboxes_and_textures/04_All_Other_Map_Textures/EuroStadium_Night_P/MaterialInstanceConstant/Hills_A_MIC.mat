@@ -1,0 +1,5 @@
+Diffuse=Hills_A_Color
+Normal=Hills_A_Nornal
+Other[0]=Mountain_B_Nornal
+Other[1]=Mountain_B_Color
+Other[2]=Mountain_B_Mask_Pack

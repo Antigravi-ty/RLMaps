@@ -1,0 +1,98 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'Farm_Textures.Textures.Farm_MetalBase_N'
+    ReferencedTextures[2] = Texture2D'Farm_Textures.Textures.Farm_MetalBase_D'
+}
+Expressions[47] =
+{
+    Expressions[2] = MaterialExpressionTextureSampleParameter2D'Stadium_Park_IVTK.Materials.Metal_Trim_MAT_IVTK.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[7] = MaterialExpressionVectorParameter'Stadium_Park_IVTK.Materials.Metal_Trim_MAT_IVTK.MaterialExpressionVectorParameter_3'
+    Expressions[10] = MaterialExpressionStaticSwitchParameter'Stadium_Park_IVTK.Materials.Metal_Trim_MAT_IVTK.MaterialExpressionStaticSwitchParameter_1'
+    Expressions[12] = MaterialExpressionTextureSampleParameter2D'Stadium_Park_IVTK.Materials.Metal_Trim_MAT_IVTK.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[15] = MaterialExpressionScalarParameter'Stadium_Park_IVTK.Materials.Metal_Trim_MAT_IVTK.MaterialExpressionScalarParameter_3'
+    Expressions[17] = MaterialExpressionScalarParameter'Stadium_Park_IVTK.Materials.Metal_Trim_MAT_IVTK.MaterialExpressionScalarParameter_2'
+    Expressions[20] = MaterialExpressionScalarParameter'Stadium_Park_IVTK.Materials.Metal_Trim_MAT_IVTK.MaterialExpressionScalarParameter_1'
+    Expressions[21] = MaterialExpressionVectorParameter'Stadium_Park_IVTK.Materials.Metal_Trim_MAT_IVTK.MaterialExpressionVectorParameter_4'
+    Expressions[27] = MaterialExpressionScalarParameter'Stadium_Park_IVTK.Materials.Metal_Trim_MAT_IVTK.MaterialExpressionScalarParameter_4'
+    Expressions[32] = MaterialExpressionScalarParameter'Stadium_Park_IVTK.Materials.Metal_Trim_MAT_IVTK.MaterialExpressionScalarParameter_5'
+    Expressions[33] = MaterialExpressionScalarParameter'Stadium_Park_IVTK.Materials.Metal_Trim_MAT_IVTK.MaterialExpressionScalarParameter_6'
+    Expressions[34] = MaterialExpressionScalarParameter'Stadium_Park_IVTK.Materials.Metal_Trim_MAT_IVTK.MaterialExpressionScalarParameter_7'
+    Expressions[35] = MaterialExpressionStaticSwitchParameter'Stadium_Park_IVTK.Materials.Metal_Trim_MAT_IVTK.MaterialExpressionStaticSwitchParameter_2'
+    Expressions[43] = MaterialExpressionScalarParameter'Stadium_Park_IVTK.Materials.Metal_Trim_MAT_IVTK.MaterialExpressionScalarParameter_32'
+    Expressions[44] = MaterialExpressionScalarParameter'Stadium_Park_IVTK.Materials.Metal_Trim_MAT_IVTK.MaterialExpressionScalarParameter_33'
+    Expressions[45] = MaterialExpressionScalarParameter'Stadium_Park_IVTK.Materials.Metal_Trim_MAT_IVTK.MaterialExpressionScalarParameter_34'
+    Expressions[46] = MaterialExpressionScalarParameter'Stadium_Park_IVTK.Materials.Metal_Trim_MAT_IVTK.MaterialExpressionScalarParameter_35'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Farm_Textures.Textures.Farm_MetalBase_N'
+        Name = Metal normal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'Farm_Textures.Textures.Farm_MetalBase_D'
+        Name = Metal diffuse
+        Group = None
+    }
+}
+CollectedScalarParameters[11] =
+{
+    CollectedScalarParameters[0] = { Value=4, Name=Metal brightness, Group=None }
+    CollectedScalarParameters[1] =
+    {
+        Value = 1
+        Name = Metal reflection multiplier
+        Group = None
+    }
+    CollectedScalarParameters[2] = { Value=1, Name=Metal color brightness, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=Metal desaturation, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=Fresnel Strength, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=Specular strength, Group=None }
+    CollectedScalarParameters[6] = { Value=256, Name=Specular Power, Group=None }
+    CollectedScalarParameters[7] = { Value=10, Name=Gradient Falloff, Group=InvisiTek }
+    CollectedScalarParameters[8] =
+    {
+        Value = 0.05
+        Name = Gradient Size Adjust
+        Group = InvisiTek
+    }
+    CollectedScalarParameters[9] =
+    {
+        Value = 10
+        Name = Fresnel Intensity
+        Group = InvisiTek
+    }
+    CollectedScalarParameters[10] = { Value=3, Name=Fresnel Power, Group=InvisiTek }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=32, G=32, B=0, A=1 }
+        Name = UV tiling
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Metal color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

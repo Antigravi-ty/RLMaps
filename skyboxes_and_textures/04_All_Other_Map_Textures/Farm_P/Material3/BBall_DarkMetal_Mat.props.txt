@@ -1,0 +1,38 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] = { Texture2D'Terrain_Noise_Tex.Noise_Dirt_01_N' }
+Expressions[33] =
+{
+    Expressions[13] = MaterialExpressionVectorParameter'Proto_BBall.Materials.BBall_DarkMetal_Mat.MaterialExpressionVectorParameter_4'
+    Expressions[23] = MaterialExpressionTextureSampleParameter2D'Proto_BBall.Materials.BBall_DarkMetal_Mat.MaterialExpressionTextureSampleParameter2D_4'
+    Expressions[32] = MaterialExpressionScalarParameter'Proto_BBall.Materials.BBall_DarkMetal_Mat.MaterialExpressionScalarParameter_0'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] = { Texture=None, Name=LightPattern, Group=None }
+}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Brightness, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = LightControl
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

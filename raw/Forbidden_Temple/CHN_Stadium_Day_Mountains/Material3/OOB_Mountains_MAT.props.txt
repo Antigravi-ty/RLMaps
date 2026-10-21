@@ -1,0 +1,78 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'CHN_FX.Textures.CHN_Moss_Noise_N'
+    ReferencedTextures[1] = Texture2D'CHN_FX.Textures.MountainRock_01_'
+    ReferencedTextures[2] = Texture2D'SpaceStation_Textures.OOB_PlanetClouds_N3'
+}
+Expressions[51] =
+{
+    Expressions[3] = MaterialExpressionScalarParameter'CHN_FX.OOB.Materials.OOB_Mountains_MAT.MaterialExpressionScalarParameter_4'
+    Expressions[5] = MaterialExpressionScalarParameter'CHN_FX.OOB.Materials.OOB_Mountains_MAT.MaterialExpressionScalarParameter_2'
+    Expressions[9] = MaterialExpressionScalarParameter'CHN_FX.OOB.Materials.OOB_Mountains_MAT.MaterialExpressionScalarParameter_7'
+    Expressions[11] = MaterialExpressionScalarParameter'CHN_FX.OOB.Materials.OOB_Mountains_MAT.MaterialExpressionScalarParameter_1'
+    Expressions[15] = MaterialExpressionScalarParameter'CHN_FX.OOB.Materials.OOB_Mountains_MAT.MaterialExpressionScalarParameter_9'
+    Expressions[17] = MaterialExpressionTextureSampleParameter2D'CHN_FX.OOB.Materials.OOB_Mountains_MAT.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[19] = MaterialExpressionScalarParameter'CHN_FX.OOB.Materials.OOB_Mountains_MAT.MaterialExpressionScalarParameter_5'
+    Expressions[21] = MaterialExpressionTextureSampleParameter2D'CHN_FX.OOB.Materials.OOB_Mountains_MAT.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[26] = MaterialExpressionScalarParameter'CHN_FX.OOB.Materials.OOB_Mountains_MAT.MaterialExpressionScalarParameter_3'
+    Expressions[29] = MaterialExpressionTextureSampleParameter2D'CHN_FX.OOB.Materials.OOB_Mountains_MAT.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[31] = MaterialExpressionScalarParameter'CHN_FX.OOB.Materials.OOB_Mountains_MAT.MaterialExpressionScalarParameter_6'
+    Expressions[37] = MaterialExpressionScalarParameter'CHN_FX.OOB.Materials.OOB_Mountains_MAT.MaterialExpressionScalarParameter_0'
+    Expressions[40] = MaterialExpressionVectorParameter'CHN_FX.OOB.Materials.OOB_Mountains_MAT.MaterialExpressionVectorParameter_1'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'CHN_FX.Textures.MountainRock_01_'
+        Name = RockNormal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'SpaceStation_Textures.OOB_PlanetClouds_N3'
+        Name = RockNormal_02
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'CHN_FX.Textures.CHN_Moss_Noise_N'
+        Name = MossNormal
+        Group = None
+    }
+}
+CollectedScalarParameters[9] =
+{
+    CollectedScalarParameters[0] = { Value=2, Name=GreenHardness, Group=None }
+    CollectedScalarParameters[1] = { Value=0.25, Name=GreenAmount, Group=None }
+    CollectedScalarParameters[2] = { Value=64, Name=MaskSharpness, Group=Mask }
+    CollectedScalarParameters[3] = { Value=0.25, Name=MaskAmount, Group=Mask }
+    CollectedScalarParameters[4] = { Value=1, Name=MaskTile, Group=Mask }
+    CollectedScalarParameters[5] = { Value=1, Name=tile, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=NormalIntensity, Group=None }
+    CollectedScalarParameters[7] = { Value=36, Name=MossTile, Group=None }
+    CollectedScalarParameters[8] = { Value=0.4, Name=RimAmount, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.21952, G=0.420508, B=0.0179364, A=1 }
+        Name = MossTint
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

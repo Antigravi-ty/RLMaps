@@ -1,0 +1,5 @@
+Diffuse=Grass_Base01_D
+Normal=Hill_01_N
+Other[0]=Grass_Base01_N
+Other[1]=Farm_FieldsVariation
+Other[2]=Hill_01_RGB

@@ -1,0 +1,26 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] = { Texture2D'Stadium_Textures.Curve_StadiumFog' }
+Expressions[8] =
+{
+    Expressions[0] = MaterialExpressionStaticSwitchParameter'CS_Day_FieldAssets.Materials.BigAd_FogSheets_Mat.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[2] = MaterialExpressionScalarParameter'CS_Day_FieldAssets.Materials.BigAd_FogSheets_Mat.MaterialExpressionScalarParameter_2'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=0.5, Name=Opacity, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

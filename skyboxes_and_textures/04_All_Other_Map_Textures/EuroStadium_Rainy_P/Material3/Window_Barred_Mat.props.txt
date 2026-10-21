@@ -1,0 +1,45 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'City_Textures.Window_Barred_N'
+    ReferencedTextures[2] = Texture2D'City_Textures.Window_Barred_Pack'
+}
+Expressions[37] =
+{
+    Expressions[0] = MaterialExpressionTextureSampleParameter2D'City.Materials.Window_Barred_Mat.MaterialExpressionTextureSampleParameter2D_1'
+    Expressions[3] = MaterialExpressionStaticSwitchParameter'City.Materials.Window_Barred_Mat.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[9] = MaterialExpressionTextureSampleParameter2D'City.Materials.Window_Barred_Mat.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[10] = MaterialExpressionStaticSwitchParameter'City.Materials.Window_Barred_Mat.MaterialExpressionStaticSwitchParameter_3'
+    Expressions[15] = MaterialExpressionStaticSwitchParameter'City.Materials.Window_Barred_Mat.MaterialExpressionStaticSwitchParameter_2'
+    Expressions[16] = MaterialExpressionStaticSwitchParameter'City.Materials.Window_Barred_Mat.MaterialExpressionStaticSwitchParameter_5'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'City_Textures.Window_Barred_N'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'City_Textures.Window_Barred_Pack'
+        Name = Diffuse
+        Group = None
+    }
+}
+CollectedScalarParameters[0] = {}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

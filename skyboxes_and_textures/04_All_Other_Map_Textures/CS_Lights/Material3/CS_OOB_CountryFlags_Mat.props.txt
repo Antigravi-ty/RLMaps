@@ -1,0 +1,38 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'Flag.Banner_DungeonOfTheEndless00_N'
+    ReferencedTextures[1] = Texture2D'Stadium_CountryFlags_Textures.CountryFlagsCombined'
+}
+Expressions[42] =
+{
+    Expressions[2] = MaterialExpressionScalarParameter'SS_OOB.Mat.CS_OOB_CountryFlags_Mat.MaterialExpressionScalarParameter_0'
+    Expressions[37] = MaterialExpressionTextureSampleParameter2D'SS_OOB.Mat.CS_OOB_CountryFlags_Mat.MaterialExpressionTextureSampleParameter2D_0'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Flag.Banner_DungeonOfTheEndless00_N'
+        Name = TextureNormal
+        Group = None
+    }
+}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=16, Name=WindInt, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

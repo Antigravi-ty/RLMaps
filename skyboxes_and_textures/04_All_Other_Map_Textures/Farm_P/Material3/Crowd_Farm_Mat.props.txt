@@ -1,0 +1,40 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = true
+ReferencedTextures[2] = { Texture2D'Farm_Textures.Textures.EggHat_01' }
+Expressions[124] =
+{
+    Expressions[2] = MaterialExpressionScalarParameter'Farm_FX.Materials.Crowd_Farm_Mat.MaterialExpressionScalarParameter_3'
+    Expressions[20] = MaterialExpressionScalarParameter'Farm_FX.Materials.Crowd_Farm_Mat.MaterialExpressionScalarParameter_0'
+    Expressions[23] = MaterialExpressionStaticSwitchParameter'Farm_FX.Materials.Crowd_Farm_Mat.MaterialExpressionStaticSwitchParameter_1'
+    Expressions[29] = MaterialExpressionScalarParameter'Farm_FX.Materials.Crowd_Farm_Mat.MaterialExpressionScalarParameter_2'
+    Expressions[43] = MaterialExpressionScalarParameter'Farm_FX.Materials.Crowd_Farm_Mat.MaterialExpressionScalarParameter_1'
+    Expressions[54] = MaterialExpressionStaticSwitchParameter'Farm_FX.Materials.Crowd_Farm_Mat.MaterialExpressionStaticSwitchParameter_3'
+    Expressions[94] = MaterialExpressionTextureSampleParameter2D'Farm_FX.Materials.Crowd_Farm_Mat.MaterialExpressionTextureSampleParameter2D_8'
+    Expressions[108] = MaterialExpressionStaticSwitchParameter'Farm_FX.Materials.Crowd_Farm_Mat.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[120] = MaterialExpressionScalarParameter'Farm_FX.Materials.Crowd_Farm_Mat.MaterialExpressionScalarParameter_4'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] = { Texture=None, Name=ColorLookup, Group=None }
+}
+CollectedScalarParameters[5] =
+{
+    CollectedScalarParameters[0] = { Value=2, Name=Scale, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=CrowdSize, Group=None }
+    CollectedScalarParameters[2] = { Value=9216, Name=CrowdMaxHeight, Group=None }
+    CollectedScalarParameters[3] = { Value=0.25, Name=Cheer, Group=None }
+    CollectedScalarParameters[4] = { Value=0.81, Name=Hats, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

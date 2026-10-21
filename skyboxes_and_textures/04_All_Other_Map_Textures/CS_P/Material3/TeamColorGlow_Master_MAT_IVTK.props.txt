@@ -1,0 +1,101 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'ItemsMode.Car.EnemyBooster.Textures.Projectile_Mask_T'
+}
+Expressions[101] =
+{
+    Expressions[1] = MaterialExpressionScalarParameter'Stadium_ChampField_IVTK.TeamColorGlow_Master_MAT_IVTK.MaterialExpressionScalarParameter_22'
+    Expressions[2] = MaterialExpressionScalarParameter'Stadium_ChampField_IVTK.TeamColorGlow_Master_MAT_IVTK.MaterialExpressionScalarParameter_21'
+    Expressions[3] = MaterialExpressionScalarParameter'Stadium_ChampField_IVTK.TeamColorGlow_Master_MAT_IVTK.MaterialExpressionScalarParameter_20'
+    Expressions[5] = MaterialExpressionScalarParameter'Stadium_ChampField_IVTK.TeamColorGlow_Master_MAT_IVTK.MaterialExpressionScalarParameter_3'
+    Expressions[6] = MaterialExpressionScalarParameter'Stadium_ChampField_IVTK.TeamColorGlow_Master_MAT_IVTK.MaterialExpressionScalarParameter_19'
+    Expressions[8] = MaterialExpressionStaticSwitchParameter'Stadium_ChampField_IVTK.TeamColorGlow_Master_MAT_IVTK.MaterialExpressionStaticSwitchParameter_5'
+    Expressions[10] = MaterialExpressionScalarParameter'Stadium_ChampField_IVTK.TeamColorGlow_Master_MAT_IVTK.MaterialExpressionScalarParameter_6'
+    Expressions[12] = MaterialExpressionStaticSwitchParameter'Stadium_ChampField_IVTK.TeamColorGlow_Master_MAT_IVTK.MaterialExpressionStaticSwitchParameter_4'
+    Expressions[13] = MaterialExpressionStaticSwitchParameter'Stadium_ChampField_IVTK.TeamColorGlow_Master_MAT_IVTK.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[18] = MaterialExpressionScalarParameter'Stadium_ChampField_IVTK.TeamColorGlow_Master_MAT_IVTK.MaterialExpressionScalarParameter_4'
+    Expressions[25] = MaterialExpressionScalarParameter'Stadium_ChampField_IVTK.TeamColorGlow_Master_MAT_IVTK.MaterialExpressionScalarParameter_7'
+    Expressions[26] = MaterialExpressionStaticSwitchParameter'Stadium_ChampField_IVTK.TeamColorGlow_Master_MAT_IVTK.MaterialExpressionStaticSwitchParameter_3'
+    Expressions[28] = MaterialExpressionScalarParameter'Stadium_ChampField_IVTK.TeamColorGlow_Master_MAT_IVTK.MaterialExpressionScalarParameter_2'
+    Expressions[32] = MaterialExpressionScalarParameter'Stadium_ChampField_IVTK.TeamColorGlow_Master_MAT_IVTK.MaterialExpressionScalarParameter_13'
+    Expressions[41] = MaterialExpressionScalarParameter'Stadium_ChampField_IVTK.TeamColorGlow_Master_MAT_IVTK.MaterialExpressionScalarParameter_5'
+    Expressions[46] = MaterialExpressionScalarParameter'Stadium_ChampField_IVTK.TeamColorGlow_Master_MAT_IVTK.MaterialExpressionScalarParameter_10'
+    Expressions[52] = MaterialExpressionScalarParameter'Stadium_ChampField_IVTK.TeamColorGlow_Master_MAT_IVTK.MaterialExpressionScalarParameter_0'
+    Expressions[53] = MaterialExpressionStaticSwitchParameter'Stadium_ChampField_IVTK.TeamColorGlow_Master_MAT_IVTK.MaterialExpressionStaticSwitchParameter_1'
+    Expressions[55] = MaterialExpressionScalarParameter'Stadium_ChampField_IVTK.TeamColorGlow_Master_MAT_IVTK.MaterialExpressionScalarParameter_1'
+    Expressions[59] = MaterialExpressionScalarParameter'Stadium_ChampField_IVTK.TeamColorGlow_Master_MAT_IVTK.MaterialExpressionScalarParameter_11'
+    Expressions[67] = MaterialExpressionScalarParameter'Stadium_ChampField_IVTK.TeamColorGlow_Master_MAT_IVTK.MaterialExpressionScalarParameter_9'
+    Expressions[74] = MaterialExpressionScalarParameter'Stadium_ChampField_IVTK.TeamColorGlow_Master_MAT_IVTK.MaterialExpressionScalarParameter_18'
+    Expressions[78] = MaterialExpressionScalarParameter'Stadium_ChampField_IVTK.TeamColorGlow_Master_MAT_IVTK.MaterialExpressionScalarParameter_12'
+    Expressions[80] = MaterialExpressionScalarParameter'Stadium_ChampField_IVTK.TeamColorGlow_Master_MAT_IVTK.MaterialExpressionScalarParameter_14'
+    Expressions[85] = MaterialExpressionScalarParameter'Stadium_ChampField_IVTK.TeamColorGlow_Master_MAT_IVTK.MaterialExpressionScalarParameter_16'
+    Expressions[87] = MaterialExpressionScalarParameter'Stadium_ChampField_IVTK.TeamColorGlow_Master_MAT_IVTK.MaterialExpressionScalarParameter_17'
+    Expressions[90] = MaterialExpressionScalarParameter'Stadium_ChampField_IVTK.TeamColorGlow_Master_MAT_IVTK.MaterialExpressionScalarParameter_8'
+    Expressions[91] = MaterialExpressionStaticSwitchParameter'Stadium_ChampField_IVTK.TeamColorGlow_Master_MAT_IVTK.MaterialExpressionStaticSwitchParameter_2'
+    Expressions[92] = MaterialExpressionVectorParameter'Stadium_ChampField_IVTK.TeamColorGlow_Master_MAT_IVTK.MaterialExpressionVectorParameter_0'
+    Expressions[97] = MaterialExpressionTextureSampleParameter2D'Stadium_ChampField_IVTK.TeamColorGlow_Master_MAT_IVTK.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[99] = MaterialExpressionScalarParameter'Stadium_ChampField_IVTK.TeamColorGlow_Master_MAT_IVTK.MaterialExpressionScalarParameter_15'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] = { Texture=None, Name=Pattern, Group=Pattern }
+}
+CollectedScalarParameters[23] =
+{
+    CollectedScalarParameters[0] = { Value=3, Name=Fresnel Power, Group=InvisiTek }
+    CollectedScalarParameters[1] =
+    {
+        Value = 20
+        Name = Fresnel Intensity
+        Group = InvisiTek
+    }
+    CollectedScalarParameters[2] =
+    {
+        Value = 0.05
+        Name = Gradient Size Adjust
+        Group = InvisiTek
+    }
+    CollectedScalarParameters[3] = { Value=0.03, Name=TransitionFade, Group=None }
+    CollectedScalarParameters[4] = { Value=10, Name=Gradient Falloff, Group=InvisiTek }
+    CollectedScalarParameters[5] = { Value=8, Name=Brightness, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=P2B_Brightness, Group=None }
+    CollectedScalarParameters[7] = { Value=10, Name=P2_AdjustPattern, Group=Pattern }
+    CollectedScalarParameters[8] = { Value=3, Name=P2_TileAmount, Group=Pattern }
+    CollectedScalarParameters[9] = { Value=1, Name=P2_PanSpeed, Group=Pattern }
+    CollectedScalarParameters[10] = { Value=3, Name=P2A_Brightness, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=P1B_Brightness, Group=None }
+    CollectedScalarParameters[12] = { Value=2.5, Name=P1_AdjustPattern, Group=Pattern }
+    CollectedScalarParameters[13] = { Value=1, Name=P1_TileAmount, Group=Pattern }
+    CollectedScalarParameters[14] = { Value=1, Name=P1_PanSpeed, Group=Pattern }
+    CollectedScalarParameters[15] = { Value=1, Name=P1A_Brightness, Group=None }
+    CollectedScalarParameters[16] = { Value=1, Name=PanSpeed, Group=Glow }
+    CollectedScalarParameters[17] = { Value=1, Name=PanV, Group=Glow }
+    CollectedScalarParameters[18] = { Value=1, Name=TileV, Group=Glow }
+    CollectedScalarParameters[19] = { Value=1, Name=PanU, Group=Glow }
+    CollectedScalarParameters[20] = { Value=1, Name=TileU, Group=Glow }
+    CollectedScalarParameters[21] = { Value=1, Name=GlowPanBrightness, Group=Glow }
+    CollectedScalarParameters[22] = { Value=1, Name=Pattern_TileAmount, Group=Pattern }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

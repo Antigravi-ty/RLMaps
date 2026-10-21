@@ -1,0 +1,124 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'hat_babyrabbit.Hat_BabyRabbit_N'
+    ReferencedTextures[1] = Texture2D'hat_babyrabbit.Hat_BabyRabbit_D'
+}
+Expressions[130] =
+{
+    Expressions[0] = MaterialExpressionStaticSwitchParameter'hat_babyrabbit.MAT_RabbitBlink.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[3] = MaterialExpressionScalarParameter'hat_babyrabbit.MAT_RabbitBlink.MaterialExpressionScalarParameter_5'
+    Expressions[15] = MaterialExpressionVectorParameter'hat_babyrabbit.MAT_RabbitBlink.MaterialExpressionVectorParameter_0'
+    Expressions[28] = MaterialExpressionStaticSwitchParameter'hat_babyrabbit.MAT_RabbitBlink.MaterialExpressionStaticSwitchParameter_5'
+    Expressions[29] = MaterialExpressionTextureSampleParameter2D'hat_babyrabbit.MAT_RabbitBlink.MaterialExpressionTextureSampleParameter2D_3'
+    Expressions[36] = MaterialExpressionScalarParameter'hat_babyrabbit.MAT_RabbitBlink.MaterialExpressionScalarParameter_1'
+    Expressions[37] = MaterialExpressionStaticSwitchParameter'hat_babyrabbit.MAT_RabbitBlink.MaterialExpressionStaticSwitchParameter_1'
+    Expressions[39] = MaterialExpressionScalarParameter'hat_babyrabbit.MAT_RabbitBlink.MaterialExpressionScalarParameter_2'
+    Expressions[41] = MaterialExpressionScalarParameter'hat_babyrabbit.MAT_RabbitBlink.MaterialExpressionScalarParameter_6'
+    Expressions[44] = MaterialExpressionTextureSampleParameter2D'hat_babyrabbit.MAT_RabbitBlink.MaterialExpressionTextureSampleParameter2D_2'
+    Expressions[47] = MaterialExpressionStaticSwitchParameter'hat_babyrabbit.MAT_RabbitBlink.MaterialExpressionStaticSwitchParameter_3'
+    Expressions[48] = MaterialExpressionTextureSampleParameter2D'hat_babyrabbit.MAT_RabbitBlink.MaterialExpressionTextureSampleParameter2D_5'
+    Expressions[49] = MaterialExpressionStaticSwitchParameter'hat_babyrabbit.MAT_RabbitBlink.MaterialExpressionStaticSwitchParameter_8'
+    Expressions[51] = MaterialExpressionStaticSwitchParameter'hat_babyrabbit.MAT_RabbitBlink.MaterialExpressionStaticSwitchParameter_9'
+    Expressions[54] = MaterialExpressionTextureSampleParameter2D'hat_babyrabbit.MAT_RabbitBlink.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[56] = MaterialExpressionVectorParameter'hat_babyrabbit.MAT_RabbitBlink.MaterialExpressionVectorParameter_4'
+    Expressions[59] = MaterialExpressionVectorParameter'hat_babyrabbit.MAT_RabbitBlink.MaterialExpressionVectorParameter_1'
+    Expressions[62] = MaterialExpressionScalarParameter'hat_babyrabbit.MAT_RabbitBlink.MaterialExpressionScalarParameter_3'
+    Expressions[67] = MaterialExpressionScalarParameter'hat_babyrabbit.MAT_RabbitBlink.MaterialExpressionScalarParameter_0'
+    Expressions[71] = MaterialExpressionScalarParameter'hat_babyrabbit.MAT_RabbitBlink.MaterialExpressionScalarParameter_4'
+    Expressions[75] = MaterialExpressionStaticSwitchParameter'hat_babyrabbit.MAT_RabbitBlink.MaterialExpressionStaticSwitchParameter_6'
+    Expressions[76] = MaterialExpressionStaticSwitchParameter'hat_babyrabbit.MAT_RabbitBlink.MaterialExpressionStaticSwitchParameter_4'
+    Expressions[82] = MaterialExpressionStaticSwitchParameter'hat_babyrabbit.MAT_RabbitBlink.MaterialExpressionStaticSwitchParameter_2'
+    Expressions[106] = MaterialExpressionVectorParameter'hat_babyrabbit.MAT_RabbitBlink.MaterialExpressionVectorParameter_3'
+    Expressions[107] = MaterialExpressionStaticSwitchParameter'hat_babyrabbit.MAT_RabbitBlink.MaterialExpressionStaticSwitchParameter_7'
+    Expressions[122] = MaterialExpressionVectorParameter'hat_babyrabbit.MAT_RabbitBlink.MaterialExpressionVectorParameter_2'
+    Expressions[127] = MaterialExpressionScalarParameter'hat_babyrabbit.MAT_RabbitBlink.MaterialExpressionScalarParameter_7'
+    Expressions[128] = MaterialExpressionScalarParameter'hat_babyrabbit.MAT_RabbitBlink.MaterialExpressionScalarParameter_8'
+    Expressions[129] = MaterialExpressionScalarParameter'hat_babyrabbit.MAT_RabbitBlink.MaterialExpressionScalarParameter_9'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'hat_babyrabbit.Hat_BabyRabbit_N'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'hat_babyrabbit.Hat_BabyRabbit_D'
+        Name = Diffuse
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'Hat_Viking_Helmet_Textures.Hat_Viking_Helmet_Diffuse'
+        Name = Specular
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'Antenna_WakeupShip.AT_WakeupShip_E'
+        Name = Emissive_Mask
+        Group = None
+    }
+}
+CollectedScalarParameters[10] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=animation, Group=animation }
+    CollectedScalarParameters[1] = { Value=24, Name=SpecPower, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=SpecBrightness, Group=None }
+    CollectedScalarParameters[3] = { Value=0.5, Name=DiffuseSpec, Group=None }
+    CollectedScalarParameters[4] = { Value=2, Name=RimValue, Group=None }
+    CollectedScalarParameters[5] = { Value=2, Name=RimSharpness, Group=None }
+    CollectedScalarParameters[6] = { Value=0.5, Name=DiffuseRim, Group=None }
+    CollectedScalarParameters[7] = { Value=0.6, Name=BlinkLevel_Low, Group=None }
+    CollectedScalarParameters[8] = { Value=2, Name=BlinkLevel_Hight, Group=None }
+    CollectedScalarParameters[9] = { Value=0.3, Name=BlinkSpeed, Group=None }
+}
+CollectedVectorParameters[5] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.25, G=0.25, B=0.25, A=1 }
+        Name = TranslationAmount
+        Group = animation
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=0.5, B=0.2, A=6 }
+        Name = Emissive_mask_color
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=1, A=0.5 }
+        Name = FresnelColor
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0.1, G=0.5, B=1, A=6 }
+        Name = VertexGlow_Color
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0.729919, G=0.311181, B=0.124741, A=1 }
+        Name = None
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

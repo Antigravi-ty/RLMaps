@@ -1,0 +1,50 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] = { Texture2D'Farm_Textures.Textures.CowBoard_D' }
+Expressions[10] =
+{
+    Expressions[0] = MaterialExpressionTextureSampleParameter2D'Stadium_Farm_IVTK.CowBoard_MAT_IVTK.MaterialExpressionTextureSampleParameter2D_0'
+    Expressions[2] = MaterialExpressionScalarParameter'Stadium_Farm_IVTK.CowBoard_MAT_IVTK.MaterialExpressionScalarParameter_8'
+    Expressions[3] = MaterialExpressionScalarParameter'Stadium_Farm_IVTK.CowBoard_MAT_IVTK.MaterialExpressionScalarParameter_9'
+    Expressions[4] = MaterialExpressionScalarParameter'Stadium_Farm_IVTK.CowBoard_MAT_IVTK.MaterialExpressionScalarParameter_10'
+    Expressions[5] = MaterialExpressionScalarParameter'Stadium_Farm_IVTK.CowBoard_MAT_IVTK.MaterialExpressionScalarParameter_11'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Farm_Textures.Textures.CowBoard_D'
+        Name = Diffuse
+        Group = None
+    }
+}
+CollectedScalarParameters[4] =
+{
+    CollectedScalarParameters[0] = { Value=10, Name=Gradient Falloff, Group=InvisiTek }
+    CollectedScalarParameters[1] =
+    {
+        Value = 0.05
+        Name = Gradient Size Adjust
+        Group = InvisiTek
+    }
+    CollectedScalarParameters[2] =
+    {
+        Value = 20
+        Name = Fresnel Intensity
+        Group = InvisiTek
+    }
+    CollectedScalarParameters[3] = { Value=3, Name=Fresnel Power, Group=InvisiTek }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

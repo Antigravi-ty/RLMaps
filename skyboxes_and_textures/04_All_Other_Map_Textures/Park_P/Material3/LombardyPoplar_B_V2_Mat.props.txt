@@ -1,0 +1,31 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = true
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'Trees_Textures.LombardyPoplar_Branch_Low'
+}
+Expressions[81] =
+{
+    Expressions[1] = MaterialExpressionStaticSwitchParameter'Trees.Materials.LombardyPoplar_B_V2_Mat.MaterialExpressionStaticSwitchParameter_0'
+    Expressions[20] = MaterialExpressionScalarParameter'Trees.Materials.LombardyPoplar_B_V2_Mat.MaterialExpressionScalarParameter_0'
+    Expressions[23] = MaterialExpressionStaticSwitchParameter'Trees.Materials.LombardyPoplar_B_V2_Mat.MaterialExpressionStaticSwitchParameter_2'
+    Expressions[56] = MaterialExpressionStaticSwitchParameter'Trees.Materials.LombardyPoplar_B_V2_Mat.MaterialExpressionStaticSwitchParameter_3'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Brightness, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

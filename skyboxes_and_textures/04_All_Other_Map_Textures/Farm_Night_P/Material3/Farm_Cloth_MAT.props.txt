@@ -1,0 +1,36 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = true
+ReferencedTextures[4] =
+{
+    ReferencedTextures[1] = Texture2D'Wasteland_Assets.Textures.TILE_ClothTarp00_N'
+    ReferencedTextures[2] = Texture2D'Wasteland_Assets.Textures.TILE_ClothTarp00_D'
+    ReferencedTextures[3] = Texture2D'Wasteland_Assets.Textures.TILE_ClothTorn00_M'
+}
+Expressions[43] =
+{
+    Expressions[7] = MaterialExpressionScalarParameter'Farm_FX.Materials.Farm_Cloth_MAT.MaterialExpressionScalarParameter_5'
+    Expressions[12] = MaterialExpressionScalarParameter'Farm_FX.Materials.Farm_Cloth_MAT.MaterialExpressionScalarParameter_3'
+    Expressions[15] = MaterialExpressionScalarParameter'Farm_FX.Materials.Farm_Cloth_MAT.MaterialExpressionScalarParameter_1'
+    Expressions[20] = MaterialExpressionScalarParameter'Farm_FX.Materials.Farm_Cloth_MAT.MaterialExpressionScalarParameter_0'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[4] =
+{
+    CollectedScalarParameters[0] = { Value=0.005, Name=WindIntensity, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=WindSpeed, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=WindTile, Group=None }
+    CollectedScalarParameters[3] = { Value=0.1, Name=Hardness, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

@@ -1,0 +1,53 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'Farm_Textures.Textures.Farm_MetalBase_D'
+}
+Expressions[17] =
+{
+    Expressions[7] = MaterialExpressionVectorParameter'Farm_Assets.Materials.WindMill_Blades_MAT.MaterialExpressionVectorParameter_2'
+    Expressions[10] = MaterialExpressionScalarParameter'Farm_Assets.Materials.WindMill_Blades_MAT.MaterialExpressionScalarParameter_1'
+    Expressions[13] = MaterialExpressionVectorParameter'Farm_Assets.Materials.WindMill_Blades_MAT.MaterialExpressionVectorParameter_3'
+    Expressions[15] = MaterialExpressionTextureSampleParameter2D'Farm_Assets.Materials.WindMill_Blades_MAT.MaterialExpressionTextureSampleParameter2D_2'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'Farm_Textures.Textures.Farm_MetalBase_D'
+        Name = Metal diffuse
+        Group = None
+    }
+}
+CollectedScalarParameters[1] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Speed, Group=Rotate }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=0, B=0, A=1 }
+        Name = PivOffset
+        Group = Rotate
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=0, B=0, A=1 }
+        Name = RotAxis
+        Group = Rotate
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
